@@ -1,0 +1,30 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Iframe - Ajuste*/
+@media only screen and (min-width: 750px) {
+    .map-small{
+      display: none;
+    }
+    .map-big{
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+@media only screen and (max-width: 750px) {
+    .map-big{
+      display: none;
+    }
+    .map-small{
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+#mapf{
+    padding-top: 7px;
+}
