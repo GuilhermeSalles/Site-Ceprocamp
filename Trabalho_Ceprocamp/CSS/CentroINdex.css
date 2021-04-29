@@ -25,13 +25,41 @@
         margin-right: auto
     }
 }
-
 #mapf{
     padding-top: 7px;
 }
 .overflow-hidden{
     max-height: 400px;
 }
+
+.rtejustify {
+  text-align: justify;
+}
+p {
+  margin: 0 0 10px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+body {
+  font-family: 'Ubuntu', sans-serif !important;
+}
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+
+
+
 .site-footer
 {
   background-color:#26272b;
