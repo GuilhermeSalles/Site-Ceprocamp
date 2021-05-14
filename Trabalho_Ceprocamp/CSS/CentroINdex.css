@@ -250,13 +250,13 @@ body{
   display: block;
 }
 
-.container {
+.filtercontainer {
   margin-top: 20px;
   overflow: hidden;
 }
 
 /* Style the buttons */
-.btn {
+.filterbtn {
   border: none;
   outline: none;
   padding: 12px 16px;
@@ -264,11 +264,11 @@ body{
   cursor: pointer;
 }
 
-.btn:hover {
+.filterbtn:hover {
   background-color: #ddd;
 }
 
-.btn.active {
+.filterbtn.active {
   background-color: #666;
   color: white;
 }

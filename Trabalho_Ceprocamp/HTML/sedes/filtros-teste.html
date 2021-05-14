@@ -8,14 +8,17 @@
     
     <link rel="shortcut icon" href="https://www.fumec.sp.gov.br/sites/www.fumec.sp.gov.br/files/logo-fumec_2.png"
         type="image/png">
+
+
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="../../CSS/CentroIndex.css">
     <!--Filtros-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Ceprocamp</title>
 </head>
 
@@ -167,13 +170,13 @@
     <h2>Filter DIV Elements</h2>
 
 <div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Todos</button>
-  <button class="btn" onclick="filterSelection('manha')"> Manhã</button>
-  <button class="btn" onclick="filterSelection('tarde')"> Tarde</button>
-  <button class="btn" onclick="filterSelection('noite')"> Noite</button>
+  <button class="filterbtn active" onclick="filterSelection('all')"> Todos</button>
+  <button class="filterbtn" onclick="filterSelection('manha')"> Manhã</button>
+  <button class="filterbtn" onclick="filterSelection('tarde')"> Tarde</button>
+  <button class="filterbtn" onclick="filterSelection('noite')"> Noite</button>
 </div>
 
-<div class="container">
+<div class="filtercontainer">
     <!--Manhã-->
   <div class="filterDiv manha">QP AGEN SEGUR DO TRAB E HIG OCUPAC</div>
   <div class="filterDiv manha">QP AGENTE GERENCIAMENTO EPI E EPC</div>
@@ -250,7 +253,7 @@ function w3RemoveClass(element, name) {
 
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
+var btns = btnContainer.getElementsByClassName("filterbtn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){
     var current = document.getElementsByClassName("active");
