@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/CentroINdex.css">
+    <link rel="stylesheet" href="../../CSS/CentroIndex.css">
     <title>Ceprocamp</title>
 </head>
 
@@ -21,21 +21,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
-    <script src="../node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="../../node_modules/popper.js/dist/umd/popper.js"></script>
 
-
+    <!-- Logos antes do menu -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-4 d-sm-block d-none ">
+            <div class="col-sm-2 d-sm-block d-none ">
                 <img src="../../img/logo_campinasP.png" class="img-fluid d-block">
             </div>
 
-            <div class="col-sm-6 d-sm-block d-none ">
-                <img src="../../img/logoCentral.png" class="img-fluid d-block">
+            <div class="col-sm-8 d-sm-block d-none mt-4">
+                <h1 style="color: gray; font-weight: bolder;" class="text-center display-2">CEPROCAMP</h1>
             </div>
-            <div>
 
-            </div>
             <div class="col-sm-2 d-sm-block d-none ">
                 <img src="../../img/logo-direita.png" class="img-fluid d-block">
             </div>
@@ -44,24 +42,15 @@
 
     <!-- Menu -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-
         <div class="container">
             <div class="justify-content-left">
-
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <a class="navbar-brand h1 mb-0 justify-content-right" href="../CeprocampIndex.html">Ceprocamp</a>
             </div>
             <div class="collapse navbar-collapse" id="navbarSite">
-
                 <ul class="navbar-nav mr-auto">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="../CeprocampIndex.html">Início</a>
-                    </li>
-
+                    <a class="navbar-brand h1 mb-0 justify-content-right" href="../CeprocampIndex.html">Inicio</a>
                     <li class="nav-item">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item dropdown">
@@ -77,37 +66,19 @@
                                     <a class="dropdown-item" href="../sedes/cambara.html">Cambará</a>
                                     <a class="dropdown-item" href="../sedes/myrian.html">Myrian</a>
                                     <a class="dropdown-item" href="../sedes/casi.html">CASI</a>
-                                    <a class="dropdown-item" href="../sedes/cic.html">CIC</a>
-                                    <a class="dropdown-item" href="../sedes/vidaNova.html">Vida Nova</a>
-                                    <a class="dropdown-item" href="../sedes/maoAmiga.html">Mão Amiga</a>
                                 </div>
                             </li>
                         </ul>
                     </li>
 
                     <li class="nav-item">
+                        <a class="nav-link" href="../CeprocampIndex.html">Estrutura</a>
+                    </li>
+                    <li class="nav-item">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
                                     Social
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="https://www.facebook.com/fumec.cepro/">Facebook</a>
-                                    <a class="dropdown-item" href="https://www.instagram.com/fumec.cepro/">Instagram</a>
-                                    <a class="dropdown-item"
-                                        href="https://www.youtube.com/channel/UC1He1mXyJyfIkIh2RvG7A7Q">Youtube</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../HTML/CeprocampIndex.html">Estrutura</a>
-                    </li>
-                    <li class="nav-item">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
-                                    Você
                                 </a>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="">Facebook</a>
@@ -119,23 +90,31 @@
                         </ul>
                     </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.fumec.sp.gov.br/" target="_blank">FUMEC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.fumec.sp.gov.br/fale-conosco" target="_blank">Fale
+                            Conosco</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-
+    <!-- Fim do Menu -->
+    <!-- Começo carrossel -->
     <div id="carouselSite" class="carousel slide d-block" data-ride="carousel" data-interval="7000">
-
+        <!-- Lista de riscos brancos do carrossel -->
         <div class="carousel-inner">
             <ol class="carousel-indicators">
                 <li data-target="#carouselSite" data-slide-to="0"></li>
-                <li data-target="#carouselSite" data-slide-to="1" class="active"></li>
-                <li data-target="#carouselSite" data-slide-to="2"></li>
+                <li data-target="#carouselSite" data-slide-to="1"></li>
+                <li data-target="#carouselSite" data-slide-to="2" class="active"></li>
                 <li data-target="#carouselSite" data-slide-to="3"></li>
                 <li data-target="#carouselSite" data-slide-to="4"></li>
                 <li data-target="#carouselSite" data-slide-to="5"></li>
             </ol>
-
+            <!-- Imagens com texto do carrossel -->
             <div class="carousel-item">
                 <img src="../../img/CeprocampCentro.png" class="img-fluid d-block">
                 <div class="carousel-caption text-center">
@@ -190,156 +169,229 @@
                     <a class="btn btn-light" href="../sedes/myrian.html" role="button">Saiba mais</a>
                 </div>
             </div>
-            </div>
-
-            <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-
-
-            <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-                <span class="sr-only">Avançar</span>
-            </a>
-
         </div>
 
+        <!-- Botões de anterior e proximo do carrossel -->
+        <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+
+
+        <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Avançar</span>
+        </a>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mt-3">
+                <h2 class="display-3">José Alves</h2>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Fim carrossel -->
+
+    <!-- parte de avisos em um carrossel que passa de 5 em 5 segundos -->
+
+    <div class="text-center">
+        <h1>Avisos</h1>
+    </div>
+    <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <div class="row">
-                <div class="col-12 text-center mt-3">
-                    <h2 class="display-3">Ouro Verde</h2>
-                    <p>Está é a pagína aonde se encontram os cursos do <span style="color: blue;">Ouro Verde</span>.
-                        Caso queria saber sobre outras unidades, é só ir parte de <span
-                            style="color: blue;">Sedes</span> no menu e escolher qual você quer ser direcionado.
-                    </p>
-                </div>
-            </div>
+            <div class="tab-content" id="nav-pills-content">
+                <div id="carouselAviso" class="carousel slide d-block" data-ride="carousel" data-interval="5000">
 
+                    <div class="carousel-inner">
 
-            <hr>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center mb-4">
-                        <h4 class="display-4">Cursos Qualificação Profissional</h4>
-                        <p>CURSOS DE QUALIFICAÇÃO PROFISSIONAL - Visam preparar o candidato para a vida profissional e
-                            social, assim como promover a inclusão de jovens e adultos no mercado de trabalho. São
-                            cursos oferecidos de acordo com a demanda do mercado de trabalho e tem em média a duração de
-                            2 a 12 meses.</p>
-                    </div>
-                </div>
-            </div>
+                        <!-- Imagens com texto do carrossel -->
+                        <div class="carousel-item active">
+                            <div class="text-center">
+                                <h3 class="d-sm-block">Campanha de Vacinação Contra a Gripe 2021
+                                </h3>
+                                <p>Se seu filho tem entre 6 meses e 6 anos (até 5 anos, 11 meses e 29 dias), leve-o
+                                    para tomar a vacina contra a gripe no centro de saúde mais próximo.
+                                    Também podem se vacinar as grávidas e as mulheres que acabaram de dar à luz (até
+                                    45 dias após o parto). Para saber o endereço do centro de saúde mais próximo,
+                                    basta ligar no <b>156</b> ou acessar o endereço <a
+                                        href="http://vacina.campinas.sp.gov.br/"> vacina.campinas.sp.gov.br</a> A
+                                    vacina contra a gripe é segura e evita casos graves e internações e mortes. a
+                                    vacinação é feita dentro das normas sanitárias vigentes, para reduzir os riscos
+                                    de transmissão do coronavírus.</p>
+                            </div>
+                        </div>
 
-            <div class="row mb-4">
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top" src="../../img/imagemCards.jpeg" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <h5 class="card-title">AGENTE DE GERENCIAMENTO DE EPI E EPC</h5>
-                            <p class="card-text">Capacita o aluno para a prevenção e identificação de riscos e perigos.
-                                Estuda riscos ocupacionais, prevenção de incêndios, mapa de risco, EPI's e EPc's.
-                            </p>
-                            <a href="#" class="btn btn-primary">Ver Mais</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Atualizados 3 minutos atrás</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="../../img/imagemCards.jpeg" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <h5 class="card-title">ALMOXARIFE</h5>
-                            <p class="card-text">Capacita o aluno para controalr a entrada e saída de produtos e
-                                materiais, assim como o armazenamento adequeado.</p>
-                            <a href="#" class="btn btn-primary">Ver Mais</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Atualizados 3 minutos atrás</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="../../img/imagemCards.jpeg" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <h5 class="card-title">AUXILIAR DE DEP. PESSOAL/REC. HUMANOS</h5>
-                            <p class="card-text">Capacita o aluno para atividades relacionadas a administração de
-                                pessoas.</p>
-                            <a href="#" class="btn btn-primary">Ver Mais</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Atualizados 3 minutos atrás</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row mb-4">
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top" src="../../img/imagemCards.jpeg" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <h5 class="card-title">AGENTE DE GERENCIAMENTO DE EPI E EPC</h5>
-                            <p class="card-text">Capacita o aluno para a prevenção e identificação de riscos e perigos.
-                                Estuda riscos ocupacionais, prevenção de incêndios, mapa de risco, EPI's e EPc's.
-                            </p>
-                            <a href="#" class="btn btn-primary">Ver Mais</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Atualizados 3 minutos atrás</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="../../img/imagemCards.jpeg" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <h5 class="card-title">ALMOXARIFE</h5>
-                            <p class="card-text">Capacita o aluno para controalr a entrada e saída de produtos e
-                                materiais, assim como o armazenamento adequeado.</p>
-                            <a href="#" class="btn btn-primary">Ver Mais</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Atualizados 3 minutos atrás</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="../../img/imagemCards.jpeg" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <h5 class="card-title">AUXILIAR DE DEP. PESSOAL/REC. HUMANOS</h5>
-                            <p class="card-text">Capacita o aluno para atividades relacionadas a administração de
-                                pessoas.</p>
-                            <a href="#" class="btn btn-primary">Ver Mais</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Atualizados 3 minutos atrás</small>
+                        <div class="carousel-item">
+                            <div class="text-center">
+                                <h3 class="d-sm-block">Campanha de Vacinação Contra a Gripe 2021
+                                </h3>
+                                <p>Se seu filho tem entre 6 meses e 6 anos (até 5 anos, 11 meses e 29 dias), leve-o
+                                    para tomar a vacina contra a gripe no centro de saúde mais próximo.
+                                    Também podem se vacinar as grávidas e as mulheres que acabaram de dar à luz (até
+                                    45 dias após o parto). Para saber o endereço do centro de saúde mais próximo,
+                                    basta ligar no <b>156</b> ou acessar o endereço <a
+                                        href="http://vacina.campinas.sp.gov.br/"> vacina.campinas.sp.gov.br</a> A
+                                    vacina contra a gripe é segura e evita casos graves e internações e mortes. a
+                                    vacinação é feita dentro das normas sanitárias vigentes, para reduzir os riscos
+                                    de transmissão do coronavírus.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Fim avisos -->
+
+    <!-- Parte sobre os cursos QP -->
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h4 class="display-4">Cursos Qualificação Profissional</h4>
+                <p>CURSOS DE QUALIFICAÇÃO PROFISSIONAL - Visam preparar o candidato para a vida profissional e
+                    social, assim como promover a inclusão de jovens e adultos no mercado de trabalho. São
+                    cursos oferecidos de acordo com a demanda do mercado de trabalho e tem em média a duração de
+                    2 a 12 meses.</p>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="card-deck">
+                <div class="card">
+
+                    <img class="card-img-top" src="../../img/imagemCards.jpeg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">AGENTE DE GERENCIAMENTO DE EPI E EPC</h5>
+                        <p class="card-text">Capacita o aluno para a prevenção e identificação de riscos e perigos.
+                            Estuda riscos ocupacionais, prevenção de incêndios, mapa de risco, EPI's e EPc's.
+                        </p>
+                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../../img/imagemCards.jpeg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">ALMOXARIFE</h5>
+                        <p class="card-text">Capacita o aluno para controlar a entrada e saída de produtos e
+                            materiais, assim como o armazenamento adequeado.</p>
+                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../../img/imagemCards.jpeg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">AUXILIAR DE DEP. PESSOAL/REC. HUMANOS</h5>
+                        <p class="card-text">Capacita o aluno para atividades relacionadas a administração de
+                            pessoas.</p>
+                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Parte sobre os cursos Técnicos -->
+        <hr>
+
+        <div class="row mb-4">
+            <div class="card-deck">
+
+                <div class="card">
+                    <img class="card-img-top" src="../../img/imagemCards.jpeg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">TÉCNICO EM ENFERMAGEM</h5>
+                        <p class="card-text">Capacita o aluno para atuar na preparação do paciente e participar da
+                            promoção, prevenção, recuperação e reabilitação dos processos saúde-doença em todo o
+                            ciclo vital. Assim como colaborar com ações de gestão e certificações de serviços de
+                            saúde.
+                        </p>
+                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../../img/imagemCards.jpeg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">TÉCNICO EM ADMINISTRAÇÃO</h5>
+                        <p class="card-text">Capacita o aluno para executar operações administrativas de
+                            planejamento, pesquisa, analise e assessoria, assim como utilizar sistemas de
+                            informação, elaborar orçamentos, fluxos de caixa e demais demonstrativos financeiros e
+                            auxiliar na tomada de decisão.</p>
+                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../../img/imagemCards.jpeg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">TÉCNICO EM MEIO AMBIENTE</h5>
+                        <p class="card-text">Capacita o aluno para auxiliar na coleta, armazenagem e interpretação
+                            de informações, dados e documentações ambientais. Assim como para colaborar na
+                            elaboração de laudos, relatórios e estudos ambientais e auxiliar na elaboração,
+                            acompanhamento e execução de sistemas de gestão ambiental e programas de educação
+                            ambiental, de conservação e preservação de recursos naturais, de redução, reuso e
+                            reciclagem.</p>
+                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Parte cinza claro sobre o Local que deve colocar o google maps e alterar a descrissão-->
     <br>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="tab-content" id="nav-pills-content">
                 <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
                     <div class="row">
-                        <div class="col-sm-6">
-                            <h1>Ouro Verde - Geral</h1>
-                            <h4>Andamento Projeto Ouro Verde</h4>
-                            <p class="justify-content-letf">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum
-                                has been the industry's standard dummy text ever since the 1500s, when an
-                                unknown
-                                printer took a galley of type and scrambled it to make a type specimen book. It
-                                has
-                                survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged. It was popularisedin the 1960s with the release
-                                of
-                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                                publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                        <div class="col-sm-5">
+                            <!-- Parte da descrissão -->
+                            <h1>Ceprocamp - Centro </h1>
+                            <br>
+                            <span style="color: darkblue;">Endereço: </span>Avenida 20 de Novembro, 145. <br>
+                            Campinas-SP (ao lado da Estação Cultura). <br><span style="color: darkblue;">CEP:</span>
+                            13013-140.
+
+                            <p>Para mais informações: <br><span style="color: darkblue;">Telefone:</span> (19)
+                                3731-3650
+                                / 3731-3651 / 3731-3652. <br>
+                                <!-- <span style="color: darkgreen;">Whatsapp:</span> (19) 99802-2423. <br> -->
+                            </p>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="embed-responsive">
-                                <img src="../../img/CeprocampProvi.jpeg" alt="Entrada Ceprocamp">
+                        <div class="col-sm-7">
+                            <!-- Parte aonde deve colocar o google maps -->
+                            <div id="mapf" class="col-sm-12">
+                                <iframe class="map-big"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1611.6004010871873!2d-47.066509884600116!3d-22.908321123006417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c8b700170993%3A0x448db64c645985ad!2sCEPROCAMP!5e1!3m2!1spt-BR!2sbr!4v1620853110117!5m2!1spt-BR!2sbr"
+                                    width="650" height="450" style="border: 1px solid black; border-radius: 5px;"
+                                    allowfullscreen="" loading="lazy"></iframe>
+                                <iframe class="map-small"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1611.6004010871873!2d-47.066509884600116!3d-22.908321123006417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c8b700170993%3A0x448db64c645985ad!2sCEPROCAMP!5e1!3m2!1spt-BR!2sbr!4v1620853110117!5m2!1spt-BR!2sbr"
+                                    width="350" height="150" style="border:1px solid black; border-radius: 5px;"
+                                    allowfullscreen="" loading="lazy"></iframe>
                             </div>
                         </div>
                     </div>
@@ -348,57 +400,63 @@
         </div>
     </div>
 
+    <!-- Site footer -->
     <footer class="site-footer">
         <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-6">
-              <h6>CEPROCAMP - Unidade Centro</h6>
-              <p class="text-justify">Avenida 20 de Novembro, 145 – 13013-140 – Centro – Campinas/SP (ao lado da Estação Cultura)
-                Horário de Funcionamento: de segunda a sexta-feira das 8h30 às 17h e das 18h às 21h.
-                (19) 3731-3650 / 3731-3651 / 3731-3652 </p>
-            </div>
-  
-            <div class="col-xs-6 col-md-3">
-              <h6>Categorias</h6>
-              <ul class="footer-links">
-                <li><a href="#">Qualificação Proficional</a></li>
-                <li><a href="#">Técnicos</a></li>
-                <li><a href="#">Unidades</a></li>
-                <li><a href="#">Editais</a></li>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>CEPROCAMP - Unidade Centro</h6>
+                    <p class="text-justify">Avenida 20 de Novembro, 145 – 13013-140 – Centro – Campinas/SP (ao lado
+                        da
+                        Estação Cultura)
+                        Horário de Funcionamento: de segunda a sexta-feira das 08h30 às 17h e das 18h às 21h.
+                        (19) 3731-3650 / 3731-3651 / 3731-3652 </p>
+                </div>
 
-              </ul>
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categorias</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">Qualificação Proficional</a></li>
+                        <li><a href="#">Técnicos</a></li>
+                        <li><a href="#">Editais</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Mais</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">Calendário</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="https://www.fumec.sp.gov.br/">Fumec</a></li>
+                    </ul>
+                </div>
             </div>
-  
-            <div class="col-xs-6 col-md-3">
-              <h6>Mais</h6>
-              <ul class="footer-links">
-                <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Calendário</a></li>
-                <li><a href="https://www.fumec.sp.gov.br/">Fumec</a></li>
-              </ul>
-            </div>
-          </div>
-          <hr>
+            <hr>
         </div>
         <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-sm-6 col-xs-12">
-              <p class="copyright-text">Copyright &copy; 2021, FUMEC - Fundação para Educação Comunitária.
-           <a href="#">Fumec</a>.
-              </p>
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021, FUMEC - Fundação para Educação Comunitária.
+                        <a href="#">Fumec</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook"
+                                href="file:///E:/Documentos/Trabalho/site/Nova%20pasta/Site-Ceprocamp/Trabalho_Ceprocamp/HTML/CeprocampIndex.html"><img
+                                    src="../../img/icon-face.png" alt=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="Instagram" href="https://www.instagram.com/fumec.cepro/"><img
+                                    src="../../img/icon-insta.png" alt=""><i class="fa fa-insta"></i></a></li>
+                        <li><a class="Youtube" href="https://www.youtube.com/channel/UC1He1mXyJyfIkIh2RvG7A7Q"><img
+                                    src="../../img/icon-youtube.png" alt=""><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
             </div>
-  
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <ul class="social-icons">
-                <li><a class="facebook" href="file:///E:/Documentos/Trabalho/site/Nova%20pasta/Site-Ceprocamp/Trabalho_Ceprocamp/HTML/CeprocampIndex.html"><img src="../img/icon-face.png" alt=""><i class="fa fa-facebook"></i></a></li>
-                <li><a class="Instagram" href="https://www.instagram.com/fumec.cepro/"><img src="../img/icon-insta.png" alt=""><i class="fa fa-insta"></i></a></li>
-                <li><a class="Youtube" href="https://www.youtube.com/channel/UC1He1mXyJyfIkIh2RvG7A7Q"><img src="../img/icon-youtube.png" alt=""><i class="fa fa-youtube"></i></a></li>   
-              </ul>
-            </div>
-          </div>
         </div>
-  </footer>
+    </footer>
 </body>
 
 </html>
