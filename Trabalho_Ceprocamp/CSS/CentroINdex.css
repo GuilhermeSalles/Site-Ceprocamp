@@ -46,18 +46,6 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-body {
-  font-family: 'Ubuntu', sans-serif !important;
-}
-body {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 18px;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
-}
-
-
 
 
 .site-footer
@@ -233,6 +221,7 @@ body {
 body{
   font-family: 'Montserrat', sans-serif;
 }
+
 
 /*Filtros*/
 .filterDiv {

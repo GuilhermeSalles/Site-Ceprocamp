@@ -1,0 +1,131 @@
+/* Listas */
+ul.b {
+    list-style-type: square;
+  }
+  
+  /* hr */
+  .hr3 {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+  }
+  
+  .hr4 {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, #CCC, #CCC, transparent);  
+  }
+  
+  .hr5 {
+   width: 30%;
+   border: solid;
+   color: #2196F3;
+   border-radius: 10px;
+  }
+  
+  .hr5r {
+   width: 22%;
+   border: solid;
+   color: #2196F3;
+   border-radius: 10px;
+  }
+  
+  .hr5u {
+   width: 30%;
+   border: solid;
+   color: #2196F3;
+   border-radius: 10px;
+  }
+  
+  .hr5P {
+   margin-top: 0%;
+   width: 32%;
+   border: solid;
+   color: #2196F3;
+   border-radius: 10px;
+  }
+  
+  .hr5E {
+   margin-top: 0%;
+   width: 15%;
+   border: solid;
+   color: #2196F3;
+   border-radius: 10px;
+  }
+  
+  .hr5c {
+   margin-top: 0%;
+   width: 58%;
+   border: solid;
+   color: #2196F3;
+   border-radius: 10px;
+  }
+  
+  .hr5cer {
+   margin-top: 0%;
+   width: 40%;
+   border: solid;
+   color: #2196F3;
+   border-radius: 10px;
+  }
+  
+  .hr5Per {
+    margin-top: 0%;
+    width: 40%;
+    border: solid;
+    color: #2196F3;
+    border-radius: 10px;
+   }
+  
+  /* A:houver */
+  .ahouver{
+    color: rgb(28, 92, 37);
+  }
+  
+  .ahouver:hover{
+    color: blue;
+  }
+  
+  /* Collapse */
+  
+  .collapsible {
+    border-color: rgba(191,191,191,0);
+    padding: 20px 20px 20px 20px;
+    background-color: #204da0;
+    box-shadow: 5px 0px 5px gray;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .collapsible:hover {
+    background-color: #4269b3;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+    color: #e9e9e9e3;
+  }
+  
+  .contentC {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: max-height 0.3s ease-out;
+    box-shadow: 5px 5px 5px gray;
+    background-color: #f1f1f1;
+  }
