@@ -114,48 +114,79 @@
     </nav>
     <!-- Fim do Menu -->
 
-    <!-- parte de avisos em um carrossel que passa de 5 em 5 segundos -->
+    <!-- Filtro 1 -->
+    <hr>
+    <div class="container"><h2>Cursos de Qualificação Profissional</h2></div>
+    
 
-    <div class="text-center">
-        <h1>Avisos</h1>
-    </div>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="tab-content" id="nav-pills-content">
-                <div id="carouselAviso" class="carousel slide d-block" data-ride="carousel" data-interval="5000">
+<div class="container" id="myBtnContainer">
+  <button class="filterbtn active" onclick="filterSelection('all')"> Todos</button>
+  <button class="filterbtn" onclick="filterSelection('manha')"> Manhã</button>
+  <button class="filterbtn" onclick="filterSelection('tarde')"> Tarde</button>
+  <button class="filterbtn" onclick="filterSelection('noite')"> Noite</button>
+</div>
 
-                    <div class="carousel-inner">
+<div id="first" class="jumbotron jumbotron-fluid" style="background-color: #6491cc79;">
+    <div class="container">
+        <div class="tab-content" id="nav-pills-content">
+            <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                <div class="container">
+                    <div class="row">
+                        <div class="row mb-4">
+                            <div class="card-deck">
+                                <div class="filterDiv manha card">
 
-                        <!-- Imagens com texto do carrossel -->
-                        <div class="carousel-item active">
-                            <div class="text-center">
-                                <h3 class="d-sm-block">Campanha de Vacinação Contra a Gripe 2021
-                                </h3>
-                                <p>Se seu filho tem entre 6 meses e 6 anos (até 5 anos, 11 meses e 29 dias), leve-o
-                                    para tomar a vacina contra a gripe no centro de saúde mais próximo.
-                                    Também podem se vacinar as grávidas e as mulheres que acabaram de dar à luz (até
-                                    45 dias após o parto). Para saber o endereço do centro de saúde mais próximo,
-                                    basta ligar no <b>156</b> ou acessar o endereço <a
-                                        href="http://vacina.campinas.sp.gov.br/"> vacina.campinas.sp.gov.br</a> A
-                                    vacina contra a gripe é segura e evita casos graves e internações e mortes. a
-                                    vacinação é feita dentro das normas sanitárias vigentes, para reduzir os riscos
-                                    de transmissão do coronavírus.</p>
-                            </div>
-                        </div>
+                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                                        alt="Imagem de capa do card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
+                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                                            e técnico nas áreas
+                                            de recursos humanos, administração, finanças e logística.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                                            horas</small>
+                                    </div>
+                                </div>
 
-                        <div class="carousel-item">
-                            <div class="text-center">
-                                <h3 class="d-sm-block">Campanha de Vacinação Contra a Gripe 2021
-                                </h3>
-                                <p>Se seu filho tem entre 6 meses e 6 anos (até 5 anos, 11 meses e 29 dias), leve-o
-                                    para tomar a vacina contra a gripe no centro de saúde mais próximo.
-                                    Também podem se vacinar as grávidas e as mulheres que acabaram de dar à luz (até
-                                    45 dias após o parto). Para saber o endereço do centro de saúde mais próximo,
-                                    basta ligar no <b>156</b> ou acessar o endereço <a
-                                        href="http://vacina.campinas.sp.gov.br/"> vacina.campinas.sp.gov.br</a> A
-                                    vacina contra a gripe é segura e evita casos graves e internações e mortes. a
-                                    vacinação é feita dentro das normas sanitárias vigentes, para reduzir os riscos
-                                    de transmissão do coronavírus.</p>
+                                <div class="filterDiv manha card">
+
+                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                                        alt="Imagem de capa do card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
+                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                                            e técnico nas áreas
+                                            de recursos humanos, administração, finanças e logística.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                                            horas</small>
+                                    </div>
+                                </div>
+                                <div class="filterDiv manha card">
+
+                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                                        alt="Imagem de capa do card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
+                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                                            e técnico nas áreas
+                                            de recursos humanos, administração, finanças e logística.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                                            horas</small>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -163,23 +194,254 @@
             </div>
         </div>
     </div>
-    <!-- Fim avisos -->
-
-    <!-- Filtro 1 -->
-    <hr>
-    <h2>Filter DIV Elements</h2>
-
-<div id="myBtnContainer">
-  <button class="filterbtn active" onclick="filterSelection('all')"> Todos</button>
-  <button class="filterbtn" onclick="filterSelection('manha')"> Manhã</button>
-  <button class="filterbtn" onclick="filterSelection('tarde')"> Tarde</button>
-  <button class="filterbtn" onclick="filterSelection('noite')"> Noite</button>
 </div>
+<div class="manha jumbotron jumbotron-fluid" style="background-color: #6491cc79;">
+    <div class="container">
+        <div class="tab-content" id="nav-pills-content">
+            <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                <div class="container">
+                    <div class="row">
+                        <div class="row mb-4">
+                            <div class="card-deck">
+                                <div class="filterDiv manha card">
 
-<div class="filtercontainer">
-    <!--Manhã-->
-  <div class="filterDiv manha">QP AGEN SEGUR DO TRAB E HIG OCUPAC</div>
-  <div class="filterDiv manha">QP AGENTE GERENCIAMENTO EPI E EPC</div>
+                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                                        alt="Imagem de capa do card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
+                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                                            e técnico nas áreas
+                                            de recursos humanos, administração, finanças e logística.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                                            horas</small>
+                                    </div>
+                                </div>
+
+                                <div class="filterDiv manha card">
+
+                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                                        alt="Imagem de capa do card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
+                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                                            e técnico nas áreas
+                                            de recursos humanos, administração, finanças e logística.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                                            horas</small>
+                                    </div>
+                                </div>
+                                <div class="filterDiv manha card">
+
+                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                                        alt="Imagem de capa do card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
+                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                                            e técnico nas áreas
+                                            de recursos humanos, administração, finanças e logística.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                                            horas</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="manha jumbotron jumbotron-fluid" style="background-color: #6491cc79;">
+    <div class="container">
+        <div class="tab-content" id="nav-pills-content">
+            <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                <div class="container">
+                    <div class="row">
+                        <div class="row mb-4">
+                            <div class="card-deck">
+                                <div class="filterDiv manha card">
+
+                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                                        alt="Imagem de capa do card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">QP AGENTE GERENCIAMENTO EPI E EPC</h5>
+                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                                            e técnico nas áreas
+                                            de recursos humanos, administração, finanças e logística.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                                            horas</small>
+                                    </div>
+                                </div>
+
+                                <div class="filterDiv manha card">
+
+                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                                        alt="Imagem de capa do card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
+                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                                            e técnico nas áreas
+                                            de recursos humanos, administração, finanças e logística.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                                            horas</small>
+                                    </div>
+                                </div>
+
+                                <div class="filterDiv manha card">
+
+                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                                        alt="Imagem de capa do card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
+                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                                            e técnico nas áreas
+                                            de recursos humanos, administração, finanças e logística.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                                            horas</small>
+                                    </div>
+                                </div>
+
+                                <div class="filterDiv manha card">
+
+                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                                        alt="Imagem de capa do card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
+                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                                            e técnico nas áreas
+                                            de recursos humanos, administração, finanças e logística.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                                            horas</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Tarde-->
+<div class="manha jumbotron jumbotron-fluid" style="background-color: #6491cc79;">
+    <div class="container">
+        <div class="tab-content" id="nav-pills-content">
+            <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                <div class="container">
+                    <div class="row">
+                        <div class="row mb-4">
+                            <div class="card-deck">
+                                <div class="filterDiv manha card">
+
+                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                                        alt="Imagem de capa do card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">QP AGENTE GERENCIAMENTO EPI E EPC</h5>
+                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                                            e técnico nas áreas
+                                            de recursos humanos, administração, finanças e logística.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                                            horas</small>
+                                    </div>
+                                </div>
+
+                                <div class="filterDiv manha card">
+
+                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                                        alt="Imagem de capa do card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
+                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                                            e técnico nas áreas
+                                            de recursos humanos, administração, finanças e logística.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                                            horas</small>
+                                    </div>
+                                </div>
+
+                                <div class="filterDiv manha card">
+
+                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                                        alt="Imagem de capa do card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
+                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                                            e técnico nas áreas
+                                            de recursos humanos, administração, finanças e logística.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                                            horas</small>
+                                    </div>
+                                </div>
+
+                                <div class="filterDiv tarde card">
+
+                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                                        alt="Imagem de capa do card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
+                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                                            e técnico nas áreas
+                                            de recursos humanos, administração, finanças e logística.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ver Mais</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                                            horas</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
   <div class="filterDiv manha">QP ALMOXARIFE</div>
   <div class="filterDiv manha">QP AUX DE DEPARTAMENTO PESSOAL/RH</div>
   <div class="filterDiv manha">QP AUXILIAR DE LOGÍSTICA</div>
@@ -190,7 +452,7 @@
   <div class="filterDiv manha">QP OPERADOR DE COMPUTADOR</div>
   <div class="filterDiv manha">QP PORTEIRO-CONTROLADOR DE ACESSO</div>
   <div class="filterDiv manha">TÉCNICO ENFERMAGEM</div>
-<!--Noite-->
+Noite
   <div class="filterDiv noite">QP AUX DE DEPARTAMENTO PESSOAL/RH</div>
   <div class="filterDiv noite">QP AUXILIAR FINANCEIRO</div>
   <div class="filterDiv noite">QP PADEIRO E CONFEITEIRO</div>
@@ -199,7 +461,7 @@
   <div class="filterDiv noite">TÉCNICO INFORMÁTICA</div>
   <div class="filterDiv noite">TÉCNICO MEIO AMBIENTE</div>
   <div class="filterDiv noite">TÉCNICO SEGURANÇA DO TRABALHO</div>
-  <!--Tarde-->
+ Tarde
   <div class="filterDiv tarde">QP AUXILIAR ADMINISTRATIVO</div>
   <div class="filterDiv tarde">QP AUXILIAR DE ALMOXARIFADO</div>
   <div class="filterDiv tarde">QP AUXILIAR DE COMÉRCIO EXTERIOR</div>
@@ -210,11 +472,7 @@
   <div class="filterDiv tarde">QP PADEIRO E CONFEITEIRO</div>
   <div class="filterDiv tarde">QP PORTEIRO-CONTROLADOR DE ACESSO</div>
   <div class="filterDiv tarde">QP RECEPCIONISTA DE EVENTOS</div>
-  <div class="filterDiv tarde">TÉCNICO ADMINISTRAÇÃO</div>
-  <div class="filterDiv tarde">TÉCNICO EM LOGÍSTICA</div>
-  <div class="filterDiv tarde">TÉCNICO INFORMÁTICA</div>
-  <div class="filterDiv tarde">TÉCNICO MEIO AMBIENTE</div>
-  <div class="filterDiv tarde">TÉCNICO SEGURANÇA DO TRABALHO</div>
+-->
 
 </div>
 
@@ -251,6 +509,7 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
+
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("filterbtn");
@@ -262,6 +521,60 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 </script>
+
+    <!--Filtro 2-->
+    <!--
+    <div class="container">
+        <h2>Filterable Table</h2>
+        <p>Type something in the input field to search the table for first names, last names or emails:</p>  
+        <input class="form-control" id="myInput" type="text" placeholder="Search..">
+        <br>
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody id="myTable">
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@mail.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@greatstuff.com</td>
+            </tr>
+            <tr>
+              <td>Anja</td>
+              <td>Ravendale</td>
+              <td>a_r@test.com</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <p>Note that we start the search in tbody, to prevent filtering the table headers.</p>
+      </div>
+      
+      <script>
+      $(document).ready(function(){
+        $("#myInput").on("keyup", function() {
+          var value = $(this).val().toLowerCase();
+          $("#myTable tr").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+          });
+        });
+      });
+      </script>
+      -->
       
     <!-- Parte cinza claro sobre o Local que deve colocar o google maps e alterar a descrissão-->
     <br>
