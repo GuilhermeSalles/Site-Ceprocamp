@@ -3,7 +3,7 @@
   .collapsible {
     border-color: rgba(191,191,191,0);
     padding: 20px 20px 20px 20px;
-    background-color: #204da0;
+    background-color: #d64c22;
     box-shadow: 5px 0px 5px gray;
     color: white;
     cursor: pointer;
@@ -16,7 +16,7 @@
   }
   
   .collapsible:hover {
-    background-color: #4269b3;
+    background-color: #fe5722;
   }
   
   .collapsible:after {
@@ -41,3 +41,43 @@
     box-shadow: 5px 5px 5px gray;
     background-color: #f1f1f1;
   }
+
+/* Botoes curso houver */
+  .bhouver{
+    background-color: #fe5722;
+  }
+  
+  .bhouver:hover{
+    background-color: rgb(169, 55, 21);
+  }
+
+
+  @media only screen and (max-width: 750px) {
+    .img-small {
+      width: 88%;
+    }
+    
+  }
+
+  @media only screen and (min-width: 750px) {
+    .img-small {
+      width: 45%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 750px) {
+    .imgR-small {
+      margin-top: 2%;
+      width: 50%;
+    }
+    
+  }
+
+  @media only screen and (min-width: 750px) {
+    .imgR-small {
+      width: 22%;
+    }
+    
+  }
+  

@@ -25,21 +25,21 @@ ul.b {
 .hr5 {
  width: 30%;
  border: solid;
- color: #2196F3;
+ color: #FE5722FF;
  border-radius: 10px;
 }
 
 .hr5r {
  width: 22%;
  border: solid;
- color: #2196F3;
+ color: #FE5722FF;
  border-radius: 10px;
 }
 
 .hr5u {
  width: 30%;
  border: solid;
- color: #2196F3;
+ color: #FE5722FF;
  border-radius: 10px;
 }
 
@@ -47,15 +47,23 @@ ul.b {
  margin-top: 0%;
  width: 32%;
  border: solid;
- color: #2196F3;
+ color: #FE5722FF;
  border-radius: 10px;
 }
 
 .hr5E {
  margin-top: 0%;
- width: 15%;
+ width: 35%;
  border: solid;
- color: #2196F3;
+ color: #FE5722FF;
+ border-radius: 10px;
+}
+
+.hr5Ri {
+ margin-top: 0%;
+ width: 83%;
+ border: solid;
+ color: #FE5722FF;
  border-radius: 10px;
 }
 
@@ -63,7 +71,7 @@ ul.b {
  margin-top: 0%;
  width: 58%;
  border: solid;
- color: #2196F3;
+ color: #FE5722FF;
  border-radius: 10px;
 }
 
@@ -71,27 +79,35 @@ ul.b {
  margin-top: 0%;
  width: 40%;
  border: solid;
- color: #2196F3;
+ color: #FE5722FF;
  border-radius: 10px;
 }
 
 .hr5Per {
   margin-top: 0%;
-  width: 40%;
+  width: 45%;
   border: solid;
-  color: #2196F3;
+  color: #FE5722FF;
   border-radius: 10px;
  }
 
 /* A:houver */
 .ahouver{
-  color: rgb(28, 92, 37);
+  color: #FE5722FF;
 }
 
 .ahouver:hover{
   color: blue;
 }
 
+/* Botoes */
+.btn-danger{
+  background-color: rgb(202, 83, 47);
+}
+
+.btn-danger:hover{
+  background-color: #fe5722;
+}
 
 /*Iframe - Ajuste*/
 @media only screen and (min-width: 750px) {
