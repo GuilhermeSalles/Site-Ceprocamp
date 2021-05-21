@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+<<<<<<< HEAD
 }
 
 /* Listas */
@@ -86,6 +87,8 @@ ul.b {
 /* A:houver */
 .ahouver{
   color: rgb(28, 92, 37);
+=======
+>>>>>>> e4912886a9ac07b4d1cfb56be5916513e04a8fd1
 }
 
 .ahouver:hover{
