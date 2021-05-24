@@ -119,6 +119,13 @@ ul.b {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .display2{
+    display: block;
+  }
+  .display{
+    display: none;
+  }
 }
 @media only screen and (max-width: 750px) {
   .map-big {
@@ -128,6 +135,12 @@ ul.b {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  .display2{
+    display: none;
+  }
+  .display{
+    display: block;
   }
 }
 #mapf {
