@@ -9,29 +9,25 @@
     <link rel="shortcut icon" href="https://www.fumec.sp.gov.br/sites/www.fumec.sp.gov.br/files/logo-fumec_2.png"
         type="image/png">
 
-
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../CSS/CentroIndex.css">
-    <!--Filtros-->
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>Ceprocamp</title>
+
+    <link rel="stylesheet" href="../../CSS/CentroINdex.css">
+    <link rel="stylesheet" href="../../CSS/style.css">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <!--fontawseom-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <title>Ceprocamp - Cursos</title>
 </head>
 
 <body>
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"></script>
-    <script src="../../node_modules/popper.js/dist/umd/popper.js"></script>
-
     <!-- Logos antes do menu -->
     <div class="container-fluid">
         <div class="row">
@@ -92,7 +88,7 @@
                                     Social
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="https://www.facebook.com/fumec.cepro/">Facebook</a>
+                                    <a class="dropdown-item" href="">Facebook</a>
                                     <a class="dropdown-item" href="https://www.instagram.com/fumec.cepro/">Instagram</a>
                                     <a class="dropdown-item"
                                         href="https://www.youtube.com/channel/UC1He1mXyJyfIkIh2RvG7A7Q">Youtube</a>
@@ -114,334 +110,327 @@
     </nav>
     <!-- Fim do Menu -->
 
+    <!-- parte de avisos em um carrossel que passa de 5 em 5 segundos -->
+
+    <div class="text-center">
+        <h1>CURSOS</h1>
+    </div>
     <!-- Filtro 1 -->
     <hr>
-    <div class="container"><h2>Cursos de Qualificação Profissional</h2></div>
+
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul id="filter-list">
+                    <li class="filter active" data-filter="all">TODOS</li>
+                    <li class="filter" data-filter="1">MANHÃ</li>
+                    <li class="filter" data-filter="2">TARDE</li>
+                    <li class="filter" data-filter="3">NOITE</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<div class="container-xxl">
+    <div class="gallery-outer">
+        <ul class="gallery-items" style="padding:0px; position: relative;
+         height: 1261px;">
+             <li class="filtr-item" data-category="1" style="opacity: 1; transform: scale(1) translate3d(0px,0px,0px);backface-visibility: hidden;
+             perspective: 1000px; transform-style: preserve-3d; position: absolute;
+             transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
+
+                <div class="gallery-inner card">
+                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
+                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                            e técnico nas
+                            áreas
+                            de recursos humanos, administração, finanças e logística.
+                        </p>
+                        <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                            horas</small>
+                    </div>
+                </div>
+
+             </li>
+
+<!--second-->
+
+          <li class="filtr-item" data-category="2" style="opacity: 1; transform: scale(1) translate3d(315.25px,0px,0px);backface-visibility: hidden;
+             perspective: 1000px; transform-style: preserve-3d; position: absolute;
+             transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
+                 <div class="gallery-inner card">
+                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
+                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                            e técnico nas
+                            áreas
+                            de recursos humanos, administração, finanças e logística.
+                        </p>
+                        <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                            horas</small>
+                    </div>
+                </div>
+             </li>
+
+
+<!--third-->
+           
+           <li class="filtr-item" data-category="4" style="opacity: 1; transform: scale(1) translate3d(630.5px,0px,0px);backface-visibility: hidden;
+             perspective: 1000px; transform-style: preserve-3d; position: absolute;
+             transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
+                 <div class="gallery-inner card">
+                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
+                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                            e técnico nas
+                            áreas
+                            de recursos humanos, administração, finanças e logística.
+                        </p>
+                        <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                            horas</small>
+                    </div>
+                </div>
+             </li>
+<!--fourth-->
+           <li class="filtr-item" data-category="3" style="opacity: 1; transform: scale(1) translate3d(945.7px,0px,0px);backface-visibility: hidden;
+             perspective: 1000px; transform-style: preserve-3d; position: absolute;
+             transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
+                 <div class="gallery-inner card">
+                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
+                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                            e técnico nas
+                            áreas
+                            de recursos humanos, administração, finanças e logística.
+                        </p>
+                        <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                            horas</small>
+                    </div>
+                </div>
+             </li>
+<!--fift-->  
+           <li class="filtr-item" data-category="3" style="opacity: 1; transform: scale(1) translate3d(0px,315.25px,0px);backface-visibility: hidden;
+             perspective: 1000px; transform-style: preserve-3d; position: absolute;
+             transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
+                 <div class="gallery-inner card">
+                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
+                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                            e técnico nas
+                            áreas
+                            de recursos humanos, administração, finanças e logística.
+                        </p>
+                        <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                            horas</small>
+                    </div>
+                </div>
+             </li>
+<!--sixth-->  
+             
+             <li class="filtr-item" data-category="5" style="opacity: 1; transform: scale(1) translate3d(315.25px,315.25px,0px);backface-visibility: hidden;
+             perspective: 1000px; transform-style: preserve-3d; position: absolute;
+             transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
+                 <div class="gallery-inner card">
+                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
+                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                            e técnico nas
+                            áreas
+                            de recursos humanos, administração, finanças e logística.
+                        </p>
+                        <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                            horas</small>
+                    </div>
+                </div>
+             </li>
+
+<!--seven-->
+           
+           <li class="filtr-item" data-category="3" style="opacity: 1; transform: scale(1) translate3d(630.5px,315.25px,0px);backface-visibility: hidden;
+             perspective: 1000px; transform-style: preserve-3d; position: absolute;
+             transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
+                 <div class="gallery-inner card">
+                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
+                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                            e técnico nas
+                            áreas
+                            de recursos humanos, administração, finanças e logística.
+                        </p>
+                        <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                            horas</small>
+                    </div>
+                </div>
+             </li>
+
+<!--eight--> 
+           
+           <li class="filtr-item" data-category="4" style="opacity: 1; transform: scale(1) translate3d(945.7px,315.25px,0px);backface-visibility: hidden;
+             perspective: 1000px; transform-style: preserve-3d; position: absolute;
+             transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
+                <div class="gallery-inner card">
+                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
+                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                            e técnico nas
+                            áreas
+                            de recursos humanos, administração, finanças e logística.
+                        </p>
+                        <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                            horas</small>
+                    </div>
+                </div>
+             </li>
+<!--nine-->
+            <li class="filtr-item" data-category="5" style="opacity: 1; transform: scale(1) translate3d(0px,630.5px,0px);backface-visibility: hidden;
+             perspective: 1000px; transform-style: preserve-3d; position: absolute;
+             transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
+                <div class="gallery-inner card">
+                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
+                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                            e técnico nas
+                            áreas
+                            de recursos humanos, administração, finanças e logística.
+                        </p>
+                        <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                            horas</small>
+                    </div>
+                </div>
+             </li>
+<!--ten-->
+           <li class="filtr-item" data-category="1" style="opacity: 1; transform: scale(1) translate3d(315.25px,630.5px,0px);backface-visibility: hidden;
+             perspective: 1000px; transform-style: preserve-3d; position: absolute;
+             transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
+                <div class="gallery-inner card">
+                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
+                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                            e técnico nas
+                            áreas
+                            de recursos humanos, administração, finanças e logística.
+                        </p>
+                        <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                            horas</small>
+                    </div>
+                </div>
+             </li>
+<!--eleven-->
+                 <li class="filtr-item" data-category="4" style="opacity: 1; transform: scale(1) translate3d(630.5px,630.5px,0px);backface-visibility: hidden;
+             perspective: 1000px; transform-style: preserve-3d; position: absolute;
+             transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
+                 <div class="gallery-inner card">
+                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
+                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                            e técnico nas
+                            áreas
+                            de recursos humanos, administração, finanças e logística.
+                        </p>
+                        <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                            horas</small>
+                    </div>
+                </div>
+             </li>
+<!--tweleve-->
+             <li class="filtr-item" data-category="2" style="opacity: 1; transform: scale(1) translate3d(945.7px,630.5px,0px);backface-visibility: hidden;
+             perspective: 1000px; transform-style: preserve-3d; position: absolute;
+             transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
+                <div class="gallery-inner card">
+                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
+                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
+                            e técnico nas
+                            áreas
+                            de recursos humanos, administração, finanças e logística.
+                        </p>
+                        <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
+                            horas</small>
+                    </div>
+                </div>
+             </li>
+
+         </ul>
+    </div>
+</div>
+
     
+</section>
+<!-- jQuery -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/jquery.filterizr.min.js"></script>
+<script src="js/script.js"></script>
 
-<div class="container" id="myBtnContainer">
-  <button class="filterbtn active" onclick="filterSelection('all')"> Todos</button>
-  <button class="filterbtn" onclick="filterSelection('manha')"> Manhã</button>
-  <button class="filterbtn" onclick="filterSelection('tarde')"> Tarde</button>
-  <button class="filterbtn" onclick="filterSelection('noite')"> Noite</button>
-</div>
+ <!--this Jquery file  link is in the description box 
+     so please download it ,it's important for make silde-->
 
-<div id="first" class="jumbotron jumbotron-fluid" style="background-color: #6491cc79;">
-    <div class="container">
-        <div class="tab-content" id="nav-pills-content">
-            <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
-                <div class="container">
-                    <div class="row">
-                        <div class="row mb-4">
-                            <div class="card-deck">
-                                <div class="filterDiv manha card">
-
-                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
-                                        alt="Imagem de capa do card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
-                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
-                                            e técnico nas áreas
-                                            de recursos humanos, administração, finanças e logística.
-                                        </p>
-                                        <a href="#" class="btn btn-primary">Ver Mais</a>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
-                                            horas</small>
-                                    </div>
-                                </div>
-
-                                <div class="filterDiv manha card">
-
-                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
-                                        alt="Imagem de capa do card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
-                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
-                                            e técnico nas áreas
-                                            de recursos humanos, administração, finanças e logística.
-                                        </p>
-                                        <a href="#" class="btn btn-primary">Ver Mais</a>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
-                                            horas</small>
-                                    </div>
-                                </div>
-                                <div class="filterDiv manha card">
-
-                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
-                                        alt="Imagem de capa do card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
-                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
-                                            e técnico nas áreas
-                                            de recursos humanos, administração, finanças e logística.
-                                        </p>
-                                        <a href="#" class="btn btn-primary">Ver Mais</a>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
-                                            horas</small>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="manha jumbotron jumbotron-fluid" style="background-color: #6491cc79;">
-    <div class="container">
-        <div class="tab-content" id="nav-pills-content">
-            <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
-                <div class="container">
-                    <div class="row">
-                        <div class="row mb-4">
-                            <div class="card-deck">
-                                <div class="filterDiv manha card">
-
-                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
-                                        alt="Imagem de capa do card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
-                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
-                                            e técnico nas áreas
-                                            de recursos humanos, administração, finanças e logística.
-                                        </p>
-                                        <a href="#" class="btn btn-primary">Ver Mais</a>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
-                                            horas</small>
-                                    </div>
-                                </div>
-
-                                <div class="filterDiv manha card">
-
-                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
-                                        alt="Imagem de capa do card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
-                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
-                                            e técnico nas áreas
-                                            de recursos humanos, administração, finanças e logística.
-                                        </p>
-                                        <a href="#" class="btn btn-primary">Ver Mais</a>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
-                                            horas</small>
-                                    </div>
-                                </div>
-                                <div class="filterDiv manha card">
-
-                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
-                                        alt="Imagem de capa do card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
-                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
-                                            e técnico nas áreas
-                                            de recursos humanos, administração, finanças e logística.
-                                        </p>
-                                        <a href="#" class="btn btn-primary">Ver Mais</a>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
-                                            horas</small>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="manha jumbotron jumbotron-fluid" style="background-color: #6491cc79;">
-    <div class="container">
-        <div class="tab-content" id="nav-pills-content">
-            <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
-                <div class="container">
-                    <div class="row">
-                        <div class="row mb-4">
-                            <div class="card-deck">
-                                <div class="filterDiv manha card">
-
-                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
-                                        alt="Imagem de capa do card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">QP AGENTE GERENCIAMENTO EPI E EPC</h5>
-                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
-                                            e técnico nas áreas
-                                            de recursos humanos, administração, finanças e logística.
-                                        </p>
-                                        <a href="#" class="btn btn-primary">Ver Mais</a>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
-                                            horas</small>
-                                    </div>
-                                </div>
-
-                                <div class="filterDiv manha card">
-
-                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
-                                        alt="Imagem de capa do card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
-                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
-                                            e técnico nas áreas
-                                            de recursos humanos, administração, finanças e logística.
-                                        </p>
-                                        <a href="#" class="btn btn-primary">Ver Mais</a>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
-                                            horas</small>
-                                    </div>
-                                </div>
-
-                                <div class="filterDiv manha card">
-
-                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
-                                        alt="Imagem de capa do card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
-                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
-                                            e técnico nas áreas
-                                            de recursos humanos, administração, finanças e logística.
-                                        </p>
-                                        <a href="#" class="btn btn-primary">Ver Mais</a>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
-                                            horas</small>
-                                    </div>
-                                </div>
-
-                                <div class="filterDiv manha card">
-
-                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
-                                        alt="Imagem de capa do card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
-                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
-                                            e técnico nas áreas
-                                            de recursos humanos, administração, finanças e logística.
-                                        </p>
-                                        <a href="#" class="btn btn-primary">Ver Mais</a>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
-                                            horas</small>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--Tarde-->
-<div class="manha jumbotron jumbotron-fluid" style="background-color: #6491cc79;">
-    <div class="container">
-        <div class="tab-content" id="nav-pills-content">
-            <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
-                <div class="container">
-                    <div class="row">
-                        <div class="row mb-4">
-                            <div class="card-deck">
-                                <div class="filterDiv manha card">
-
-                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
-                                        alt="Imagem de capa do card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">QP AGENTE GERENCIAMENTO EPI E EPC</h5>
-                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
-                                            e técnico nas áreas
-                                            de recursos humanos, administração, finanças e logística.
-                                        </p>
-                                        <a href="#" class="btn btn-primary">Ver Mais</a>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
-                                            horas</small>
-                                    </div>
-                                </div>
-
-                                <div class="filterDiv manha card">
-
-                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
-                                        alt="Imagem de capa do card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
-                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
-                                            e técnico nas áreas
-                                            de recursos humanos, administração, finanças e logística.
-                                        </p>
-                                        <a href="#" class="btn btn-primary">Ver Mais</a>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
-                                            horas</small>
-                                    </div>
-                                </div>
-
-                                <div class="filterDiv manha card">
-
-                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
-                                        alt="Imagem de capa do card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
-                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
-                                            e técnico nas áreas
-                                            de recursos humanos, administração, finanças e logística.
-                                        </p>
-                                        <a href="#" class="btn btn-primary">Ver Mais</a>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
-                                            horas</small>
-                                    </div>
-                                </div>
-
-                                <div class="filterDiv tarde card">
-
-                                    <img class="card-img-top" src="../../img/Auxiliar Administrativo.png"
-                                        alt="Imagem de capa do card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">QP AGEN SEGUR DO TRAB E HIG OCUPAC</h5>
-                                        <p class="card-text">Capacita o aluno para realizar o suporte administrativo
-                                            e técnico nas áreas
-                                            de recursos humanos, administração, finanças e logística.
-                                        </p>
-                                        <a href="#" class="btn btn-primary">Ver Mais</a>
-                                    </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted"><b>Perido:</b> Matutino. <br><b>Duração: </b>400 hs/a = 334
-                                            horas</small>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--
+      <!--also source code avilable in description box-->
+<div class="filtercontainer">
+    <!--Manhã-->
+  <div class="filterDiv manha">QP AGEN SEGUR DO TRAB E HIG OCUPAC</div>
+  <div class="filterDiv manha">QP AGENTE GERENCIAMENTO EPI E EPC</div>
   <div class="filterDiv manha">QP ALMOXARIFE</div>
   <div class="filterDiv manha">QP AUX DE DEPARTAMENTO PESSOAL/RH</div>
   <div class="filterDiv manha">QP AUXILIAR DE LOGÍSTICA</div>
@@ -452,7 +441,7 @@
   <div class="filterDiv manha">QP OPERADOR DE COMPUTADOR</div>
   <div class="filterDiv manha">QP PORTEIRO-CONTROLADOR DE ACESSO</div>
   <div class="filterDiv manha">TÉCNICO ENFERMAGEM</div>
-Noite
+<!--Noite-->
   <div class="filterDiv noite">QP AUX DE DEPARTAMENTO PESSOAL/RH</div>
   <div class="filterDiv noite">QP AUXILIAR FINANCEIRO</div>
   <div class="filterDiv noite">QP PADEIRO E CONFEITEIRO</div>
@@ -461,7 +450,7 @@ Noite
   <div class="filterDiv noite">TÉCNICO INFORMÁTICA</div>
   <div class="filterDiv noite">TÉCNICO MEIO AMBIENTE</div>
   <div class="filterDiv noite">TÉCNICO SEGURANÇA DO TRABALHO</div>
- Tarde
+  <!--Tarde-->
   <div class="filterDiv tarde">QP AUXILIAR ADMINISTRATIVO</div>
   <div class="filterDiv tarde">QP AUXILIAR DE ALMOXARIFADO</div>
   <div class="filterDiv tarde">QP AUXILIAR DE COMÉRCIO EXTERIOR</div>
@@ -472,109 +461,17 @@ Noite
   <div class="filterDiv tarde">QP PADEIRO E CONFEITEIRO</div>
   <div class="filterDiv tarde">QP PORTEIRO-CONTROLADOR DE ACESSO</div>
   <div class="filterDiv tarde">QP RECEPCIONISTA DE EVENTOS</div>
--->
+  <div class="filterDiv tarde">TÉCNICO ADMINISTRAÇÃO</div>
+  <div class="filterDiv tarde">TÉCNICO EM LOGÍSTICA</div>
+  <div class="filterDiv tarde">TÉCNICO INFORMÁTICA</div>
+  <div class="filterDiv tarde">TÉCNICO MEIO AMBIENTE</div>
+  <div class="filterDiv tarde">TÉCNICO SEGURANÇA DO TRABALHO</div>
 
 </div>
 
 <script>
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
 
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("filterbtn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
 </script>
-
-    <!--Filtro 2-->
-    <!--
-    <div class="container">
-        <h2>Filterable Table</h2>
-        <p>Type something in the input field to search the table for first names, last names or emails:</p>  
-        <input class="form-control" id="myInput" type="text" placeholder="Search..">
-        <br>
-        <table class="table table-bordered table-striped">
-          <thead>
-            <tr>
-              <th>Firstname</th>
-              <th>Lastname</th>
-              <th>Email</th>
-            </tr>
-          </thead>
-          <tbody id="myTable">
-            <tr>
-              <td>John</td>
-              <td>Doe</td>
-              <td>john@example.com</td>
-            </tr>
-            <tr>
-              <td>Mary</td>
-              <td>Moe</td>
-              <td>mary@mail.com</td>
-            </tr>
-            <tr>
-              <td>July</td>
-              <td>Dooley</td>
-              <td>july@greatstuff.com</td>
-            </tr>
-            <tr>
-              <td>Anja</td>
-              <td>Ravendale</td>
-              <td>a_r@test.com</td>
-            </tr>
-          </tbody>
-        </table>
-        
-        <p>Note that we start the search in tbody, to prevent filtering the table headers.</p>
-      </div>
-      
-      <script>
-      $(document).ready(function(){
-        $("#myInput").on("keyup", function() {
-          var value = $(this).val().toLowerCase();
-          $("#myTable tr").filter(function() {
-            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-          });
-        });
-      });
-      </script>
-      -->
       
     <!-- Parte cinza claro sobre o Local que deve colocar o google maps e alterar a descrissão-->
     <br>
@@ -666,7 +563,7 @@ for (var i = 0; i < btns.length; i++) {
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <ul class="social-icons">
                         <li><a class="facebook"
-                                href="https://www.facebook.com/fumec.cepro/"><img
+                                href="file:///E:/Documentos/Trabalho/site/Nova%20pasta/Site-Ceprocamp/Trabalho_Ceprocamp/HTML/CeprocampIndex.html"><img
                                     src="../../img/icon-face.png" alt=""><i class="fa fa-facebook"></i></a></li>
                         <li><a class="Instagram" href="https://www.instagram.com/fumec.cepro/"><img
                                     src="../../img/icon-insta.png" alt=""><i class="fa fa-insta"></i></a></li>
