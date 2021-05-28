@@ -302,8 +302,8 @@
                 <div class="col-xs-6 col-md-3">
                     <h6>Categorias</h6>
                     <ul class="footer-links">
-                        <li><a href="#">Qualificação Proficional</a></li>
-                        <li><a href="#">Técnicos</a></li>
+                        <li><a href="../Cursos Centro QPs/PaginaQps.html">Qualificação Proficional</a></li>
+                        <li><a href="../Cursos Centro Téc/PaginaTec.html">Técnicos</a></li>
                         <li><a href="#">Editais</a></li>
 
                     </ul>
@@ -324,24 +324,42 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-sm-6 col-xs-12">
-                    <p class="copyright-text">Copyright &copy; 2021, FUMEC - Fundação para Educação Comunitária.
-                        <a href="#">Fumec</a>.
+                    <p class="copyright-text">Copyright &copy; 2021, NIT - Núcleo de Interação Tecnológica.
+                        <a href="../../Sobre NIT/nit.html">NIT</a>.
                     </p>
                 </div>
 
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <ul class="social-icons">
                         <li><a class="facebook" href="https://www.facebook.com/fumec.cepro/"><img
-                                    src="../../img/icon-face.png" alt=""><i class="fa fa-facebook"></i></a></li>
+                                    src="../../../img/icon-face.png" alt=""><i class="fa fa-facebook"></i></a></li>
                         <li><a class="Instagram" href="https://www.instagram.com/fumec.cepro/"><img
-                                    src="../../img/icon-insta.png" alt=""><i class="fa fa-insta"></i></a></li>
+                                    src="../../../img/icon-insta.png" alt=""><i class="fa fa-insta"></i></a></li>
                         <li><a class="Youtube" href="https://www.youtube.com/channel/UC1He1mXyJyfIkIh2RvG7A7Q"><img
-                                    src="../../img/icon-youtube.png" alt=""><i class="fa fa-youtube"></i></a></li>
+                                    src="../../../img/icon-youtube.png" alt=""><i class="fa fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+
+     <!-- Script Collapse -->
+     <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>
