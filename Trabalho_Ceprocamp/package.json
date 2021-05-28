@@ -1,18 +1,19 @@
 {
-  "name": "Trabalho_Ceprocamp",
+  "name": "HTML",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "CeprocampIndex.html",
+  "dependencies": {
+    "jquery": "3.3.1",
+    "bootstrap": "4.6.0"
+  },
+  "devDependencies": {
+    "popper.js": "1.14.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "bootstrap": "4.6.0",
-    "jquery": "3.3.1",
-    "popper.js": "1.14.3",
-    "sass": "1.32.8"
-  }
+  "license": "ISC"
 }
