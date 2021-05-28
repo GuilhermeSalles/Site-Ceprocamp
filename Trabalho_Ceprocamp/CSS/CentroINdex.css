@@ -318,6 +318,9 @@ p {
 body {
   font-family: "Montserrat", sans-serif;
 }
+h6, h6{
+  font-weight: bolder;
+}
 
 /*Filtros*/
 .card-deck {
