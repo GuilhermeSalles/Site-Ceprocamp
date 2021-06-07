@@ -366,3 +366,12 @@ h6, h6{
   background-color: #666;
   color: white;
 }
+#contNIT {
+  margin-top: 30px;
+  letter-spacing: 1.2px;
+  line-height: 1.8;
+  word-spacing: 8px;
+}
+#contNIT p {
+  font-size: 20px;
+}
