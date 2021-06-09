@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+
+/* Tabela */
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+}
+
+
 /* Listas */
 ul.b {
   list-style-type: square;
@@ -119,6 +128,7 @@ ul.b {
     margin-left: auto;
     margin-right: auto;
   }
+  
 }
 @media only screen and (min-width: 750px) {
   .display2{
@@ -126,6 +136,13 @@ ul.b {
   }
   .display{
     display: none;
+  }
+
+  .grande{
+    display: none;
+  }
+  .pequeno{
+    display: block;
   }
 }
 
@@ -145,6 +162,12 @@ ul.b {
   }
   .display{
     display: block;
+  }
+  .grande{
+    display: block;
+  }
+  .pequeno{
+    display: none;
   }
 }
 #mapf {
