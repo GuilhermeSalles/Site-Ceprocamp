@@ -11,8 +11,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="../../../CSS/CentroINdex.css">
-    <link rel="stylesheet" href="../../../CSS/cursos.css">
-    <title>Ceprocamp</title>
+    <!--Parte do filtro-->
+    <link rel="stylesheet" type="text/css" href="../../../CSS/style.css">
+    <!--bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <!--fontawseom-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>QPs Centro</title>
 </head>
 
 <body>
@@ -23,9 +30,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
-    <script src="../../../node_modules/popper.js/dist/umd/popper.js"></script>
-
-
+    <script src="../../node_modules/popper.js/dist/umd/popper.js"></script>
 
     <!-- Logos antes do menu -->
     <div class="container-fluid">
@@ -53,7 +58,7 @@
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="navbarSite">
-                <a class="navbar-brand h1 mb-1 justify-content-right" href="../../CeprocampIndex.html">Inicio</a>
+                <a class="navbar-brand h1 mb-1 justify-content-right" href="../CeprocampIndex.html">Inicio</a>
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <ul class="navbar-nav ml-auto">
@@ -63,29 +68,25 @@
                                 </a>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="../../CeprocampIndex.html">Centro</a>
-                                    <a class="dropdown-item" href="../../sedes/ouroVerde.html">Ouro Verde</a>
-                                    <a class="dropdown-item" href="../../sedes/joseAlves.html">José Alves</a>
-                                    <a class="dropdown-item" href="../../sedes/campoGrande.html">Campo
+                                    <a class="dropdown-item" href="../ouroVerde.html">Ouro Verde</a>
+                                    <a class="dropdown-item" href="../joseAlves.html">José Alves</a>
+                                    <a class="dropdown-item" href="../campoGrande.html">Campo
                                         Grande</a>
-                                    <a class="dropdown-item" href="../../sedes/cambara.html">Cambará</a>
-                                    <a class="dropdown-item" href="../../sedes/casi.html">CASI</a>
-                                    <a class="dropdown-item" href="../../sedes/myrian.html">Myrian</a>
+                                    <a class="dropdown-item" href="../cambara.html">Cambará</a>
+                                    <a class="dropdown-item" href="../casi.html">CASI</a>
                                 </div>
                             </li>
                         </ul>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../Unidades Parceiras/PaginaUniParceiras.html">Unidades Parceiras</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../Sobre NIT/nit.html">N I T</a>
+                        <a class="nav-link" href="../../CeprocampIndex.html">Estrutura</a>
                     </li>
                     <li class="nav-item">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
-                                   Redes Sociais
+                                    Social
                                 </a>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="https://www.facebook.com/fumec.cepro/">Facebook</a>
@@ -109,402 +110,344 @@
         </div>
     </nav>
     <!-- Fim do Menu -->
-    <div class="section-spacing bottom-none inverse-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title text-center">
-                        <h2><span>Cursos Centro</span></h2>
-                    </div>
-                </div>
-            </div>
+    <section class="section-spacing bottom-none inverse-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-title text-center">
+						<h2><span>Cursos Centro</span></h2>
+					</div>
+				</div>
+			</div>
 
 
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <ul id="filter-list">
-                        <li class="filter active" data-filter="all">TODOS</li>
-                        <li class="filter" data-filter="1">MANHÃ</li>
-                        <li class="filter" data-filter="2">TARDE</li>
-                        <li class="filter" data-filter="3">NOITE</li>
-                    </ul>
-                </div>
-            </div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul id="filter-list">
+						<li class="filter active" data-filter="all">TODOS</li>
+						<li class="filter" data-filter="1">MANHÃ</li>
+						<li class="filter" data-filter="2">TARDE</li>
+						<li class="filter" data-filter="3">NOITE</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
         <hr>
-        <br>
-            <div class="gallery-outer">
-                <ul class="gallery-items" style="padding:0px; position: relative; 
+		<div class="gallery-outer">
+			<ul class="gallery-items" style="padding:0px; position: relative; 
 			 height: 1576.2px;">
-                    <!--Manhã-->
-                    <li class="filtr-item" data-category="1" style="opacity: 1; transform: scale(1) translate3d(0px,0px,0px);backface-visibility: hidden;
+<!--Manhã-->
+                <li class="filtr-item" data-category="1" style="opacity: 1; transform: scale(1) translate3d(0px,0px,0px);backface-visibility: hidden;
                 perspective: 1000px; transform-style: preserve-3d; position: absolute;
                 transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
-                        <div class="gallery-inner card">
-                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/21.png"
-                                alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">AGENTE DE SEGURANÇA DO TRABALHO E HIGIENE OCUPACIONAL</h5>
-                                <p class="card-text">Capacita o aluno na identificação e avaliação dos riscos
-                                    ocupacionais no
-                                    ambiente de trabalho, com foco na insalubridade e periculosidade.
-                                </p>
-                                <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas
-                                </small>
-                            </div>
+                    <div class="gallery-inner card">
+                        <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/21.png"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">AGENTE DE SEGURANÇA DO TRABALHO E HIGIENE OCUPACIONAL</h5>
+                            <p class="card-text">Capacita o aluno na identificação e avaliação dos riscos ocupacionais no 
+                                ambiente de trabalho, com foco na insalubridade e periculosidade.
+                            </p>
+                            <a href="../Cursos Centro QPs/agenteSegHigi.html" class="btn btn-primary">Ver Mais</a>
                         </div>
-                    </li>
+                        <div class="card-footer">
+                            <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas
+                            </small>
+                        </div>
+                    </div>
+                </li>
 
-                    <li class="filtr-item" data-category="1" style="opacity: 1; transform: scale(1) translate3d(315.25px,0px,0px);backface-visibility: hidden;
+                <li class="filtr-item" data-category="1" style="opacity: 1; transform: scale(1) translate3d(315.25px,0px,0px);backface-visibility: hidden;
                 perspective: 1000px; transform-style: preserve-3d; position: absolute;
                 transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
-                        <div class="gallery-inner card">
-                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/20.png"
-                                alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">ALMOXARIFE </h5>
-                                <p class="card-text"><bR>Capacita o aluno para controlar a entrada e saída de produtos e
-                                    materiais,
-                                    assim como o armazenamento adequado.
+                    <div class="gallery-inner card">
+                        <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/20.png"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">ALMOXARIFE </h5>
+                            <p class="card-text"><bR>Capacita o aluno para controlar a entrada e saída de produtos e materiais, 
+                                assim como o armazenamento adequado.
 
-                                </p>
-                                <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted"><b>Duração: </b>400 h/a = 333 horas
-                                </small>
-                            </div>
+                            </p>
+                            <a href="../Cursos Centro QPs/almoxarife.html" class="btn btn-primary">Ver Mais</a>
                         </div>
-                    </li>
+                        <div class="card-footer">
+                            <small class="text-muted"><b>Duração: </b>400 h/a = 333 horas
+                            </small>
+                        </div>
+                    </div>
+                </li>
 
-                    <li class="filtr-item" data-category="1" style="opacity: 1; transform: scale(1) translate3d(630.5px,0px,0px);backface-visibility: hidden;
+                <li class="filtr-item" data-category="1" style="opacity: 1; transform: scale(1) translate3d(630.5px,0px,0px);backface-visibility: hidden;
                 perspective: 1000px; transform-style: preserve-3d; position: absolute;
                 transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
-                        <div class="gallery-inner card">
-                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/3.png"
-                                alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">AUXILIAR DE LOGÍSTICA </h5>
-                                <p class="card-text">Capacita o aluno para realizar atividades de processamento de
-                                    pedidos, planejamento e
-                                    operação de recebimento, de conferência, de armazenagem, de programação de produção,
-                                    de separação e distribuição de produtos.
+                    <div class="gallery-inner card">
+                        <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/3.png"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">AUXILIAR DE LOGÍSTICA </h5>
+                            <p class="card-text">Capacita o aluno para realizar atividades de processamento de pedidos, planejamento e 
+                                operação de recebimento, de conferência, de armazenagem, de programação de produção, de separação e distribuição de produtos.
+                                
 
-
-                                </p>
-                                <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas
-                                </small>
-                            </div>
+                            </p>
+                            <a href="../Cursos Centro QPs/auxLog.html" class="btn btn-primary">Ver Mais</a>
                         </div>
-                    </li>
+                        <div class="card-footer">
+                            <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas
+                            </small>
+                        </div>
+                    </div>
+                </li>
 
-                    <li class="filtr-item" data-category="1" style="opacity: 1; transform: scale(1) translate3d(945.7px,0px,0px);backface-visibility: hidden;
+                <li class="filtr-item" data-category="1" style="opacity: 1; transform: scale(1) translate3d(945.7px,0px,0px);backface-visibility: hidden;
                 perspective: 1000px; transform-style: preserve-3d; position: absolute;
                 transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
-                        <div class="gallery-inner card">
-                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/1.png"
-                                alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">CUIDADOR DE PESSOAS</h5>
-                                <p class="card-text"><br>Capacita o aluno no que diz respeito aos cuidados com idosos,
-                                    crianças e pessoas com deficiência.<br><br>
+                    <div class="gallery-inner card">
+                        <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/5.png"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">CUIDADOR DE PESSOAS</h5>
+                            <p class="card-text"><br>Capacita o aluno no que diz respeito aos cuidados com idosos, 
+                                crianças e pessoas com deficiência.<br><br>
 
-                                </p>
-                                <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas
-                                </small>
-                            </div>
+                            </p>
+                            <a href="../Cursos Centro QPs/cuidadorPessoas.html" class="btn btn-primary">Ver Mais</a>
                         </div>
-                    </li>
+                        <div class="card-footer">
+                            <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas
+                            </small>
+                        </div>
+                    </div>
+                </li>
 
-                    <li class="filtr-item" data-category="1" style="opacity: 1; transform: scale(1) translate3d(0px,315.25px,0px);backface-visibility: hidden;
+                <li class="filtr-item" data-category="1" style="opacity: 1; transform: scale(1) translate3d(0px,315.25px,0px);backface-visibility: hidden;
                 perspective: 1000px; transform-style: preserve-3d; position: absolute;
                 transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
-                        <div class="gallery-inner card">
-                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/13.png"
-                                alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">INFORMÁTICA BÁSICA</h5>
-                                <p class="card-text">Capacita o aluno para utilizar as principais funções do Windows,
-                                    assim como
-                                    fazer uso das ferramentas de Word, Excel e PowerPoint e Internet.
+                    <div class="gallery-inner card">
+                        <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/13.png"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">INFORMÁTICA BÁSICA</h5>
+                            <p class="card-text">Capacita o aluno para utilizar as principais funções do Windows, assim como 
+                                fazer uso das ferramentas de Word, Excel e PowerPoint e Internet.
 
-                                </p>
-                                <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted"><b>Duração: </b>160 h/a = 133 horas
-                                </small>
-                            </div>
+                            </p>
+                            <a href="../Cursos Centro QPs/info.html" class="btn btn-primary">Ver Mais</a>
                         </div>
-                    </li>
+                        <div class="card-footer">
+                            <small class="text-muted"><b>Duração: </b>160 h/a = 133 horas
+                            </small>
+                        </div>
+                    </div>
+                </li>
 
-                    <li class="filtr-item" data-category="1" style="opacity: 1; transform: scale(1) translate3d(315.25px,315.25px,0px);backface-visibility: hidden;
+                <li class="filtr-item" data-category="1" style="opacity: 1; transform: scale(1) translate3d(315.25px,315.25px,0px);backface-visibility: hidden;
                 perspective: 1000px; transform-style: preserve-3d; position: absolute;
                 transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
-                        <div class="gallery-inner card">
-                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/9.png"
-                                alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">PORTEIRO/CONTROLADOR DE ACESSO</h5>
-                                <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                                    recepcionar e orientar visitantes em condomínios e empresas.
-                                </p>
-                                <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas
-                                </small>
-                            </div>
+                    <div class="gallery-inner card">
+                        <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/8.png"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">PORTEIRO/CONTROLADOR DE ACESSO</h5>
+                            <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos, 
+                                recepcionar e orientar visitantes em condomínios e empresas.
+                            </p>
+                            <a href="../Cursos Centro QPs/porteiro.html" class="btn btn-primary">Ver Mais</a>
                         </div>
-                    </li>
+                        <div class="card-footer">
+                            <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas
+                            </small>
+                        </div>
+                    </div>
+                </li>
 
-                    <!--TARDE-->
-                    <li class="filtr-item" data-category="2" style="opacity: 1; transform: scale(1) translate3d(630.5px,315.25px,0px);backface-visibility: hidden;
+<!--TARDE-->
+                <li class="filtr-item" data-category="2" style="opacity: 1; transform: scale(1) translate3d(630.5px,315.25px,0px);backface-visibility: hidden;
                 perspective: 1000px; transform-style: preserve-3d; position: absolute;
                 transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
-                        <div class="gallery-inner card">
-                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/15.png"
-                                alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">DESENHO TÉCNICO CAD</h5>
-                                <p class="card-text"><br>Especialização em Desenho Técnico e CAD. (Autocad). Desenhos
-                                    para arquitetura
-                                    (plantas), mecânica e marcenaria.
-                                </p>
-                                <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted"><b>Duração: </b>80 h/a = 67 horas</small>
-                            </div>
+                    <div class="gallery-inner card">
+                        <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/15.png"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">DESENHO TÉCNICO CAD</h5>
+                            <p class="card-text"><br>Especialização em Desenho Técnico e CAD. (Autocad). Desenhos para arquitetura
+                                 (plantas), mecânica e marcenaria. 
+                            </p>
+                            <a href="../Cursos Centro QPs/cad.html" class="btn btn-primary">Ver Mais</a>
                         </div>
-                    </li>
+                        <div class="card-footer">
+                            <small class="text-muted"><b>Duração: </b>80 h/a = 67 horas</small>
+                        </div>
+                    </div>
+                </li>
 
-                    <li class="filtr-item" data-category="2" style="opacity: 1; transform: scale(1) translate3d(945.7px,315.25px,0px);backface-visibility: hidden;
+                <li class="filtr-item" data-category="2" style="opacity: 1; transform: scale(1) translate3d(945.7px,315.25px,0px);backface-visibility: hidden;
                 perspective: 1000px; transform-style: preserve-3d; position: absolute;
                 transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
-                        <div class="gallery-inner card">
-                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/22.png"
-                                alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">AGENTE DE CONTROLE DE ENDEMIAS</h5>
-                                <p class="card-text">Capacita o aluno com a competência de realizar a vigilância,
-                                    prevenção, controle de doenças e promoção da saúde no Sistema Único de Saúde.
-
-                                </p>
-                                <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas</small>
-                            </div>
+                    <div class="gallery-inner card">
+                        <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/22.png"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">AGENTE DE CONTROLE DE ENDEMIAS</h5>
+                            <p class="card-text">Capacita o aluno com a competência de realizar a vigilância, 
+                                prevenção, controle de doenças e promoção da saúde no Sistema Único de Saúde.
+ 
+                            </p>
+                            <a href="../Cursos Centro QPs/edemias.html" class="btn btn-primary">Ver Mais</a>
                         </div>
-                    </li>
+                        <div class="card-footer">
+                            <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas</small>
+                        </div>
+                    </div>
+                </li>
 
-                    <li class="filtr-item" data-category="2" style="opacity: 1; transform: scale(1) translate3d(0px,630.5px,0px);backface-visibility: hidden;
+                <li class="filtr-item" data-category="2" style="opacity: 1; transform: scale(1) translate3d(0px,630.5px,0px);backface-visibility: hidden;
                 perspective: 1000px; transform-style: preserve-3d; position: absolute;
                 transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
-                        <div class="gallery-inner card">
-                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/17.png"
-                                alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">AUXILIAR DE LABORATÓRIO DE QUÍMICA</h5>
-                                <p class="card-text">Capacita o aluno para preparar reagentes, peças e outros materiais
-                                    utilizados
-                                    em experimentos e responsabiliza-se por pequenos depósitos e/ou almoxarifados dos
-                                    laboratórios, montagem de experimentos.
-
-                                </p>
-                                <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted"><b>Duração: </b>400 h/a = 333 horas</small>
-                            </div>
+                    <div class="gallery-inner card">
+                        <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/17.png"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">AUXILIAR DE LABORATÓRIO DE QUÍMICA</h5>
+                            <p class="card-text">Capacita o aluno para preparar reagentes, peças e outros materiais utilizados
+                                 em experimentos e responsabiliza-se por pequenos depósitos e/ou almoxarifados dos laboratórios, montagem de experimentos.
+ 
+                            </p>
+                            <a href="../Cursos Centro QPs/auxLabQumica.html" class="btn btn-primary">Ver Mais</a>
                         </div>
-                    </li>
+                        <div class="card-footer">
+                            <small class="text-muted"><b>Duração: </b>400 h/a = 333 horas</small>
+                        </div>
+                    </div>
+                </li>
 
-
-                    <li class="filtr-item" data-category="2" style="opacity: 1; transform: scale(1) translate3d(315.25px,630.5px,0px);backface-visibility: hidden;
+                
+                <li class="filtr-item" data-category="2" style="opacity: 1; transform: scale(1) translate3d(315.25px,630.5px,0px);backface-visibility: hidden;
                 perspective: 1000px; transform-style: preserve-3d; position: absolute;
                 transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
-                        <div class="gallery-inner card">
-                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/14.png"
-                                alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">GARÇOM</h5>
-                                <p class="card-text"><br>Capacita o aluno no que diz respeito a prestação de serviços de
-                                    atendimento em restaurantes,
-                                    buffets, eventos, cafés e preparação de bebidas.
+                    <div class="gallery-inner card">
+                        <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/14.png"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">GARÇOM</h5>
+                            <p class="card-text"><br>Capacita o aluno no que diz respeito a prestação de serviços de atendimento em restaurantes, 
+                                buffets, eventos, cafés e preparação de bebidas.
+ 
+                            </p>
+                            <a href="../Cursos Centro QPs/garcom.html" class="btn btn-primary">Ver Mais</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"><b>Duração: </b>320 h/a = 266 horas</small>
+                        </div>
+                    </div>
+                </li>
 
-                                </p>
-                                <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted"><b>Duração: </b>320 h/a = 266 horas</small>
-                            </div>
+                <li class="filtr-item" data-category="2" style="opacity: 1; transform: scale(1) translate3d(630.5px,630.5px,0px);backface-visibility: hidden;
+                perspective: 1000px; transform-style: preserve-3d; position: absolute;
+                transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
+                    <div class="gallery-inner card">
+                        <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/12.png"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">INGLÊS PARA ATENDIMENTO COMERCIAL </h5>
+                            <p class="card-text"><br>Capacita o aluno no sentido de promover a noção básica deste idioma para comunicação com clientes.<br><br></p>
+                            <a href="../Cursos Centro QPs/inglesComercial.html" class="btn btn-primary">Ver Mais</a>
                         </div>
-                    </li>
+                        <div class="card-footer">
+                            <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas</small>
+                        </div>
+                    </div>
+                </li>
 
-                    <li class="filtr-item" data-category="2" style="opacity: 1; transform: scale(1) translate3d(630.5px,630.5px,0px);backface-visibility: hidden;
+                <li class="filtr-item" data-category="2" style="opacity: 1; transform: scale(1) translate3d(945.75px,630.5px,0px);backface-visibility: hidden;
                 perspective: 1000px; transform-style: preserve-3d; position: absolute;
                 transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
-                        <div class="gallery-inner card">
-                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/12.png"
-                                alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">INGLÊS PARA ATENDIMENTO COMERCIAL </h5>
-                                <p class="card-text"><br>Capacita o aluno no sentido de promover a noção básica deste
-                                    idioma para comunicação com clientes.<br><br></p>
-                                <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas</small>
-                            </div>
+                    <div class="gallery-inner card">
+                        <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/11.png"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">PADEIRO/ CONFEITEIRO</h5>
+                            <p class="card-text"><br>Noções de higiene e manipulação de alimentos, dos principais equipamentos e técnicas de panificação e confeitaria</p>
+                            <a href="../Cursos Centro QPs/padeiro.html" class="btn btn-primary">Ver Mais</a>
                         </div>
-                    </li>
+                        <div class="card-footer">
+                            <small class="text-muted"><b>Duração: </b>400 h/a = 333 horas</small>
+                        </div>
+                    </div>
+                </li>
 
-                    <li class="filtr-item" data-category="2" style="opacity: 1; transform: scale(1) translate3d(945.75px,630.5px,0px);backface-visibility: hidden;
+<!--NOITE-->
+                <li class="filtr-item" data-category="3" style="opacity: 1; transform: scale(1) translate3d(945.75px,630.5px,0px);backface-visibility: hidden;
                 perspective: 1000px; transform-style: preserve-3d; position: absolute;
                 transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
-                        <div class="gallery-inner card">
-                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/11.png"
-                                alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">PADEIRO/ CONFEITEIRO</h5>
-                                <p class="card-text"><br>Noções de higiene e manipulação de alimentos, dos principais
-                                    equipamentos e técnicas de panificação e confeitaria</p>
-                                <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted"><b>Duração: </b>400 h/a = 333 horas</small>
-                            </div>
+                    <div class="gallery-inner card">
+                        <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/18.png"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">AUXILIAR DE DEPART. PESSOAL/RECURSOS HUMANOS </h5>
+                            <p class="card-text">Capacita o aluno para atividades relacionadas a administração de pessoas.</p>
+                            <a href="../Cursos Centro QPs/auxRh.html" class="btn btn-primary">Ver Mais</a>
                         </div>
-                    </li>
+                        <div class="card-footer">
+                            <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas</small>
+                        </div>
+                    </div>
+                </li>
+                <li class="filtr-item" data-category="3" style="opacity: 1; transform: scale(1) translate3d(945.75px,630.5px,0px);backface-visibility: hidden;
+                perspective: 1000px; transform-style: preserve-3d; position: absolute;
+                transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
+                    <div class="gallery-inner card">
+                        <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/16.png"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">AUXILIAR FINANCEIRO</h5>
+                            <p class="card-text">Capacita o aluno para gerar lançamentos contábeis, auxiliar no levantamento e acompanhamento das transações financeiras, e controle do fluxo de caixa.</p>
+                            <a href="../Cursos Centro QPs/financeiro.html" class="btn btn-primary">Ver Mais</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas</small>
+                        </div>
+                    </div>
+                </li>
+                <li class="filtr-item" data-category="3" style="opacity: 1; transform: scale(1) translate3d(945.75px,630.5px,0px);backface-visibility: hidden;
+                perspective: 1000px; transform-style: preserve-3d; position: absolute;
+                transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
+                    <div class="gallery-inner card">
+                        <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/11.png"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">PADEIRO/ CONFEITEIRO</h5>
+                            <p class="card-text">Noções de higiene e manipulação de alimentos, dos principais equipamentos e técnicas de panificação e confeitaria</p>
+                            <a href="../Cursos Centro QPs/padeiro.html" class="btn btn-primary">Ver Mais</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"><b>Duração: </b>400 h/a = 333 horas</small>
+                        </div>
+                    </div>
+                </li>
+			 </ul>
+		</div>
 
-                    <!--NOITE-->
-                    <li class="filtr-item" data-category="3" style="opacity: 1; transform: scale(1) translate3d(945.75px,630.5px,0px);backface-visibility: hidden;
-                perspective: 1000px; transform-style: preserve-3d; position: absolute;
-                transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
-                        <div class="gallery-inner card">
-                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/18.png"
-                                alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">AUXILIAR DE DEPART. PESSOAL/RECURSOS HUMANOS </h5>
-                                <p class="card-text">Capacita o aluno para atividades relacionadas a administração de
-                                    pessoas.</p>
-                                <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas</small>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="filtr-item" data-category="3" style="opacity: 1; transform: scale(1) translate3d(945.75px,630.5px,0px);backface-visibility: hidden;
-                perspective: 1000px; transform-style: preserve-3d; position: absolute;
-                transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
-                        <div class="gallery-inner card">
-                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/16.png"
-                                alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">AUXILIAR FINANCEIRO</h5>
-                                <p class="card-text">Capacita o aluno para gerar lançamentos contábeis, auxiliar no
-                                    levantamento e acompanhamento das transações financeiras, e controle do fluxo de
-                                    caixa.</p>
-                                <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas</small>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="filtr-item" data-category="3" style="opacity: 1; transform: scale(1) translate3d(945.75px,630.5px,0px);backface-visibility: hidden;
-                perspective: 1000px; transform-style: preserve-3d; position: absolute;
-                transition: all 0.5s ease-in-out 0ms; pointer-events: auto;">
-                        <div class="gallery-inner card">
-                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/11.png"
-                                alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">PADEIRO/ CONFEITEIRO</h5>
-                                <p class="card-text">Noções de higiene e manipulação de alimentos, dos principais
-                                    equipamentos e técnicas de panificação e confeitaria</p>
-                                <a href="../sedes/Cursos José Alves/auxAdm.html" class="btn btn-primary">Ver Mais</a>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted"><b>Duração: </b>400 h/a = 333 horas</small>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- jQuery -->
+		
+	</section>
+	<!-- jQuery -->
     <script src="../js/jquery-3.3.1.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/jquery.filterizr.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/jquery.filterizr.min.js"></script>
     <script src="../js/script.js"></script>
 
-
-    <!--
+<!--
     <div class="container" style="background-color: aqua; width: 100%; height: 1800px;"></div>
 -->
 
-   
-    <br>
-    <hr>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="tab-content" id="nav-pills-content">
-                <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
-                    <div class="row">
-                        <div class="col-sm-5">
-                            <!-- Parte da descrissão -->
-                            <h1>Ceprocamp - Centro </h1>
-                            <br>
-                            <span style="font-weight: bold;">Endereço: </span>Avenida 20 de Novembro,
-                            145. <br>
-                            Campinas-SP (ao lado da Estação Cultura). <br><span style="font-weight: bold;">CEP:</span>
-                            13013-140.
-                            <p><span style="font-weight: bold;">Gestor:</span> Laderlei Luiz Marangoni
-                            </p>
-                            <p style="font-weight: bold">Para mais informações:</p><span
-                                style="font-weight: bold;">Telefone:</span>
-                            (19) 3731.3650. <br>
-                            <span style="font-weight: bold;">E-mail:</span> <a style="color: #fe5722;"
-                                href="mailto:fumec.ceprocamp@campinas.sp.gov.br">fumec.ceprocamp@campinas.sp.gov.br</a>
-                            <!-- <span style="color: darkgreen;">Whatsapp:</span> (19) 99802-2423. <br> -->
-                            </p>
-                        </div>
-                        <div class="col-sm-7">
-                            <!-- Parte aonde deve colocar o google maps -->
-                            <div id="mapf" class="col-sm">
-                                <iframe class="map-big"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1611.6004010871873!2d-47.066509884600116!3d-22.908321123006417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c8b700170993%3A0x448db64c645985ad!2sCEPROCAMP!5e1!3m2!1spt-BR!2sbr!4v1620853110117!5m2!1spt-BR!2sbr"
-                                    width="650" height="450" style="border: 1px solid black; border-radius: 5px;"
-                                    allowfullscreen="" loading="lazy"></iframe>
-                                <iframe class="map-small"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1611.6004010871873!2d-47.066509884600116!3d-22.908321123006417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c8b700170993%3A0x448db64c645985ad!2sCEPROCAMP!5e1!3m2!1spt-BR!2sbr!4v1620853110117!5m2!1spt-BR!2sbr"
-                                    width="250" height="150" style="border:1px solid black; border-radius: 5px;"
-                                    allowfullscreen="" loading="lazy"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Site footer -->
+  <!-- Site footer -->
     <footer class="site-footer">
-        <div class="container">
+        <div class="container" style="initial-value: 1300px;">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
+                    <hr>
                     <h6>CEPROCAMP - Unidade Centro</h6>
                     <p class="text-justify">Avenida 20 de Novembro, 145 – 13013-140 – Centro – Campinas/SP (ao lado
                         da
@@ -514,22 +457,24 @@
                 </div>
 
                 <div class="col-xs-6 col-md-3">
+                    <hr>
                     <h6>Categorias</h6>
                     <ul class="footer-links">
                         <li><a href="../Cursos Centro QPs/PaginaQps.html">Qualificação Proficional</a></li>
-                        <li><a href="../Cursos Centro Téc/PaginaTec.html">Técnicos</a></li>
+                        <li><a href="../Cursos Centro Téc/PaginaTec.html" target="_blank">Técnicos</a></li>
                         <li><a href="#">Editais</a></li>
 
                     </ul>
                 </div>
 
                 <div class="col-xs-6 col-md-3">
+                    <hr>
                     <h6>Mais</h6>
                     <ul class="footer-links">
                         <li><a href="#">Calendário</a></li>
                         <li><a href="#">Contato</a></li>
                         <li><a href="#">Sobre nós</a></li>
-                        <li><a href="https://www.fumec.sp.gov.br/">Fumec</a></li>
+                        <li><a href="https://www.fumec.sp.gov.br/" target="_blank">Fumec</a></li>
                     </ul>
                 </div>
             </div>
@@ -545,36 +490,17 @@
 
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <ul class="social-icons">
-                        <li><a class="facebook" href="https://www.facebook.com/fumec.cepro/"><img
-                                    src="../../../img/icon-face.png" alt=""><i class="fa fa-facebook"></i></a></li>
-                        <li><a class="Instagram" href="https://www.instagram.com/fumec.cepro/"><img
+                        <li><a class="facebook" href="https://www.facebook.com/fumec.cepro/" target="_blank"><img
+                                    src="../img/icon-face.png" alt=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="Instagram" href="https://www.instagram.com/fumec.cepro/" target="_blank"><img
                                     src="../../../img/icon-insta.png" alt=""><i class="fa fa-insta"></i></a></li>
-                        <li><a class="Youtube" href="https://www.youtube.com/channel/UC1He1mXyJyfIkIh2RvG7A7Q"><img
-                                    src="../../../img/icon-youtube.png" alt=""><i class="fa fa-youtube"></i></a></li>
+                        <li><a class="Youtube" href="https://www.youtube.com/channel/UC1He1mXyJyfIkIh2RvG7A7Q" target="_blank"><img
+                                    src="../img/icon-youtube.png" alt=""><i class="fa fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
-
-
-    <!-- Script Collapse -->
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.maxHeight) {
-                    content.style.maxHeight = null;
-                } else {
-                    content.style.maxHeight = content.scrollHeight + "px";
-                }
-            });
-        }
-    </script>
 </body>
 
 </html>
