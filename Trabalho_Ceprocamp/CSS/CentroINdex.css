@@ -4,7 +4,15 @@
   box-sizing: border-box;
 }
 
-
+/* Carrosel li */
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.carousel-indicators .active{
+  background-color: #FE5722FF;
+}
 /* Tabela */
 
 th, td {
