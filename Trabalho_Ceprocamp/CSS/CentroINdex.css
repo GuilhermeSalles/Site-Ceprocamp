@@ -225,7 +225,7 @@ p {
   color: #737373;
 }
 .site-footer a:hover {
-  color: #3366cc;
+  color: #FE5722FF;
   text-decoration: none;
 }
 .footer-links {
@@ -241,7 +241,7 @@ p {
 .footer-links a:active,
 .footer-links a:focus,
 .footer-links a:hover {
-  color: #3366cc;
+  color: #FE5722FF;
   text-decoration: none;
 }
 .footer-links.inline li {
@@ -311,7 +311,7 @@ p {
 .social-icons a:focus,
 .social-icons a:hover {
   color: #fff;
-  background-color: #29aafe;
+  background-color: #FE5722FF;;
 }
 .social-icons.size-sm a {
   line-height: 34px;
