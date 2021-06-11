@@ -39,12 +39,74 @@ ul.b {
   background-image: linear-gradient(to right, #CCC, #CCC, transparent);  
 }
 
+.hr4M {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, #CCC, transparent, transparent);  
+}
+
 .hr5 {
  width: 30%;
  border: solid;
  color: #FE5722FF;
  border-radius: 10px;
 }
+
+.hrPER {
+  width: 30%;
+  border: solid;
+  color: #FE5722FF;
+  border-radius: 10px;
+  margin-top: 0%;
+ }
+
+.hrPER1 {
+  width: 45%;
+  border: solid;
+  color: #FE5722FF;
+  border-radius: 10px;
+  margin-top: 0%;
+ }
+
+.hrPER2{
+  width: 40%;
+  border: solid;
+  color: #FE5722FF;
+  border-radius: 10px;
+  margin-top: 0%;
+ }
+
+.hrPER3{
+  width: 35%;
+  border: solid;
+  color: #FE5722FF;
+  border-radius: 10px;
+  margin-top: 0%;
+ }
+
+.hrPER4{
+  width: 51%;
+  border: solid;
+  color: #FE5722FF;
+  border-radius: 10px;
+  margin-top: 0%;
+ }
+
+.hrPER5{
+  width: 29%;
+  border: solid;
+  color: #FE5722FF;
+  border-radius: 10px;
+  margin-top: 0%;
+ }
+
+ .hrPER6{
+  width: 20%;
+  border: solid;
+  color: #FE5722FF;
+  border-radius: 10px;
+  margin-top: 0%;
+ }
 
 .hr5r {
  width: 80%;
