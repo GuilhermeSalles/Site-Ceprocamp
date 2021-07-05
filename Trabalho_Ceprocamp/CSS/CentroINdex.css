@@ -4,6 +4,25 @@
   box-sizing: border-box;
 }
 
+/* Cards */
+
+.card{ 
+  box-shadow:  3px 3px gray;
+}
+
+.cardM{ 
+  box-shadow:  3px 3px hsla(214, 50%, 60%, 0);
+}
+
+.cardT{ 
+  box-shadow:  3px 3px hsla(26, 50%, 60%, 0);
+}
+
+.cardN{ 
+  box-shadow:  3px 3px hsla(131, 32%, 20%, 0);
+}
+
+
 /* Link NIT */
 .linkNIT{
   color: #FE5722FF;
@@ -12,6 +31,12 @@
 .linkNIT:hover{
   color: rgba(232, 114, 23, 0.755);
 }
+
+/* Boto carrossel */
+.btn-light{
+  margin-bottom: 5px;
+}
+
 /* Carrosel li */
 .carousel-indicators li {
   width: 10px;
@@ -21,8 +46,14 @@
 .carousel-indicators .active{
   background-color: #FE5722FF;
 }
-/* Tabela */
 
+/* Mapas */
+.tab-pane{
+  font-size: large;
+}
+
+
+/* Tabela */
 th, td {
   border-bottom: 1px solid #ddd;
   padding: 15px;
@@ -30,7 +61,11 @@ th, td {
 
 
 /* Listas */
+ul.footer-links{
+  font-size: large;
+}
 ul.b {
+  font-size: large;
   list-style-type: square;
 }
 
@@ -38,13 +73,46 @@ ul.b {
 .hr3 {
   border: 0;
   height: 2px;
-  background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+  margin-top: 0%;
+  background-image: linear-gradient(to right, transparent, #FE5722FF, transparent);  
 }
 
-.hr4 {
+.hr4{
   border: 0;
   height: 2px;
-  background-image: linear-gradient(to right, #CCC, #CCC, transparent);  
+  background-color: #FE5722FF;
+}
+
+.Qp{
+  border: 0;
+  height: 1px;
+  margin-top: 0%;
+  background-image: linear-gradient(to right, transparent, #FE5722FF, transparent);  
+}
+
+.tec{
+  border: 0;
+  height: 2px;
+  margin-top: 0%;
+  background-image: linear-gradient(to right, transparent, #091db325, transparent);  
+}
+
+.periodoM{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, #142c6a, transparent);  
+}
+
+.periodoT{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, #7b3709, transparent);  
+}
+
+.periodoN{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, #234429, transparent);  
 }
 
 .hr4NIT {
@@ -145,6 +213,7 @@ ul.b {
  border: solid;
  color: #FE5722FF;
  border-radius: 10px;
+ box-shadow: 2px 2px 2px gray;
 }
 
 .hr5u {
@@ -168,6 +237,7 @@ ul.b {
  border: solid;
  color: #FE5722FF;
  border-radius: 10px;
+ box-shadow: 2px 2px 2px gray;
 }
 
 .hr5Ri {
@@ -176,6 +246,7 @@ ul.b {
  border: solid;
  color: #FE5722FF;
  border-radius: 10px;
+ box-shadow: 2px 2px 2px gray;
 }
 
 .hr5c {
@@ -200,6 +271,7 @@ ul.b {
   border: solid;
   color: #FE5722FF;
   border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;
  }
 
 /* A:houver */
@@ -220,6 +292,17 @@ ul.b {
   background-color: #fe5722;
 }
 
+
+/* Textos */
+
+p{
+  font-size: large;
+}
+
+.card-text{
+  color: rgb(85, 85, 85);
+}
+ 
 /*Iframe - Ajuste*/
 @media only screen and (min-width: 1210px) {
   .map-small {
@@ -279,20 +362,6 @@ ul.b {
   max-height: 400px;
 }
 
-.rtejustify {
-  text-align: justify;
-}
-p {
-  margin: 0 0 10px;
-}
-
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
 
 .site-footer {
   background-color: #26272b;
@@ -442,9 +511,6 @@ p {
 
 body {
   font-family: "Montserrat", sans-serif;
-}
-h6, h6{
-  font-weight: bolder;
 }
 
 /*Filtros*/

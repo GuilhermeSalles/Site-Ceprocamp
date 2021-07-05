@@ -4,7 +4,7 @@
     border-color: rgba(191,191,191,0);
     padding: 20px 20px 20px 20px;
     background-color: #d64c22;
-    box-shadow: 5px 0px 5px gray;
+    box-shadow: 5px 5px 5px gray;
     color: white;
     cursor: pointer;
     border-radius: 10px;
@@ -14,6 +14,7 @@
     outline: none;
     font-size: 15px;
   }
+  
   
   .collapsible:hover {
     background-color: #fe5722;
@@ -45,6 +46,7 @@
 /* Botoes curso houver */
   .bhouver{
     background-color: #fe5722;
+    box-shadow:  5px 5px 5px gray;
   }
   
   .bhouver:hover{
@@ -81,3 +83,10 @@
     
   }
   
+
+  /* textos */
+.collapsible{
+    font-size: large;
+}
+ 
+ 
