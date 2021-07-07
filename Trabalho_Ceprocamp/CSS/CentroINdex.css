@@ -14,18 +14,20 @@ h2{
 
 [data-anime] {
   opacity: 0;
-  transition: .2s;
+  transition: .3s;
 }
 
 [data-anime="left"] {
   transform: translate3d(-50px, 0, 0);
-  transition: .1s;
 }
 [data-anime="right"] {
   transform: translate3d(50px, 0, 0);
 }
 [data-anime="down"] {
   transform: translate3d(0, 50px, 0);
+}
+[data-anime="top"] {
+  transform: translate3d(0, -50px, 0);
 }
 
 [data-anime].animate {
@@ -95,7 +97,7 @@ ul.footer-links{
 }
 ul.b {
   font-size: large;
-  list-style-type: square;
+  list-style-type: disc;
 }
 
 /* hr */
