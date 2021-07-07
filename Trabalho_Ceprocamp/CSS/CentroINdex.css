@@ -170,6 +170,12 @@ ul.b {
   background-image: linear-gradient(to right, #FE5722FF, #FE5722FF, #FE5722FF);  
 }
 
+.LinkNit {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #FE5722FF, transparent);  
+}
+
 .hr4M {
   border: 0;
   height: 2px;
@@ -185,6 +191,22 @@ ul.b {
 
 .hrPER {
   width: 30%;
+  border: solid;
+  color: #FE5722FF;
+  border-radius: 10px;
+  margin-top: 0%;
+ }
+
+ .NIT {
+  width: 31%;
+  border: solid;
+  color: #FE5722FF;
+  border-radius: 10px;
+  margin-top: 0%;
+ }
+
+ .estru {
+  width: 100%;
   border: solid;
   color: #FE5722FF;
   border-radius: 10px;
