@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/* btn Filtros */
+.BTNF{
+  border-radius: 10px;
+}
+
 /* Textos turno */
 h2{
   font-weight: bold;
@@ -115,6 +120,13 @@ ul.b {
 }
 
 .Qp{
+  border: 0;
+  height: 1px;
+  margin-top: 0%;
+  background-image: linear-gradient(to right, transparent, #FE5722FF, transparent);  
+}
+
+.F{
   border: 0;
   height: 1px;
   margin-top: 0%;
