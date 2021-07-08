@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="../../../CSS/CentroINdex.css">
-    <link rel="stylesheet" href="../../../CSS/cursos.css">
+    <!--Parte do filtro-->
+    <link rel="stylesheet" type="text/css" href="../../../CSS/filtro.css">
     <title>CEPROCAMP - Centro de Educação Profissional de Campinas |</title>
 </head>
 
@@ -169,53 +170,367 @@
     </nav>
     <!-- Fim do Menu -->
 
-     
-    <br>
-    <br>
 
-    <!-- Parte cinza claro sobre o Local que deve colocar o google maps e alterar a descrissão-->
-    <br>
-    <div class="jumbotron jumbotron-fluid" data-anime="left">
-        <div class="container">
-            <div class="tab-content" id="nav-pills-content">
-                <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
-                    <div class="row">
-                        <div class="col-sm-5">
-                            <!-- Parte da descrissão -->
-                            <h1>Ceprocamp - Centro </h1>
-                            <br>
-                            <span style="font-weight: bold;">Endereço: </span>Avenida 20 de Novembro,
-                            145. <br>
-                            Campinas-SP (ao lado da Estação Cultura). <br><span style="font-weight: bold;">CEP:</span>
-                            13013-140.
-                            <p><span style="font-weight: bold;">Gestor:</span> Laderlei Luiz Marangoni
-                            </p>
-                            <p style="font-weight: bold">Para mais informações:</p><span
-                                style="font-weight: bold;">Telefone:</span>
-                            (19) 3731.3650. <br>
-                            <span style="font-weight: bold;">E-mail:</span> <a style="color: #fe5722;"
-                                href="mailto:fumec.ceprocamp@campinas.sp.gov.br">fumec.ceprocamp@campinas.sp.gov.br</a>
-                            <!-- <span style="color: darkgreen;">Whatsapp:</span> (19) 99802-2423. <br> -->
-                            </p>
+    <div class="container mb-0">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <br>
+                    <br>
+                    <h2 style="color: rgb(75, 75, 75); font-weight: bold;">Horário cursos Centro</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul id="filter-list">
+                    <li class="filter activef" data-filter="all">TODOS</li>
+                    <li class="filter" data-filter="1">MANHÃ</li>
+                    <li class="filter" data-filter="2">TARDE</li>
+                    <li class="filter" data-filter="3">NOITE</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="height: 3500px;">
+        <div class="gallery-outer">
+            <div class="gallery-items"> 
+
+                <!--NOITE-->
+                <div class="row">
+                    <div class="card-deck filtr-item" data-category="3">
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/18.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">AUXILIAR DE DEPART. PESSOAL/RECURSOS HUMANOS </h5>
+                                <p class="card-text">Capacita o aluno para atividades relacionadas a administração de
+                                    pessoas.</p>
+                                <a href="../Cursos Centro QPs/auxRh.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas</small>
+                            </div>
                         </div>
-                        <div class="col-sm-7">
-                            <!-- Parte aonde deve colocar o google maps -->
-                            <div id="mapf" class="col-sm">
-                                <iframe class="map-big"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1611.6004010871873!2d-47.066509884600116!3d-22.908321123006417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c8b700170993%3A0x448db64c645985ad!2sCEPROCAMP!5e1!3m2!1spt-BR!2sbr!4v1620853110117!5m2!1spt-BR!2sbr"
-                                    width="650" height="450" style="border: 1px solid black; border-radius: 5px;"
-                                    allowfullscreen="" loading="lazy"></iframe>
-                                <iframe class="map-small"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1611.6004010871873!2d-47.066509884600116!3d-22.908321123006417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c8b700170993%3A0x448db64c645985ad!2sCEPROCAMP!5e1!3m2!1spt-BR!2sbr!4v1620853110117!5m2!1spt-BR!2sbr"
-                                    width="250" height="150" style="border:1px solid black; border-radius: 5px;"
-                                    allowfullscreen="" loading="lazy"></iframe>
+
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/16.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">AUXILIAR FINANCEIRO</h5>
+                                <p class="card-text">Capacita o aluno para gerar lançamentos contábeis, auxiliar no
+                                    levantamento e acompanhamento das transações financeiras, e controle do fluxo de
+                                    caixa.
+                                </p>
+                                <a href="../Cursos Centro QPs/financeiro.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas</small>
+                            </div>
+                        </div>
+
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/11.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">PADEIRO/ CONFEITEIRO</h5>
+                                <p class="card-text">Noções de higiene e manipulação de alimentos, dos principais
+                                    equipamentos e técnicas de panificação e confeitaria</p>
+                                <a href="../Cursos Centro QPs/padeiro.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>400 h/a = 333 horas</small>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <br>
+                <br>
+
+                <!--TARDE-->
+                <div class="row">
+                    <div class="card-deck filtr-item" data-category="2">
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/15.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">DESENHO TÉCNICO CAD</h5>
+                                <p class="card-text"><br>Especialização em Desenho Técnico e CAD. (Autocad). Desenhos
+                                    para
+                                    arquitetura
+                                    (plantas), mecânica e marcenaria.
+                                </p>
+                                <a href="../Cursos Centro QPs/cad.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>80 h/a = 67 horas</small>
+                            </div>
+                        </div>
+
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/22.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">AGENTE DE CONTROLE DE ENDEMIAS</h5>
+                                <p class="card-text">Capacita o aluno com a competência de realizar a vigilância,
+                                    prevenção, controle de doenças e promoção da saúde no Sistema Único de Saúde.
+
+                                </p>
+                                <a href="../Cursos Centro QPs/edemias.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas</small>
+                            </div>
+                        </div>
+
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/17.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">AUXILIAR DE LABORATÓRIO DE QUÍMICA</h5>
+                                <p class="card-text">Capacita o aluno para preparar reagentes, peças e outros materiais
+                                    utilizados
+                                    em experimentos e responsabiliza-se por pequenos depósitos e/ou almoxarifados dos
+                                    laboratórios, montagem de experimentos.
+
+                                </p>
+                                <a href="../Cursos Centro QPs/auxLabQumica.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>400 h/a = 333 horas</small>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <div class="row">
+                    <div class="card-deck filtr-item" data-category="2">
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/14.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">GARÇOM</h5>
+                                <p class="card-text"><br>Capacita o aluno no que diz respeito a prestação de serviços de
+                                    atendimento em restaurantes,
+                                    buffets, eventos, cafés e preparação de bebidas.
+
+                                </p>
+                                <a href="../Cursos Centro QPs/garcom.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>320 h/a = 266 horas</small>
+                            </div>
+                        </div>
+
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/12.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">INGLÊS PARA ATENDIMENTO COMERCIAL </h5>
+                                <p class="card-text"><br>Capacita o aluno no sentido de promover a noção básica deste
+                                    idioma
+                                    para comunicação com clientes.<br><br></p>
+                                <a href="../Cursos Centro QPs/inglesComercial.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas</small>
+                            </div>
+                        </div>
+
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/11.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">PADEIRO/ CONFEITEIRO</h5>
+                                <p class="card-text"><br>Noções de higiene e manipulação de alimentos, dos principais
+                                    equipamentos e técnicas de panificação e confeitaria</p>
+                                <a href="../Cursos Centro QPs/padeiro.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>400 h/a = 333 horas</small>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="row">
+                    <!--Manhã-->
+                    <div class="card-deck filtr-item" data-category="1">
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/21.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">AGENTE DE SEGURANÇA DO TRABALHO E HIGIENE OCUPACIONAL</h5>
+                                <p class="card-text">Capacita o aluno na identificação e avaliação dos riscos
+                                    ocupacionais
+                                    no
+                                    ambiente de trabalho, com foco na insalubridade e periculosidade.
+                                </p>
+                                <a href="../Cursos Centro QPs/agenteSegHigi.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas
+                                </small>
+                            </div>
+                        </div>
+
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/20.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">ALMOXARIFE </h5>
+                                <p class="card-text"><bR>Capacita o aluno para controlar a entrada e saída de produtos e
+                                    materiais,
+                                    assim como o armazenamento adequado.
+
+                                </p>
+                                <a href="../Cursos Centro QPs/almoxarife.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>400 h/a = 333 horas
+                                </small>
+                            </div>
+                        </div>
+
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/11.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">PADEIRO/ CONFEITEIRO</h5>
+                                <p class="card-text">Noções de higiene e manipulação de alimentos, dos principais
+                                    equipamentos e técnicas de panificação e confeitaria</p>
+                                <a href="../Cursos Centro QPs/padeiro.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>400 h/a = 333 horas</small>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <br>
+                <br>
+
+
+                <div class="row">
+                    <div class="card-deck filtr-item" data-category="1">
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/3.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">AUXILIAR DE LOGÍSTICA </h5>
+                                <p class="card-text">Capacita o aluno para realizar atividades de processamento de
+                                    pedidos,
+                                    planejamento e
+                                    operação de recebimento, de conferência, de armazenagem, de programação de produção,
+                                    de
+                                    separação e distribuição de produtos.
+                                </p>
+                                <a href="../Cursos Centro QPs/auxLog.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas
+                                </small>
+                            </div>
+                        </div>
+
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/5.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">CUIDADOR DE PESSOAS</h5>
+                                <p class="card-text"><br>Capacita o aluno no que diz respeito aos cuidados com idosos,
+                                    crianças e pessoas com deficiência.<br><br>
+
+                                </p>
+                                <a href="../Cursos Centro QPs/cuidadorPessoas.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas
+                                </small>
+                            </div>
+                        </div>
+
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/13.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">INFORMÁTICA BÁSICA</h5>
+                                <p class="card-text">Capacita o aluno para utilizar as principais funções do Windows,
+                                    assim
+                                    como
+                                    fazer uso das ferramentas de Word, Excel e PowerPoint e Internet.
+
+                                </p>
+                                <a href="../Cursos Centro QPs/info.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>160 h/a = 133 horas
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <br> 
+                <br>
+
+                <div class="row">
+                    <div class="card-deck filtr-item" data-category="1">
+                        <div class="gallery-inner card">
+                            <img class="card-img-top" src="../../../img/CAPA MINIATURA CURSOS/8.png"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">PORTEIRO/CONTROLADOR DE ACESSO</h5>
+                                <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                                    recepcionar e orientar visitantes em condomínios e empresas.
+                                </p>
+                                <a href="../Cursos Centro QPs/porteiro.html" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas
+                                </small>
+                            </div>
+                        </div>
+
+                        <div class="gallery-inner card " style="border: white;box-shadow: none; box-shadow: white;">
+                        </div>
+                        <div class="gallery-inner card " style="border: white;box-shadow: none; box-shadow: white;">
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="../../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../../js/jquery.filterizr.min.js"></script>
+    <script src="../../../js/filtro.js"></script>
+
+    <br>
+    <br>
+
+    <!-- Parte cinza claro sobre o Local que deve colocar o google maps e alterar a descrissão-->
+
 
     <!-- footer -->
     <footer class="site-footer">

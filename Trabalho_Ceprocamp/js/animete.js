@@ -1,12 +1,12 @@
 
 // Debounce do loadash
-const debounce = function (func, wait, immediate){
+const debounce = function (func, wait, immediate) {
     let timeout;
     return function (...args) {
         const context = this;
         const later = function () {
             timeout = null;
-            if(!immediate) func.apply(context, args);
+            if (!immediate) func.apply(context, args);
         };
         const callNow = immediate && !timeout;
         clearTimeout(timeout);
@@ -19,9 +19,9 @@ const debounce = function (func, wait, immediate){
 const target = document.querySelectorAll('[data-anime]');
 const animationClass = 'animate';
 
-function animeSscroll(){
-    const windowTop = window.pageYOffset +  ((window.innerHeight * 3) / 4);
-    target.forEach(function(element) {
+function animeSscroll() {
+    const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
+    target.forEach(function (element) {
         if ((windowTop) > element.offsetTop) {
             element.classList.add(animationClass);
         } else {
@@ -29,15 +29,15 @@ function animeSscroll(){
         }
     })
 }
-
+ 
 animeSscroll();
 
 if (target.length) {
-    window.addEventListener('scroll',  function(){
+    window.addEventListener('scroll',debounce(function () {
         animeSscroll();
-    });
+    }),100);
 };
 
 
- 
+
 
