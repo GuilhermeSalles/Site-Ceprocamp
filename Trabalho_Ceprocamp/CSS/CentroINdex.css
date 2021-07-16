@@ -3,6 +3,49 @@
   padding: 0px;
   box-sizing: border-box;
 }
+/* filtro */
+
+.main-btn {
+  background-color: #fe5722;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: 0.3s;
+}
+ 
+
+.project-box {
+  margin-bottom: 30px;
+}
+
+#filter-btn-box {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#portfolio-area .filter-btn {
+  color: #444;
+  border: 1px solid #444;
+  background-color: transparent;
+  text-transform: none;
+  margin: 0 15px;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+}
+
+#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+  color: #FFF;
+  border: 1px solid #fe5722;
+  background-color: #fe5722;
+}
+
 
 /* btn Filtros */
 .BTNF{
@@ -106,6 +149,13 @@ ul.b {
 }
 
 /* hr */
+.filtro {
+  border: 20px;
+  height: 5px;
+  margin-top: 0%;
+  background-image: linear-gradient(to right, transparent, #FE5722FF, transparent);  
+}
+
 .hr3 {
   border: 0;
   height: 2px;
