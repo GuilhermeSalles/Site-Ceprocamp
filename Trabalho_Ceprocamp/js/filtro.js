@@ -9,12 +9,12 @@
     $('.main-btn').removeClass('active');
     $(this).addClass('active');
 
-    if(type == 'dsg-btn') {
-      eachBoxes('dsg', boxes);
-    } else if(type == 'dev-btn') {
-      eachBoxes('dev', boxes);
-    } else if(type == 'seo-btn') {
-      eachBoxes('seo', boxes);
+    if(type == 't-btn') {
+      eachBoxes('t', boxes);
+    } else if(type == 'm-btn') {
+      eachBoxes('m', boxes);
+    } else if(type == 'n-btn') {
+      eachBoxes('n', boxes);
     } else {
       eachBoxes('all', boxes);
     }
