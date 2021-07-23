@@ -29,7 +29,7 @@
 #area .filter-btn {
   color: rgb(85, 85, 85);
   border: 1px solid #fe5722;
-  box-shadow: 2px 2px 3px 2px gray;
+  box-shadow: 2px 2px 3px 2px rgba(128, 128, 128, 0.303);
   background-color: transparent;
   text-transform: none;
   margin: 0 15px;
@@ -86,21 +86,9 @@ h2{
 /* Cards */
 
 .card{ 
-  box-shadow:  3px 3px gray;
+  box-shadow:  3px 3px rgba(128, 128, 128, 0.501);
 }
-
-.cardM{ 
-  box-shadow:  3px 3px hsla(214, 50%, 60%, 0);
-}
-
-.cardT{ 
-  box-shadow:  3px 3px hsla(26, 50%, 60%, 0);
-}
-
-.cardN{ 
-  box-shadow:  3px 3px hsla(131, 32%, 20%, 0);
-}
-
+  
 
 /* Link NIT */
 .linkNIT{
@@ -415,7 +403,7 @@ p{
 }
 
 .card-text{
-  color: rgb(85, 85, 85);
+  color: rgb(75, 75, 75);
 }
  
 /*Iframe/Ajustes de tela*/
@@ -624,6 +612,7 @@ p{
 #img-pdf {
   font-size: 27px;
 }
+
 /* Import de fonte */
 
 body {
