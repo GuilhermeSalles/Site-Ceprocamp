@@ -1,9 +1,9 @@
   /* Collapse */
-  .collapsible {
+  .collapsibleCurso {
     border-color: rgba(191,191,191,0);
     padding: 20px 20px 20px 20px;
     background-color: #d64c22;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 3px 3px 3px rgba(75, 75, 75, 0.501);
     color: white;
     cursor: pointer;
     border-radius: 10px;
@@ -14,12 +14,11 @@
     font-size: 15px;
   }
   
-  
   .collapsible:hover {
     background-color: #fe5722;
   }
   
-  .collapsible:after {
+  .collapsibleCurso:after {
     content: '\002B';
     color: white;
     font-weight: bold;
@@ -27,25 +26,25 @@
     margin-left: 5px;
   }
   
-  .active:after {
+  .activeCurso:after {
     content: "\2212";
     color: #e9e9e9e3;
   }
   
-  .contentC {
+  .contentCurso {
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
     border-radius: 10px;
     transition: max-height 0.3s ease-out;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 3px 3px 3px rgba(75, 75, 75, 0.501);
     background-color: #f1f1f1;
   }
 
 /* Botoes curso houver */
   .bhouver{
     background-color: #fe5722;
-    box-shadow:  5px 5px 5px gray;
+    box-shadow: 3px 3px 3px rgba(75, 75, 75, 0.501);
   }
   
   .bhouver:hover{
@@ -84,7 +83,7 @@
   
 
   /* textos */
-.collapsible{
+.collapsibleCurso{
     font-size: large;
 }
   h2 {

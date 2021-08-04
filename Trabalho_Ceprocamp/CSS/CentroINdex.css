@@ -29,7 +29,7 @@
 #area .filter-btn {
   color: rgb(85, 85, 85);
   border: 1px solid #fe5722;
-  box-shadow: 2px 2px 3px 2px rgba(128, 128, 128, 0.303);
+  box-shadow: 2px 2px 2px rgba(75, 75, 75, 0.501);
   background-color: transparent;
   text-transform: none;
   margin: 0 15px;
@@ -56,6 +56,15 @@
 h2{
   font-weight: bold;
   margin-bottom: 30px;
+}
+
+.bold{
+  font-weight: bold;
+  color: rgb(75, 75, 75);
+}
+/* Sombras Imagens */
+.img-fluid{
+  box-shadow: 3px 3px 3px rgba(75, 75, 75, 0.501);
 }
 
 /* Animate */
@@ -86,7 +95,7 @@ h2{
 /* Cards */
 
 .card{ 
-  box-shadow:  3px 3px rgba(128, 128, 128, 0.501);
+  box-shadow: 3px 3px rgba(75, 75, 75, 0.501);
 }
   
 
@@ -151,11 +160,10 @@ ul.b {
   background-image: linear-gradient(to right, transparent, #FE5722FF, transparent);  
 }
 
-.hr4{
-  border: 0;
-  height: 2px;
-  margin-top: 0%;
-  background-image: linear-gradient(to right, #FE5722FF, #FE5722FF, #FE5722FF);  
+.hr4{ 
+  border-radius: 2px;
+  border-left-style: solid;
+  border-left-color: #fe5722;
 }
 
 .Qp{
@@ -313,7 +321,7 @@ ul.b {
  }
 
 .hr5r {
- width: 80%;
+ width: 10%;
  border: solid;
  color: #FE5722FF;
  border-radius: 10px;
@@ -371,7 +379,7 @@ ul.b {
 
 .hr5Per {
   margin-top: 0%;
-  width: 45%;
+  width: 10%;
   border: solid;
   color: #FE5722FF;
   border-radius: 10px;
