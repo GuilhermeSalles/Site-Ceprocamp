@@ -5,31 +5,32 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="../../../img/logo.png" type="image/png">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../../CSS/CentroINdex.css">
-    <!--Parte do filtro-->
-    <link rel="stylesheet" type="text/css" href="../../../CSS/cursos.css">
-    <title>CEPROCAMP - Centro de Educação Profissional de Campinas |</title>
-</head>
-
-<body>
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    <link rel="shortcut icon" href="../img/logo.png" type="image/png">
+    <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
-    <script src="../../../node_modules/popper.js/dist/umd/popper.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/CentroINdex.css">
+    <link rel="stylesheet" href="../CSS/cursos.css">
 
-    <!-- Logos antes do menu -->
+    <title>CEPROCAMP - Centro de Educação Profissional de Campinas |</title>
+</head>
+
+<body>
+
+    <!-- Logos antes do menu --> 
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-2 d-lg-block d-none ">
-                <img src="../../../img/logo_campinasP.png" class="img-fluid d-block">
+                <img src="../img/logo_campinasP.png" class="img d-block">
             </div>
 
             <div class="col-sm-8 d-lg-block d-none mt-4">
@@ -37,13 +38,13 @@
             </div>
 
             <div class="col-sm-2 d-lg-block d-none ">
-                <img src="../../../img/logo-direita.png" class="img-fluid d-block">
+                <img src="../img/logo-direita.png" class="img d-block">
             </div>
         </div>
     </div>
 
     <!-- Menu -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container">
             <div class="justify-content-left">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
@@ -53,8 +54,7 @@
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="navbarSite">
-                <a class="navbar-brand h1 mb-1 justify-content-right"
-                    href="../../../index.html">Inicio</a>
+                <a class="navbar-brand h1 mb-1 justify-content-right" href="../index.html">Inicio</a>
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <ul class="navbar-nav ml-auto">
@@ -63,21 +63,20 @@
                                     Unidades
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="../../HTML/../sedes/cambara.html">Cambará</a>
-                                    <a class="dropdown-item" href="../../HTML/../sedes/campoGrande.html">Campo
-                                        Grande</a>
-                                    <a class="dropdown-item" href="../../../HTML/sedes/casi.html">CASI</a>
-                                    <a class="dropdown-item" href="../../../index.html">Centro</a>
-                                    <a class="dropdown-item" href="../../../HTML/sedes/joseAlves.html">José Alves</a>
-                                    <a class="dropdown-item" href="../../../HTML/sedes/myrian.html">Myrian</a>
-                                    <a class="dropdown-item" href="../../../HTML/sedes/ouroVerde.html">Ouro Verde</a>
+                                    <a class="dropdown-item" href="../cambara.html">Cambará</a>
+                                    <a class="dropdown-item" href="../campoGrande.html">Campo Grande</a>
+                                    <a class="dropdown-item" href="../casi.html">CASI</a>
+                                    <a class="dropdown-item" href="../index.html">Centro</a>
+                                    <a class="dropdown-item" href="../joseAlves.html">José Alves</a>
+                                    <a class="dropdown-item" href="../myrian.html">Myrian</a>
+                                    <a class="dropdown-item" href="../ouroVerde.html">Ouro Verde</a>
                                 </div>
                             </li>
                         </ul>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../../sedes/Unidades Parceiras/PaginaUniParceiras.html">Unidades
+                        <a class="nav-link" href="HTML/sedes/Unidades Parceiras/PaginaUniParceiras.html">Unidades
                             Parceiras</a>
                     </li>
 
@@ -89,22 +88,24 @@
                                 </a>
                                 <div class="dropdown-menu">
 
-                                    <a class="dropdown-item" href="../../../Doc/calendario_homologado_2021.pdf"
-                                    target="_blank">Calendário</a>
-                                <a class="dropdown-item" href="https://fumec.sp.gov.br/eja/eja-profissoes"
-                                    target="_blank">EJA Profissões</a>
-                                <a class="dropdown-item" href="https://www.fumec.sp.gov.br/matriz%20curricular "
-                                    target="_blank">Matrizes dos cursos</a>
-                                <a class="dropdown-item" href="../../sedes/QuemSomos.html" target="_blank">Missão,
-                                    Visão e Valores</a>
-                                <a class="dropdown-item" href="https://www.fumec.sp.gov.br/ceprocamp/aluno/planos-ensino"
-                                    target="_blank">Planos de ensino</a>
-                                <a class="dropdown-item" href="https://www.fumec.sp.gov.br/node/634"
-                                    target="_blank">Professores Orientadores de Área - POA's</a>
-                                <a class="dropdown-item" href="../../../Doc/projeto_pedagogico_2018-2021.pdf"
-                                    target="_blank">Projeto Pedagógico</a>
-                                <a class="dropdown-item" href="../../../Doc/regimento_escolar_site_-_com_sumario.pdf"
-                                    target="_blank">Regimento escolar</a>
+                                    <a class="dropdown-item" href="../Doc/calendario_homologado_2021.pdf"
+                                        target="_blank">Calendário</a>
+                                    <a class="dropdown-item" href="https://fumec.sp.gov.br/eja/eja-profissoes"
+                                        target="_blank">EJA Profissões</a>
+                                    <a class="dropdown-item" href="https://www.fumec.sp.gov.br/matriz%20curricular "
+                                        target="_blank">Matrizes dos cursos</a>
+                                    <a class="dropdown-item" href="../QuemSomos.html" target="_blank">Missão,
+                                        Visão e Valores</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.fumec.sp.gov.br/ceprocamp/aluno/planos-ensino"
+                                        target="_blank">Planos de ensino</a>
+                                    <a class="dropdown-item" href="https://www.fumec.sp.gov.br/node/634"
+                                        target="_blank">Professores Orientadores de Área - POA's</a>
+                                    <a class="dropdown-item" href="../Doc/projeto_pedagogico_2018-2021.pdf"
+                                        target="_blank">Projeto Pedagógico</a>
+                                    <a class="dropdown-item" href="../Doc/regimento_escolar_site_-_com_sumario.pdf"
+                                        target="_blank">Regimento escolar</a>
+
                                 </div>
                             </li>
                         </ul>
@@ -113,20 +114,23 @@
                     <li class="nav-item">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
-                                    Aluno
-                                </a>
+                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
+                                    id="navDrop">Aluno</a>
+
                                 <div class="dropdown-menu">
+
                                     <a class="dropdown-item"
                                         href="https://www.fumec.sp.gov.br/ceprocamp/acesso-plataforma-google-class"
                                         target="_blank">Acesso à Plataforma Google Class</a>
-                                    <a class="dropdown-item" href="../../../Doc/HORARIOS DE AULAS.pdf"
-                                        target="_blank">Horarios de aula</a>
+                                    <a class="dropdown-item" href="../Doc/HORARIOS DE AULAS.pdf"
+                                        target="_blank">Horarios
+                                        de aula</a>
                                     <a class="dropdown-item"
                                         href="https://www.fumec.sp.gov.br/sites/www.fumec.sp.gov.br/files/manual_do_aluno_reformulado_2021_0.pdf"
                                         target="_blank">Manual do Aluno</a>
-                                    <a class="dropdown-item" href="../../../Doc/Auxilio transporte.pdf"
+                                    <a class="dropdown-item" href="../Doc/Auxilio transporte.pdf"
                                         target="_blank">Regulamento - Auxílio Transporte</a>
+
                                 </div>
                             </li>
                         </ul>
@@ -137,7 +141,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../../../HTML/Sobre NIT/nit.html">NIT</a>
+                        <a class="nav-link" href="../nit.html">NIT</a>
                     </li>
                     <li class="nav-item">
                         <ul class="navbar-nav ml-auto">
@@ -156,7 +160,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../../../HTML/sedes/PerguntasFrequentes.html">Perguntas Frequentes</a>
+                        <a class="nav-link" href="../PerguntasFrequentes.html">Perguntas Frequentes</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.fumec.sp.gov.br/fale-conosco" target="_blank">Fale
@@ -279,16 +283,16 @@
     </div>
 
     <div class="container">
-       <br>
+        <br>
         <div class="row">
             <div class="col-sm-12 col-md-8 col-xs-8" data-anime="top">
-
+                <br>
                 <h2 class="mb-0" style="font-weight: bold;">Perguntas frequentes <img
-                        src="../../../img/PerguntasFrequentes.png"></h2>
+                        src="../img/PerguntasFrequentes.png"></h2>
                 <hr class="img-small hr5Per">
 
-                <button type="button" class="collapsible"> Certificado </button>
-                <div class="contentC">
+                <button type="button" class="collapsibleCurso"> Certificado </button>
+                <div class="contentCurso">
                     <ul class="b ml-5 mt-4">
                         <li>Após a conclusão do curso, o aluno obtém o certificado.</li>
                     </ul>
@@ -296,13 +300,12 @@
 
                 <br>
 
-                <button type="button" class="collapsible"> Plano de Ensino</button>
-                <div class="contentC">
+                <button type="button" class="collapsibleCurso"> Grade Curricular</button>
+                <div class="contentCurso">
                     <ul class="b ml-5 mt-4">
-                        <li><a class="ahouver" href="https://www.fumec.sp.gov.br/ceprocamp/aluno/planos-ensino">Confira aqui!</a></li>
+                        <li><a class="ahouver" href="#">Confira aqui!</a></li>
                     </ul>
                 </div>
-
 
                 <br>
 
@@ -310,48 +313,7 @@
         </div>
     </div>
     <!-- Fim coisas sobre o curso -->
-
-    <!-- Parte cinza claro sobre o Local que deve colocar o google maps e alterar a descrissão-->
-    <br>
-    <div class="jumbotron jumbotron-fluid" data-anime="left">
-        <div class="container">
-            <div class="tab-content" id="nav-pills-content">
-                <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
-                    <div class="row">
-                        <div class="col-sm-5">
-                            <!-- Parte da descrissão -->
-                            <h1>Unidade Ouro Verde</h1>
-                            <br>
-                            <span style="font-weight: bold;">Endereço: </span>Rua armando frederico renganeschi, 61 <br>
-                            Jardim Cristina (segundo andar), Campinas - SP. <br><span style="font-weight: bold;">CEP:</span>
-                            13054-000.
-    
-                            <p style="font-weight: bold">Para mais informações:</p><span
-                                style="font-weight: bold;">Telefone:</span>
-                            (19) 3731.3650. <br>
-                            <span style="font-weight: bold;">E-mail:</span> <a style="color: #fe5722;"
-                                href="mailto:fumec.ceprocamp@campinas.sp.gov.br">fumec.ceprocamp@campinas.sp.gov.br</a>
-                            </p>
-                        </div>
-                        <div class="col-sm-7">
-                            <!-- Parte aonde deve colocar o google maps -->
-                            <div id="mapf" class="col-sm-12">
-                                <iframe class="map-big"
-                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4799.485797997356!2d-47.13339017357712!3d-22.965963083609772!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5be64393779d4ca9!2sVarej%C3%A3o%20Brasil!5e1!3m2!1spt-BR!2sbr!4v1621536572950!5m2!1spt-BR!2sbr"
-                                    width="650" height="450" style="border: 1px solid black; border-radius: 5px;"
-                                    allowfullscreen="" loading="lazy"></iframe>
-                                <iframe class="map-small"
-                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4799.485797997356!2d-47.13339017357712!3d-22.965963083609772!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5be64393779d4ca9!2sVarej%C3%A3o%20Brasil!5e1!3m2!1spt-BR!2sbr!4v1621536572950!5m2!1spt-BR!2sbr"
-                                    width="250" height="150" style="border:1px solid black; border-radius: 5px;"
-                                    allowfullscreen="" loading="lazy"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
+ 
     <!-- footer -->
     <footer class="site-footer">
         <div class="container">
@@ -368,19 +330,18 @@
                 <div class="col-xs-6 col-md-3">
                     <h6>Categorias</h6>
                     <ul class="footer-links">
-                        <li><a href="../../../HTML/sedes/Cursos Centro QPs/PaginaQps.html">Qualificação Profissional</a>
-                        </li>
-                        <li><a href="../../../index.html">Técnicos</a></li>
+                        <li><a href="../CursosQualificacao.html">Qualificação Profissional</a></li>
+                        <li><a href="../CursosTecnicos.html">Técnicos</a></li>
                     </ul>
                 </div>
 
                 <div class="col-xs-6 col-md-3">
                     <h6>Mais</h6>
                     <ul class="footer-links">
-                        <li><a href="../../../Doc/calendario_homologado_2021.pdf" target="_blank">Calendário</a></li>
+                        <li><a href="../Doc/calendario_homologado_2021.pdf" target="_blank">Calendário</a></li>
                         <li><a href="https://www.fumec.sp.gov.br/">Fumec</a></li>
-                        <li><a href="../../../HTML/sedes/QuemSomos.html">Sobre Ceprocamp</a></li>
-                        <li><a href="../../../HTML/Sobre NIT/nit.html">Sobre Equipe NIT</a></li>
+                        <li><a href="../QuemSomos.html">Sobre Ceprocamp</a></li>
+                        <li><a href="../nit.html">Sobre Equipe NIT</a></li>
                     </ul>
                 </div>
             </div>
@@ -390,23 +351,38 @@
             <div class="row">
                 <div class="col-md-8 col-sm-6 col-xs-12">
                     <p class="copyright-text">Copyright &copy; 2021, NIT - Núcleo de Interação Tecnológica.
-                        <a href="../../../HTML/Sobre NIT/nit.html">NIT</a>.
+                        <a href="../nit.html">NIT</a>.
                     </p>
                 </div>
 
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <ul class="social-icons">
                         <li><a class="facebook" href="https://www.facebook.com/fumec.cepro/"><img
-                                    src="../../../img/icon-face.png" alt=""><i class="fa fa-facebook"></i></a></li>
+                                    src="../mg/icon-face.png" alt=""><i class="fa fa-facebook"></i></a></li>
                         <li><a class="Instagram" href="https://www.instagram.com/fumec.cepro/"><img
-                                    src="../../../img/icon-insta.png" alt=""><i class="fa fa-insta"></i></a></li>
+                                    src="../img/icon-insta.png" alt=""><i class="fa fa-insta"></i></a></li>
                         <li><a class="Youtube" href="https://www.youtube.com/channel/UC1He1mXyJyfIkIh2RvG7A7Q"><img
-                                    src="../../../img/icon-youtube.png" alt=""><i class="fa fa-youtube"></i></a></li>
+                                    src="../img/icon-youtube.png" alt=""><i class="fa fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+
+    <!-- Vlibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <!-- Script Aminação -->
+    <script src="../js/animete.js"></script>
 
     <!-- Script Collapse -->
     <script>
@@ -426,7 +402,6 @@
         }
     </script>
 
-    <script src="../../../js/animete.js"></script>
 </body>
 
 </html>
