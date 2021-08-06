@@ -14,7 +14,7 @@
     font-size: 15px;
   }
   
-  .collapsible:hover {
+  .collapsibleCurso:hover {
     background-color: #fe5722;
   }
   
@@ -93,4 +93,6 @@
   h4 {
     margin-bottom: 0px;
   }
+
+  
  

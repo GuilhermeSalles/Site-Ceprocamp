@@ -153,6 +153,14 @@ ul.b {
   background-image: linear-gradient(to right, transparent, #FE5722FF, transparent);  
 }
 
+.divisao {
+  border: 10px;
+  height: 5px;
+  border-radius: 10px;
+  margin-top: 0%;
+  background-image: linear-gradient(to right, #FE5722FF, #FE5722FF, #FE5722FF);  
+}
+
 .hr3 {
   border: 0;
   height: 2px;

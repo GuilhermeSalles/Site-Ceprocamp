@@ -181,11 +181,11 @@
     <div class="container">
         <div class="row">
             <div class="col-9">
-                <h2 style="font-weight: bold; color: #fe5722;"> <img class="mb-1" src="../../../img/nomeCurso.png">
+                <h2 style="font-weight: bold; color: #fe5722;"> <img class="mb-1" src=" ../img/Icones dia/book.svg">
                     CUIDADOR DE IDOSOS</h2>
             </div>
             <div class="col-3 mt-2">
-                <h6><span style="font-weight: bold; color: #fe5722;"> <img src="../../../img/tempo.png"> Duração:
+                <h6><span style="font-weight: bold; color: #fe5722;"> <img src="../img/Icones dia/clock.svg"> Duração:
                     </span>200 horas</h6>
             </div>
         </div>
@@ -215,7 +215,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-8 col-xs-8" data-anime="left">
 
-                <h2 style="font-weight: bold;">Como me inscrever <img src="../../../img/requisitos.png"></h2>
+                <h2 style="font-weight: bold;">Como me inscrever </h2>
                 <hr class="imgR-small hr5r mt-0">
 
                 <p class="text-justify">Para se inscrever nos cursos oferecidos o candidato deverá ficar atento a
@@ -287,16 +287,79 @@
 
     </div>
 
-    <div class="container">
+    <br>
+    <br>
+
+    <div class="container" data-anime="top">
+        <div class="text-center">
+            <h3 style="font-weight: bold; color: rgb(75, 75, 75);">Locais e turnos disponíveis para este curso.</h3>
+            <hr class="divisao">
+        </div>
+        <div class="row pequeno">
+            <div class="col-sm-10 col-md-12 col-xs-12">
+
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th class="ml-0" scope="col"><img src="../img/Icones dia/map-pin.svg" alt="Local"> Local
+                            </th>
+                            <th class="ml-0" scope="col"><img src="../img/Icones dia/sun.svg" alt="Sol"> Manhã</th>
+                            <th class="ml-0" scope="col"><img src="../img/Icones dia/sunset.svg" alt="Tarde"> Tarde</th>
+                            <th class="ml-0" scope="col"><img src="../img/Icones dia/moon.svg" alt="Noite"> Noite</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">CENTRO</th>
+                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                            <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        <div class="row grande">
+            <div class="col-sm-10 col-md-12 col-xs-12">
+
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th colspan="4" class="text-center">CEPROCAMP - CENTRO</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="col"><img src="../img/Icones dia/sun.svg" alt="Sol"> Manhã</th>
+                            <th scope="col"><img src="../img/Icones dia/sunset.svg" alt="Tarde"> Tarde</th>
+                            <th scope="col"><img src="../img/Icones dia/moon.svg" alt="Noite"> Noite</th>
+                        </tr>
+                        <tr>
+
+                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                            <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
         <br>
         <div class="row">
             <div class="col-sm-12 col-md-8 col-xs-8" data-anime="top">
                 <br>
-                <h2 class="mb-0" style="font-weight: bold;">Perguntas frequentes <img
-                        src="../img/PerguntasFrequentes.png"></h2>
+                <h2 class="mb-0" style="font-weight: bold; color: rgb(75, 75, 75);">Perguntas frequentes </h2>
                 <hr class="img-small hr5Per">
 
-                <button type="button" class="collapsibleCurso"> Certificado </button>
+                <button type="button" class="collapsibleCurso"><img src="../img/Icones dia/award.svg" alt="Certificado">
+                    Certificado </button>
                 <div class="contentCurso">
                     <ul class="b ml-5 mt-4">
                         <li>Após a conclusão do curso, o aluno obtém o certificado.</li>
@@ -305,7 +368,8 @@
 
                 <br>
 
-                <button type="button" class="collapsibleCurso"> Grade Curricular</button>
+                <button type="button" class="collapsibleCurso"><img src="../img/Icones dia/calendar.svg"
+                        alt="Grade Curricular"> Grade Curricular</button>
                 <div class="contentCurso">
                     <ul class="b ml-5 mt-4">
                         <li><a class="ahouver" href="#">Confira aqui!</a></li>
@@ -316,9 +380,15 @@
 
             </div>
         </div>
+
     </div>
+    <br>
     <!-- Fim coisas sobre o curso -->
- 
+
+    <div class="container">
+
+    </div>
+    <br>
     <!-- footer -->
     <footer class="site-footer">
         <div class="container">
@@ -391,12 +461,12 @@
 
     <!-- Script Collapse -->
     <script>
-        var coll = document.getElementsByClassName("collapsible");
+        var coll = document.getElementsByClassName("collapsibleCurso");
         var i;
 
         for (i = 0; i < coll.length; i++) {
             coll[i].addEventListener("click", function () {
-                this.classList.toggle("active");
+                this.classList.toggle("activeCurso");
                 var content = this.nextElementSibling;
                 if (content.style.maxHeight) {
                     content.style.maxHeight = null;
