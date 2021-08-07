@@ -465,7 +465,7 @@
                                 e publicação de interfaces de Websites, seguindo normas de
                                 acessibilidade, usabilidade, padrões web e boas práticas de
                                 desenvolvimento que qualifiquem a criação de websites.</p>
-                            <a href="Curso/Criação_de_websites"
+                            <a href="Curso/Criacao_de_websites"
                                 class="btn btn-danger">Ver Mais</a>
                         </div>
                         <div class="card-footer">
