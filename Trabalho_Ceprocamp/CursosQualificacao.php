@@ -75,7 +75,7 @@
                                 <br>
                                 <br>
                             </p>
-                            <a href="Curso/Padeiro Confeiteiro" class="btn btn-danger">Ver Mais</a>
+                            <a href="Curso/Padeiro_Confeiteiro" class="btn btn-danger">Ver Mais</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted"><b>Duração: </b>400 h/a = 333 horas</small>
@@ -119,7 +119,7 @@
                                 <br>
                                 <br>
                             </p>
-                            <a href="Curso/Garçom" class="btn btn-danger">Ver Mais</a>
+                            <a href="Curso/Garcom" class="btn btn-danger">Ver Mais</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted"><b>Duração: </b>320 h/a = 266 horas</small>
@@ -178,7 +178,7 @@
                                 laboratórios.
                                 <br>
                             </p>
-                            <a href="Curso/Auxiliar_de_laboratório" class="btn btn-danger">Ver Mais</a>
+                            <a href="Curso/Auxiliar_de_laboratorio" class="btn btn-danger">Ver Mais</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted"> <b>Duração:</b> 400 h/a = 333 horas</small>
@@ -217,7 +217,7 @@
                                 <br>
                                 <br>
                             </p>
-                            <a href="Curso/Porteiro_Básico" class="btn btn-danger">Ver Mais</a>
+                            <a href="Curso/Porteiro_Basico" class="btn btn-danger">Ver Mais</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted"><b>Duração: </b>160 hs/a = 200 horas</small>
@@ -238,7 +238,7 @@
                                 de
                                 separação e distribuição de produtos.
                             </p>
-                            <a href="Curso/Auxiliar_de_logística" class="btn btn-danger">Ver Mais</a>
+                            <a href="Curso/Auxiliar_de_logistica" class="btn btn-danger">Ver Mais</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted"><b>Duração:</b> 240 h/a = 200 horas</small>
@@ -260,7 +260,7 @@
                                 <br> 
                                 <br> 
                             </p>
-                            <a href="Curso/Auxiliar_de_administração" class="btn btn-danger">Ver Mais</a>
+                            <a href="Curso/Auxiliar_de_administracao" class="btn btn-danger">Ver Mais</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted"> <b>Duração: </b>400 hs/a = 334 horas</small>
@@ -323,7 +323,7 @@
                                 <br>
                                 <br>
                             </p>
-                            <a href="Curso/Informática_básica" class="btn btn-danger">Ver Mais</a>
+                            <a href="Curso/Informatica_basica" class="btn btn-danger">Ver Mais</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted"> <b>Duração:</b> 160 h/a = 133 horas</small>
@@ -342,7 +342,7 @@
                                 no
                                 ambiente de trabalho, com foco na insalubridade e periculosidade.
                             </p>
-                            <a href="Curso/Agente_de_segurança_do_trabalho_e_higiene_ocupacional" class="btn btn-danger">Ver Mais</a>
+                            <a href="Curso/Agente_de_segurança_do_trabalho_e_higiene_ocupacional" class="btn btn-danger">Ver Mais</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted"> <b>Duração:</b> 240 h/a = 200 horas</small>
@@ -362,7 +362,7 @@
                                 <br>
                                 <br>
                             </p>
-                            <a href="Curso/Inglês_para_atendimento_comercial" class="btn btn-danger">Ver Mais</a>
+                            <a href="Curso/Ingles_para_atendimento_comercial" class="btn btn-danger">Ver Mais</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted"> <b>Duração:</b> 240 h/a = 200 horas</small>
@@ -384,7 +384,7 @@
                                 <br>
                                 <br> 
                             </p>
-                            <a href="Curso/Inglês_para_Atendimento" class="btn btn-danger">Ver Mais</a>
+                            <a href="Curso/Ingles_para_Atendimento" class="btn btn-danger">Ver Mais</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted"> <b>Duração: </b>240 h/a = 200 horas</small>
@@ -427,7 +427,7 @@
                                 <br> 
                                 <br> 
                             </p>
-                            <a href="Curso/Auxiliar_de_escrtório" class="btn btn-danger">Ver Mais</a>
+                            <a href="Curso/Auxiliar_de_escrtorio" class="btn btn-danger">Ver Mais</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted"> <b>Duração: </b>200 hs/a = 166 horas</small>
@@ -447,7 +447,7 @@
                                 candidato que objetiva prestar esses exames.
                                 <br>
                             </p>
-                            <a href="Curso/Português_e_matemática_para_concursos_públicos_e_enem" class="btn btn-danger">Ver Mais</a>
+                            <a href="Curso/Portugues_e_matematica_para_concursos_publicos_e_enem" class="btn btn-danger">Ver Mais</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted"><b>Duração: </b>320 h/a = 266 horas</small>
