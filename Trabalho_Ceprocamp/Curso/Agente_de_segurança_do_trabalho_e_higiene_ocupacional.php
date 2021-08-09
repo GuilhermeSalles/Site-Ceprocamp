@@ -40,30 +40,29 @@
         </div>
         <br>
         <br>
+        <div class="row"> 
 
-        <div class="row">
-           
         <div class="col-sm-12 col-md-8 col-xs-8" data-anime="left">
 
-                <h2 style="font-weight: bold; color: rgb(75, 75, 75);">Como me inscrever</h2>
-                <hr class="imgR-small hr5r mt-0">
+            <h2 style="font-weight: bold; color: rgb(75, 75, 75);">Como me inscrever</h2>
+            <hr class="imgR-small hr5r mt-0">
 
-                <p class="text-justify">Para se inscrever nos cursos oferecidos o candidato deverá ficar atento a
-                    publicação do Edital.
-                    Ele estabelece os critérios e procedimentos relativos ao ingresso de alunos, contendo todas as
-                    disposições e detalhes sobre os cursos oferecidos pelo CEPROCAMP.</p>
+            <p class="text-justify">Para se inscrever nos cursos oferecidos o candidato deverá ficar atento a
+                publicação do Edital.
+                Ele estabelece os critérios e procedimentos relativos ao ingresso de alunos, contendo todas as
+                disposições e detalhes sobre os cursos oferecidos pelo CEPROCAMP.</p>
 
-                <br>
+            <br>
 
-                <h6 style="font-weight: bold; color: rgb(75, 75, 75);">Requisitos Gerais:</h6>
-                <ul class="b ml-5">
-                    <li>Morador de Campinas e da Região Metropolitana de Campinas.</li>
-                    <li>Possua seu próprio CPF.</li>
-                    <li>Possuir endereço eletrônico (e-mail) válido.</li>
-                </ul>
- 
-        
-                <h6 style="font-weight: bold; color: rgb(75, 75, 75);">Requisitos Específicos:</h6>
+            <h6 style="font-weight: bold; color: rgb(75, 75, 75);">Requisitos Gerais:</h6>
+            <ul class="b ml-5">
+                <li>Morador de Campinas e da Região Metropolitana de Campinas.</li>
+                <li>Possua seu próprio CPF.</li>
+                <li>Possuir endereço eletrônico (e-mail) válido.</li>
+            </ul>
+
+
+            <h6 style="font-weight: bold; color: rgb(75, 75, 75);">Requisitos Específicos:</h6>
                 <ul class="b ml-5">
                     <li>Possuir 18 anos completos até o último dia da inscrição.</li>
                     <li>Possuir o pré-requisito exigido para cada curso, de forma a aproveitar totalmente a aprendizagem
@@ -136,8 +135,8 @@
                     <tbody>
                         <tr>
                             <th scope="row">CENTRO</th>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                         </tr>
 
@@ -165,8 +164,8 @@
                         </tr>
                         <tr>
 
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                         </tr>
 
