@@ -144,7 +144,13 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">CENTRO</th>
+                            <th scope="row">Cambará</th>
+                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                            <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Centro</th>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
