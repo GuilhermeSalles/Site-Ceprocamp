@@ -85,10 +85,8 @@
                 <img style="margin-top: 0%;" src="../img/POST INSTA/20.png" class="img-fluid rounded">
                 <hr style="box-shadow: 1px 1px 1px rgba(75, 75, 75, 0.501);">
 
-                <div class="col-12">
-                    <a class=" bhouver btn btn-danger btn-outline-danger" style="color: white;" href=""
+                <a class=" bhouver btn btn-danger btn-outline-danger" style="color: white;" href=""
                         role="button">Registrar interesse</a>
-                </div>
                 
                 <br>
 
