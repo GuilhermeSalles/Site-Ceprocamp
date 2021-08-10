@@ -85,18 +85,11 @@
                 <img style="margin-top: 0%;" src="../img/POST INSTA/20.png" class="img-fluid rounded">
                 <hr style="box-shadow: 1px 1px 1px rgba(75, 75, 75, 0.501);">
 
-                <h3 class="ml-1 bold" style="margin-bottom: 2%;">Registre seu interesse</h3>
-                <a class="ml-1 bhouver btn btn-danger btn-outline-danger" style="color: white;" href=""
-                    role="button">Registrar interesse</a>
-
-                <br>
-                <br>
-
-                <h3 class="ml-1 bold" style="margin-bottom: 2%;">Inscrições</h3>
-                <a class="ml-1 bhouver btn btn-danger btn-outline-danger" style=" color: white;"
-                    href="https://inscricoesceprocamp.campinas.sp.gov.br/ficha_inscricao/inscricao.php"
-                    role="button">Inscrever-se</a>
-
+                <div class="col-12">
+                    <a class="ml-1 bhouver btn btn-danger btn-outline-danger" style="color: white;" href=""
+                        role="button">Registrar interesse</a>
+                </div>
+                
                 <br>
 
             </div>
