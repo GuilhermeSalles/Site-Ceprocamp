@@ -185,41 +185,6 @@
         </div>
 
         <br>
-        <div class="row">
-            <div class="col-sm-12 col-md-8 col-xs-8" data-anime="top">
-                <br>
-                <h2 class="mb-0" style="font-weight: bold; color: rgb(75, 75, 75);">Perguntas frequentes </h2>
-                <hr class="img-small hr5Per">
-
-                <button type="button" class="collapsibleCurso"><img src="../img/Icones dia/award.svg" alt="Certificado">
-                    Certificado </button>
-                <div class="contentCurso">
-                    <ul class="b ml-5 mt-4">
-                        <li>Após a conclusão do curso, o aluno obtém o certificado.</li>
-                    </ul>
-                </div>
-
-                <br>
-
-                <button type="button" class="collapsibleCurso"><img src="../img/Icones dia/calendar.svg"
-                        alt="Grade Curricular"> Grade Curricular</button>
-                <div class="contentCurso">
-                    <ul class="b ml-5 mt-4">
-                        <li><a class="ahouver" href="#">Confira aqui!</a></li>
-                    </ul>
-                </div>
-
-                <br>
-
-            </div>
-        </div>
-
-    </div>
-    <br>
-    <!-- Fim coisas sobre o curso -->
-
-    <div class="container">
-
-    </div>
-    <br>
+        <br> 
+    
     <?php include 'footer.php' ?>
