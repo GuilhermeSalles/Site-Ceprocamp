@@ -136,7 +136,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">CENTRO</th>
+                            <th scope="row">Centro</th>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
@@ -154,7 +154,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th colspan="4" class="text-center">CEPROCAMP - CENTRO</th>
+                            <th colspan="4" class="text-center">Centro</th>
 
                         </tr>
                     </thead>

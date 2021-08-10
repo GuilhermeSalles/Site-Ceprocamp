@@ -162,7 +162,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th colspan="4" class="text-center">CEPROCAMP - CENTRO</th>
+                            <th colspan="4" class="text-center">Ouro Verde</th>
 
                         </tr>
                     </thead>
@@ -173,10 +173,9 @@
                             <th scope="col"><img src="../img/Icones dia/moon.svg" alt="Noite"> Noite</th>
                         </tr>
                         <tr>
-
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                            <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                            <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                         </tr>
 
                     </tbody>

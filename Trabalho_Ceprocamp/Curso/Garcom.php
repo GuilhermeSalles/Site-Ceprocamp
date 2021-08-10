@@ -135,7 +135,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">CENTRO</th>
+                            <th scope="row">Centro</th>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
@@ -159,7 +159,34 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th colspan="4" class="text-center">CEPROCAMP - CENTRO</th>
+                            <th colspan="4" class="text-center">Centro</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="col"><img src="../img/Icones dia/sun.svg" alt="Sol"> Manhã</th>
+                            <th scope="col"><img src="../img/Icones dia/sunset.svg" alt="Tarde"> Tarde</th>
+                            <th scope="col"><img src="../img/Icones dia/moon.svg" alt="Noite"> Noite</th>
+                        </tr>
+                        <tr>
+                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                            <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+        <div class="row grande">
+            <div class="col-sm-10 col-md-12 col-xs-12">
+
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th colspan="4" class="text-center">José Alves</th>
 
                         </tr>
                     </thead>
