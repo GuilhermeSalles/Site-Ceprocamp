@@ -97,7 +97,7 @@
                 <br>
                 <br>
                 <div class="col-12">
-                    <a class="ml-1 bhouver btn btn-danger btn-outline-danger" style="color: white;" href=""
+                    <a class=" bhouver btn btn-danger btn-outline-danger" style="color: white;" href=""
                         role="button">Registrar interesse</a>
                 </div>
                 
