@@ -78,6 +78,9 @@
     <!-- Script Filtro -->
     <script src="js/filtro.js"></script>
 
+    <!-- Script Menu -->
+    <script src="../js/menu.js"></script>
+
 </body>
 
 </html>

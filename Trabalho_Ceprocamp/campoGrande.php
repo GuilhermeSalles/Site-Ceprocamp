@@ -78,63 +78,7 @@
 
     <!-- parte de avisos em um carrossel que passa de 5 em 5 segundos -->
     <br>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="tab-content" id="nav-pills-content">
-                <div id="carouselAviso" class="carousel slide d-block" data-ride="carousel" data-interval="5000">
-
-                    <div class="carousel-inner">
-
-                        <div class="carousel-item active">
-                            <div class="text-justify">
-                                <h3 class="text-center">Campanha de Vacinação Contra a Gripe 2021
-                                </h3>
-
-                                <br>
-
-                                <h5 style="color: rgb(94, 95, 95);"> <span
-                                        style="visibility: hidden; color: #e1e1e1;">kkkkk</span> A vacinação
-                                    contra
-                                    gripe é segura e permite a prevenção do surgimento de complicações
-                                    decorrentes da doença, mortes e suas consequências, diminuindo a carga da doença
-                                    e
-                                    reduzindo os sintomas que podem ser confundidos com os da COVID-19. Dessa forma,
-                                    a
-                                    vacinação é feita dentro das normas sanitárias vigentes.
-                                    Podem ser vacinados: crianças entre entre 6 meses e 6 anos (até 5 anos, 11 meses
-                                    e
-                                    29 dias), grávidas, mulheres que deram a luz nos últimos 45 dias, idosos com 60
-                                    anos
-                                    ou mais, professores de escolas públicas e privadas, pessoas com deficiência
-                                    permanente etc. Caso tenha dúvidas se alguém pode ou não tomar a vacina, acesse:
-                                    <a style="color: #fe5722;" target="_blank"
-                                        href="https://www.gov.br/saude/pt-br/media/pdf/2021/marco/16/informe-tecnico-influenza-2021.pdf">https://www.gov.br/saude/pt-br/media/pdf/2021/marco/16/informe-tecnico-influenza-2021.pdf</a>.
-                                    <br> <span style="visibility: hidden; color: #e1e1e1;">kkkkk</span> Na página 3,
-                                    desse site tem todas as informações necessárias!
-                                    Tem um filho nessa idade, conhece alguma gestante ou idoso? Leve-o para
-                                    vacinar!! A
-                                    vacina salva-vidas!
-                                    Para saber o centro de saúde mais próximo da sua casa, basta ligar no 156 ou
-                                    acessar: <a style="color: #fe5722;" target="_blank"
-                                        href="vacina.campinas.sp.gov.br">vacina.campinas.sp.gov.br</a>.
-                                </h5>
-
-                                <!-- <br>
-                                <br> -->
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- 
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselAviso" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselAviso" data-slide-to="1"></li>
-                    </ol> -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Fim avisos -->
+    <?php include 'avisos.php' ?>
   
     <!-- Parte cinza claro sobre o Local que deve colocar o google maps e alterar a descrissão-->
     <br>

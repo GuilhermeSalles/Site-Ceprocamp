@@ -3,8 +3,17 @@
   padding: 0px;
   box-sizing: border-box;
 }
-/* filtro */
+/* menu */
+.affix {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
 
+
+/* filtro */
 .main-btn {
   background-color: #fe5722;
   color: #FFF;
@@ -71,13 +80,10 @@ h2{
 
 [data-anime] {
   opacity: 0;
-  transition: .5s;
+  transition: .8s;
 }
 
 [data-anime="left"] {
-  transform: translate3d(-50px, 0, 0);
-}
-[data-anime="right"] {
   transform: translate3d(-50px, 0, 0);
 }
 [data-anime="down"] {
@@ -93,12 +99,10 @@ h2{
 }
 
 /* Cards */
-
 .card{ 
   box-shadow: 3px 3px rgba(75, 75, 75, 0.501);
 }
   
-
 /* Link NIT */
 .linkNIT{
   color: #FE5722FF;
@@ -154,25 +158,22 @@ ul.b {
 }
 
 .divisao {
-  border: 10px;
-  height: 5px;
+  width: 100%;
+  border: solid;
+  color: #FE5722FF;
   border-radius: 10px;
-  margin-top: 0%;
-  background-image: linear-gradient(to right, #FE5722FF, #FE5722FF, #FE5722FF);  
+  box-shadow: 2px 2px 2px gray;  
 }
 
 .hr3 {
-  border: 0;
-  height: 2px;
-  margin-top: 0%;
-  background-image: linear-gradient(to right, transparent, #FE5722FF, transparent);  
+  width: 100%;
+  border: solid;
+  color: #FE5722FF;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;  
 }
 
-.hr4{ 
-  border-radius: 2px;
-  border-left-style: solid;
-  border-left-color: #fe5722;
-}
+ 
 
 .Qp{
   border: 0;
@@ -195,23 +196,6 @@ ul.b {
   background-image: linear-gradient(to right, transparent, #091db325, transparent);  
 }
 
-.periodoM{
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, transparent, #142c6a, transparent);  
-}
-
-.periodoT{
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, transparent, #7b3709, transparent);  
-}
-
-.periodoN{
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, transparent, #234429, transparent);  
-}
 
 .hr4NIT {
   border: 0;

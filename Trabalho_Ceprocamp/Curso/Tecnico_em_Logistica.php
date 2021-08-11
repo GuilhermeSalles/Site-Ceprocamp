@@ -23,7 +23,7 @@
  
     <br>
     <div class="container">
-        <div data-anime="down"> 
+        
                 <div class="text-center">
                     <h2 style="font-weight: bold; color: #FE5722FF" class="fw-bolder font-monospace">Perfil profissional
                     </h2>
@@ -38,7 +38,7 @@
 
                 </p>
              
-        </div>
+        
 
         <br>
         <br>

@@ -18,9 +18,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/CentroINdex.css">
+        
+    <link rel="stylesheet" href="CSS/Principal.css">
 
     <title>CEPROCAMP - Centro de Educação Profissional de Campinas |</title>
+   
 </head>
 
 <body>
@@ -41,9 +43,8 @@
             </div>
         </div>
     </div>
-
     <!-- Menu -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-toggle="affix">
         <div class="container">
             <div class="justify-content-left">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
@@ -177,4 +178,5 @@
             </div>
         </div>
     </nav>
+    
     <!-- Fim do Menu -->

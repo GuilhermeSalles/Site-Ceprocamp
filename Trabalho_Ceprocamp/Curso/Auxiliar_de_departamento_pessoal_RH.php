@@ -20,7 +20,7 @@
 
     <br>
     <div class="container">
-        <div data-anime="down">
+       
             <div class="text-center">
                 <h2 style="font-weight: bold; color: #FE5722FF" class="fw-bolder font-monospace">Perfil profissional
                 </h2>
@@ -30,7 +30,7 @@
                 relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
                 empregados, concessão de benefícios e demissão.
             </p>
-        </div>
+      
         <br>
         <br>
 
@@ -77,7 +77,7 @@
 
             </div>
 
-            <div class="col-sm-12 col-md-4 col-xs-4" data-anime="right">
+            <div class="col-sm-12 col-md-4 col-xs-4" data-anime="left">
 
                 <img style="margin-top: 0%;" src="../img/POST INSTA/18.png" class="img-fluid rounded">
 

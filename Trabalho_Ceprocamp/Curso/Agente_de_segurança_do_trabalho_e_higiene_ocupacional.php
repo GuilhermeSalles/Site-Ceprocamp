@@ -25,7 +25,7 @@
 
     <br>
     <div class="container">
-        <div data-anime="top">
+        
             <div class="text-center">
                 <h2 style="font-weight: bold; color: #FE5722FF; margin-bottom: 5px;" class="fw-bolder font-monospace">
                     Perfil profissional</h2>
@@ -37,7 +37,7 @@
                 nos ambientes de trabalho. Elaboração de planos e programas de prevenção. Observância das normas
                 regulamentadoras cabíveis. Observância dos direitos trabalhistas nas relações de trabalho.
             </p>
-        </div>
+       
         <br>
         <br>
         <div class="row"> 
@@ -82,7 +82,7 @@
 
             </div>
 
-            <div class="col-sm-12 col-md-4 col-xs-4" data-anime="right">
+            <div class="col-sm-12 col-md-4 col-xs-4" data-anime="left">
 
                 <img style="margin-top: 0%;" src="../img/POST INSTA/21.png" class="img-fluid rounded">
 

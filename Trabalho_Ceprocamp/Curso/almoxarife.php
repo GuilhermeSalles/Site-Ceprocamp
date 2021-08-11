@@ -23,7 +23,7 @@
 
     <br>
     <div class="container">
-        <div data-anime="top">
+        
             <div class="text-center">
                 <h2 style="font-weight: bold; color: #FE5722FF; margin-bottom: 5px;" class="fw-bolder font-monospace">
                     Perfil profissional</h2>
@@ -33,7 +33,7 @@
                 produtos e materiais de um almoxarifado, bem como o armazenamento destes objetos em condições adequadas.
                 Este curso abrange tópicos específicos da área de administração e logística inerentes a profissão.
             </p>
-        </div>
+        
         <br>
         <br>
 
@@ -80,7 +80,7 @@
 
             </div>
 
-            <div class="col-sm-12 col-md-4 col-xs-4" data-anime="right">
+            <div class="col-sm-12 col-md-4 col-xs-4" data-anime="left">
 
                 <img style="margin-top: 0%;" src="../img/POST INSTA/20.png" class="img-fluid rounded">
                 <hr style="box-shadow: 1px 1px 1px rgba(75, 75, 75, 0.501);">

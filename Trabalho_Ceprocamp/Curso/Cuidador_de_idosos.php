@@ -24,7 +24,7 @@
 
     <br>
     <div class="container">
-        <div data-anime="down">
+       
             <div class="text-center">
                 <h2 style="font-weight: bold; color: #fe5722" class="fw-bolder font-monospace">Perfil profissional</h2>
                 <hr class="hr3">
@@ -36,7 +36,7 @@
                     pessoa idosa.
                 </p>
             </div>
-        </div>
+         
         <br>
         <br>
 
@@ -90,7 +90,7 @@
 
             </div>
 
-            <div class="col-sm-12 col-md-4 col-xs-4" data-anime="right">
+            <div class="col-sm-12 col-md-4 col-xs-4" data-anime="left">
 
                 <img style="margin-top: 0%;" src="../img/POST INSTA/1.png" class="img-fluid rounded">
 
