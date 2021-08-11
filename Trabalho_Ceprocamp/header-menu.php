@@ -63,13 +63,13 @@
                                     Unidades
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="/cambara">Cambará</a>
-                                    <a class="dropdown-item" href="/campoGrande">Campo Grande</a>
-                                    <a class="dropdown-item" href="/casi">CASI</a>
-                                    <a class="dropdown-item" href="/index">Centro</a>
-                                    <a class="dropdown-item" href="/joseAlves">José Alves</a>
-                                    <a class="dropdown-item" href="/myrian">Myrian</a>
-                                    <a class="dropdown-item" href="/ouroVerde">Ouro Verde</a>
+                                    <a class="dropdown-item" href="cambara">Cambará</a>
+                                    <a class="dropdown-item" href="campoGrande">Campo Grande</a>
+                                    <a class="dropdown-item" href="casi">CASI</a>
+                                    <a class="dropdown-item" href="index">Centro</a>
+                                    <a class="dropdown-item" href="joseAlves">José Alves</a>
+                                    <a class="dropdown-item" href="myrian">Myrian</a>
+                                    <a class="dropdown-item" href="ouroVerde">Ouro Verde</a>
                                 </div>
                             </li>
                         </ul>
