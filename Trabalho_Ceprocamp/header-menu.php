@@ -49,7 +49,7 @@
                     </span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarSite">
                 <a class="navbar-brand h1 mb-1 justify-content-right" href="index">Inicio</a>
 
                 <ul class="navbar-nav">
