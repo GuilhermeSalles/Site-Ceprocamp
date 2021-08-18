@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-9">
                 <h2 style="font-weight: bold; color: #fe5722;"> <img class="mb-1" src=" ../img/Icones dia/book.svg">
-                    CUIDADOR DE PESSOAS</h2>
+                    Cuidador de Pessoas</h2>
             </div>
             <div class="col-3 mt-2">
                 <h6><span style="font-weight: bold; color: #fe5722;"> <img src="../img/Icones dia/clock.svg"> Duração:
@@ -98,17 +98,61 @@
 
             </div>
 
-            <div class="col-sm-12 col-md-4 col-xs-4" data-anime="left">
+           <div class="col-sm-12 col-md-4 col-xs-4">
 
                 <img style="margin-top: 0%;" src="../img/POST INSTA/5.png" class="img-fluid rounded">
 
                 <br>
                 <br>
 
-                <a class=" bhouver btn btn-danger btn-outline-danger" style="color: white;" href=""
-                        role="button">Registrar interesse</a>
-                
-                <br>
+              <?php include 'interesse.php' ?>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel" style="font-weight: bold; color: rgb(75, 75, 75);">Registro de interesse</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form method="POST">
+                                <div class="form-group">
+                                    <label style="font-weight: bold; color: rgb(75, 75, 75);" for="Nome">Digite seu nome:</label>
+                                    <input type="text" class="form-control" id="Nome" name="Nome" placeholder="Nome completo" style="border-radius: 10px;">
+                                </div>
+                                <div class="form-group">
+                                    <label style="font-weight: bold; color: rgb(75, 75, 75);" for="email">Digite seu e-mail:</label>
+                                    <input type="email" class="form-control" id="email" name="Email" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;">
+                                </div>
+                                <div class="form-group">
+                                    <label style="font-weight: bold; color: rgb(75, 75, 75);" for="curso">Curso:</label>
+                                    <input type="input" class="form-control" id="curso" name="Curso" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" value="Cuidador de Pessoas" readonly>
+                                </div>
+
+                                <div class="form-group">
+                                    <label style="font-weight: bold; color: rgb(75, 75, 75);" for="unidade">Selecione a unidade mais perto de você:</label>
+                                    <select class="form-control" id="unidade" style="border-radius: 10px;" name="Unidade">
+                                        <option selected>-- Selecione a unidade --</option>
+                                        <option>CASI - </option>
+                                        <option>CAMBARÁ - </option>
+                                        <option>CAMPO GRANDE - </option>
+                                        <option>CENTRO - </option>
+                                        <option>CIC VIDA NOVA - </option>
+                                        <option>JOSÉ ALVES - </option>
+                                        <option>OURO VERDE - </option>
+                                        <option>VILA UNIÃO - </option>
+                                    </select>
+                                </div>
+                                <div class="modal-footer">
+                                    <input type="submit" name="submit" id="submit" class=" bhouver btn btn-danger btn-outline-danger" style="color: white;" value="Enviar">
+                                    <button type="button" class="btn btn-secondary" style="box-shadow: 2px 2px 2px gray;" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

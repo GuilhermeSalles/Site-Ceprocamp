@@ -85,16 +85,14 @@
 
             </div>
 
-            <div class="col-sm-12 col-md-4 col-xs-4" data-anime="left">
+           <div class="col-sm-12 col-md-4 col-xs-4">
 
                 <img style="margin-top: 0%;" src="../img/POST INSTA/16.png" class="img-fluid rounded">
 
                 <br>
                 <br>
                 
-                    <a class=" bhouver btn btn-danger btn-outline-danger" style="color: white;" href=""
-                        role="button">Registrar interesse</a>
-                
+                   <?php include 'interesse.php' ?>
                 
                 <br>
 

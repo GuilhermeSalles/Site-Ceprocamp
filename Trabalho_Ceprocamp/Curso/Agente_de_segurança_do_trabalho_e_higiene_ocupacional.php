@@ -1,46 +1,44 @@
 <?php include 'header-menu.php' ?>
 
-    <!-- Inicio imagem do curso -->
+<!-- Inicio imagem do curso -->
 
 
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-9">
-                <h2 style="font-weight: bold; color: #FE5722FF; margin-bottom: 5px;"> <img class="mb-1"
-                        src=" ../img/Icones dia/book.svg">
-                    Agente de Segurança do Trabalho e Higiene Ocupacional</h2>
-            </div>
-            <div class="col-3 mt-5">
-                <h6><span style="font-weight: bold; color: #FE5722FF; margin-bottom: 5px;"> <img
-                            src="../img/Icones dia/clock.svg"> Duração:
-                    </span>200 horas</h6>
-            </div>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-9">
+            <h2 style="font-weight: bold; color: #FE5722FF; margin-bottom: 5px;"> <img class="mb-1" src=" ../img/Icones dia/book.svg">
+                Agente de Segurança do Trabalho e Higiene Ocupacional</h2>
         </div>
-        <hr class="hr3 mt-0">
-        <img style="margin-top: 0%;" src="../img/CAPA PARA CURSO/21.png" class="img-fluid rounded">
+        <div class="col-3 mt-5">
+            <h6><span style="font-weight: bold; color: #FE5722FF; margin-bottom: 5px;"> <img src="../img/Icones dia/clock.svg"> Duração:
+                </span>200 horas</h6>
+        </div>
     </div>
-    <br>
+    <hr class="hr3 mt-0">
+    <img style="margin-top: 0%;" src="../img/CAPA PARA CURSO/21.png" class="img-fluid rounded">
+</div>
+<br>
 
 
+<br>
+<div class="container">
+
+    <div class="text-center">
+        <h2 style="font-weight: bold; color: #FE5722FF; margin-bottom: 5px;" class="fw-bolder font-monospace">
+            Perfil profissional</h2>
+        <hr class="hr3">
+    </div>
+    <p class="text-justify">Avaliação ambiental com foco na insalubridade e
+        periculosidade. Práticas de medições das condições ambientais de trabalho. Cálculos de limites de
+        tolerância de exposição a agentes de risco. Identificação e avaliação dos riscos ocupacionais existentes
+        nos ambientes de trabalho. Elaboração de planos e programas de prevenção. Observância das normas
+        regulamentadoras cabíveis. Observância dos direitos trabalhistas nas relações de trabalho.
+    </p>
+
     <br>
-    <div class="container">
-        
-            <div class="text-center">
-                <h2 style="font-weight: bold; color: #FE5722FF; margin-bottom: 5px;" class="fw-bolder font-monospace">
-                    Perfil profissional</h2>
-                <hr class="hr3">
-            </div>
-            <p class="text-justify">Avaliação ambiental com foco na insalubridade e
-                periculosidade. Práticas de medições das condições ambientais de trabalho. Cálculos de limites de
-                tolerância de exposição a agentes de risco. Identificação e avaliação dos riscos ocupacionais existentes
-                nos ambientes de trabalho. Elaboração de planos e programas de prevenção. Observância das normas
-                regulamentadoras cabíveis. Observância dos direitos trabalhistas nas relações de trabalho.
-            </p>
-       
-        <br>
-        <br>
-        <div class="row"> 
+    <br>
+    <div class="row">
 
         <div class="col-sm-12 col-md-8 col-xs-8" data-anime="left">
 
@@ -63,34 +61,79 @@
 
 
             <h6 style="font-weight: bold; color: rgb(75, 75, 75);">Requisitos Específicos:</h6>
-                <ul class="b ml-5">
-                    <li>Possuir 18 anos completos até o último dia da inscrição.</li>
-                    <li>Possuir o pré-requisito exigido para cada curso, de forma a aproveitar totalmente a aprendizagem
-                        oferecida.</li>
-                    <li>6ª Série / 7º Ano do Ensino Fundamental.</li>
-                </ul>
+            <ul class="b ml-5">
+                <li>Possuir 18 anos completos até o último dia da inscrição.</li>
+                <li>Possuir o pré-requisito exigido para cada curso, de forma a aproveitar totalmente a aprendizagem
+                    oferecida.</li>
+                <li>6ª Série / 7º Ano do Ensino Fundamental.</li>
+            </ul>
 
-                <br>
-                <h6 style="font-weight: bold;color: #fe5722;">Previsão 2° Semestre de 2021</h6>
-                <ul class="b ml-5">
-                    <li> Os cursos oferecidos são semestrais o período para os cursos do segundo semestre é de <span
-                            style="color: #fe5722;">22/07</span> a <span style="color: #fe5722;">22/12</span>.</li>
-                </ul>
+            <br>
+            <h6 style="font-weight: bold;color: #fe5722;">Previsão 2° Semestre de 2021</h6>
+            <ul class="b ml-5">
+                <li> Os cursos oferecidos são semestrais o período para os cursos do segundo semestre é de <span style="color: #fe5722;">22/07</span> a <span style="color: #fe5722;">22/12</span>.</li>
+            </ul>
 
-                <br>
-                <br>
+            <br>
+            <br>
 
-            </div>
+        </div>
 
-            <div class="col-sm-12 col-md-4 col-xs-4" data-anime="left">
+        <div class="col-sm-12 col-md-4 col-xs-4">
 
-                <img style="margin-top: 0%;" src="../img/POST INSTA/21.png" class="img-fluid rounded">
+            <img style="margin-top: 0%;" src="../img/POST INSTA/21.png" class="img-fluid rounded">
 
-                <br>
-                <br>
-                <a class=" bhouver btn btn-danger btn-outline-danger" style="color: white;" href=""
-                        role="button">Registrar interesse</a>
-                
+            <br>
+            <br>
+            <?php include 'interesse.php' ?>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel" style="font-weight: bold; color: rgb(75, 75, 75);">Registro de interesse</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form method="POST">
+                                <div class="form-group">
+                                    <label style="font-weight: bold; color: rgb(75, 75, 75);" for="Nome">Digite seu nome:</label>
+                                    <input type="text" class="form-control" id="Nome" name="Nome" placeholder="Nome completo" style="border-radius: 10px;">
+                                </div>
+                                <div class="form-group">
+                                    <label style="font-weight: bold; color: rgb(75, 75, 75);" for="email">Digite seu e-mail:</label>
+                                    <input type="email" class="form-control" id="email" name="Email" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;">
+                                </div>
+                                <div class="form-group">
+                                    <label style="font-weight: bold; color: rgb(75, 75, 75);" for="curso">Curso:</label>
+                                    <input type="input" class="form-control" id="curso" name="Curso" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" value="Agente de Segurança do Trabalho e Higiene Ocupacional" readonly>
+                                </div>
+
+                                <div class="form-group">
+                                    <label style="font-weight: bold; color: rgb(75, 75, 75);" for="unidade">Selecione a unidade mais perto de você:</label>
+                                    <select class="form-control" id="unidade" style="border-radius: 10px;" name="Unidade">
+                                        <option selected>-- Selecione a unidade --</option>
+                                        <option>CASI - </option>
+                                        <option>CAMBARÁ - </option>
+                                        <option>CAMPO GRANDE - </option>
+                                        <option>CENTRO - </option>
+                                        <option>CIC VIDA NOVA - </option>
+                                        <option>JOSÉ ALVES - </option>
+                                        <option>OURO VERDE - </option>
+                                        <option>VILA UNIÃO - </option>
+                                    </select>
+                                </div>
+                                <div class="modal-footer">
+                                    <input type="submit" name="submit" id="submit" class=" bhouver btn btn-danger btn-outline-danger" style="color: white;" value="Enviar">
+                                    <button type="button" class="btn btn-secondary" style="box-shadow: 2px 2px 2px gray;" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
                 <br>
             </div>
         </div>
@@ -160,7 +203,7 @@
             </div>
         </div>
     </div>
-        <br>
-        <br> 
-    
+    <br>
+    <br>
+
     <?php include 'footer.php' ?>

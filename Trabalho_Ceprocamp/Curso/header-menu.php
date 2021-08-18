@@ -1,3 +1,20 @@
+<?php
+
+    if(isset($_POST['submit'])){
+
+        include_once('../ConexaoBd/config.php');
+
+        $nome = $_POST['Nome'];
+        $email = $_POST['Email'];
+        $curso = $_POST['Curso'];
+        $unidade = $_POST['Unidade'];
+
+        $result = mysqli_query($conexao, "INSERT INTO Dados VALUES ('$nome','$email','$unidade','$curso')");
+    }
+
+?>
+
+
 <!doctype html>
 <html lang="pt-br">
 
