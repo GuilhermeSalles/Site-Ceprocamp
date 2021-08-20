@@ -1,43 +1,46 @@
 <?php include 'header-menu.php' ?>
-<!-- Fim do Menu -->
-
-<!-- Inicio imagem do curso -->
-
 
 <br>
+
 <div class="container">
     <div class="row">
+
         <div class="col-9">
             <h2 style="font-weight: bold; color: #FE5722FF;"> <img class="mb-1" src=" ../img/Icones dia/book.svg">
                 Padeiro/ Confeiteiro</h2>
         </div>
+
         <div class="col-3 mt-2">
             <h6><span style="font-weight: bold; color: #FE5722FF"> <img src="../img/Icones dia/clock.svg"> Duração:
                 </span>333 horas</h6>
         </div>
+
     </div>
+
     <hr class="hr3 mt-0">
     <img style="margin-top: 0%;" src="../img/CAPA PARA CURSO/11.png" class="img-fluid rounded">
+
 </div>
-<br>
 
 <br>
+<br>
+
 <div class="container">
 
     <div class="text-center">
+
         <h2 style="font-weight: bold; color: #FE5722FF" class="fw-bolder font-monospace">Perfil profissional
         </h2>
         <hr class="hr3">
-    </div>
-    <div class="row ">
-        <p class="fs-5 lh-sm font-monospace text-justify">Cálculos básico, de custo e precificação. Noções de
-            higiene
-            e manipulação de alimentos, de produção sustentável, dos principais equipamentos e técnicas de
-            panificação e confeitaria, de criação de pães, bolos e recheios, de adicionamento de produtos,
-            sanitização, empreendedorismo e de comunicação o oral e escrita.
-        </p>
+
     </div>
 
+    <p class="fs-5 lh-sm font-monospace text-justify">Cálculos básico, de custo e precificação. Noções de
+        higiene
+        e manipulação de alimentos, de produção sustentável, dos principais equipamentos e técnicas de
+        panificação e confeitaria, de criação de pães, bolos e recheios, de adicionamento de produtos,
+        sanitização, empreendedorismo e de comunicação o oral e escrita.
+    </p>
 
     <br>
     <br>
@@ -86,10 +89,8 @@
 
         <div class="col-sm-12 col-md-4 col-xs-4">
 
-            <img style="margin-top: 0%;" src="../img/POST INSTA/11.png" class="img-fluid rounded">
+            <a href="https://www.instagram.com/p/CP8u9EDr4G4/"><img style="margin-top: 0%;" src="../img/POST INSTA/11.png" class="img-fluid rounded"></a>
 
-            <br>
-            <br>
             <?php include 'interesse.php' ?>
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -102,6 +103,7 @@
                             </button>
                         </div>
                         <div class="modal-body">
+
                             <form method="POST">
                                 <div class="form-group">
                                     <label style="font-weight: bold; color: rgb(75, 75, 75);" for="Nome">Digite seu nome:</label>
@@ -135,23 +137,27 @@
                                     <button type="button" class="btn btn-secondary" style="box-shadow: 2px 2px 2px gray;" data-dismiss="modal">Fechar</button>
                                 </div>
                             </form>
+
                         </div>
                     </div>
                 </div>
-
             </div>
-        </div>
 
+        </div>
     </div>
 
     <br>
     <br>
 
     <div class="container" data-anime="top">
+
         <div class="text-center">
+
             <h3 style="font-weight: bold; color: rgb(75, 75, 75);">Locais e turnos disponíveis para este curso.</h3>
             <hr class="divisao">
+
         </div>
+
         <div class="row pequeno">
             <div class="col-sm-10 col-md-12 col-xs-12">
 
@@ -167,15 +173,13 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">Centro</th>
+                            <th scope="row"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                         </tr>
-
                     </tbody>
                 </table>
-
             </div>
         </div>
 
@@ -185,8 +189,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th colspan="4" class="text-center">Centro</th>
-
+                            <th colspan="4" class="text-center"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -200,10 +203,8 @@
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                         </tr>
-
                     </tbody>
                 </table>
-
             </div>
         </div>
     </div>

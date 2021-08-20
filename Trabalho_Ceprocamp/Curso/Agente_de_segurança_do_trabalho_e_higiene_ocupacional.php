@@ -1,34 +1,40 @@
 <?php include 'header-menu.php' ?>
 
-<!-- Inicio imagem do curso -->
-
 
 <br>
+
 <div class="container">
     <div class="row">
+
         <div class="col-9">
             <h2 style="font-weight: bold; color: #FE5722FF; margin-bottom: 5px;"> <img class="mb-1" src=" ../img/Icones dia/book.svg">
                 Agente de Segurança do Trabalho e Higiene Ocupacional</h2>
         </div>
+
         <div class="col-3 mt-5">
             <h6><span style="font-weight: bold; color: #FE5722FF; margin-bottom: 5px;"> <img src="../img/Icones dia/clock.svg"> Duração:
                 </span>200 horas</h6>
         </div>
     </div>
+
     <hr class="hr3 mt-0">
     <img style="margin-top: 0%;" src="../img/CAPA PARA CURSO/21.png" class="img-fluid rounded">
+
 </div>
-<br>
-
 
 <br>
+<br>
+
 <div class="container">
 
     <div class="text-center">
+
         <h2 style="font-weight: bold; color: #FE5722FF; margin-bottom: 5px;" class="fw-bolder font-monospace">
             Perfil profissional</h2>
         <hr class="hr3">
+
     </div>
+
     <p class="text-justify">Avaliação ambiental com foco na insalubridade e
         periculosidade. Práticas de medições das condições ambientais de trabalho. Cálculos de limites de
         tolerância de exposição a agentes de risco. Identificação e avaliação dos riscos ocupacionais existentes
@@ -38,6 +44,7 @@
 
     <br>
     <br>
+
     <div class="row">
 
         <div class="col-sm-12 col-md-8 col-xs-8" data-anime="left">
@@ -69,6 +76,7 @@
             </ul>
 
             <br>
+
             <h6 style="font-weight: bold;color: #fe5722;">Previsão 2° Semestre de 2021</h6>
             <ul class="b ml-5">
                 <li> Os cursos oferecidos são semestrais o período para os cursos do segundo semestre é de <span style="color: #fe5722;">22/07</span> a <span style="color: #fe5722;">22/12</span>.</li>
@@ -81,11 +89,10 @@
 
         <div class="col-sm-12 col-md-4 col-xs-4">
 
-            <img style="margin-top: 0%;" src="../img/POST INSTA/21.png" class="img-fluid rounded">
+            <a href="https://www.instagram.com/p/CP0lElvLU4z/"><img style="margin-top: 0%;" src="../img/POST INSTA/21.png" class="img-fluid rounded"></a>
 
-            <br>
-            <br>
             <?php include 'interesse.php' ?>
+
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
@@ -97,6 +104,7 @@
                             </button>
                         </div>
                         <div class="modal-body">
+
                             <form method="POST">
                                 <div class="form-group">
                                     <label style="font-weight: bold; color: rgb(75, 75, 75);" for="Nome">Digite seu nome:</label>
@@ -130,23 +138,25 @@
                                     <button type="button" class="btn btn-secondary" style="box-shadow: 2px 2px 2px gray;" data-dismiss="modal">Fechar</button>
                                 </div>
                             </form>
+
                         </div>
                     </div>
                 </div>
-
-                <br>
             </div>
-        </div>
 
+        </div>
     </div>
 
     <br>
     <br>
 
     <div class="container" data-anime="top">
+
         <div class="text-center">
+
             <h3 style="font-weight: bold; color: rgb(75, 75, 75);">Locais e turnos disponíveis para este curso.</h3>
             <hr class="divisao">
+
         </div>
         <div class="row pequeno">
             <div class="col-sm-10 col-md-12 col-xs-12">
@@ -163,15 +173,13 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">Centro</th>
+                            <th scope="row"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                         </tr>
-
                     </tbody>
                 </table>
-
             </div>
         </div>
 
@@ -181,7 +189,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th colspan="4" class="text-center">Centro</th>
+                            <th colspan="4" class="text-center"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
 
                         </tr>
                     </thead>
@@ -199,11 +207,11 @@
 
                     </tbody>
                 </table>
-
             </div>
         </div>
     </div>
-    <br>
-    <br>
+</div>
+<br>
+<br>
 
-    <?php include 'footer.php' ?>
+<?php include 'footer.php' ?>

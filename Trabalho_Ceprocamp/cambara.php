@@ -1,5 +1,5 @@
     <?php include 'header-menu.php' ?>
-    <!-- Fim do Menu -->
+
 
     <div id="carouselSite" class="carousel slide d-block" data-ride="carousel" data-interval="7000">
         <!-- Lista de riscos brancos do carrossel -->
@@ -48,14 +48,6 @@
                 </div>
             </div>
 
-            <div class="carousel-item">
-                <img src="img/CeprocampCentro.png" class="img-fluid d-block">
-                <div class="carousel-caption text-center">
-                    <h1 class="d-sm-block d-none">Campo Grande</h1>
-                    <h5>Campo Grande - Cursos de Qualificação.</h5>
-                    <a class="btn btn-light" href="campoGrande" role="button">Saiba mais</a>
-                </div>
-            </div>
         </div>
 
 
@@ -78,7 +70,7 @@
     <!-- parte de avisos em um carrossel que passa de 5 em 5 segundos -->
     <br>
     <?php include 'avisos.php' ?>
- 
+
     <!-- Parte cinza claro sobre o Local que deve colocar o google maps e alterar a descrissão-->
     <br>
     <div class="jumbotron jumbotron-fluid" data-anime="left">
@@ -98,22 +90,15 @@
                             <p style="font-weight: bold">Para mais informações:</p>
                             <span style="font-weight: bold;">Telefone:</span>
                             (19) 3224.5357 | (19) 3268.9889 <br>
-                            <span style="font-weight: bold;">E-mail:</span> <a style="color: #fe5722;"
-                                href="mailto:fumec.regionalsudoeste@campinas.sp.gov.br">fumec.regionalsudoeste@campinas.sp.gov.br</a>
+                            <span style="font-weight: bold;">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.regionalsudoeste@campinas.sp.gov.br">fumec.regionalsudoeste@campinas.sp.gov.br</a>
                             <!-- <span style="color: darkgreen;">Whatsapp:</span> (19) 99802-2423. <br> -->
                             </p>
                         </div>
                         <div class="col-sm-7">
                             <!-- Parte aonde deve colocar o google maps -->
                             <div id="mapf" class="col-sm-12">
-                                <iframe class="map-big"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.3598332348147!2d-47.11860744404673!3d-22.982775613975726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c9f19b864009%3A0xbec2fbeb0e3d4301!2sFUMEC%20Descentralizada%20Cambar%C3%A1!5e1!3m2!1spt-BR!2sbr!4v1620938921310!5m2!1spt-BR!2sbr"
-                                    width="650" height="450" style="border: 1px solid black; border-radius: 5px;"
-                                    allowfullscreen="" loading="lazy"></iframe>
-                                <iframe class="map-small"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.3598332348147!2d-47.11860744404673!3d-22.982775613975726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c9f19b864009%3A0xbec2fbeb0e3d4301!2sFUMEC%20Descentralizada%20Cambar%C3%A1!5e1!3m2!1spt-BR!2sbr!4v1620938921310!5m2!1spt-BR!2sbr"
-                                    width="250" height="150" style="border:1px solid black; border-radius: 5px;"
-                                    allowfullscreen="" loading="lazy"></iframe>
+                                <iframe class="map-big" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.3598332348147!2d-47.11860744404673!3d-22.982775613975726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c9f19b864009%3A0xbec2fbeb0e3d4301!2sFUMEC%20Descentralizada%20Cambar%C3%A1!5e1!3m2!1spt-BR!2sbr!4v1620938921310!5m2!1spt-BR!2sbr" width="650" height="450" style="border: 1px solid black; border-radius: 5px;" allowfullscreen="" loading="lazy"></iframe>
+                                <iframe class="map-small" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.3598332348147!2d-47.11860744404673!3d-22.982775613975726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c9f19b864009%3A0xbec2fbeb0e3d4301!2sFUMEC%20Descentralizada%20Cambar%C3%A1!5e1!3m2!1spt-BR!2sbr!4v1620938921310!5m2!1spt-BR!2sbr" width="250" height="150" style="border:1px solid black; border-radius: 5px;" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                         </div>
                     </div>
