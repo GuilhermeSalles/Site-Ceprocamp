@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
     $curso = $_POST['Curso'];
     $unidade = $_POST['Unidade'];
 
-    $result = mysqli_query($conexao, "INSERT INTO Dados VALUES ('$nome','$email','$unidade','$curso')");
+    $result = mysqli_query($conexao, "INSERT INTO registro VALUES ('$nome','$email','$unidade','$curso')");
 }
 
 ?>
