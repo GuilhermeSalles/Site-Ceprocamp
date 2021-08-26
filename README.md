@@ -11,5 +11,5 @@
 - **JS**: Pasta com arquivos JavaScript(animações do site, filtro, e para deixar menu fixo);
 - **Login**: Tela de login e outras pastas com paginas de emprestimo e administrativo;
 - **MySQL**: DUMP para criar a base de dados do site por completo;
--**Paginas**: Unidades, NIT, Fale conosco entre outras, ficam na raiz primaria;
+- **Paginas**: Unidades, NIT, Fale conosco entre outras, ficam na raiz primaria;
 - **Unidades-parceiras**: Pastas e paginas das unidades parceiras do CEPROCAMP.
