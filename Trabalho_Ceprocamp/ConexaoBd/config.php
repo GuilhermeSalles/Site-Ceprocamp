@@ -1,8 +1,8 @@
 <?php
 
-    $dbHost = 'Localhost';
+    $dbHost = 'localhost';
     $dbUsername = 'root';
-    $dbPassword = 'root';
+    $dbPassword = '';
     $dbName = 'BaseCEPROCAMP';
 
     $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);

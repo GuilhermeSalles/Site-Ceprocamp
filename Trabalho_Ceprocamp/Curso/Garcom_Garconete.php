@@ -7,7 +7,7 @@
 
         <div class="col-9">
             <h2 style="font-weight: bold; color: #fe5722"> <img class="mb-1" src=" ../img/Icones dia/book.svg">
-                Garçom</h2>
+                Garçom - Garçonete</h2>
         </div>
 
         <div class="col-3 mt-2">
@@ -114,7 +114,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label style="font-weight: bold; color: rgb(75, 75, 75);" for="curso">Curso:</label>
-                                    <input type="input" class="form-control" id="curso" name="Curso" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" value="Agente de Controle de Endemias" readonly>
+                                    <input type="input" class="form-control" id="curso" name="Curso" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" value="Garçom - Garçonete" readonly>
                                 </div>
 
                                 <div class="form-group">
@@ -172,13 +172,13 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
+                            <th scope="row"><a href="../index" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Centro</a></th>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                         </tr>
                         <tr>
-                            <th scope="row"><a href="../joseAlves" style="color: rgb(75, 75, 75);">José Alves</a></th>
+                            <th scope="row"><a href="../joseAlves" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">José Alves</a></th>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
@@ -194,7 +194,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th colspan="4" class="text-center"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
+                            <th colspan="4" class="text-center"><a href="../index" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Centro</a></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -219,7 +219,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th colspan="4" class="text-center"><a href="../joseAlves" style="color: rgb(75, 75, 75);">José Alves</a></th>
+                            <th colspan="4" class="text-center"><a href="../joseAlves" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">José Alves</a></th>
                         </tr>
                     </thead>
                     <tbody>

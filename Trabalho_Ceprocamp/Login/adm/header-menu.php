@@ -1,4 +1,23 @@
-<?php session_start(); ?>
+<?php
+	session_start();
+	include_once("../../ConexaoBd/config.php");
+	
+
+// Inclua este script em todas as páginas que exigirem que o usuário esteja logado
+// Protege a página
+
+if (!isset($_SESSION['usuarioNome'])) {
+    // Verifica se existem Cookies para manter conectado
+    if (isset($_COOKIE["email"]) && isset($_COOKIE["senha"])) {
+        $usuario = new usuario();
+        if (!$usuario->validaLogin($_COOKIE))
+            header('Location: /adm/Adminitrativo');
+    } else
+        header('Location: /login');
+	
+ 
+}	
+?>
 <!doctype html>
 <html lang="pt-br">
 

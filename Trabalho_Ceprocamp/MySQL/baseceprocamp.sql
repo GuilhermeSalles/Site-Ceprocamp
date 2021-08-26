@@ -44,8 +44,8 @@ CREATE TABLE `emprestimo` (
   `Perif1` varchar(30),
   `Qtd2` varchar(1),
   `Perif2` varchar(30),
-  `Justificativa` varchar(1) NOT NULL,
-  `Devolvido` varchar(1)
+  `Justificativa` varchar(30) NOT NULL,
+  `Devolvido` varchar(3)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------

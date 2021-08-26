@@ -6,19 +6,19 @@
     <div class="row">
 
         <div class="col-9">
-            <h2 style="font-weight: bold; color: #FE5722FF;"> <img src="../img/Icones dia/book.svg">
-                Agente de Controle de Endemias</h2>
+            <h2 style="font-weight: bold; color: #FE5722FF;"> <img class="mb-1" src=" ../img/Icones dia/book.svg">
+                Técnico em Informática</h2>
         </div>
 
-        <div class="col-3 mt-2">
-            <h6 style=" color: rgb(75, 75, 75);"><span style="font-weight: bold; color: #FE5722FF"> <img src="../img/Icones dia/clock.svg"> Duração:
+        <div class="col-3 mt-3">
+            <h6><span style="font-weight: bold; color: #FE5722FF"> <img src="../img/Icones dia/clock.svg"> Duração:
                 </span>200 horas</h6>
         </div>
 
     </div>
 
     <hr class="hr3 mt-0">
-    <img style="margin-top: 0%;" src="../img/CAPA PARA CURSO/22.png" class="img-fluid rounded">
+    <img style="margin-top: 0%;" src="../img/CAPA PARA CURSO/18.png" class="img-fluid rounded">
 
 </div>
 
@@ -26,6 +26,7 @@
 <br>
 
 <div class="container">
+
     <div class="text-center">
 
         <h2 style="font-weight: bold; color: #FE5722FF" class="fw-bolder font-monospace">Perfil profissional
@@ -34,13 +35,9 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify">O profissional será capaz de compreender a maneira
-        correta
-        de realizar a vigilância, prevenção, controle de doenças e promoção da saúde no Sistema Único de
-        Saúde.
-        Estará apto também a identificar situações de risco, possíveis focos de doenças e vetores,
-        interpretar
-        dados epidemiológicos e fazer controle de pragas urbanas.
+    <p class="text-justify"> Este curso capacita para execução das atividades
+        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
+        empregados, concessão de benefícios e demissão.
     </p>
 
     <br>
@@ -70,15 +67,15 @@
 
             <h6 style="font-weight: bold; color: rgb(75, 75, 75);">Requisitos Específicos:</h6>
             <ul class="b ml-5">
-                <li>Possuir 18 anos completos até o último dia da inscrição.</li>
+                <li>Possuir 16 anos completos até o último dia da inscrição.</li>
                 <li>Possuir o pré-requisito exigido para cada curso, de forma a aproveitar totalmente a aprendizagem
                     oferecida.</li>
-                <li>8ª Série / 9º Ano do Ensino Fundamental.</li>
+                <li>Ensino Médio Concluído ou Cursando a 2ª ou 3ª Série.</li>
             </ul>
 
             <br>
 
-            <h6 style="font-weight: bold; color: #fe5722;">Previsão 2° Semestre de 2021</h6>
+            <h6 style="font-weight: bold;color: #fe5722;">Previsão 2° Semestre de 2021</h6>
             <ul class="b ml-5">
                 <li> Os cursos oferecidos são semestrais o período para os cursos do segundo semestre é de <span style="color: #fe5722;">22/07</span> a <span style="color: #fe5722;">22/12</span>.</li>
             </ul>
@@ -90,10 +87,9 @@
 
         <div class="col-sm-12 col-md-4 col-xs-4">
 
-            <a href="https://www.instagram.com/p/CP0gMHjrW0z/"><img style="margin-top: 0%;" src="../img/POST INSTA/22.png" class="img-fluid rounded"></a>
+            <a href="https://www.instagram.com/p/CP1OOqcLN1C/"><img style="margin-top: 0%;" src="../img/POST INSTA/18.png" class="img-fluid rounded"></a>
 
             <?php include 'interesse.php' ?>
-
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
@@ -117,7 +113,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label style="font-weight: bold; color: rgb(75, 75, 75);" for="curso">Curso:</label>
-                                    <input type="input" class="form-control" id="curso" name="Curso" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" value="Agente de Controle de Endemias" readonly>
+                                    <input type="input" class="form-control" id="curso" name="Curso" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" value="Técnico em Informática" readonly>
                                 </div>
 
                                 <div class="form-group">
@@ -176,10 +172,28 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row"><a href="../index" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Centro</a></th>
-                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <th scope="row"><a href="../cambara" style="color: rgb(75, 75, 75);">Cambará</a></th>
                         <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                         <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                    </tr>
+                    <tr>
+                    <th scope="row"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><a href="../joseAlves" style="color: rgb(75, 75, 75);">José Alves</a></th>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><a href="../myrian" style="color: rgb(75, 75, 75);">Myrian</a></th>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                     </tr>
                 </tbody>
             </table>
@@ -192,7 +206,31 @@
             <table class="table table-hover">
                 <thead>
                     <tr>
-                        <th colspan="4" class="text-center"><a href="../index" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Centro</a></th>
+                        <th colspan="4" class="text-center"><a href="../cambara" style="color: rgb(75, 75, 75);">Cambará</a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="col"><img src="../img/Icones dia/sun.svg" alt="Sol"> Manhã</th>
+                        <th scope="col"><img src="../img/Icones dia/sunset.svg" alt="Tarde"> Tarde</th>
+                        <th scope="col"><img src="../img/Icones dia/moon.svg" alt="Noite"> Noite</th>
+                    </tr>
+                    <tr>
+                        <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row grande">
+        <div class="col-sm-10 col-md-12 col-xs-12">
+
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th colspan="4" class="text-center"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th> 
                     </tr>
                 </thead>
                 <tbody>
@@ -203,9 +241,56 @@
                     </tr>
                     <tr>
                         <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
-                        <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                         <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
-                        </td>
+                        <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row grande">
+        <div class="col-sm-10 col-md-12 col-xs-12">
+
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th colspan="4" class="text-center"><a href="../joseAlves" style="color: rgb(75, 75, 75);">José Alves</a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="col"><img src="../img/Icones dia/sun.svg" alt="Sol"> Manhã</th>
+                        <th scope="col"><img src="../img/Icones dia/sunset.svg" alt="Tarde"> Tarde</th>
+                        <th scope="col"><img src="../img/Icones dia/moon.svg" alt="Noite"> Noite</th>
+                    </tr>
+                    <tr>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row grande">
+        <div class="col-sm-10 col-md-12 col-xs-12">
+
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th colspan="4" class="text-center"><a href="../myrian" style="color: rgb(75, 75, 75);">Myrian</a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="col"><img src="../img/Icones dia/sun.svg" alt="Sol"> Manhã</th>
+                        <th scope="col"><img src="../img/Icones dia/sunset.svg" alt="Tarde"> Tarde</th>
+                        <th scope="col"><img src="../img/Icones dia/moon.svg" alt="Noite"> Noite</th>
+                    </tr>
+                    <tr>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                     </tr>
                 </tbody>
             </table>

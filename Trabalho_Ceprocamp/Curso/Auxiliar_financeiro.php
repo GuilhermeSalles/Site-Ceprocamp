@@ -1,4 +1,4 @@
-<?php include 'header-menu.php' ?>
+ title="Clique para saber mais sobre o local." <?php include 'header-menu.php' ?>
 
 <br>
 
@@ -174,7 +174,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
+                        <th scope="row"><a href="../index" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Centro</a></th>
                         <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                         <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                         <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
@@ -190,7 +190,7 @@
             <table class="table table-hover">
                 <thead>
                     <tr>
-                        <th colspan="4" class="text-center"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
+                        <th colspan="4" class="text-center"><a href="../index" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Centro</a></th>
                     </tr>
                 </thead>
                 <tbody>

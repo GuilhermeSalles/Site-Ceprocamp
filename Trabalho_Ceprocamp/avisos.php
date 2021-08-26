@@ -8,7 +8,7 @@
                     <div class="carousel-item">
                         <div class="text-justify">
 
-                            <img src="img/Avisos/Biblioteca.png" class="img-fluid" alt="Aviso Bilioteca">
+                        <a title="Horario de funcionamento da biblioteca."><img src="img/Avisos/Biblioteca.png" class="img-fluid" alt="Aviso Bilioteca"></a>
 
                         </div>
                     </div>
@@ -16,7 +16,7 @@
                     <div class="carousel-item active">
                         <div class="text-justify">
 
-                            <img src="img/Avisos/Secretaria.png" class="img-fluid" alt="Secretária">
+                        <a title="Horarios e telefone Secretária."><img src="img/Avisos/Secretaria.png" class="img-fluid" alt="Secretária"></a>
 
                         </div>
                     </div>
@@ -24,7 +24,7 @@
                     <div class="carousel-item">
                         <div class="text-justify">
 
-                            <a href="nit"><img src="img/Avisos/Sobre NIT.png" class="img-fluid" alt="Aviso sobre Nit"></a>
+                            <a href="nit" title="Sobre Nit"><img src="img/Avisos/Sobre NIT.png" class="img-fluid" alt="Aviso sobre Nit"></a>
 
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                     <div class="carousel-item">
                         <div class="text-justify">
 
-                            <a href="https://play.google.com/store/apps/details?id=sp.gov.br.ceprocampov.fumec"><img src="img/Avisos/Aplicativo.png" class="img-fluid" alt="Aplicativo"></a>
+                            <a href="https://play.google.com/store/apps/details?id=sp.gov.br.ceprocampov.fumec" title="Baixar o aplicativo"><img src="img/Avisos/Aplicativo.png" class="img-fluid" alt="Aplicativo"></a>
 
                         </div>
                     </div>

@@ -88,7 +88,7 @@
 
         </div>
 
-        <div class="col-sm-12 col-md-4 col-xs-4" data-anime="top">
+        <div class="col-sm-12 col-md-4 col-xs-4">
 
             <a href="https://www.instagram.com/p/CP_TxOIr0VM/"><img style="margin-top: 0%;" src="../img/POST INSTA/24.png" class="img-fluid rounded"></a>
 
@@ -146,69 +146,70 @@
 
         </div>
     </div>
+</div>
 
-    <br>
-    <br>
+<br>
+<br>
 
-    <div class="container" data-anime="top">
+<div class="container" data-anime="top">
 
-        <div class="text-center">
+    <div class="text-center">
 
-            <h3 style="font-weight: bold; color: rgb(75, 75, 75);">Locais e turnos disponíveis para este curso.</h3>
-            <hr class="divisao">
+        <h3 style="font-weight: bold; color: rgb(75, 75, 75);">Locais e turnos disponíveis para este curso.</h3>
+        <hr class="divisao">
 
-        </div>
+    </div>
 
-        <div class="row pequeno">
-            <div class="col-sm-10 col-md-12 col-xs-12">
+    <div class="row pequeno">
+        <div class="col-sm-10 col-md-12 col-xs-12">
 
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th class="ml-0" scope="col"><img src="../img/Icones dia/map-pin.svg" alt="Local"> Local
-                            </th>
-                            <th class="ml-0" scope="col"><img src="../img/Icones dia/sun.svg" alt="Sol"> Manhã</th>
-                            <th class="ml-0" scope="col"><img src="../img/Icones dia/sunset.svg" alt="Tarde"> Tarde</th>
-                            <th class="ml-0" scope="col"><img src="../img/Icones dia/moon.svg" alt="Noite"> Noite</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
-                            <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div class="row grande">
-            <div class="col-sm-10 col-md-12 col-xs-12">
-
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th colspan="4" class="text-center"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="col"><img src="../img/Icones dia/sun.svg" alt="Sol"> Manhã</th>
-                            <th scope="col"><img src="../img/Icones dia/sunset.svg" alt="Tarde"> Tarde</th>
-                            <th scope="col"><img src="../img/Icones dia/moon.svg" alt="Noite"> Noite</th>
-                        </tr>
-                        <tr>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
-                            <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th class="ml-0" scope="col"><img src="../img/Icones dia/map-pin.svg" alt="Local"> Local
+                        </th>
+                        <th class="ml-0" scope="col"><img src="../img/Icones dia/sun.svg" alt="Sol"> Manhã</th>
+                        <th class="ml-0" scope="col"><img src="../img/Icones dia/sunset.svg" alt="Tarde"> Tarde</th>
+                        <th class="ml-0" scope="col"><img src="../img/Icones dia/moon.svg" alt="Noite"> Noite</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"><a href="../index" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Centro</a></th>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
+
+    <div class="row grande">
+        <div class="col-sm-10 col-md-12 col-xs-12">
+
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th colspan="4" class="text-center"><a href="../index" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Centro</a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="col"><img src="../img/Icones dia/sun.svg" alt="Sol"> Manhã</th>
+                        <th scope="col"><img src="../img/Icones dia/sunset.svg" alt="Tarde"> Tarde</th>
+                        <th scope="col"><img src="../img/Icones dia/moon.svg" alt="Noite"> Noite</th>
+                    </tr>
+                    <tr>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
+                        <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 </div>
 <br>
 <br>

@@ -7,7 +7,7 @@
 
         <div class="col-9">
             <h2 style="font-weight: bold; color: #fe5722"> <img class="mb-1" src=" ../img/Icones dia/book.svg">
-                Introdução a Jogos</h2>
+                Desenvolvedor de Jogos Digitais</h2>
         </div>
 
         <div class="col-3 mt-2">
@@ -124,7 +124,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label style="font-weight: bold; color: rgb(75, 75, 75);" for="curso">Curso:</label>
-                                    <input type="input" class="form-control" id="curso" name="Curso" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" value="Introdução a Jogos" readonly>
+                                    <input type="input" class="form-control" id="curso" name="Curso" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" value="Desenvolvedor de Jogos Digitais" readonly>
                                 </div>
 
                                 <div class="form-group">
@@ -182,7 +182,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row"><a href="../ouroVerde" style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
+                            <th scope="row"><a href="../ouroVerde" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
@@ -198,7 +198,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th colspan="4" class="text-center"><a href="../ouroVerde" style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
+                            <th colspan="4" class="text-center"><a href="../ouroVerde" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
                         </tr>
                     </thead>
                     <tbody>

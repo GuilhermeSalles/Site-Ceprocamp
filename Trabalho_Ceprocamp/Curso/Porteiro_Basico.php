@@ -171,7 +171,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row"><a href="../casi" style="color: rgb(75, 75, 75);">Casi</a></th>
+                            <th scope="row"><a href="../casi" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Casi</a></th>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
@@ -187,7 +187,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th colspan="4" class="text-center"><a href="../casi" style="color: rgb(75, 75, 75);">Casi</a></th>
+                            <th colspan="4" class="text-center"><a href="../casi" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Casi</a></th>
                         </tr>
                     </thead>
                     <tbody>

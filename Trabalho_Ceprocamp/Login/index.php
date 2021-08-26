@@ -39,7 +39,7 @@ session_start();
             } ?>
                 </p>
                 <?php if (isset($_SESSION['logindeslogado'])) { ?>
-                    <p class="alert alert-success" role="alert text-center text-success">
+                    <p class="alert alert-success" role="alert" "text-center text-success">
                     <?php
                     echo $_SESSION['logindeslogado'];
                     unset($_SESSION['logindeslogado']);

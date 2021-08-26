@@ -179,19 +179,19 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row"><a href="../campoGrande" style="color: rgb(75, 75, 75);">Campo Grande</a></th>
+                            <th scope="row"><a href="../campoGrande" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Campo Grande</a></th>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                         </tr>
                         <tr>
-                            <th scope="row"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
+                            <th scope="row"><a href="../index" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Centro</a></th>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                         </tr>
                         <tr>
-                            <th scope="row"><a href="../ouroVerde" style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
+                            <th scope="row"><a href="../ouroVerde" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
@@ -207,7 +207,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th colspan="4" class="text-center"><a href="../campoGrande" style="color: rgb(75, 75, 75);">Campo Grande</a></th>
+                            <th colspan="4" class="text-center"><a href="../campoGrande" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Campo Grande</a></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -231,7 +231,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th colspan="4" class="text-center"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
+                            <th colspan="4" class="text-center"><a href="../index" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Centro</a></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -255,7 +255,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th colspan="4" class="text-center"><a href="../ouroVerde" style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
+                            <th colspan="4" class="text-center"><a href="../ouroVerde" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
                         </tr>
                     </thead>
                     <tbody>

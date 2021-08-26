@@ -90,7 +90,7 @@ if (isset($_POST['submit'])) {
                             <a class="dropdown-item" href="../campoGrande">Campo Grande</a>
                             <a class="dropdown-item" href="../casi">CASI</a>
                             <a class="dropdown-item" href="../myrian">Myrian</a>
-                            <a class="dropdown-item" href="../Unidades Parceiras/Parceiras">Parceiras</a>
+                            <a class="dropdown-item" href="../Unidades-Parceiras/Parceiras">Parceiras</a>
 
                             <!--
                             <li class="dropdown-submenu">
@@ -186,10 +186,11 @@ if (isset($_POST['submit'])) {
                     <li class="nav-item">
                         <a class="nav-link" href="../PerguntasFrequentes">Perguntas Frequentes</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.fumec.sp.gov.br/fale-conosco" target="_blank">Fale
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="../Fale_conosco">Fale
                             Conosco</a>
                     </li>
+                    -->
                 </ul>
             </div>
     </nav>

@@ -1,27 +1,28 @@
- <?php session_start(); ?>
- <?php 
+<?php
+	session_start();
+	include_once("../../ConexaoBd/config.php");
+	
+
+// Inclua este script em todas as páginas que exigirem que o usuário esteja logado
+// Protege a página
+
+if (!isset($_SESSION['usuarioNome'])) {
+    // Verifica se existem Cookies para manter conectado
+    if (isset($_COOKIE["email"]) && isset($_COOKIE["senha"])) {
+        $usuario = new usuario();
+        if (!$usuario->validaLogin($_COOKIE))
+            header('Location: /emp/emprestimos');
+    } else
+        header('Location: /login');
+	
+ 
+}	
+?>
+ <?php
 
     if (isset($_POST['submit'])) {
 
-        include_once('../../ConexaoBd/config.php');
-
-        $MatriculaS = $_POST['MatriculaS'];
-        $MatriculaA = $_POST['MatriculaA'];
-        $Local = $_POST['Local'];
-        $Unidade = $_POST['Unidade'];
-        $Datashow = $_POST['Datashow'];
-        $ControleDatashow = $_POST['ControleDatashow'];
-        $DataE = $_POST['DataE'];
-        $Hora = $_POST['Hora'];
-        $Notebooks = $_POST['Notebooks'];
-        $Qtd1 = $_POST['Qtd1'];
-        $Perif1 = $_POST['Perif1'];
-        $Qtd2 = $_POST['Qtd2'];
-        $Perif2 = $_POST['Perif2'];
-        $Justificativa = $_POST['Justificativa'];
-        $Devolvido = $_POST['Devolvido'];
-
-        $result = mysqli_query($conexao, "INSERT INTO emprestimo VALUES ('$MatriculaS','$MatriculaA','$Unidade','$Local','$Datashow','$ControleDatashow','$DataE','$Hora','$Notebooks','$Qtd1','$Perif1','$Qtd2','$Perif2','$Justificativa','$Devolvido')");
+        include('salva_mensagem.php');
     }
 
     ?>
@@ -84,8 +85,16 @@
                          </li>
                      <?php } ?>
 
-                     <li class="nav-item">
-                         <a class="nav-link" href="emprestimos">Lista e cadastro de equipamentos</a>
+                     <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Lista e cadastro de equipamentos
+                         </a>
+                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                             <a class="dropdown-item" href="fomulario-Emprestimo">Cadastrar emprestimo</a>
+                             <a class="dropdown-item" href="emprestimos">Listar emprestimos</a>
+
+                         </ul>
                      </li>
 
                      <!--
@@ -97,6 +106,7 @@
                         <a class="nav-link" href="https://www.fumec.sp.gov.br/">FUMEC</a>
                     </li>
                         -->
+
                  </ul>
 
                  <ul class="navbar-nav">

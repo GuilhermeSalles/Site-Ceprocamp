@@ -52,7 +52,10 @@
             </div>
             <div class="form-group col-md-6">
                 <label style="font-weight: bold; color: rgb(75, 75, 75);" for="ControleDatashow">Pegou controle datashow:</label>
-                <input type="input" class="form-control" id="ControleDatashow" name="ControleDatashow" style="border-radius: 10px;">
+                <select id="ControleDatashow" name="ControleDatashow" class="form-control" style="border-radius: 10px;">
+                    <option selected>Não</option>
+                    <option>Sim</option>
+                </select>
             </div>
         </div>
         <div class="form-row">
@@ -126,37 +129,36 @@
             </div>
         </div>
         <div class="form-row">
-            <!-- <div class="form-group col-md-6">
+             <div class="form-group col-md-6">
                 <label style="font-weight: bold; color: rgb(75, 75, 75);" for="Justificativa">Justificativa:</label>
                 <select id="Justificativa" name="Justificativa" class="form-control" style="border-radius: 10px;">
-                    <option selected>1</option>
-                    <option>2</option>
-                    <option>3</option>
+                    <option selected>Recurso necessário para cumprimento do plano de ensino</option>
+                    <option>Cumprimento do comunicado FUMEC nº 10/2021</option>
+                    <option>Recurso necessário para cumprimento do plano de ensino e Cumprimento do comunicado FUMEC nº 10/2021</option>
                 </select>
-                <small><b>1</b> - Recurso necessário para cumprimento do plano de ensino</small><br>
-                <small><b>2</b> - Cumprimento do comunicado FUMEC nº 10/2021</small><br>
-                <small><b>3</b> - Recurso necessário para cumprimento do plano de ensino e Cumprimento do comunicado FUMEC nº 10/2021</small>
             </div>
             <div class="form-group col-md-6">
                 <label style="font-weight: bold; color: rgb(75, 75, 75);" for="Devolvido">Devolvido:</label>
                 <select id="Devolvido" name="Devolvido" class="form-control" style="border-radius: 10px;">
-                    <option selected>1</option>
-                    <option>2</option>
+                    <option selected>Não</option>
+                    <option>Sim</option>
                 </select>
-                <small><b>1</b> - Não </small>
-                <br>
-                <small><b>2</b> - Sim </small>
-            </div> -->
+            </div> 
         </div>
         <hr>
         <input type="submit" name="submit" id="submit" class=" bhouver btn btn-danger btn-outline-danger" style="color: white;" value="Enviar">
 
     </form>
 
+
     <br>
+
+
 
 </div>
 
+<br>
+<br>
 <br>
 
 <?php include 'footer.php' ?>
