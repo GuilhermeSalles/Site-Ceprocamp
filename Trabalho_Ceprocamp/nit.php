@@ -50,7 +50,6 @@
            -webkit-transform-style: preserve-3d;
            -ms-transition: 1s;
            -moz-transition: 1s;
-           -moz-transform: perspective(1000px);
            -moz-transform-style: preserve-3d;
            -ms-transform-style: preserve-3d;
            transition: 1s;
@@ -60,8 +59,6 @@
 
        .frontside {
            position: relative;
-           -webkit-transform: rotateY(0deg);
-           -ms-transform: rotateY(0deg);
            z-index: 2;
            margin-bottom: 50px;
        }
