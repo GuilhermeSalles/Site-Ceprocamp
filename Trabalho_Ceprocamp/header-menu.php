@@ -160,11 +160,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="PerguntasFrequentes">Perguntas Frequentes</a>
                     </li>
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="Fale_conosco">Fale
                             Conosco</a>
                     </li>
-                    -->
+                
                 </ul>
             </div>
     </nav>

@@ -5,10 +5,10 @@
    <br>
    <div class="container">
 
-       <h2 style="color: rgb(77, 77, 77); margin-bottom: 0%;">Perguntas frequentes <img src="../../img/PerguntasFrequentes.png"></h2>
+       <h2 style="color: rgb(77, 77, 77); margin-bottom: 0%;">Perguntas frequentes </h2>
        <hr class="hrPER">
        <br>
-       <h4 style="color: rgb(43, 43, 43);">COMO FAZER UM CURSO NO CEPROCAMP <img src="../../img/PerguntasFrequentes.png"></h4>
+       <h4 style="color: rgb(43, 43, 43);">COMO FAZER UM CURSO NO CEPROCAMP </h4>
        <hr class="hrPER1">
        <p class="text-justify">Para estudar no CEPROCAMP é necessário participar do processo seletivo: fazer a
            inscrição pelo site, aguardar ser chamado para realizar a matrícula e estar com todos os documentos
@@ -26,7 +26,7 @@
 
        <br>
 
-       <h4 style="color: rgb(43, 43, 43);">QUAIS SÃO OS CURSOS OFERECIDOS <img src="../../img/PerguntasFrequentes.png">
+       <h4 style="color: rgb(43, 43, 43);">QUAIS SÃO OS CURSOS OFERECIDOS 
        </h4>
        <hr class="hrPER2">
        <p class="text-justify">Cada semestre é disponibilizada uma lista de cursos oferecidos pelo CEPROCAMP, com
@@ -38,7 +38,7 @@
 
        <br>
 
-       <h4 style="color: rgb(43, 43, 43);">QUAL É A DURAÇÃO DOS CURSOS <img src="../../img/PerguntasFrequentes.png">
+       <h4 style="color: rgb(43, 43, 43);">QUAL É A DURAÇÃO DOS CURSOS 
        </h4>
        <hr class="hrPER3">
        <p class="text-justify">Os cursos de qualificação profissional têm a duração de um semestre, com exceção da
@@ -50,7 +50,7 @@
 
        <br>
 
-       <h4 style="color: rgb(43, 43, 43);">O CEPROCAMP OFERECE AUXÍLIO TRANSPORTE <img src="../../img/PerguntasFrequentes.png"></h4>
+       <h4 style="color: rgb(43, 43, 43);">O CEPROCAMP OFERECE AUXÍLIO TRANSPORTE </h4>
        <hr class="hrPER4">
        <p class="text-justify">É oferecido o auxílio transporte aos alunos dos cursos de qualificação profissional.
            Para tanto, é necessário residir no município de Campinas, possuir renda per capita familiar de até meio
@@ -61,7 +61,7 @@
 
        <br>
 
-       <h4 style="color: rgb(43, 43, 43);">TÉCNICO EM ENFERMAGEM <img src="../../img/PerguntasFrequentes.png"></h4>
+       <h4 style="color: rgb(43, 43, 43);">TÉCNICO EM ENFERMAGEM </h4>
        <hr class="hrPER5">
        <p class="text-justify">A previsão é que nova turma do técnico em Enfermagem seja aberta para o 1º semestre de
            2022.
@@ -70,7 +70,7 @@
 
        <br>
 
-       <h4 style="color: rgb(43, 43, 43);">HORÁRIOS DE AULA <img src="../../img/tempo.png"></h4>
+       <h4 style="color: rgb(43, 43, 43);">HORÁRIOS DE AULA</h4>
        <hr class="hrPER6">
        <div class="content">
            <ul class="b ml-5 mt-1">
