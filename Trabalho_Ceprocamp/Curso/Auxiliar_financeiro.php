@@ -1,4 +1,4 @@
- title="Clique para saber mais sobre o local." <?php include 'header-menu.php' ?>
+<?php include 'header-menu.php' ?>
 
 <br>
 

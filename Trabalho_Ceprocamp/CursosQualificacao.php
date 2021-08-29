@@ -436,7 +436,10 @@
                            <p class="card-text">Capacita o aluno no planejamento, criação, organização
                                e publicação de interfaces de Websites, seguindo normas de
                                acessibilidade, usabilidade, padrões web e boas práticas de
-                               desenvolvimento que qualifiquem a criação de websites.</p>
+                               desenvolvimento que qualifiquem a criação de websites.
+                            <br>
+                            <br>
+                        </p>
                            <a href="Curso/Criacao_de_websites" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
@@ -449,19 +452,419 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/6.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">INTRODUÇÃO A JOGOS</h5>
+                           <h5 class="card-title">DESENVOLVEDOR DE JOGOS DIGITAIS</h5>
                            <p class="card-text">Capacita o aluno no desenvolvimento de
                                atividades voltadas para desenvolvimento de algoritmos;
                                utilização de ambientes de desenvolvimento, utilização
                                de plataformas que possibilitem a criação de jogos e
                                vários tipos de aplicativos.</p>
-                           <a href="Curso/Desenvolvimento_de_games" class="btn btn-danger">Ver Mais</a>
+                           <a href="Curso/Desenvolvedor_de_jogos_digitais" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
                            <small class="text-muted"> Duração: </b>200 hs/a = 166 horas</small>
                        </div>
                    </div>
                </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">AGENTE ADMINISTRATIVO</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                               <br>
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Agente_administrativo" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">AGENTE DE EPI/EPC</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Agente_de_EPI_EPC" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">AGENTE DE SANEAMENTO AMBIENTAL</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Agente_de_saneamento_ambiental" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">ATENDIMENTO E COPA</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/atendimento_e_copa" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">AUXILIAR DE ALMOXARIFADO</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Auxiliar_almoxarifado" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">AUXILIAR DE COMÉRCIO EXTERIOR</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Auxiliar_comercio_exterior" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Auxiliar_de_administracao" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">AUXILIAR DE HOTELARIA</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Auxiliar_hotelaria" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">CAMAREIRA EM MEIOS DE HOSPEDAGEM</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Camareira_em_meios_de_hospedagem" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">EXCEL BÁSICO</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Excel_basico" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">FRENTISTA</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Frentista" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">GARÇOM - GARÇONETE</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Garcom_Garconete" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">HIGIENE E MANIPULAÇÃO DE ALIMENTOS</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Higiene_e_manipulacao_de_alimentos" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">HOSTESS - RECEPCIONISTA DE EVENTOS</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Hostess_recepcionista_de_eventos" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">INCLUSÃO DIGITAL</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Inclusao_digital" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">INFORMÁTICA BÁSICA</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Informatica_basica" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">MAPA DE RISCOS</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Mapa_de_riscos" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">OPERADOR DE COMPUTADOR</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Operador_de_compuatador" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">ORGANIZADOR DE EVENTOS</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Organizador_de_eventos" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">PRÁTICAS ADMINISTRATIVAS</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Praticas_administrativas" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">PRÁTICAS CONTÁBEIS</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Praticas_contabeis" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h5 class="card-title">PROJETO DE PREVENÇÃO E COMBATE A INCÊNDIOS</h5>
+                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
+                               recepcionar e orientar visitantes em condomínios e empresas.
+                               <br>
+                               <br>
+                           </p>
+                           <a href="Curso/Projeto_de_prevencao_e_combate_a_incendios" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
            </div>
        </div>
    </div>

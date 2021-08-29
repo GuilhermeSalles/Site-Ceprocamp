@@ -50,9 +50,10 @@
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="navbarSite">
-                <a class="navbar-brand h1 mb-1 justify-content-right" href="index">Inicio</a>
-
                 <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="\">Inicio</a>
+                    </li>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -60,7 +61,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
-                            <a class="dropdown-item" href="index">Centro</a>
+                            <a class="dropdown-item" href="\">Centro</a>
                             <a class="dropdown-item" href="joseAlves">José Alves</a>
                             <a class="dropdown-item" href="ouroVerde">Ouro Verde</a>
                             <a class="dropdown-item" href="cambara">Cambará</a>
@@ -164,7 +165,7 @@
                         <a class="nav-link" href="Fale_conosco">Fale
                             Conosco</a>
                     </li>
-                
+
                 </ul>
             </div>
     </nav>

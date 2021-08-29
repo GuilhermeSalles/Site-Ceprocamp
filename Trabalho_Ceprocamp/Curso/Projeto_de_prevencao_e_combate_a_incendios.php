@@ -7,7 +7,7 @@
 
         <div class="col-9">
             <h2 style="font-weight: bold; color: #FE5722FF;"> <img class="mb-1" src=" ../img/Icones dia/book.svg">
-                Auxiliar de Dep.pessoal/RH</h2>
+            Projeto de Prevenção e Combate a Incêndios</h2>
         </div>
 
         <div class="col-3 mt-3">
