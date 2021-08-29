@@ -27,7 +27,7 @@
 
                <div class="col-md-4 project-box m n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/18.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/19.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AUXILIAR DE DEP.PESSOAL/RH</h6>
                            <p class="card-text">Aprenda a executar atividades relacionadas a administração de pessoas.
@@ -42,7 +42,7 @@
 
                <div class="col-md-4 project-box n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/16.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/20.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AUXILIAR FINANCEIRO</h6>
                            <p class="card-text">Aprenda a gerar lançamentos contábeis e auxiliar no controle do fluxo de caixa.
@@ -57,7 +57,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/11.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/39.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">PADEIRO/ CONFEITEIRO</h6>
                            <p class="card-text">Produza itens de panificação e confeitaria e técnicas para manipulação e venda.
@@ -72,7 +72,7 @@
 
                <div class="col-md-4 project-box t">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/15.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/7.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">DESENHO TÉCNICO CAD</h6>
                            <p class="card-text">Aprenda a elaborar e interpretar desenhos de representação gráfica em projetos.
@@ -87,7 +87,7 @@
 
                <div class="col-md-4 project-box t">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/14.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/40.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">GARÇOM - GARÇONETE</h6>
                            <p class="card-text">Aprenda a atender clientes, servindo alimentos e bebidas em geral.
@@ -104,7 +104,7 @@
 
                <div class="col-md-4 project-box m">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/20.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/26.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">ALMOXARIFE</h6>
                            <p class="card-text">Aprenda a controlar a entrada/saída de produtos e materiais de um almoxarifado.
@@ -119,7 +119,7 @@
 
                <div class="col-md-4 project-box t">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/22.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/12.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AGENTE DE CONTROLE DE ENDEMIAS</h6>
                            <p class="card-text" style="margin-bottom: 35px;">Aprenda a realizar a vigilância, prevenção, controle de doenças e a promoção da saúde.
@@ -135,7 +135,7 @@
 
                <div class="col-md-4 project-box t">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/17.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/11.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AUXILIAR DE LABORATÓRIO DE QUÍMICA</h6>
                            <p class="card-text">Aprenda a preparar reagentes e equipamentos para utilização em experimentos.
@@ -150,7 +150,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/18.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">PORTEIRO/CONTROLADOR DE ACESSO</h6>
                            <p class="card-text">Aprenda a controlar o fluxo de pessoas e veículos, utilizando tecnologias adequadas
@@ -165,7 +165,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/3.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/27.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AUXILIAR DE LOGÍSTICA </h6>
                            <p class="card-text">Aprenda os processos de um departamento logístico, com uso de sistemas.
@@ -180,7 +180,7 @@
 
                <div class="col-md-4 project-box m">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/19.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/15.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AUXILIAR ADMINISTRATIVO</h6>
                            <p class="card-text">Aprenda a realizar o suporte administrativo e técnico nas áreas administrativas.
@@ -195,7 +195,7 @@
 
                <div class="col-md-4 project-box m t">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/5.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/2.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">CUIDADOR DE PESSOAS</h6>
                            <p class="card-text">Aprenda a dar assistência em saúde para crianças, pessoas com deficiência e idosos.
@@ -210,7 +210,7 @@
 
                <div class="col-md-4 project-box m n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/1.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/3.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">CUIDADOR DE IDOSOS</h6>
                            <p class="card-text">Aprenda a acompanhar e contribuir com a melhora da saúde de pessoas idosas.
@@ -240,7 +240,7 @@
 
                <div class="col-md-4 project-box m t">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/2.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/17.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AUXILIAR DE ESCRITÓRIO</h6>
                            <p class="card-text">Aprenda a manter as documentações e informações prontas para a tomada de decisão.
@@ -255,7 +255,7 @@
 
                <div class="col-md-4 project-box n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/12.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/48.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">INGLÊS PARA ATENDIMENTO DO CLIENTE</h6>
                            <p class="card-text">Aprenda a recepcionar, comunicar e orientar convidados e clientes falantes de Inglês.
@@ -271,7 +271,7 @@
 
                <div class="col-md-4 project-box n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/10.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/50.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">PORTUGUÊS E MATEMÁTICA PARA CONCURSOS PÚBLICOS E ENEM </h6>
                            <p class="card-text">Reforçe seus conhecimentos para conseguir aprovação em diversos tipos de exames.
@@ -287,7 +287,7 @@
 
                <div class="col-md-4 project-box m ">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/21.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/6.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AGENTE DE SEGURANÇA DO TRABALHO E HIGIENE OCUPACIONAL</h6>
                            <p class="card-text">Dê assistência na elaboração de procedimentos de segurança em diversos segmentos.
@@ -302,7 +302,7 @@
 
                <div class="col-md-4 project-box m n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/7.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/16.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">MICROEMPREENDEDOR</h6>
                            <p class="card-text" style="margin-bottom: 15px;">Aprenda técnicas de gestão empresarial para ser dono do seu próprio negócio.
@@ -318,7 +318,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/4.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/32.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">CRIAÇÃO DE WEBSITES</h6>
                            <p class="card-text">Aprenda a criar páginas e estruture sites para diversas finalidades e usuários.
@@ -334,7 +334,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/6.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/34.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">DESENVOLVEDOR DE JOGOS DIGITAIS</h6>
                            <p class="card-text" style="margin-bottom: 40px;">Aprenda a criar jogos que executem em diversos aplicativos e na WEB!</p>
@@ -348,7 +348,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/21.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AGENTE ADMINISTRATIVO</h6>
                            <p class="card-text">Aprenda a realizar o suporte administrativo e técnico nas áreas administrativas.
@@ -363,7 +363,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/5.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AGENTE DE EPI/EPC</h6>
                            <p class="card-text">Colabore na escolha correta de equipamentos para proteção dos funcionários.
@@ -378,7 +378,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/37.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">EXCEL BÁSICO</h6>
                            <p class="card-text">Aprenda a usar funções e fazer planilhas e gráficos no Microsoft Excel™.
@@ -393,7 +393,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/45.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">ATENDIMENTO E COPA</h6>
                            <p class="card-text">Aprenda técnicas para servir, manipular alimentos e manter a limpeza da copa/cozinha.
@@ -408,7 +408,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/28.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AUXILIAR DE ALMOXARIFADO</h6>
                            <p class="card-text">Aprenda a colaborar na organização de almoxarifados, garantindo a operação.
@@ -423,7 +423,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/29.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AUXILIAR DE COMÉRCIO EXTERIOR</h6>
                            <p class="card-text">Aprenda a controlar os procedimentos de comercialização internacional de produtos.
@@ -453,7 +453,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/42.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AUXILIAR DE HOTELARIA</h6>
                            <p class="card-text">Aprenda a oferecer uma ótima experiência para o cliente, utilizando técnicas.
@@ -468,7 +468,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/41.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">CAMAREIRA EM MEIOS DE HOSPEDAGEM</h6>
                            <p class="card-text">Aprenda a realizar o asseio de quartos garantir a qualidade da experiência do hóspede.
@@ -483,7 +483,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/13.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AGENTE DE SANEAMENTO AMBIENTAL</h6>
                            <p class="card-text">Aprenda a fiscalizar o saneamento básico em conformidade com a legislação. 
@@ -498,7 +498,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/9.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">PROJETO DE PREVENÇÃO E COMBATE A INCÊNDIOS</h6>
                            <p class="card-text">Aprenda a elaborar planos de fuga e sistemas de controle de incêndios diversos.
@@ -513,7 +513,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/46.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">HIGIENE E MANIPULAÇÃO DE ALIMENTOS</h6>
                            <p class="card-text">Aprenda técnicas para manipular alimentos, garantindo a qualidade e segurança.
@@ -528,7 +528,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/43.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">HOSTESS - RECEPCIONISTA DE EVENTOS</h6>
                            <p class="card-text">Aprenda a recepcionar, comunicar e orientar convidados de diversos eventos.
@@ -543,7 +543,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/38.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">INCLUSÃO DIGITAL</h6>
                            <p class="card-text" style="margin-bottom: 30px;">Conheça e entenda mais sobre recursos tecnológicos e como eles podem te ajudar em seu trabalho.
@@ -558,7 +558,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/36.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">INFORMÁTICA BÁSICA</h6>
                            <p class="card-text">Aprenda a utilizar melhor os equipamentos e recursos tecnológicos.
@@ -588,7 +588,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/31.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">OPERADOR DE COMPUTADOR</h6>
                            <p class="card-text">Aprenda a prestar assistência e suporte em informática para diversos tipos de usuários.
@@ -603,7 +603,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/44.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">ORGANIZADOR DE EVENTOS</h6>
                            <p class="card-text">Aprenda a organizar, controlar e garantir a operação da equipe em eventos.
@@ -618,7 +618,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/22.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">PRÁTICAS ADMINISTRATIVAS</h6>
                            <p class="card-text">Aprenda a realizar açoes e procedimentos relacionados as rotinas administrativas.
@@ -633,7 +633,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/23.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">PRÁTICAS CONTÁBEIS</h6>
                            <p class="card-text">Aprenda a realizar ações e procedimentos contábeis e financeiros.
@@ -648,7 +648,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/47.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">FRENTISTA</h6>
                            <p class="card-text">Aprenda a recepcionar, comunicar e prestar serviço de abastecimento em postos.
@@ -663,7 +663,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/24.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">PRÁTICAS DE ESCRITÓRIO</h6>
                            <p class="card-text">Aprenda a realizar ações e procedimentos de arquivo e documentação.
@@ -678,7 +678,7 @@
 
                <!-- <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/33.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">CRIAÇÃO EM PYTHON</h6>
                            <p class="card-text">Aprenda Python - Fundamentos, algoritmos, estruturas de dados e orientação a objeto.
@@ -693,7 +693,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/35.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">ROBÓTICA</h6>
                            <p class="card-text">Aprenda Arduino - Fundamentos, programação e teste em sistema simples e complexo.
