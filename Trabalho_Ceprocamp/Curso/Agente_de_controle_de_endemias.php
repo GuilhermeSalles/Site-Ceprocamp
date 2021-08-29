@@ -84,7 +84,7 @@
 
         <div class="col-sm-12 col-md-4 col-xs-4">
 
-            <a href="https://www.instagram.com/p/CP0gMHjrW0z/"><img style="margin-top: 0%;" src="../img/POST INSTA/22.png" class="img-fluid rounded"></a>
+            <a href="https://www.instagram.com/p/CP0gMHjrW0z/"><img style="margin-top: 0%;" src="../img/POST INSTA/12.png" class="img-fluid rounded"></a>
 
             <?php include 'interesse.php' ?>
 

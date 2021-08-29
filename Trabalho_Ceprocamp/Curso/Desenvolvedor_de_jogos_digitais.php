@@ -89,7 +89,7 @@
 
         <div class="col-sm-12 col-md-4 col-xs-4">
 
-            <a href="https://www.instagram.com/p/CP8TZqarofn/"><img style="margin-top: 0%;" src="../img/POST INSTA/6.png" class="img-fluid rounded"></a>
+            <a href="https://www.instagram.com/p/CP8TZqarofn/"><img style="margin-top: 0%;" src="../img/POST INSTA/34.png" class="img-fluid rounded"></a>
 
             <?php include 'interesse.php' ?>
             <!-- Modal -->
