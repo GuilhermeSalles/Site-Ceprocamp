@@ -676,7 +676,7 @@
                    </div>
                </div>
 
-               <!-- <div class="col-md-4 project-box m t n">
+               <div class="col-md-4 project-box m t n">
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/33.png" alt="Imagem de capa do card">
                        <div class="card-body">
@@ -704,7 +704,7 @@
                            <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
                        </div>
                    </div>
-               </div> -->
+               </div>
 
            </div>
        </div>

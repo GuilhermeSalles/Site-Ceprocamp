@@ -95,15 +95,12 @@
                             <div class="card-deck">
                                 <div class="card m-3">
 
-                                    <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/21.png" alt="Imagem de capa do card">
+                                    <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/6.png" alt="Imagem de capa do card">
                                     <div class="card-body">
                                         <h5 class="card-title">AGENTE DE SEGURANÇA DO TRABALHO E HIGIENE
                                             OCUPACIONAL
                                         </h5>
-                                        <p class="card-text">Avaliação ambiental com foco na insalubridade e
-                                            periculosidade. Práticas de medições das condições ambientais de
-                                            trabalho. Cálculos de limites de tolerância de exposição a agentes
-                                            de risco.
+                                        <p class="card-text">Dê assistência na elaboração de procedimentos de segurança em diversos segmentos.
                                         </p>
                                         <a href="Curso/Agente_de_segurança_do_trabalho_e_higiene_ocupacional" class="btn btn-danger">Ver Mais</a>
                                     </div>
@@ -114,12 +111,10 @@
                                 </div>
 
                                 <div class="card m-3">
-                                    <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/20.png" alt="Imagem de capa do card">
+                                    <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/26.png" alt="Imagem de capa do card">
                                     <div class="card-body">
                                         <h5 class="card-title">ALMOXARIFE</h5>
-                                        <p class="card-text">Capacita o aluno para controlar a entrada e saída
-                                            de produtos e
-                                            materiais, assim como o armazenamento adequeado.</p>
+                                        <p class="card-text">Aprenda a controlar a entrada/saída de produtos e materiais de um almoxarifado.</p>
                                         <a href="Curso/Almoxarife" class="btn btn-danger">Ver Mais</a>
                                     </div>
                                     <div class="card-footer">
@@ -129,11 +124,10 @@
                                 </div>
 
                                 <div class="card m-3">
-                                    <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/18.png" alt="Imagem de capa do card">
+                                    <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/19.png" alt="Imagem de capa do card">
                                     <div class="card-body">
                                         <h5 class="card-title">AUXILIAR DE DEP. PESSOAL/RH</h5>
-                                        <p class="card-text">Capacita o aluno para execução das atividades
-                                            relacionada a administração de pessoas, como contratação, pagamento.
+                                        <p class="card-text">Aprenda a executar atividades relacionadas a administração de pessoas.
                                         </p>
                                         <a href="Curso/Auxiliar_de_departamento_pessoal_RH" class="btn btn-danger">Ver
                                             Mais</a>
@@ -188,13 +182,10 @@
                             <div class="card-deck">
 
                                 <div class="card m-3">
-                                    <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/24.png" alt="Imagem de capa do card">
+                                    <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/25.png" alt="Imagem de capa do card">
                                     <div class="card-body">
                                         <h5 class="card-title">TÉCNICO EM LOGÍSTICA</h5>
-                                        <p class="card-text">Capacita o aluno para procedimentos de transportes,
-                                            armazenamento e distribuição das cadeias de suprimentos. Supervisão
-                                            de processos de compras, recebimento, movimentação, expedição e
-                                            distribuição de materiais e produtos.
+                                        <p class="card-text">Atue na gestão de setores logísticos garantindo o armazenamento, separação, envio e trajeto adequados.
                                         </p>
                                         <a href="Curso/Tecnico_em_Logistica" class="btn btn-danger">Ver Mais</a>
                                     </div>
@@ -205,17 +196,10 @@
                                 </div>
 
                                 <div class="card m-3">
-                                    <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/23.png" alt="Imagem de capa do card">
+                                    <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/14.png" alt="Imagem de capa do card">
                                     <div class="card-body">
                                         <h5 class="card-title">TÉCNICO EM ADMINISTRAÇÃO</h5>
-                                        <p class="card-text">Capacita o aluno para executar operações
-                                            administrativas de
-                                            planejamento, pesquisa, analise e assessoria, assim como utilizar
-                                            sistemas de
-                                            informação, elaborar orçamentos, fluxos de caixa e demais
-                                            demonstrativos financeiros
-                                            e
-                                            auxiliar na tomada de decisão.</p>
+                                        <p class="card-text">Atue em empresas de diversos segmentos aplicando procedimentos para garantir o funcionamento completo destas organizações.</p>
                                         <a href="Curso/Tecnico_em_Administracao" class="btn btn-danger">Ver
                                             Mais</a>
                                     </div>
@@ -226,21 +210,10 @@
                                 </div>
 
                                 <div class="card m-3">
-                                    <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/25.png" alt="Imagem de capa do card">
+                                    <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/10.png" alt="Imagem de capa do card">
                                     <div class="card-body">
                                         <h5 class="card-title">TÉCNICO EM MEIO AMBIENTE</h5>
-                                        <p class="card-text">Capacita o aluno para auxiliar na coleta,
-                                            armazenagem e
-                                            interpretação
-                                            de informações, dados e documentações ambientais. Assim como para
-                                            colaborar na
-                                            elaboração de laudos, relatórios e estudos ambientais e auxiliar na
-                                            elaboração,
-                                            acompanhamento e execução de sistemas de gestão ambiental e
-                                            programas de educação
-                                            ambiental, de conservação e preservação de recursos naturais, de
-                                            redução, reuso e
-                                            reciclagem.</p>
+                                        <p class="card-text">Atue na elaboração de planos e ações ambientais, estudos técnicos e estratégias para controlar o impacto ambiental.</p>
                                         <a href="Curso/Tecnico_em_Meio_Ambiente" class="btn btn-danger">Ver
                                             Mais</a>
                                     </div>
