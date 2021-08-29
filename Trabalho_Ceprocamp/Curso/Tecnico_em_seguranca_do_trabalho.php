@@ -144,7 +144,7 @@
 
     <br>
     <br>
-
+<!-- 
     <div class="container" data-anime="top">
 
         <div class="text-center">
@@ -204,7 +204,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <br>
 <br>
 

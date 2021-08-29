@@ -146,7 +146,7 @@
 <br>
 <br>
 
-<div class="container" data-anime="top">
+<!-- <div class="container" data-anime="top">
 
     <div class="text-center">
 
@@ -294,7 +294,7 @@
             </table>
         </div>
     </div>
-</div>
+</div> -->
 <br>
 <br>
 

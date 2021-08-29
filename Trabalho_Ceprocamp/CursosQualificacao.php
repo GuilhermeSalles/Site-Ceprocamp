@@ -225,7 +225,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/13.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/36.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">INFORMÁTICA BÁSICA</h6>
                            <p class="card-text">Aprenda a utilizar melhor os equipamentos e recursos tecnológicos.
@@ -558,25 +558,10 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/36.png" alt="Imagem de capa do card">
-                       <div class="card-body">
-                           <h6 class="card-title">INFORMÁTICA BÁSICA</h6>
-                           <p class="card-text">Aprenda a utilizar melhor os equipamentos e recursos tecnológicos.
-                           </p>
-                           <a href="Curso/Informatica_basica" class="btn btn-danger">Ver Mais</a>
-                       </div>
-                       <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
-                       </div>
-                   </div>
-               </div>
-
-               <div class="col-md-4 project-box m t n">
-                   <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">MAPA DE RISCOS</h6>
-                           <p class="card-text">Aprenda a elaborar mapas identificando situações de risco em diversos ambientes.
+                           <p class="card-text" style="margin-bottom: 30px;">Aprenda a elaborar mapas identificando situações de risco em diversos ambientes.
                            </p>
                            <a href="Curso/Mapa_de_riscos" class="btn btn-danger">Ver Mais</a>
                        </div>
