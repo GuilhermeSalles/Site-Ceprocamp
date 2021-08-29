@@ -1,5 +1,11 @@
    <?php include 'header-menu.php' ?>
 
+   <style>
+       h6{
+           font-weight: bold;
+           color: rgb(75, 75, 75);
+       }
+   </style>
    <br>
    <br>
 
@@ -23,10 +29,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/18.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">AUXILIAR DE DEP.PESSOAL/RH</h5>
-                           <p class="card-text">Capacita o aluno para execução das atividades
-                               relacionada a administração de pessoas, como contratação, pagamento para
-                               permanência de empregados, concessão de benefícios e demissão.
+                           <h6 class="card-title">AUXILIAR DE DEP.PESSOAL/RH</h6>
+                           <p class="card-text">Aprenda a executar atividades relacionadas a administração de pessoas.
                            </p>
                            <a href="Curso/Auxiliar_de_departamento_pessoal_RH" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -40,12 +44,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/16.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">AUXILIAR FINANCEIRO</h5>
-                           <p class="card-text">Capacita o aluno para gerar lançamentos contábeis, auxiliar no
-                               levantamento e acompanhamento das transações financeiras, e controle do fluxo de
-                               caixa.
-                               <br>
-                               <br>
+                           <h6 class="card-title">AUXILIAR FINANCEIRO</h6>
+                           <p class="card-text">Aprenda a gerar lançamentos contábeis e auxiliar no controle do fluxo de caixa.
                            </p>
                            <a href="Curso/Auxiliar_financeiro" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -59,12 +59,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/11.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">PADEIRO/ CONFEITEIRO</h5>
-                           <p class="card-text">Noções de higiene e manipulação de alimentos, dos principais
-                               equipamentos e técnicas de panificação e confeitaria.
-                               <br>
-                               <br>
-                               <br>
+                           <h6 class="card-title">PADEIRO/ CONFEITEIRO</h6>
+                           <p class="card-text">Produza itens de panificação e confeitaria e técnicas para manipulação e venda.
                            </p>
                            <a href="Curso/Padeiro_Confeiteiro" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -78,15 +74,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/15.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">DESENHO TÉCNICO CAD</h5>
-                           <p class="card-text">Especialização em Desenho Técnico e CAD. (Autocad). Desenhos
-                               para
-                               arquitetura
-                               (plantas), mecânica e marcenaria.
-                               <br>
-                               <br>
-                               <br>
-
+                           <h6 class="card-title">DESENHO TÉCNICO CAD</h6>
+                           <p class="card-text">Aprenda a elaborar e interpretar desenhos de representação gráfica em projetos.
                            </p>
                            <a href="Curso/Desenho_CAD" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -100,15 +89,12 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/14.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">GARÇOM</h5>
-                           <p class="card-text">Capacita o aluno no que diz respeito a prestação de serviços de
-                               atendimento em restaurantes,
-                               buffets, eventos, cafés e preparação de bebidas.
-                               <br>
+                           <h6 class="card-title">GARÇOM - GARÇONETE</h6>
+                           <p class="card-text">Aprenda a atender clientes, servindo alimentos e bebidas em geral.
                                <br>
                                <br>
                            </p>
-                           <a href="Curso/Garcom" class="btn btn-danger">Ver Mais</a>
+                           <a href="Curso/Garcom_Garconete" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
                            <small class="text-muted"><b>Duração: </b>320 h/a = 266 horas</small>
@@ -120,13 +106,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/20.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">ALMOXARIFE</h5>
-                           <p class="card-text">Capacita o aluno para controlar a entrada e saída de produtos e
-                               materiais,
-                               assim como o armazenamento adequado.
-                               <br>
-                               <br>
-                               <br>
+                           <h6 class="card-title">ALMOXARIFE</h6>
+                           <p class="card-text">Aprenda a controlar a entrada/saída de produtos e materiais de um almoxarifado.
                            </p>
                            <a href="Curso/Almoxarife" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -140,10 +121,9 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/22.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">AGENTE DE CONTROLE DE ENDEMIAS</h5>
-                           <p class="card-text">Capacita o aluno com a competência de realizar parte da vigilância,
-                               prevenção, controle de doenças e promoção da saúde no Sistema Único de Saúde.
-                               <br>
+                           <h6 class="card-title">AGENTE DE CONTROLE DE ENDEMIAS</h6>
+                           <p class="card-text" style="margin-bottom: 35px;">Aprenda a realizar a vigilância, prevenção, controle de doenças e a promoção da saúde.
+                               
                            </p>
                            <a href="Curso/Agente_de_controle_de_endemias" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -157,12 +137,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/17.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">AUXILIAR DE LABORATÓRIO DE QUÍMICA</h5>
-                           <p class="card-text">Capacita o aluno para preparar reagentes, peças e outros materiais
-                               utilizados
-                               em experimentos e responsabiliza-se por pequenos depósitos dos
-                               laboratórios.
-                               <br>
+                           <h6 class="card-title">AUXILIAR DE LABORATÓRIO DE QUÍMICA</h6>
+                           <p class="card-text">Aprenda a preparar reagentes e equipamentos para utilização em experimentos.
                            </p>
                            <a href="Curso/Auxiliar_de_laboratorio" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -176,11 +152,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">PORTEIRO/CONTROLADOR DE ACESSO</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
+                           <h6 class="card-title">PORTEIRO/CONTROLADOR DE ACESSO</h6>
+                           <p class="card-text">Aprenda a controlar o fluxo de pessoas e veículos, utilizando tecnologias adequadas
                            </p>
                            <a href="Curso/Porteiro_controlador_de_acesso" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -190,36 +163,12 @@
                    </div>
                </div>
 
-               <div class="col-md-4 project-box n">
-                   <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/9.png" alt="Imagem de capa do card">
-                       <div class="card-body">
-                           <h5 class="card-title">PORTEIRO BÁSICO</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e
-                               veículos, recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
-                               <br>
-                           </p>
-                           <a href="Curso/Porteiro_Basico" class="btn btn-danger">Ver Mais</a>
-                       </div>
-                       <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>160 hs/a = 200 horas</small>
-                       </div>
-                   </div>
-               </div>
-
                <div class="col-md-4 project-box m t n">
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/3.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">AUXILIAR DE LOGÍSTICA </h5>
-                           <p class="card-text">Capacita o aluno para realizar atividades de processamento de
-                               pedidos,
-                               planejamento e
-                               operação de recebimento, de conferência, de programação de produção,
-                               de
-                               separação e distribuição de produtos.
+                           <h6 class="card-title">AUXILIAR DE LOGÍSTICA </h6>
+                           <p class="card-text">Aprenda os processos de um departamento logístico, com uso de sistemas.
                            </p>
                            <a href="Curso/Auxiliar_de_logistica" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -233,14 +182,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/19.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
-                           <p class="card-text">Capacita o aluno para realizar o suporte administrativo
-                               e técnico nas
-                               áreas
-                               de recursos humanos, administração, finanças e logística.
-                               <br>
-                               <br>
-                               <br>
+                           <h6 class="card-title">AUXILIAR ADMINISTRATIVO</h6>
+                           <p class="card-text">Aprenda a realizar o suporte administrativo e técnico nas áreas administrativas.
                            </p>
                            <a href="Curso/Auxiliar_de_administracao" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -254,13 +197,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/5.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">CUIDADOR DE PESSOAS</h5>
-                           <p class="card-text">Capacita o aluno no que diz respeito aos cuidados com idosos,
-                               crianças e pessoas com deficiência.
-                               <br>
-                               <br>
-                               <br>
-                               <br>
+                           <h6 class="card-title">CUIDADOR DE PESSOAS</h6>
+                           <p class="card-text">Aprenda a dar assistência em saúde para crianças, pessoas com deficiência e idosos.
                            </p>
                            <a href="Curso/Cuidador_de_pessoas" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -274,12 +212,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/1.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">CUIDADOR DE IDOSOS</h5>
-                           <p class="card-text">O aluno será capaz de compreender o processo de
-                               envelhecimento, suas características e será envolvido em todas as
-                               habilidades necessárias para cuidar da pessoa idosa.
-                               <br>
-                               <br>
+                           <h6 class="card-title">CUIDADOR DE IDOSOS</h6>
+                           <p class="card-text">Aprenda a acompanhar e contribuir com a melhora da saúde de pessoas idosas.
                            </p>
                            <a href="Curso/Cuidador_de_idosos" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -293,14 +227,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/13.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">INFORMÁTICA BÁSICA</h5>
-                           <p class="card-text">Capacita o aluno para utilizar as principais funções do Windows,
-                               assim
-                               como
-                               fazer uso das ferramentas de Word, Excel e PowerPoint e Internet.
-                               <br>
-                               <br>
-                               <br>
+                           <h6 class="card-title">INFORMÁTICA BÁSICA</h6>
+                           <p class="card-text">Aprenda a utilizar melhor os equipamentos e recursos tecnológicos.
                            </p>
                            <a href="Curso/Informatica_basica" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -310,96 +238,12 @@
                    </div>
                </div>
 
-               <div class="col-md-4 project-box m ">
-                   <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/21.png" alt="Imagem de capa do card">
-                       <div class="card-body">
-                           <h5 class="card-title">AGENTE DE SEGURANÇA DO TRABALHO E HIGIENE OCUPACIONAL</h5>
-                           <p class="card-text">Capacita o aluno na identificação e avaliação dos riscos
-                               ocupacionais
-                               no
-                               ambiente de trabalho, com foco na insalubridade e periculosidade.
-                           </p>
-                           <a href="Curso/Agente_de_segurança_do_trabalho_e_higiene_ocupacional" class="btn btn-danger">Ver Mais</a>
-                       </div>
-                       <div class="card-footer">
-                           <small class="text-muted"> <b>Duração:</b> 240 h/a = 200 horas</small>
-                       </div>
-                   </div>
-               </div>
-
-               <div class="col-md-4 project-box t ">
-                   <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/12.png" alt="Imagem de capa do card">
-                       <div class="card-body">
-                           <h5 class="card-title">INGLÊS PARA ATENDIMENTO COMERCIAL</h5>
-                           <p class="card-text">Capacita o aluno no sentido de promover a noção básica deste
-                               idioma
-                               para comunicação com clientes.
-                               <br>
-                               <br>
-                           </p>
-                           <a href="Curso/Ingles_para_atendimento_comercial" class="btn btn-danger">Ver Mais</a>
-                       </div>
-                       <div class="card-footer">
-                           <small class="text-muted"> <b>Duração:</b> 240 h/a = 200 horas</small>
-                       </div>
-                   </div>
-               </div>
-
-               <div class="col-md-4 project-box n">
-                   <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/12.png" alt="Imagem de capa do card">
-                       <div class="card-body">
-                           <h5 class="card-title">INGLÊS PARA ATENDIMENTO</h5>
-                           <p class="card-text">Capacita o aluno no sentido de promover a noção básica
-                               deste idioma
-                               para
-                               comunicação com clientes.
-                               <br>
-                               <br>
-                               <br>
-                           </p>
-                           <a href="Curso/Ingles_para_Atendimento" class="btn btn-danger">Ver Mais</a>
-                       </div>
-                       <div class="card-footer">
-                           <small class="text-muted"> <b>Duração: </b>240 h/a = 200 horas</small>
-                       </div>
-                   </div>
-               </div>
-
-               <div class="col-md-4 project-box m n">
-                   <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/7.png" alt="Imagem de capa do card">
-                       <div class="card-body">
-                           <h5 class="card-title">MICROEMPREENDEDOR</h5>
-                           <p class="card-text">Capacita o aluno em técnicas de gestão
-                               empresarial estimulando aqueles que desejam ser donos do
-                               próprio negócio.
-                               <br>
-                               <br>
-                               <br>
-                               <br>
-                           </p>
-                           <a href="Curso/Microempreendedor" class="btn btn-danger">Ver Mais</a>
-                       </div>
-                       <div class="card-footer">
-                           <small class="text-muted"> <b>Duração: </b>200 hs/a = 166 horas</small>
-                       </div>
-                   </div>
-               </div>
-
                <div class="col-md-4 project-box m t">
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/2.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">AUXILIAR DE ESCRITÓRIO</h5>
-                           <p class="card-text">Capacita o aluno para atividades do
-                               Setor Administrativo: práticas de gestão de recursos
-                               humanos, processos, materiais, contabilidade e finanças.
-                               <br>
-                               <br>
-                               <br>
+                           <h6 class="card-title">AUXILIAR DE ESCRITÓRIO</h6>
+                           <p class="card-text">Aprenda a manter as documentações e informações prontas para a tomada de decisão.
                            </p>
                            <a href="Curso/Auxiliar_de_escrtorio" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -411,14 +255,26 @@
 
                <div class="col-md-4 project-box n">
                    <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/12.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h6 class="card-title">INGLÊS PARA ATENDIMENTO DO CLIENTE</h6>
+                           <p class="card-text">Aprenda a recepcionar, comunicar e orientar convidados e clientes falantes de Inglês.
+                           
+                           </p>
+                           <a href="Curso/Ingles_para_Atendimento" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"> <b>Duração: </b>240 h/a = 200 horas</small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box n">
+                   <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/10.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">PORTUGUÊS E MATEMÁTICA PARA CONCURSOS PÚBLICOS E ENEM </h5>
-                           <p class="card-text" style="margin-bottom: 23px;">Aborda os conteúdos de
-                               Português e Matemática presentes
-                               em concursos públicos e no Enem, visando oferecer um melhor preparo ao
-                               candidato que objetiva prestar esses exames.
-                               <br>
+                           <h6 class="card-title">PORTUGUÊS E MATEMÁTICA PARA CONCURSOS PÚBLICOS E ENEM </h6>
+                           <p class="card-text">Reforçe seus conhecimentos para conseguir aprovação em diversos tipos de exames.
                            </p>
                            <a href="Curso/Portugues_e_matematica_para_concursos_publicos_e_enem" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -428,17 +284,45 @@
                    </div>
                </div>
 
+
+               <div class="col-md-4 project-box m ">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/21.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h6 class="card-title">AGENTE DE SEGURANÇA DO TRABALHO E HIGIENE OCUPACIONAL</h6>
+                           <p class="card-text">Dê assistência na elaboração de procedimentos de segurança em diversos segmentos.
+                           </p>
+                           <a href="Curso/Agente_de_segurança_do_trabalho_e_higiene_ocupacional" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"> <b>Duração:</b> 240 h/a = 200 horas</small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/7.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h6 class="card-title">MICROEMPREENDEDOR</h6>
+                           <p class="card-text" style="margin-bottom: 15px;">Aprenda técnicas de gestão empresarial para ser dono do seu próprio negócio.
+                        
+                           </p>
+                           <a href="Curso/Microempreendedor" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"> <b>Duração: </b>200 hs/a = 166 horas</small>
+                       </div>
+                   </div>
+               </div>
+
                <div class="col-md-4 project-box m t n">
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/4.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">CRIAÇÃO DE WEBSITES</h5>
-                           <p class="card-text">Capacita o aluno no planejamento, criação, organização
-                               e publicação de interfaces de Websites, seguindo normas de
-                               acessibilidade, usabilidade, padrões web e boas práticas de
-                               desenvolvimento que qualifiquem a criação de websites.
-                            <br>
-                            <br>
+                           <h6 class="card-title">CRIAÇÃO DE WEBSITES</h6>
+                           <p class="card-text">Aprenda a criar páginas e estruture sites para diversas finalidades e usuários.
+                               <br>
                         </p>
                            <a href="Curso/Criacao_de_websites" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -452,12 +336,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/6.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">DESENVOLVEDOR DE JOGOS DIGITAIS</h5>
-                           <p class="card-text">Capacita o aluno no desenvolvimento de
-                               atividades voltadas para desenvolvimento de algoritmos;
-                               utilização de ambientes de desenvolvimento, utilização
-                               de plataformas que possibilitem a criação de jogos e
-                               vários tipos de aplicativos.</p>
+                           <h6 class="card-title">DESENVOLVEDOR DE JOGOS DIGITAIS</h6>
+                           <p class="card-text" style="margin-bottom: 40px;">Aprenda a criar jogos que executem em diversos aplicativos e na WEB!</p>
                            <a href="Curso/Desenvolvedor_de_jogos_digitais" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
@@ -470,14 +350,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">AGENTE ADMINISTRATIVO</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
-                               <br>
-                               <br>
-                               <br>
+                           <h6 class="card-title">AGENTE ADMINISTRATIVO</h6>
+                           <p class="card-text">Aprenda a realizar o suporte administrativo e técnico nas áreas administrativas.
                            </p>
                            <a href="Curso/Agente_administrativo" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -491,11 +365,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">AGENTE DE EPI/EPC</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
+                           <h6 class="card-title">AGENTE DE EPI/EPC</h6>
+                           <p class="card-text">Colabore na escolha correta de equipamentos para proteção dos funcionários.
                            </p>
                            <a href="Curso/Agente_de_EPI_EPC" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -509,137 +380,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">AGENTE DE SANEAMENTO AMBIENTAL</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
-                           </p>
-                           <a href="Curso/Agente_de_saneamento_ambiental" class="btn btn-danger">Ver Mais</a>
-                       </div>
-                       <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
-                       </div>
-                   </div>
-               </div>
-
-               <div class="col-md-4 project-box m t n">
-                   <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
-                       <div class="card-body">
-                           <h5 class="card-title">ATENDIMENTO E COPA</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
-                           </p>
-                           <a href="Curso/atendimento_e_copa" class="btn btn-danger">Ver Mais</a>
-                       </div>
-                       <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
-                       </div>
-                   </div>
-               </div>
-
-               <div class="col-md-4 project-box m t n">
-                   <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
-                       <div class="card-body">
-                           <h5 class="card-title">AUXILIAR DE ALMOXARIFADO</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
-                           </p>
-                           <a href="Curso/Auxiliar_almoxarifado" class="btn btn-danger">Ver Mais</a>
-                       </div>
-                       <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
-                       </div>
-                   </div>
-               </div>
-
-               <div class="col-md-4 project-box m t n">
-                   <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
-                       <div class="card-body">
-                           <h5 class="card-title">AUXILIAR DE COMÉRCIO EXTERIOR</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
-                           </p>
-                           <a href="Curso/Auxiliar_comercio_exterior" class="btn btn-danger">Ver Mais</a>
-                       </div>
-                       <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
-                       </div>
-                   </div>
-               </div>
-
-               <div class="col-md-4 project-box m t n">
-                   <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
-                       <div class="card-body">
-                           <h5 class="card-title">AUXILIAR ADMINISTRATIVO</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
-                           </p>
-                           <a href="Curso/Auxiliar_de_administracao" class="btn btn-danger">Ver Mais</a>
-                       </div>
-                       <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
-                       </div>
-                   </div>
-               </div>
-
-               <div class="col-md-4 project-box m t n">
-                   <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
-                       <div class="card-body">
-                           <h5 class="card-title">AUXILIAR DE HOTELARIA</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
-                           </p>
-                           <a href="Curso/Auxiliar_hotelaria" class="btn btn-danger">Ver Mais</a>
-                       </div>
-                       <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
-                       </div>
-                   </div>
-               </div>
-
-               <div class="col-md-4 project-box m t n">
-                   <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
-                       <div class="card-body">
-                           <h5 class="card-title">CAMAREIRA EM MEIOS DE HOSPEDAGEM</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
-                           </p>
-                           <a href="Curso/Camareira_em_meios_de_hospedagem" class="btn btn-danger">Ver Mais</a>
-                       </div>
-                       <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
-                       </div>
-                   </div>
-               </div>
-
-               <div class="col-md-4 project-box m t n">
-                   <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
-                       <div class="card-body">
-                           <h5 class="card-title">EXCEL BÁSICO</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
+                           <h6 class="card-title">EXCEL BÁSICO</h6>
+                           <p class="card-text">Aprenda a usar funções e fazer planilhas e gráficos no Microsoft Excel™.
                            </p>
                            <a href="Curso/Excel_basico" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -653,13 +395,10 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">FRENTISTA</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
+                           <h6 class="card-title">ATENDIMENTO E COPA</h6>
+                           <p class="card-text">Aprenda técnicas para servir, manipular alimentos e manter a limpeza da copa/cozinha.
                            </p>
-                           <a href="Curso/Frentista" class="btn btn-danger">Ver Mais</a>
+                           <a href="Curso/atendimento_e_copa" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
                            <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
@@ -671,13 +410,10 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">GARÇOM - GARÇONETE</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
+                           <h6 class="card-title">AUXILIAR DE ALMOXARIFADO</h6>
+                           <p class="card-text">Aprenda a colaborar na organização de almoxarifados, garantindo a operação.
                            </p>
-                           <a href="Curso/Garcom_Garconete" class="btn btn-danger">Ver Mais</a>
+                           <a href="Curso/Auxiliar_almoxarifado" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
                            <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
@@ -689,11 +425,98 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">HIGIENE E MANIPULAÇÃO DE ALIMENTOS</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
+                           <h6 class="card-title">AUXILIAR DE COMÉRCIO EXTERIOR</h6>
+                           <p class="card-text">Aprenda a controlar os procedimentos de comercialização internacional de produtos.
+                           </p>
+                           <a href="Curso/Auxiliar_comercio_exterior" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h6 class="card-title">AUXILIAR ADMINISTRATIVO</h6>
+                           <p class="card-text">Aprenda a colaborar para o funcionamento e continuidade dos serviços em empresas.
+                           </p>
+                           <a href="Curso/Auxiliar_de_administracao" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h6 class="card-title">AUXILIAR DE HOTELARIA</h6>
+                           <p class="card-text">Aprenda a oferecer uma ótima experiência para o cliente, utilizando técnicas.
+                           </p>
+                           <a href="Curso/Auxiliar_hotelaria" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h6 class="card-title">CAMAREIRA EM MEIOS DE HOSPEDAGEM</h6>
+                           <p class="card-text">Aprenda a realizar o asseio de quartos garantir a qualidade da experiência do hóspede.
+                           </p>
+                           <a href="Curso/Camareira_em_meios_de_hospedagem" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h6 class="card-title">AGENTE DE SANEAMENTO AMBIENTAL</h6>
+                           <p class="card-text">Aprenda a fiscalizar o saneamento básico em conformidade com a legislação. 
+                           </p>
+                           <a href="Curso/Agente_de_saneamento_ambiental" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h6 class="card-title">PROJETO DE PREVENÇÃO E COMBATE A INCÊNDIOS</h6>
+                           <p class="card-text">Aprenda a elaborar planos de fuga e sistemas de controle de incêndios diversos.
+                           </p>
+                           <a href="Curso/Projeto_de_prevencao_e_combate_a_incendios" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h6 class="card-title">HIGIENE E MANIPULAÇÃO DE ALIMENTOS</h6>
+                           <p class="card-text">Aprenda técnicas para manipular alimentos, garantindo a qualidade e segurança.
                            </p>
                            <a href="Curso/Higiene_e_manipulacao_de_alimentos" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -707,11 +530,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">HOSTESS - RECEPCIONISTA DE EVENTOS</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
+                           <h6 class="card-title">HOSTESS - RECEPCIONISTA DE EVENTOS</h6>
+                           <p class="card-text">Aprenda a recepcionar, comunicar e orientar convidados de diversos eventos.
                            </p>
                            <a href="Curso/Hostess_recepcionista_de_eventos" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -725,11 +545,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">INCLUSÃO DIGITAL</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
+                           <h6 class="card-title">INCLUSÃO DIGITAL</h6>
+                           <p class="card-text" style="margin-bottom: 30px;">Conheça e entenda mais sobre recursos tecnológicos e como eles podem te ajudar em seu trabalho.
                            </p>
                            <a href="Curso/Inclusao_digital" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -743,11 +560,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">INFORMÁTICA BÁSICA</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
+                           <h6 class="card-title">INFORMÁTICA BÁSICA</h6>
+                           <p class="card-text">Aprenda a utilizar melhor os equipamentos e recursos tecnológicos.
                            </p>
                            <a href="Curso/Informatica_basica" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -761,11 +575,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">MAPA DE RISCOS</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
+                           <h6 class="card-title">MAPA DE RISCOS</h6>
+                           <p class="card-text">Aprenda a elaborar mapas identificando situações de risco em diversos ambientes.
                            </p>
                            <a href="Curso/Mapa_de_riscos" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -779,11 +590,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">OPERADOR DE COMPUTADOR</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
+                           <h6 class="card-title">OPERADOR DE COMPUTADOR</h6>
+                           <p class="card-text">Aprenda a prestar assistência e suporte em informática para diversos tipos de usuários.
                            </p>
                            <a href="Curso/Operador_de_compuatador" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -797,11 +605,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">ORGANIZADOR DE EVENTOS</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
+                           <h6 class="card-title">ORGANIZADOR DE EVENTOS</h6>
+                           <p class="card-text">Aprenda a organizar, controlar e garantir a operação da equipe em eventos.
                            </p>
                            <a href="Curso/Organizador_de_eventos" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -815,11 +620,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">PRÁTICAS ADMINISTRATIVAS</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
+                           <h6 class="card-title">PRÁTICAS ADMINISTRATIVAS</h6>
+                           <p class="card-text">Aprenda a realizar açoes e procedimentos relacionados as rotinas administrativas.
                            </p>
                            <a href="Curso/Praticas_administrativas" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -833,11 +635,8 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">PRÁTICAS CONTÁBEIS</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
+                           <h6 class="card-title">PRÁTICAS CONTÁBEIS</h6>
+                           <p class="card-text">Aprenda a realizar ações e procedimentos contábeis e financeiros.
                            </p>
                            <a href="Curso/Praticas_contabeis" class="btn btn-danger">Ver Mais</a>
                        </div>
@@ -851,19 +650,61 @@
                    <div class="card">
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
                        <div class="card-body">
-                           <h5 class="card-title">PROJETO DE PREVENÇÃO E COMBATE A INCÊNDIOS</h5>
-                           <p class="card-text">Capacita o aluno para controlar o fluxo de pessoas e veículos,
-                               recepcionar e orientar visitantes em condomínios e empresas.
-                               <br>
-                               <br>
+                           <h6 class="card-title">FRENTISTA</h6>
+                           <p class="card-text">Aprenda a recepcionar, comunicar e prestar serviço de abastecimento em postos.
                            </p>
-                           <a href="Curso/Projeto_de_prevencao_e_combate_a_incendios" class="btn btn-danger">Ver Mais</a>
+                           <a href="Curso/Frentista" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
                            <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
                        </div>
                    </div>
                </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h6 class="card-title">PRÁTICAS DE ESCRITÓRIO</h6>
+                           <p class="card-text">Aprenda a realizar ações e procedimentos de arquivo e documentação.
+                           </p>
+                           <a href="Curso/Praticas_de_escritorio" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <!-- <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h6 class="card-title">CRIAÇÃO EM PYTHON</h6>
+                           <p class="card-text">Aprenda Python - Fundamentos, algoritmos, estruturas de dados e orientação a objeto.
+                           </p>
+                           <a href="Curso/Criacao_em_Python" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 project-box m t n">
+                   <div class="card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <div class="card-body">
+                           <h6 class="card-title">ROBÓTICA</h6>
+                           <p class="card-text">Aprenda Arduino - Fundamentos, programação e teste em sistema simples e complexo.
+                           </p>
+                           <a href="Curso/Robotica" class="btn btn-danger">Ver Mais</a>
+                       </div>
+                       <div class="card-footer">
+                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                       </div>
+                   </div>
+               </div> -->
 
            </div>
        </div>

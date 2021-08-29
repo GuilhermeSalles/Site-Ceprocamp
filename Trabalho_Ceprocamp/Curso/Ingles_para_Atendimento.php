@@ -7,7 +7,7 @@
 
         <div class="col-9">
             <h2 style="font-weight: bold; color: #FE5722FF;"> <img class="mb-1" src=" ../img/Icones dia/book.svg">
-                Inglês para Atendimento</h2>
+                Inglês para atendimento do cliente </h2>
         </div>
 
         <div class="col-3 mt-2">
@@ -18,7 +18,7 @@
     </div>
 
     <hr class="hr3 mt-0">
-    <img style="margin-top: 0%;" src="../img/CAPA PARA CURSO/12.png" class="img-fluid rounded">
+    <img style="margin-top: 0%;" src="../img/CAPA PARA CURSO/48.png" class="img-fluid rounded">
 
 </div>
 
@@ -111,7 +111,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label style="font-weight: bold; color: rgb(75, 75, 75);" for="curso">Curso:</label>
-                                    <input type="input" class="form-control" id="curso" name="Curso" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" value="Inglês para Atendimento" readonly>
+                                    <input type="input" class="form-control" id="curso" name="Curso" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" value="Inglês para atendimento do cliente " readonly>
                                 </div>
 
                                 <div class="form-group">

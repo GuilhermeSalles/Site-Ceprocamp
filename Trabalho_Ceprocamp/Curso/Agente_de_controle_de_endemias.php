@@ -18,7 +18,7 @@
     </div>
 
     <hr class="hr3 mt-0">
-    <img style="margin-top: 0%;" src="../img/CAPA PARA CURSO/22.png" class="img-fluid rounded">
+    <img style="margin-top: 0%;" src="../img/CAPA PARA CURSO/12.png" class="img-fluid rounded">
 
 </div>
 
