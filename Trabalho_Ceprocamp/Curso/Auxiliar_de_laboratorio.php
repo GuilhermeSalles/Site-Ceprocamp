@@ -36,16 +36,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify"> Profissional que procede à montagem de experimentos,
-        reunindo equipamentos e material de consumo para serem utilizados em aulas experimentais e ensaios
-        de
-        pesquisa. Prepara reagentes, peças e outros materiais utilizados em experimentos. Procede à limpeza
-        e
-        conservação de instalações, equipamentos e materiais dos laboratórios. Procede ao controle de
-        estoque
-        dos materiais de consumo dos laboratórios. Responsabiliza-se por pequenos depósitos e/ou
-        almoxarifados
-        dos laboratórios.
+    <p class="fs-5 lh-sm font-monospace text-justify"> Profissional que procede à montagem de experimentos, reunindo equipamentos e material de consumo para serem utilizados em aulas experimentais e ensaios de pesquisa. Prepara reagentes, peças e outros materiais utilizados em experimentos. Procede à limpeza e conservação de instalações, equipamentos e materiais dos laboratórios. Procede ao controle de estoque dos materiais de consumo dos laboratórios. Responsabiliza-se por pequenos depósitos e/ou almoxarifados dos laboratórios.
     </p>
 
     <br>
@@ -212,7 +203,7 @@
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                         </tr>
                     </tbody>
-                </table> title="Clique para saber mais sobre o local." 
+                </table> 
             </div>
         </div>
     </div>

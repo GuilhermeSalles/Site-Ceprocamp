@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Vendem mercadorias em estabelecimentos do comércio varejista ou atacadista, auxiliando os clientes na escolha. Controlam entrada e saída de mercadorias. Promovem a venda de mercadorias, demonstrando seu funcionamento, oferecendo-as para degustação ou distribuindo amostras das mesmas. Informam sobre suas qualidades e vantagens de aquisição. Expõem mercadorias de forma atrativa, em pontos estratégicos de vendas, com etiquetas de preço. Abastecem pontos de venda, gôndolas e balcões e atendem clientes em lojas e mercados. Fazem inventário de mercadorias para reposição. Elaboram relatórios de vendas, de promoções, de demonstrações e de pesquisa de preços.
     </p>
 
     <br>

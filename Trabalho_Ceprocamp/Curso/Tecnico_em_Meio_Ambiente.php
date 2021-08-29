@@ -35,13 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> O Técnico em Meio Ambiente coleta, armazena e interpreta
-        informações, dados e documentações ambientais. Colabora na elaboração de laudos, relatórios e estudos
-        ambientais. Auxilia na elaboração, acompanhamento e execução de sistemas de gestão ambiental. Atua na
-        organização de programas de educação ambiental, de conservação e preservação de recursos naturais, de
-        redução, reuso e reciclagem. Identifica as intervenções ambientais, analisa suas consequências e
-        operacionaliza a execução de ações para preservação, conservação, otimização, minimização e remediação
-        dos seus efeitos.
+    <p class="text-justify"> Auxiliam profissionais de nível superior na implementação de projetos, gestão ambiental e coordenação de equipes de trabalho; operam máquinas, equipamentos e instrumentos. Coordenam processos de controle ambiental, utilidades, tratamento de efluentes e levantamentos meteorológicos. Realizam análises físico-químicas e microbiológicas dos efluentes. Monitoram a segurança no trabalho.
     </p>
 
     <br>

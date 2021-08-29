@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Desempenham atividades técnicas de enfermagem em empresas públicas e privadas em diversos estabelecimentos de assistência médica, embarcações e domicílios. Prestam assistência ao paciente zelando pelo seu conforto e bem estar. Organizam ambiente de trabalho e dão continuidade aos plantões. Trabalham em conformidade às boas práticas, normas e procedimentos de biossegurança. Realizam registros e elaboram relatórios técnicos. Desempenham atividades e realizam ações para promoção da saúde da família.
     </p>
 
     <br>
@@ -178,7 +176,7 @@
                         <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                     </tr>
                     <tr>
-                    <th scope="row"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
+                        <th scope="row"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
                         <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                         <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                         <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
@@ -230,7 +228,7 @@
             <table class="table table-hover">
                 <thead>
                     <tr>
-                        <th colspan="4" class="text-center"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th> 
+                        <th colspan="4" class="text-center"><a href="../index" style="color: rgb(75, 75, 75);">Centro</a></th>
                     </tr>
                 </thead>
                 <tbody>

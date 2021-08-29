@@ -34,11 +34,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify">Profissional capaz de oferecer excelente serviço de
-        atendimento para garantir satisfação do cliente, anotar os pedidos e servir pratos e bebidas, fazer
-        recomendações no cardápio, responder às perguntas e compartilhar informações adicionais com os
-        proprietários do restaurante, organizar mesas, trabalhar em buffets, eventos, cafés, restaurantes,
-        preparar de bebidas e manipular de alimentos seguindo as normas de higiene.
+    <p class="fs-5 lh-sm font-monospace text-justify">Profissional capaz de oferecer excelente serviço de atendimento para garantir satisfação do cliente, anotar os pedidos e servir pratos e bebidas, fazer recomendações no cardápio, responder às perguntas e compartilhar informações adicionais com os proprietários do restaurante, organizar mesas, trabalhar em buffets, eventos, cafés, restaurantes, preparar de bebidas e manipular de alimentos seguindo as normas de higiene.
     </p>
 
     <br>

@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Executam serviços de apoio nas áreas de recursos humanos, administração, finanças e logística; atendem fornecedores e clientes, fornecendo e recebendo informações sobre produtos e serviços; tratam de documentos variados, cumprindo todo o procedimento necessário referente aos mesmos. Atuam na concessão de microcrédito a microempresários, atendendo clientes em campo e nas agências, prospectando clientes nas comunidades. Atuam na área de captação de recursos, planejando e implementando estratégias de captação e contato com doadores/ parceiros.
     </p>
 
     <br>

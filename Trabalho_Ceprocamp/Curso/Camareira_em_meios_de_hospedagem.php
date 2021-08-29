@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Limpam, arrumam, organizam, vistoriam e abastecem apartamentos, camarotes, camarins, quartos e banheiros, em hotéis, teatros, estúdios de televisão e cinema, navios e estabelecimentos similares; mantém em ordem, conservam, classificam e organizam os figurinos e vestuários de clientes e atores, identificando e controlando as saídas, devoluções e substituições das roupas e acessórios; atendem e auxiliam os hóspedes e atores em suas solicitações e necessidades pessoais e profissionais.
     </p>
 
     <br>

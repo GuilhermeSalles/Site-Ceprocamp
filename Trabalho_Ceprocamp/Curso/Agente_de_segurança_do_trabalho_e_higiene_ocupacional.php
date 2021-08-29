@@ -35,11 +35,7 @@
 
     </div>
 
-    <p class="text-justify">Avaliação ambiental com foco na insalubridade e
-        periculosidade. Práticas de medições das condições ambientais de trabalho. Cálculos de limites de
-        tolerância de exposição a agentes de risco. Identificação e avaliação dos riscos ocupacionais existentes
-        nos ambientes de trabalho. Elaboração de planos e programas de prevenção. Observância das normas
-        regulamentadoras cabíveis. Observância dos direitos trabalhistas nas relações de trabalho.
+    <p class="text-justify">Avaliação ambiental com foco na insalubridade e periculosidade. Práticas de medições das condições ambientais de trabalho. Cálculos de limites de tolerância de exposição a agentes de risco. Identificação e avaliação dos riscos ocupacionais existentes nos ambientes de trabalho. Elaboração de planos e programas de prevenção. Observância das normas regulamentadoras cabíveis. Observância dos direitos trabalhistas nas relações de trabalho.
     </p>
 
     <br>

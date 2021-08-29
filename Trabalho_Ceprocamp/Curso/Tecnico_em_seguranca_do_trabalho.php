@@ -35,14 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Executa as funções de apoio administrativo: protocolo e
-        arquivo, confecção expedição de documentos administrativos e controle de estoques. Opera sistemas de
-        informações gerencias de pessoal e material. Utiliza ferramentas da informática básica, como suporte às
-        operações organizacionais.
-        Tendo como base as orientações legais contidas nas Diretrizes Curriculares Nacionais para a Educação
-        Profissional de Nível Técnico, o perfil do profissional de conclusão, além do que foi citado, valoriza a
-        formação do aluno considerando tanto o seu desenvolvimento pessoal e social, quanto o desenvolvimento
-        das competências relativas à habilitação profissional na área.
+    <p class="text-justify"> Participam da elaboração e implementam política de saúde e segurança do trabalho; realizam diagnóstico da situação de SST da instituição; identificam variáveis de controle de doenças, acidentes, qualidade de vida e meio ambiente. Desenvolvem ações educativas na área de saúde e segurança do trabalho; integram processos de negociação. Participam da adoção de tecnologias e processos de trabalho; investigam, analisam acidentes de trabalho e recomendam medidas de prevenção e controle.
     </p>
 
     <br>

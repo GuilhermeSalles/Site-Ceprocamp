@@ -35,11 +35,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify"> Capacita o aluno para atividades do Setor
-        Administrativo
-        em seus principais aspectos: práticas de administração de recursos humanos, processos, materiais,
-        contabilidade e finanças. Informações sobre o mercado e o mundo do trabalho; trabalho em equipe,
-        entender o mercado e o ambiente de negócios; a estrutura e funcionamento organizacional.
+    <p class="fs-5 lh-sm font-monospace text-justify"> Capacita o aluno para atividades do Setor Administrativo em seus principais aspectos: práticas de administração de recursos humanos, processos, materiais, contabilidade e finanças. Informações sobre o mercado e o mundo do trabalho; trabalho em equipe, entender o mercado e o ambiente de negócios; a estrutura e funcionamento organizacional.
     </p>
 
     <br>

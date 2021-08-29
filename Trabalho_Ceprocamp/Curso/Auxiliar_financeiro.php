@@ -35,10 +35,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify"> Capacita o aluno para gerar lançamentos contábeis,
-        auxiliar no levantamento e acompanhamento das transações financeiras, organizar documentos de contas
-        (a
-        pagar e a receber) e controle do fluxo de caixa.
+    <p class="fs-5 lh-sm font-monospace text-justify"> Organizam documentos e efetuam sua classificação contábil; geram lançamentos contábeis, auxiliam na apuração dos impostos, conciliam contas e preenchimento de guias de recolhimento e de solicitações, junto a órgãos do governo. Emitem notas de venda e de transferência entre outras; realizam o arquivo de documentos.
     </p>
 
     <br>

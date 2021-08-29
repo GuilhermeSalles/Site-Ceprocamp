@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Prestam suporte ao cliente/usuário, orientando-os na utilização de hardwares e softwares. Monitoram sistemas e aplicações, recursos de rede, banco de dados, servidores e entrada e saída de dados. Administram processamento de dados e asseguram funcionamento de hardware e software. Administram segurança das informações e verificam condições técnicas do ambiente de trabalho.
     </p>
 
     <br>

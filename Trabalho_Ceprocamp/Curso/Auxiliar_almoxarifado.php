@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Recepcionam, conferem e armazenam produtos e materiais em almoxarifados, armazéns, silos e depósitos. Fazem os lançamentos da movimentação de entradas e saídas e controlam os estoques. Distribuem produtos e materiais a serem expedidos. Organizam o almoxarifado para facilitar a movimentação dos itens armazenados e a armazenar, preservando o estoque limpo e organizado. Empacotam ou desempacotam os produtos, realiza expedição materiais e produtos, examinando-os, providenciando os despachos dos mesmos e auxiliam no processo de logística.
     </p>
 
     <br>

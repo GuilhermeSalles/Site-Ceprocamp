@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Orientam e fiscalizam as atividades e obras para prevenção/preservação ambiental e da saúde, por meio de vistorias, inspeções e análises técnicas de locais, atividades, obras, projetos e processos, visando o cumprimento da legislação ambiental e sanitária; promovem educação sanitária e ambiental.
     </p>
 
     <br>

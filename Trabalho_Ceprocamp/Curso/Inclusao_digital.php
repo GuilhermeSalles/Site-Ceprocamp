@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Com este curso, o aluno vai ter a oportunidade de conhecer, entender e utilizar recursos tecnológicos diversos e saber aplicar com naturalidade estes recursos no seu cotidiano.
     </p>
 
     <br>

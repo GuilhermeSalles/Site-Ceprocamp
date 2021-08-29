@@ -35,12 +35,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify"> Profissional que realiza atividades de processamento
-        de
-        pedidos, planejamento e operação de recebimento, de conferência, de armazenagem, de programação de
-        produção, de separação e distribuição de produtos, de levantamento de dados para custeio das
-        operações.
-        Elabora relatórios e gráficos de acompanhamento de processos operacionais.
+    <p class="fs-5 lh-sm font-monospace text-justify"> Profissional que realiza atividades de processamento de pedidos, planejamento e operação de recebimento, de conferência, de armazenagem, de programação de produção, de separação e distribuição de produtos, de levantamento de dados para custeio das operações. Elabora relatórios e gráficos de acompanhamento de processos operacionais.
     </p>
 
     <br>

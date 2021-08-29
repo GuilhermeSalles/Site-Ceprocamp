@@ -34,18 +34,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify"> Curso dividido em 3 Módulos sendo: 1. Cuidador de
-        Idosos:
-        o aluno será capaz de compreender o processo de envelhecimento, suas características e será
-        envolvido em
-        todas as habilidades necessárias para cuidar da pessoa idosa. 2. Cuidador de Crianças: o aluno será
-        capaz de compreender todas as fases do desenvolvimento infantil, suas peculiaridades e os cuidados
-        necessários para um desenvolvimento infantil feliz. 3. Cuidador de Pessoa com Deficiência: o aluno
-        aprenderá sobre as principais síndromes genéticas que causam deficiências, a importância do
-        planejamento
-        familiar e do pré-natal como prevenção de doenças congênitas e terá habilidades para cuidar
-        corretamente
-        dessas pessoas.
+    <p class="fs-5 lh-sm font-monospace text-justify"> Curso dividido em 3 Módulos sendo: 1. Cuidador de Idosos: o aluno será capaz de compreender o processo de envelhecimento, suas características e será envolvido em todas as habilidades necessárias para cuidar da pessoa idosa. 2. Cuidador de Crianças: o aluno será capaz de compreender todas as fases do desenvolvimento infantil, suas peculiaridades e os cuidados necessários para um desenvolvimento infantil feliz. 3. Cuidador de Pessoa com Deficiência: o aluno aprenderá sobre as principais síndromes genéticas que causam deficiências, a importância do planejamento familiar e do pré-natal como prevenção de doenças congênitas e terá habilidades para cuidar corretamente dessas pessoas.
     </p>
 
     <br>

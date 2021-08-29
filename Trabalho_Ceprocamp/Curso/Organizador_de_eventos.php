@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Montam e vendem pacotes de produtos e serviços turísticos e organizam eventos sociais, culturais e técnico científicos, dentre outros. Contratam serviços, planejam eventos, promovem e reservam produtos e serviços turísticos e coordenam a realização de eventos. Participam de eventos, cerimônias e solenidades diversos promovidos por órgãos públicos(prefeituras, governos, autarquias e órgãos públicos),organizações privadas e empresas. Preparam, elaboram roteiros dos eventos, acompanham as autoridades e/ou personalidades.
     </p>
 
     <br>

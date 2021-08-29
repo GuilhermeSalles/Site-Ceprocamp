@@ -35,14 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Executa as funções de apoio administrativo: protocolo e
-        arquivo, confecção expedição de documentos administrativos e controle de estoques. Opera sistemas de
-        informações gerencias de pessoal e material. Utiliza ferramentas da informática básica, como suporte às
-        operações organizacionais.
-        Tendo como base as orientações legais contidas nas Diretrizes Curriculares Nacionais para a Educação
-        Profissional de Nível Técnico, o perfil do profissional de conclusão, além do que foi citado, valoriza a
-        formação do aluno considerando tanto o seu desenvolvimento pessoal e social, quanto o desenvolvimento
-        das competências relativas à habilitação profissional na área.
+    <p class="text-justify"> Controlam rotina administrativa. Realizam atividades em recursos humanos e intermedeiam mão-de-obra para colocação e recolação. Atuam na área de compras e assessoram a área de vendas. Intercambiam mercadorias e serviços e executam atividades nas áreas fiscal e financeira.
     </p>
 
     <br>

@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Recepcionam e prestam serviços de apoio a clientes, pacientes, hóspedes, visitantes e passageiros; prestam atendimento telefônico e fornecem informações em escritórios, consultórios, hoteis, hospitais, bancos, aeroportos e outros estabelecimentos; marcam entrevistas ou consultas e recebem clientes ou visitantes; averiguam suas necessidades e dirigem ao lugar ou a pessoa procurados; agendam serviços, reservam (hotéis e passagens) e indicam acomodações em hotéis e estabelecimentos similares; observam normas internas de segurança, conferindo documentos e idoneidade dos clientes e notificando seguranças sobre presenças estranhas; fecham contas e estadas de clientes. Organizam informações e planejam o trabalho do cotidiano.
     </p>
 
     <br>

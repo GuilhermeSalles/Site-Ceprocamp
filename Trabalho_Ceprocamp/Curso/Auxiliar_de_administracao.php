@@ -34,10 +34,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify"> Capacita o aluno para realizar o suporte
-        administrativo e
-        técnico nas áreas de recursos humanos, administração, finanças e logística. Para tanto, registra a
-        entrada/saída de documentos e organiza arquivos; formulários e planilhas.
+    <p class="fs-5 lh-sm font-monospace text-justify"> Executam serviços de apoio nas áreas de recursos humanos, administração, finanças e logística; atendem fornecedores e clientes, fornecendo e recebendo informações sobre produtos e serviços; tratam de documentos variados, cumprindo todo o procedimento necessário referente aos mesmos. Atuam na concessão de microcrédito a microempresários, atendendo clientes em campo e nas agências, prospectando clientes nas comunidades. Atuam na área de captação de recursos, planejando e implementando estratégias de captação e contato com doadores/ parceiros.
     </p>
 
     <br>

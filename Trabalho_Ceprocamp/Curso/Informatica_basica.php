@@ -35,12 +35,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify"> Capacita o aluno para utilizar as principais funções
-        do
-        Sistema Operacional Windows; utilizar os recursos do Processador de Texto Word, do aplicativo de
-        Planilha Eletrônica Excel e do programa de Apresentação de Slides PowerPoint, bem como os recursos
-        da
-        internet.
+    <p class="fs-5 lh-sm font-monospace text-justify"> Capacita o aluno para utilizar as principais funções do Sistema Operacional Windows; utilizar os recursos do Processador de Texto Word, do aplicativo de Planilha Eletrônica Excel e do programa de Apresentação de Slides PowerPoint, bem como os recursos da internet.
     </p>
 
     <br>

@@ -35,9 +35,8 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Análise do ambiente para identificação sobre os tipos de riscos possíveis e qual a proporção e gravidade do mesmo
+assim como definição na planta baixa do ambiente sobre sua localização e recursos para evacuação e contenção dos riscos, caso houver.
     </p>
 
     <br>

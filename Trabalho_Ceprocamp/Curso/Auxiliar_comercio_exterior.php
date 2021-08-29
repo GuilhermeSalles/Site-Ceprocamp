@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Controlam, programam e coordenam operações de transportes em geral; acompanham as operações de embarque, transbordo e desembarque de carga. Verificam as condições de segurança dos meios de transportes e equipamentos utilizados, como também, da própria carga. Supervisionam armazenamento e transporte de carga e eficiência operacional de equipamentos e veículos. Controlam recursos financeiros e insumos, elaboram documentação necessária ao desembargo de cargas e atendem clientes. Pesquisam preços de serviços de transporte, identificam e programam rotas e informam sobre condições do transporte e da carga.
     </p>
 
     <br>

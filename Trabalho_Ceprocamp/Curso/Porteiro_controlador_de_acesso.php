@@ -35,11 +35,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify"> Este curso forma profissionais para controlar o fluxo
-        de
-        pessoas e veículos, recepcionar e orientar visitantes em condomínios e empresas, abordando
-        tendências
-        tecnológicas referentes a profissão.
+    <p class="fs-5 lh-sm font-monospace text-justify"> Recepcionam e orientam visitantes e hóspedes. Zelam pela guarda do patrimônio observando o comportamento e movimentação de pessoas para prevenir perdas, evitar incêndios,acidentes e outras anormalidades. Controlam o fluxo de pessoas e veículos identificando-os e encaminhando-os aos locais desejados. Recebem mercadorias, volumes diversos e correspondências. Fazem manutenções simples nos locais de trabalho.
     </p>
 
     <br>

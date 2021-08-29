@@ -35,12 +35,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify"> Especialização em Desenho Técnico e CAD. Introdução,
-        desenvolvimento e aprimoramento das habilidades de manipulação de um programa de CAD (Autocad).
-        Desenhos
-        para arquitetura (plantas), mecânica e marcenaria. Normas de desenho técnico e uso do programa
-        Autocad
-        para desenho de projetos. Leitura e interpretação de desenho técnico.
+    <p class="fs-5 lh-sm font-monospace text-justify"> Introdução, desenvolvimento e aprimoramento das habilidades de manipulação de um programa de CAD (Autocad). Desenhos para arquitetura (plantas), mecânica e marcenaria. Normas de desenho técnico e uso do programa Autocad para desenho de projetos. Leitura e interpretação de desenho técnico. Elaboram desenhos de arquitetura e engenharia civil utilizando softwares específicos para desenho técnico, assim como podem executar plantas, desenhos e detalhamentos de instalações hidrossanitárias e elétricas e desenhos cartográficos; coletam e processam dados e planejam o trabalho para a elaboração de projetos, podendo atualizar o desenho de acordo com a legislação. 
     </p>
 
     <br>

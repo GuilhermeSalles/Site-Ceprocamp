@@ -35,11 +35,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify">Cálculos básico, de custo e precificação. Noções de
-        higiene
-        e manipulação de alimentos, de produção sustentável, dos principais equipamentos e técnicas de
-        panificação e confeitaria, de criação de pães, bolos e recheios, de adicionamento de produtos,
-        sanitização, empreendedorismo e de comunicação o oral e escrita.
+    <p class="fs-5 lh-sm font-monospace text-justify">Cálculos básico, de custo e precificação. Noções de higiene e manipulação de alimentos, de produção sustentável, dos principais equipamentos e técnicas de panificação e confeitaria, de criação de pães, bolos e recheios, de adicionamento de produtos, sanitização, empreendedorismo e de comunicação o oral e escrita.
     </p>
 
     <br>

@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> O perfil desse profissional estara habilitado para elaborar procedimentos de resgate técnico,abandono de areas de riscos,atendimentos pré hospitalar,e emergenciais. Coordenar e realiza treinamentos previos para a brigada de incêndios.Procedimentos de primeiros socorros. Analisar  e implantar procedimentos operacionais no plano de emergencia.Selecionar e inspecionar periodicamente equipamentos e materiais para prevenção e combate a incêndios.Analisar normas e procedimentos administrativos relacionados à gestão de documentos.
     </p>
 
     <br>

@@ -34,9 +34,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify">Este curso tem por objetivo ensinar técnicas de gestão
-        empresarial para alunos que almejam ser donos do próprio negócio, estimulando valores como proatividade,
-        criatividade, sustentabilidade e liderança.
+    <p class="fs-5 lh-sm font-monospace text-justify">Este curso tem por objetivo ensinar técnicas de gestão empresarial para alunos que almejam ser donos do próprio negócio, estimulando valores como proatividade, criatividade, sustentabilidade e liderança.
     </p>
 
     <br>

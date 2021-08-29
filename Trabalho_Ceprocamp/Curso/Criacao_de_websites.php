@@ -34,14 +34,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify"> Profissional que planeja, cria, organiza e publica
-        interfaces de Websites, seguindo normas de acessibilidade, usabilidade, padrões web e boas práticas
-        de
-        desenvolvimento que qualifiquem a performance do website perante o público-alvo. O trabalho desse
-        profissional pode ser realizado sob supervisão, em equipe ou individualmente, de acordo com normas e
-        procedimentos técnicos. Atua em organizações públicas, privadas ou do Terceiro Setor de diversos
-        segmentos do mercado de trabalho, podendo também atuar de forma autônoma, em projetos próprios ou
-        terceirizados.
+    <p class="fs-5 lh-sm font-monospace text-justify"> Desenvolvem sistemas e aplicações, determinando interface gráfica, critérios ergonômicos de navegação, montagem da estrutura de banco de dados, codificação e testes de programas e aplicativos; projetam, implantam e realizam manutenção de sistemas e aplicações; selecionam recursos de desenvolvimento de sistemas e aplicações, participando da seleção de metodologias de desenvolvimento de sistemas, de linguagem de programação e de ferramentas de desenvolvimento; planejam etapas e ações de trabalho.
     </p>
 
     <br>

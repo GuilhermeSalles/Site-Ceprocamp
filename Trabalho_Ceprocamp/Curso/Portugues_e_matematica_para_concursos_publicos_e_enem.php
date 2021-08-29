@@ -34,9 +34,7 @@
         
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify">O curso aborda os conteúdos constantes na maioria dos
-        concursos públicos e no Enem, nas disciplinas de Português e Matemática, visando oferecer um melhor
-        preparo ao candidato que objetiva prestar esses exames.
+    <p class="fs-5 lh-sm font-monospace text-justify">O curso aborda os conteúdos constantes na maioria dos concursos públicos e no Enem, nas disciplinas de Português e Matemática, visando oferecer um melhor preparo ao candidato que objetiva prestar esses exames.
     </p>
 
     <br>

@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Capacita o aluno a desenvolver atividades da rotina adminsitrativa de empresas,comerciais ,laborais  e todas que se enquadram no ramo admisnitrativo para um pleno desenvolvimento de sua organização.Praticar e aprender a elaborar as quatro principais classificações das práticas administrativas:Planejamento-Organização-Direção-Controle (PODC),atendendo os objetivos da empresa.
     </p>
 
     <br>

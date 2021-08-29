@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Consertam e instalam aparelhos eletrônicos, desenvolvem dispositivos de circuitos eletrônicos, fazem manutenções corretivas, preventivas e preditivas, sugerem mudanças no processo de produção, criam e implementam dispositivos de automação. Treinam, orientam e avaliam o desempenho de operadores. Estabelecem comunicação oral e escrita para agilizar o trabalho, redigem documentação técnica e organizam o local de trabalho.
     </p>
 
     <br>

@@ -34,10 +34,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify"> O aluno será capaz de compreender o processo de
-        envelhecimento, suas características e será envolvido em todas as habilidades necessárias para
-        cuidar da
-        pessoa idosa.
+    <p class="fs-5 lh-sm font-monospace text-justify">O aluno será capaz de compreender o processo de envelhecimento, suas características e será envolvido em todas as habilidades necessárias para cuidar da pessoa idosa.
     </p>
 
     <br>

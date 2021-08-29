@@ -35,10 +35,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify"> Propõe-se a auxiliar indivíduos a adquirem noção
-        básica
-        deste idioma (falante de nível básico) para fins de atendimento, interação e comunicação com
-        clientes.
+    <p class="fs-5 lh-sm font-monospace text-justify"> Propõe-se a auxiliar indivíduos a adquirem noção básica deste idioma (falante de nível básico) para fins de atendimento, interação e comunicação com clientes.
     </p>
 
     <br>

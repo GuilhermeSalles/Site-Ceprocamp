@@ -34,13 +34,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify">O profissional será capaz de compreender a maneira
-        correta
-        de realizar a vigilância, prevenção, controle de doenças e promoção da saúde no Sistema Único de
-        Saúde.
-        Estará apto também a identificar situações de risco, possíveis focos de doenças e vetores,
-        interpretar
-        dados epidemiológicos e fazer controle de pragas urbanas.
+    <p class="fs-5 lh-sm font-monospace text-justify">Os trabalhadores em serviços de promoção e apoio à saúde, visitam domicílios periodicamente; orientam a comunidade para promoção da saúde; assistem pacientes, dispensando-lhes cuidados simples de saúde, sob orientação e supervisão de profissionais da saúde; rastreiam focos de doenças específicas; promovem educação sanitária e ambiental; participam de campanhas preventivas; incentivam atividades comunitárias; promovem comunicação entre unidade de saúde, autoridades e comunidade.
     </p>
 
     <br>

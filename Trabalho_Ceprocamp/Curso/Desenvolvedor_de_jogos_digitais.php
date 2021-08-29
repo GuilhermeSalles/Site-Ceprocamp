@@ -34,16 +34,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify"> O profissional deve apresentar um perfil que o
-        habilite a
-        desempenhar atividades voltadas para desenvolvimento de algoritmos; utilização de ambientes de
-        desenvolvimento. Utilização de plataformas que possibilitem a criação de jogos e vários tipos de
-        aplicativos utilizando algoritmos. Desenvolve algoritmos de programação, seguindo as especificações
-        e
-        paradigmas da lógica de programação; utiliza softwares aplicativos e utilitários; aplica conceitos
-        de
-        algoritmo; compreende o funcionamento das estruturas de dados básicas; e deve ter iniciativa,
-        criatividade, autonomia, responsabilidade, saber trabalhar em equipe.
+    <p class="fs-5 lh-sm font-monospace text-justify"> Utilização de plataformas que possibilitem a criação de jogos e vários tipos de aplicativos utilizando algoritmos. Desenvolve algoritmos de programação, seguindo as especificações e paradigmas da lógica de programação; utiliza softwares aplicativos e utilitários; aplica conceitos de algoritmo; compreende o funcionamento das estruturas de dados básicas.
     </p>
 
     <br>

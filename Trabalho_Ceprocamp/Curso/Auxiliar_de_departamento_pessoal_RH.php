@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Administram pessoal e plano de cargos e salários; promovem ações de treinamento e de desenvolvimento de pessoal. Efetuam processo de recrutamento e de seleção, geram plano de benefícios e promovem ações de qualidade de vida e assistência aos empregados. Administram relações de trabalho e coordenam sistemas de avaliação de desempenho. No desenvolvimento das atividades, mobilizam um conjunto de capacidades comunicativas.
     </p>
 
     <br>

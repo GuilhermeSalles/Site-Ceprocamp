@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> O profissional aprende a elaborar e colocar em prática ações de prevenção para qualidade de vida dos colaboradores e manutenção dos processos laborais.Identificar os espaços fisicos aptos e com condição para realização do trabalho.Conhece normas regulatórias e procedimentos para aplicação previa na area de higiene ocupacional e prevenção de riscos,além de preparo dos equipamentos de proteção individual e coletiva.Aprender sobre as normas de segurança nos termos de EPI e EPC, os equipamentos de proteção coletiva e individual como placas de sinalização,sistemas de iluminação de emergência ,capacetes ,trava-quedas entre outros.Criterios para os certificados de aprovação mediante ao trabalho dos profissionais em altura.
     </p>
 
     <br>

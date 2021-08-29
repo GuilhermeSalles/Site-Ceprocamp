@@ -35,12 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> De acordo com o seu Perfil Profissional, o Técnico em
-        Logística realiza procedimentos de transportes, armazenamento e distribuição das cadeias de
-        suprimentos.
-        Agenda programa de manutenção de máquinas e equipamentos. Supervisiona processos de compras,
-        recebimento, movimentação, expedição e distribuição de materiais e produtos. Presta serviços de
-        atendimento aos clientes.
+    <p class="text-justify"> Planejam processos produtivos e logísticos definindo os recursos necessários, estabelecendo metas e criando indicadores de produtividade. Elaboram projetos logísticos dimensionando as necessidades de recursos humanos, materiais e outros que se façam necessários. Acompanham implantação de novos projetos logísticos e controlam o desenvolvimento das atividades dos processos produtivos e logísticos com o objetivo de verificar o cumprimento das metas estabelecidas.
     </p>
 
     <br>

@@ -35,9 +35,7 @@
 
     </div>
 
-    <p class="text-justify"> Este curso capacita para execução das atividades
-        relacionada a administração de pessoas, entre elas: a contratação, pagamento para permanência de
-        empregados, concessão de benefícios e demissão.
+    <p class="text-justify"> Atendem hóspedes e familiares, organizando e supervisionando os trabalhos dos funcionários das áreas de governança e mordomia de hotéis, residências, hospitais ou estabelecimentos similares, recepcionando convidados e visitantes, acompanhando entradas e saídas dos hóspedes durante a estadia, familiares em compromissos externos e viagens da família. Cuidam do vestuário e objetos de hóspedes e familiares. Supervisionam a arrumação de aposentos e demais áreas. Servem alimentos e bebidas e supervisionam a sua preparação. Secretariam agendas e telefonemas, controlam serviços de lavanderia e rouparia, administram pessoal e executam atividades administrativas.
     </p>
 
     <br>
