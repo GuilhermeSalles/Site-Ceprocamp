@@ -124,14 +124,13 @@
                                     <label style="font-weight: bold; color: rgb(75, 75, 75);" for="unidade">Selecione a unidade mais perto de você:</label>
                                     <select class="form-control" id="unidade" style="border-radius: 10px;" name="Unidade">
                                         <option selected>-- Selecione a unidade --</option>
-                                        <option>CASI - </option>
-                                        <option>CAMBARÁ - </option>
-                                        <option>CAMPO GRANDE - </option>
-                                        <option>CENTRO - </option>
-                                        <option>CIC VIDA NOVA - </option>
-                                        <option>JOSÉ ALVES - </option>
-                                        <option>OURO VERDE - </option>
-                                        <option>VILA UNIÃO - </option>
+                                        <option>CASI - Campo Belo</option>
+                                        <option>Cambará - DIC IV</option>
+                                        <option>Campo grande - Praça Concórdia</option>
+                                        <option>Centro - Estação Cultura</option>
+                                        <option>CIC/ESPRO - Vida Nova</option>
+                                        <option>José Alves - Satélite Iris 1</option>
+                                        <option>Ouro Verde - HortoShopping</option>
                                     </select>
                                 </div>
                                 <div class="modal-footer">
