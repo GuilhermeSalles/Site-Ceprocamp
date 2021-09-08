@@ -10,9 +10,9 @@
                 Auxiliar de Laboratório de Química</h2>
         </div>
 
-        <div class="col-3 mt-2">
-            <h6><span style="font-weight: bold; color: #FE5722FF; margin-bottom: 5px;"> <img src="../img/Icones dia/clock.svg"> Duração:
-                </span>333 horas</h6>
+        <div class="col-3 mt-3">
+            <h6><span style="font-weight: bold; color: #FE5722FF"> <img src="../img/Icones dia/clock.svg"> Até:
+                </span>1 Semestre</h6>
         </div>
 
     </div>
@@ -118,15 +118,8 @@
 
                                 <div class="form-group">
                                     <label style="font-weight: bold; color: rgb(75, 75, 75);" for="unidade">Selecione a unidade mais perto de você:</label>
-                                    <select class="form-control" id="unidade" style="border-radius: 10px;" name="Unidade">
-                                        <option selected>-- Selecione a unidade --</option>
-                                        <option>CASI - Campo Belo</option>
-                                        <option>Cambará - DIC IV</option>
-                                        <option>Campo grande - Praça Concórdia</option>
-                                        <option>Centro - Estação Cultura</option>
-                                        <option>CIC/ESPRO - Vida Nova</option>
-                                        <option>José Alves - Satélite Iris 1</option>
-                                        <option>Ouro Verde - HortoShopping</option>
+                                    <select class="form-control" id="unidade" style="border-radius: 10px;" name="Unidade" readonly>
+                                        <option selected>Centro - Estação Cultura</option>
                                     </select>
                                 </div>
                                 <div class="modal-footer">

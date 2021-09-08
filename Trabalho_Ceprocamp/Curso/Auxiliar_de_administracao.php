@@ -9,9 +9,9 @@
             <h2 style="font-weight: bold; color: #FE5722FF;"> <img class="mb-1" src=" ../img/Icones dia/book.svg">Auxiliar Administrativo</h2>
         </div>
 
-        <div class="col-3 mt-2">
-            <h6><span style="font-weight: bold; color: #fe5722;"> <img src="../img/Icones dia/clock.svg"> Duração:
-                </span>334 horas</h6>
+        <div class="col-3 mt-3">
+            <h6><span style="font-weight: bold; color: #FE5722FF"> <img src="../img/Icones dia/clock.svg"> Até:
+                </span>1 Semestre</h6>
         </div>
 
     </div>

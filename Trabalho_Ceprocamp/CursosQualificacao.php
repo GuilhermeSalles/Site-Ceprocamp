@@ -1,7 +1,7 @@
    <?php include 'header-menu.php' ?>
 
    <style>
-       h6{
+       h6 {
            font-weight: bold;
            color: rgb(75, 75, 75);
        }
@@ -35,7 +35,8 @@
                            <a href="Curso/Auxiliar_de_departamento_pessoal_RH" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 hs/a = 200 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -50,7 +51,8 @@
                            <a href="Curso/Auxiliar_financeiro" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -65,7 +67,8 @@
                            <a href="Curso/Padeiro_Confeiteiro" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>400 h/a = 333 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -80,7 +83,8 @@
                            <a href="Curso/Desenho_CAD" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>80 h/a = 67 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -97,7 +101,8 @@
                            <a href="Curso/Garcom_Garconete" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>320 h/a = 266 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -112,7 +117,8 @@
                            <a href="Curso/Almoxarife" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"> <b>Duração:</b> 400 h/a = 333 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -123,12 +129,13 @@
                        <div class="card-body">
                            <h6 class="card-title">AGENTE DE CONTROLE DE ENDEMIAS</h6>
                            <p class="card-text" style="margin-bottom: 35px;">Aprenda a realizar a vigilância, prevenção, controle de doenças e a promoção da saúde.
-                               
+
                            </p>
                            <a href="Curso/Agente_de_controle_de_endemias" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -143,7 +150,8 @@
                            <a href="Curso/Auxiliar_de_laboratorio" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"> <b>Duração:</b> 400 h/a = 333 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -158,7 +166,8 @@
                            <a href="Curso/Porteiro_controlador_de_acesso" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -173,7 +182,8 @@
                            <a href="Curso/Auxiliar_de_logistica" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração:</b> 240 h/a = 200 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -188,7 +198,8 @@
                            <a href="Curso/Auxiliar_de_administracao" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"> <b>Duração: </b>400 hs/a = 334 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -203,7 +214,8 @@
                            <a href="Curso/Cuidador_de_pessoas" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"> <b>Duração:</b> 240 h/a = 200 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -218,7 +230,8 @@
                            <a href="Curso/Cuidador_de_idosos" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"> <b>Duração: </b>240 hs/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -233,7 +246,8 @@
                            <a href="Curso/Informatica_basica" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"> <b>Duração:</b> 160 h/a = 133 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -248,7 +262,8 @@
                            <a href="Curso/Auxiliar_de_escrtorio" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"> <b>Duração: </b>200 hs/a = 166 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -259,12 +274,13 @@
                        <div class="card-body">
                            <h6 class="card-title">INGLÊS PARA ATENDIMENTO DO CLIENTE</h6>
                            <p class="card-text">Aprenda a recepcionar, comunicar e orientar convidados e clientes falantes de Inglês.
-                           
+
                            </p>
                            <a href="Curso/Ingles_para_Atendimento" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"> <b>Duração: </b>240 h/a = 200 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -279,7 +295,8 @@
                            <a href="Curso/Portugues_e_matematica_para_concursos_publicos_e_enem" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>320 h/a = 266 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -295,7 +312,8 @@
                            <a href="Curso/Agente_de_segurança_do_trabalho_e_higiene_ocupacional" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"> <b>Duração:</b> 240 h/a = 200 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -306,12 +324,13 @@
                        <div class="card-body">
                            <h6 class="card-title">MICROEMPREENDEDOR</h6>
                            <p class="card-text" style="margin-bottom: 15px;">Aprenda técnicas de gestão empresarial para ser dono do seu próprio negócio.
-                        
+
                            </p>
                            <a href="Curso/Microempreendedor" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"> <b>Duração: </b>200 hs/a = 166 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -323,11 +342,12 @@
                            <h6 class="card-title">CRIAÇÃO DE WEBSITES</h6>
                            <p class="card-text">Aprenda a criar páginas e estruture sites para diversas finalidades e usuários.
                                <br>
-                        </p>
+                           </p>
                            <a href="Curso/Criacao_de_websites" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"> <b>Duração: </b>200 hs/a = 166 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -341,7 +361,8 @@
                            <a href="Curso/Desenvolvedor_de_jogos_digitais" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"> Duração: </b>200 hs/a = 166 horas</small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -356,7 +377,8 @@
                            <a href="Curso/Agente_administrativo" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -371,7 +393,8 @@
                            <a href="Curso/Agente_de_EPI_EPC" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -386,7 +409,8 @@
                            <a href="Curso/Excel_basico" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -401,7 +425,8 @@
                            <a href="Curso/atendimento_e_copa" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -416,7 +441,8 @@
                            <a href="Curso/Auxiliar_almoxarifado" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -431,7 +457,8 @@
                            <a href="Curso/Auxiliar_comercio_exterior" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -446,7 +473,8 @@
                            <a href="Curso/Auxiliar_de_administracao" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -461,7 +489,8 @@
                            <a href="Curso/Auxiliar_hotelaria" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -476,7 +505,8 @@
                            <a href="Curso/Camareira_em_meios_de_hospedagem" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -486,12 +516,13 @@
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/13.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AGENTE DE SANEAMENTO AMBIENTAL</h6>
-                           <p class="card-text">Aprenda a fiscalizar o saneamento básico em conformidade com a legislação. 
+                           <p class="card-text">Aprenda a fiscalizar o saneamento básico em conformidade com a legislação.
                            </p>
                            <a href="Curso/Agente_de_saneamento_ambiental" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -506,7 +537,8 @@
                            <a href="Curso/Projeto_de_prevencao_e_combate_a_incendios" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -521,7 +553,8 @@
                            <a href="Curso/Higiene_e_manipulacao_de_alimentos" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -536,7 +569,8 @@
                            <a href="Curso/Hostess_recepcionista_de_eventos" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -551,7 +585,8 @@
                            <a href="Curso/Inclusao_digital" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -566,7 +601,8 @@
                            <a href="Curso/Mapa_de_riscos" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -581,7 +617,8 @@
                            <a href="Curso/Operador_de_compuatador" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -596,7 +633,8 @@
                            <a href="Curso/Organizador_de_eventos" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -611,7 +649,8 @@
                            <a href="Curso/Praticas_administrativas" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -626,7 +665,8 @@
                            <a href="Curso/Praticas_contabeis" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -641,7 +681,8 @@
                            <a href="Curso/Frentista" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -656,7 +697,8 @@
                            <a href="Curso/Praticas_de_escritorio" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -671,7 +713,8 @@
                            <a href="Curso/Criacao_em_Python" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>
@@ -686,7 +729,8 @@
                            <a href="Curso/Robotica" class="btn btn-danger">Ver Mais</a>
                        </div>
                        <div class="card-footer">
-                           <small class="text-muted"><b>Duração: </b>240 h/a = 200 horas </small>
+                           <small class="text-muted"><b>Até: </b>
+                               1 semestre</small>
                        </div>
                    </div>
                </div>

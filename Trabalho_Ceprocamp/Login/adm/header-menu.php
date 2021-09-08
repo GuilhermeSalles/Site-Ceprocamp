@@ -1,7 +1,7 @@
 <?php
-	session_start();
-	include_once("../../ConexaoBd/config.php");
-	
+session_start();
+include_once("../../ConexaoBd/config.php");
+
 
 // Inclua este script em todas as páginas que exigirem que o usuário esteja logado
 // Protege a página
@@ -14,9 +14,7 @@ if (!isset($_SESSION['usuarioNome'])) {
             header('Location: /adm/Adminitrativo');
     } else
         header('Location: /login');
-	
- 
-}	
+}
 ?>
 <!doctype html>
 <html lang="pt-br">
@@ -76,11 +74,16 @@ if (!isset($_SESSION['usuarioNome'])) {
                             <a class="nav-link" href="../adm/Administrativo">Administrativo</a>
                         </li>
                     <?php } ?>
+                    <?php if ($_SESSION['usuarioNiveisAcessoId'] == "1") { ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../excel/gerar_planilha">Excel de Registro de Interesse</a>
+                        </li>
+                    <?php } ?>
 
                     <li class="nav-item">
                         <a class="nav-link" href="../emp/emprestimos">Lista e cadastro de equipamentos</a>
                     </li>
-                     
+
                     <!--
                     <li class="nav-item">
                         <a class="nav-link" href="CursosQualificacao">Cursos</a>

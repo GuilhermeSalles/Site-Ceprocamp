@@ -105,8 +105,8 @@
                                         <a href="Curso/Agente_de_segurança_do_trabalho_e_higiene_ocupacional" class="btn btn-danger">Ver Mais</a>
                                     </div>
                                     <div class="card-footer">
-                                        <small class="text-muted"><b>Período:</b> Manhã. <br><b>Duração: </b>
-                                            240 h/a = 200 horas</small>
+                                        <small class="text-muted"><b>Até: </b>
+                                            1 semestre</small>
                                     </div>
                                 </div>
 
@@ -118,8 +118,8 @@
                                         <a href="Curso/Almoxarife" class="btn btn-danger">Ver Mais</a>
                                     </div>
                                     <div class="card-footer">
-                                        <small class="text-muted"><b>Período:</b> Manhã. <br><b>Duração: </b>
-                                            400 h/a = 333 horas </small>
+                                        <small class="text-muted"><b>Até: </b>
+                                            1 semestre</small>
                                     </div>
                                 </div>
 
@@ -133,9 +133,8 @@
                                             Mais</a>
                                     </div>
                                     <div class="card-footer">
-                                        <small class="text-muted"><b>Período: </b>Noite.
-                                            <br><b>Duração:</b> 240 h/a = 200
-                                            horas </small>
+                                        <small class="text-muted"><b>Até: </b>
+                                            1 semestre</small>
                                     </div>
                                 </div>
 
@@ -190,8 +189,7 @@
                                         <a href="Curso/Tecnico_em_Logistica" class="btn btn-danger">Ver Mais</a>
                                     </div>
                                     <div class="card-footer">
-                                        <small class="text-muted"><b>Período:</b> Noite.
-                                            <br><b>Duração:</b> 03 semestres</small>
+                                        <small class="text-muted"><b>Duração:</b> 03 semestres</small>
                                     </div>
                                 </div>
 
@@ -204,8 +202,7 @@
                                             Mais</a>
                                     </div>
                                     <div class="card-footer">
-                                        <small class="text-muted"><b>Período:</b> Tarde, Noite.
-                                            <br><b>Duração:</b> 03 semestres</small>
+                                        <small class="text-muted"><b>Duração:</b> 03 semestres</small>
                                     </div>
                                 </div>
 
@@ -218,13 +215,20 @@
                                             Mais</a>
                                     </div>
                                     <div class="card-footer">
-                                        <small class="text-muted"><b>Período:</b> Tarde, Noite.
-                                            <br><b>Duração:</b> 04 semestres</small>
+                                        <small class="text-muted"><b>Duração:</b> 04 semestres</small>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="container">
+                            <div class="row">
+                                <div class="col-12 text-center mb-4">
+                                    <a class="btn btn-danger" href="CursosTecnicos" role="button">Clique
+                                        aqui para mais Técnicos</a>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>

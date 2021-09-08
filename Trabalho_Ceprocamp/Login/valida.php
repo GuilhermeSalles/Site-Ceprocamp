@@ -20,20 +20,20 @@
 			$_SESSION['usuarioNiveisAcessoId'] = $resultado['niveis_acesso_id'];
 			$_SESSION['usuarioEmail'] = $resultado['email'];
 			if($_SESSION['usuarioNiveisAcessoId'] == "1"){
-				header("Location: inicio.php");
+				header("Location: inicio");
 			} elseif($_SESSION['usuarioNiveisAcessoId'] == "2"){
-				header("Location: inicio.php");
+				header("Location: inicio");
 			} 
 		//Não foi encontrado um usuario na tabela usuário com os mesmos dados digitado no formulário
 		//redireciona o usuario para a página de login
 		}else{	
 			//Váriavel global recebendo a mensagem de erro
 			$_SESSION['loginErro'] = "Usuário ou senha Inválido";
-			header("Location: index.php");
+			header("Location: index");
 		}
 	//O campo usuário e senha não preenchido entra no else e redireciona o usuário para a página de login
 	}else{
 		$_SESSION['loginErro'] = "Usuário ou senha inválido";
-		header("Location: index.php");
+		header("Location: index");
 	}
 ?>

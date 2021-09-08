@@ -54,7 +54,6 @@
                 disposições e detalhes sobre os cursos oferecidos pelo CEPROCAMP.</p>
 
             <br>
-
             <h6 style="font-weight: bold; color: rgb(75, 75, 75);">Requisitos Gerais:</h6>
             <ul class="b ml-5">
                 <li>Morador de Campinas e da Região Metropolitana de Campinas.</li>
@@ -116,15 +115,8 @@
 
                                 <div class="form-group">
                                     <label style="font-weight: bold; color: rgb(75, 75, 75);" for="unidade">Selecione a unidade mais perto de você:</label>
-                                    <select class="form-control" id="unidade" style="border-radius: 10px;" name="Unidade">
-                                        <option selected>-- Selecione a unidade --</option>
-                                        <option>CASI - Campo Belo</option>
-                                        <option>Cambará - DIC IV</option>
-                                        <option>Campo grande - Praça Concórdia</option>
-                                        <option>Centro - Estação Cultura</option>
-                                        <option>CIC/ESPRO - Vida Nova</option>
-                                        <option>José Alves - Satélite Iris 1</option>
-                                        <option>Ouro Verde - HortoShopping</option>
+                                    <select class="form-control" id="unidade" style="border-radius: 10px;" name="Unidade" readonly>
+                                        <option selected>Centro - Estação Cultura</option>
                                     </select>
                                 </div>
                                 <div class="modal-footer">

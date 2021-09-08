@@ -106,8 +106,17 @@ if (isset($_POST['submit'])) {
                     </li>
 
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="../CursosQualificacao">Cursos</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Cursos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                            <a class="dropdown-item" href="../CursosQualificacao">Cursos Qualificação Profissional</a>
+                            <a class="dropdown-item" href="../CursosTecnicos">Cursos Técnicos</a>
+                            
+
+                        </ul>
                     </li>
 
                     <li class="nav-item">

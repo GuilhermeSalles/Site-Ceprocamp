@@ -76,6 +76,11 @@ if (!isset($_SESSION['usuarioNome'])) {
                             <a class="nav-link" href="adm/Administrativo">Administrativo</a>
                         </li>
                     <?php } ?>
+                    <?php if ($_SESSION['usuarioNiveisAcessoId'] == "1") { ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="excel/gerar_planilha">Excel de Registro de Interesse</a>
+                        </li>
+                    <?php } ?>
 
                     <li class="nav-item">
                         <a class="nav-link" href="emp/emprestimos">Lista e cadastro de equipamentos</a>

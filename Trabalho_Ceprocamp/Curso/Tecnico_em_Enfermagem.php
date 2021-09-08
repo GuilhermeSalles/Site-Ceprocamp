@@ -12,7 +12,7 @@
 
         <div class="col-3 mt-3">
             <h6><span style="font-weight: bold; color: #FE5722FF"> <img src="../img/Icones dia/clock.svg"> Duração:
-                </span>200 horas</h6>
+                </span>04 semestres</h6>
         </div>
 
     </div>
@@ -65,15 +65,15 @@
 
             <h6 style="font-weight: bold; color: rgb(75, 75, 75);">Requisitos Específicos:</h6>
             <ul class="b ml-5">
-                <li>Possuir 16 anos completos até o último dia da inscrição.</li>
+                <li>Possuir 18 anos completos até o último dia da inscrição.</li>
                 <li>Possuir o pré-requisito exigido para cada curso, de forma a aproveitar totalmente a aprendizagem
                     oferecida.</li>
-                <li>Ensino Médio Concluído ou Cursando a 2ª ou 3ª Série.</li>
+                <li>Ensino Médio Completo.</li>
             </ul>
 
             <br>
 
-            <h6 style="font-weight: bold;color: #fe5722;">Previsão 2° Semestre de 2021</h6>
+            <h6 style="font-weight: bold; color: #fe5722;">Previsão 2° Semestre de 2021</h6>
             <ul class="b ml-5">
                 <li> Os cursos oferecidos são semestrais o período para os cursos do segundo semestre é de <span style="color: #fe5722;">22/07</span> a <span style="color: #fe5722;">22/12</span>.</li>
             </ul>
@@ -116,15 +116,8 @@
 
                                 <div class="form-group">
                                     <label style="font-weight: bold; color: rgb(75, 75, 75);" for="unidade">Selecione a unidade mais perto de você:</label>
-                                    <select class="form-control" id="unidade" style="border-radius: 10px;" name="Unidade">
-                                        <option selected>-- Selecione a unidade --</option>
-                                        <option>CASI - Campo Belo</option>
-                                        <option>Cambará - DIC IV</option>
-                                        <option>Campo grande - Praça Concórdia</option>
-                                        <option>Centro - Estação Cultura</option>
-                                        <option>CIC/ESPRO - Vida Nova</option>
-                                        <option>José Alves - Satélite Iris 1</option>
-                                        <option>Ouro Verde - HortoShopping</option>
+                                    <select class="form-control" id="unidade" style="border-radius: 10px;" name="Unidade" readonly>
+                                        <option selected>Centro - Estação Cultura</option>
                                     </select>
                                 </div>
                                 <div class="modal-footer">
