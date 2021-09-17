@@ -161,7 +161,7 @@
                        <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/18.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">PORTEIRO/CONTROLADOR DE ACESSO</h6>
-                           <p class="card-text">Aprenda a controlar o fluxo de pessoas e veículos, utilizando tecnologias adequadas
+                           <p class="card-text">Aprenda a controlar o fluxo de pessoas e veículos, utilizando tecnologias adequadas.
                            </p>
                            <a href="Curso/Porteiro_controlador_de_acesso" class="btn btn-danger">Ver Mais</a>
                        </div>

@@ -13,7 +13,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item active">
+                    <div class="carousel-item">
                         <div class="text-justify">
 
                         <a title="Horarios e telefone Secretária."><img src="img/Avisos/Secretaria.png" class="img-fluid" alt="Secretária"></a>
@@ -37,6 +37,14 @@
                         </div>
                     </div>
 
+                    <div class="carousel-item active">
+                        <div class="text-justify">
+
+                        <a title="Clique para ver os cursos" href="inscricoes"><img src="img/Avisos/inscriçãoOV.png" class="img-fluid" alt="Inscrições"></a>
+
+                        </div>
+                    </div>
+
                 </div>
 
                 <br>
@@ -44,9 +52,10 @@
 
                 <ol class="carousel-indicators">
                     <li data-target="#carouselAviso" data-slide-to="0"></li>
-                    <li data-target="#carouselAviso" data-slide-to="1" class="active"></li>
+                    <li data-target="#carouselAviso" data-slide-to="1"></li>
                     <li data-target="#carouselAviso" data-slide-to="2"></li>
                     <li data-target="#carouselAviso" data-slide-to="3"></li>
+                    <li data-target="#carouselAviso" data-slide-to="4" class="active"></li>
                 </ol>
 
             </div>

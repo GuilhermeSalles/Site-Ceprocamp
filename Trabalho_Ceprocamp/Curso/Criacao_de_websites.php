@@ -75,9 +75,6 @@
 
             <h6 style="font-weight: bold;">Previsão 2° Semestre de 2021</h6>
             <ul class="b ml-5">
-                <li> <span style="font-weight: bold; color: #fe5722;">Primeiro Periodo</span> - Referente ao
-                    Bimestre dos cursos da
-                    Unidade <span style="font-weight: bold;">Ouro Verde</span> de <span style="color: #fe5722;">22/07</span> a <span style="color: #fe5722;">01/10</span>.</li>
                 <li> <span style="font-weight: bold; color: #fe5722;">Segundo Periodo</span> - Referente ao Bimestre
                     dos cursos da
                     Unidade <span style="font-weight: bold;">Ouro Verde</span> de <span style="color: #fe5722;">04/10</span> a <span style="color: #fe5722;">22/12</span>.</li>
@@ -147,7 +144,6 @@
 
     <br>
     <br>
-
     <div class="container" data-anime="top">
 
         <div class="text-center">
@@ -172,7 +168,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row"><a href="../ouroVerde" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
+                            <th scope="row"><a href="../ouroVerde" title="Clique para saber mais sobre o local." style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
@@ -188,7 +184,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th colspan="4" class="text-center"><a href="../ouroVerde" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
+                            <th colspan="4" class="text-center"><a href="../ouroVerde" title="Clique para saber mais sobre o local." style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
                         </tr>
                     </thead>
                     <tbody>

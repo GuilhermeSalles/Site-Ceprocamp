@@ -74,9 +74,6 @@
 
             <h6 style="font-weight: bold;">Previsão 2° Semestre de 2021</h6>
             <ul class="b ml-5">
-                <li> <span style="font-weight: bold; color: #fe5722;">Primeiro Periodo</span> - Referente ao
-                    Bimestre dos cursos da
-                    Unidade <span style="font-weight: bold;">Ouro Verde</span> de <span style="color: #fe5722;">22/07</span> a <span style="color: #fe5722;">01/10</span>.</li>
                 <li> <span style="font-weight: bold; color: #fe5722;">Segundo Periodo</span> - Referente ao Bimestre
                     dos cursos da
                     Unidade <span style="font-weight: bold;">Ouro Verde</span> de <span style="color: #fe5722;">04/10</span> a <span style="color: #fe5722;">22/12</span>.</li>
@@ -147,7 +144,6 @@
 
     <br>
     <br>
-
     <div class="container" data-anime="top">
 
         <div class="text-center">
@@ -181,7 +177,7 @@
                 </table>
             </div>
         </div>
-
+       
         <div class="row grande">
             <div class="col-sm-10 col-md-12 col-xs-12">
 
@@ -207,7 +203,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> 
 <br>
 <br>
 

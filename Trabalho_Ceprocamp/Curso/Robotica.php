@@ -34,7 +34,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify"> Capacita o aluno para atividades do Setor Administrativo em seus principais aspectos: práticas de administração de recursos humanos, processos, materiais, contabilidade e finanças. Informações sobre o mercado e o mundo do trabalho; trabalho em equipe, entender o mercado e o ambiente de negócios; a estrutura e funcionamento organizacional.
+    <p class="fs-5 lh-sm font-monospace text-justify"> Profissional que realiza atividades de processamento de pedidos, planejamento e operação de recebimento, de conferência, de armazenagem, de programação de produção, de separação e distribuição de produtos, de levantamento de dados para custeio das operações. Elabora relatórios e gráficos de acompanhamento de processos operacionais.
     </p>
 
     <br>
@@ -75,9 +75,6 @@
 
             <h6 style="font-weight: bold;">Previsão 2° Semestre de 2021</h6>
             <ul class="b ml-5">
-                <li> <span style="font-weight: bold; color: #fe5722;">Primeiro Periodo</span> - Referente ao
-                    Bimestre dos cursos da
-                    Unidade <span style="font-weight: bold;">Ouro Verde</span> de <span style="color: #fe5722;">22/07</span> a <span style="color: #fe5722;">01/10</span>.</li>
                 <li> <span style="font-weight: bold; color: #fe5722;">Segundo Periodo</span> - Referente ao Bimestre
                     dos cursos da
                     Unidade <span style="font-weight: bold;">Ouro Verde</span> de <span style="color: #fe5722;">04/10</span> a <span style="color: #fe5722;">22/12</span>.</li>
@@ -116,7 +113,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label style="font-weight: bold; color: rgb(75, 75, 75);" for="curso">Curso:</label>
-                                    <input type="input" class="form-control" id="curso" name="Curso" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" value="Robótica " readonly>
+                                    <input type="input" class="form-control" id="curso" name="Curso" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" value="Robótica" readonly>
                                 </div>
 
                                 <div class="form-group">
@@ -149,7 +146,7 @@
     <br>
     <br>
 
-    <!-- <div class="container" data-anime="top">
+    <div class="container" data-anime="top">
 
         <div class="text-center">
 
@@ -173,76 +170,16 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row"><a href="../campoGrande" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Campo Grande</a></th>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
-                            <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
-                        </tr>
-                        <tr>
-                            <th scope="row"><a href="../index" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Centro</a></th>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
-                            <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
-                        </tr>
-                        <tr>
                             <th scope="row"><a href="../ouroVerde" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-
-        <div class="row grande">
-            <div class="col-sm-10 col-md-12 col-xs-12">
-
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th colspan="4" class="text-center"><a href="../campoGrande" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Campo Grande</a></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="col"><img src="../img/Icones dia/sun.svg" alt="Sol"> Manhã</th>
-                            <th scope="col"><img src="../img/Icones dia/sunset.svg" alt="Tarde"> Tarde</th>
-                            <th scope="col"><img src="../img/Icones dia/moon.svg" alt="Noite"> Noite</th>
-                        </tr>
-                        <tr>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
-                            <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="row grande">
-            <div class="col-sm-10 col-md-12 col-xs-12">
-
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th colspan="4" class="text-center"><a href="../index" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Centro</a></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="col"><img src="../img/Icones dia/sun.svg" alt="Sol"> Manhã</th>
-                            <th scope="col"><img src="../img/Icones dia/sunset.svg" alt="Tarde"> Tarde</th>
-                            <th scope="col"><img src="../img/Icones dia/moon.svg" alt="Noite"> Noite</th>
-                        </tr>
-                        <tr>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
-                            <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+       
         <div class="row grande">
             <div class="col-sm-10 col-md-12 col-xs-12">
 
@@ -259,8 +196,8 @@
                             <th scope="col"><img src="../img/Icones dia/moon.svg" alt="Noite"> Noite</th>
                         </tr>
                         <tr>
-                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
+                            <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                         </tr>
                     </tbody>
@@ -268,7 +205,7 @@
             </div>
         </div>
     </div>
-</div> -->
+</div> 
 <br>
 <br>
 
