@@ -34,7 +34,7 @@
 
     </div>
 
-    <p class="fs-5 lh-sm font-monospace text-justify"> Profissional que realiza atividades de processamento de pedidos, planejamento e operação de recebimento, de conferência, de armazenagem, de programação de produção, de separação e distribuição de produtos, de levantamento de dados para custeio das operações. Elabora relatórios e gráficos de acompanhamento de processos operacionais.
+    <p class="fs-5 lh-sm font-monospace text-justify"> Circuitos elétricos e componentes básicos. Conhecer a placa Arduino e alguns de seus módulos, programar o Arduino e montar circuitos. Conhecer componentes que servem para a prototipagem como a protoboard. Entender os principais componentes da robótica como: jumpers, leds, buzzer, cabos de conexão, etc. Criar e programar diversos exemplos como sirenes, carrinho robótico, semáforos inteligentes,braço robótico, etc.
     </p>
 
     <br>
@@ -170,7 +170,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row"><a href="../ouroVerde" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
+                            <th scope="row"><a href="../ouroVerde" title="Clique para saber mais sobre o local." style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
                             <td><img src="../img/Icones dia/check.svg" alt="Turno da aula"> Disponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
                             <td><img src="../img/Icones dia/x-circle.svg" alt="Turno da aula"> Indisponível</td>
@@ -179,14 +179,14 @@
                 </table>
             </div>
         </div>
-       
+
         <div class="row grande">
             <div class="col-sm-10 col-md-12 col-xs-12">
 
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th colspan="4" class="text-center"><a href="../ouroVerde" title="Clique para saber mais sobre o local."  style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
+                            <th colspan="4" class="text-center"><a href="../ouroVerde" title="Clique para saber mais sobre o local." style="color: rgb(75, 75, 75);">Ouro Verde</a></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -205,7 +205,7 @@
             </div>
         </div>
     </div>
-</div> 
+</div>
 <br>
 <br>
 
