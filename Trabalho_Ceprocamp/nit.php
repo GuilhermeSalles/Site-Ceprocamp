@@ -1,6 +1,5 @@
    <?php include 'header-menu.php' ?>
    <style>
-       
        @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 
@@ -259,7 +258,6 @@
                flex-direction: column;
            }
        }
-       
    </style>
 
    <br>
@@ -593,157 +591,9 @@
                            </div>
                        </div>
                        <!-- ./Team member -->
-                       <!-- Team member -->
-                       <div class="col-xs-12 col-sm-6 col-md-4">
-                           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                               <div class="mainflip">
-                                   <div class="frontside">
-                                       <div class="card">
-                                           <div class="card-body text-center">
-                                               <p><img class=" img-fluid" src="img/gui.jpeg" alt="card image"></p>
-                                               <h4 class="card-title">Sunlimetech</h4>
-                                               <p class="card-text">This is basic card with image on top, title, description and button.</p>
-
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="backside">
-                                       <div class="card">
-                                           <div class="card-body text-center mt-4">
-                                               <h4 class="card-title">Sunlimetech</h4>
-                                               <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                               <ul class="list-inline">
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-facebook"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-twitter"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-linkedin"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-google"></i>
-                                                       </a>
-                                                   </li>
-                                               </ul>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                       <!-- ./Team member -->
-                       <!-- Team member -->
-                       <div class="col-xs-12 col-sm-6 col-md-4">
-                           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                               <div class="mainflip">
-                                   <div class="frontside">
-                                       <div class="card">
-                                           <div class="card-body text-center">
-                                               <p><img class=" img-fluid" src="img/gui.jpeg" alt="card image"></p>
-                                               <h4 class="card-title">Sunlimetech</h4>
-                                               <p class="card-text">This is basic card with image on top, title, description and button.</p>
-
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="backside">
-                                       <div class="card">
-                                           <div class="card-body text-center mt-4">
-                                               <h4 class="card-title">Sunlimetech</h4>
-                                               <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                               <ul class="list-inline">
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-facebook"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-twitter"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-linkedin"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-google"></i>
-                                                       </a>
-                                                   </li>
-                                               </ul>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                       <!-- ./Team member -->
-                       <!-- Team member -->
-                       <div class="col-xs-12 col-sm-6 col-md-4">
-                           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                               <div class="mainflip">
-                                   <div class="frontside">
-                                       <div class="card">
-                                           <div class="card-body text-center">
-                                               <p><img class=" img-fluid" src="img/gui.jpeg" alt="card image"></p>
-                                               <h4 class="card-title">Sunlimetech</h4>
-                                               <p class="card-text">This is basic card with image on top, title, description and button.</p>
-
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="backside">
-                                       <div class="card">
-                                           <div class="card-body text-center mt-4">
-                                               <h4 class="card-title">Sunlimetech</h4>
-                                               <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                               <ul class="list-inline">
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-facebook"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-twitter"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-linkedin"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-google"></i>
-                                                       </a>
-                                                   </li>
-                                               </ul>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                       <!-- ./Team member -->
-
-
                    </div>
                </div>
            </section>
-
-
        </div>
 
        <div>
@@ -795,7 +645,7 @@
                            <h2 class="title"><a>Agenda do NIT</a></h2>
                            <div class="inner">
                                <ul>
-                                   <li><a class="linkNIT" href="https://calendar.google.com/calendar/embed?src=c_mnp8flft56fqljkdqkghgabrkc%40group.calendar.google.com&ctz=America%2FSao_Paulo">Clique aqui e veja sobre.</a></li>
+                                   <li><a class="linkNIT" href="https://calendar.google.com/calendar/embed?src=c_mnp8flft56fqljkdqkghgabrkc%40group.calendar.google.com&ctz=America%2FSao_Paulo">Clique e veja sobre.</a></li>
                                </ul>
                            </div>
                        </div>
