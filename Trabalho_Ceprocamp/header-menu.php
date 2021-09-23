@@ -94,7 +94,7 @@
                                 </a>
                                 <div class="dropdown-menu">
 
-                                    <a class="dropdown-item" href="Doc/calendario_homologado_2021.pdf" target="_blank">Calendário</a>
+                                    <a class="dropdown-item" href="Calendario">Calendário</a>
                                     <a class="dropdown-item" href="EjaProfissoes">EJA Profissões</a>
                                     <a class="dropdown-item" href="https://www.fumec.sp.gov.br/matriz%20curricular " target="_blank">Matrizes dos cursos</a>
                                     <a class="dropdown-item" href="QuemSomos" target="_blank">Missão,
