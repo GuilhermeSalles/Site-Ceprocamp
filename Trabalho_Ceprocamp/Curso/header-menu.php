@@ -121,7 +121,7 @@ if (isset($_POST['submit'])) {
                                 <div class="dropdown-menu">
 
                                     <a class="dropdown-item" href="../Doc/calendario_homologado_2021.pdf" target="_blank">Calendário</a>
-                                    <a class="dropdown-item" href="https://fumec.sp.gov.br/eja/eja-profissoes" target="_blank">EJA Profissões</a>
+                                    <a class="dropdown-item" href="../EjaProfissoes">EJA Profissões</a>
                                     <a class="dropdown-item" href="https://www.fumec.sp.gov.br/matriz%20curricular " target="_blank">Matrizes dos cursos</a>
                                     <a class="dropdown-item" href="../QuemSomos" target="_blank">Missão,
                                         Visão e Valores</a>
@@ -142,8 +142,8 @@ if (isset($_POST['submit'])) {
 
                                 <div class="dropdown-menu">
 
-                                    <a class="dropdown-item" href="https://www.fumec.sp.gov.br/ceprocamp/acesso-plataforma-google-class" target="_blank">Acesso à Plataforma Google Class</a>
-                                    <a class="dropdown-item" href="Doc/HORARIOS DE AULAS.pdf" target="_blank">Horarios
+                                    <a class="dropdown-item" href="../AcessoPlataforma">Acesso à Plataforma Google Class</a>
+                                    <a class="dropdown-item" href="../Doc/HORARIOS DE AULAS.pdf" target="_blank">Horarios
                                         de aula</a>
                                     <a class="dropdown-item" href="https://www.fumec.sp.gov.br/sites/www.fumec.sp.gov.br/files/manual_do_aluno_reformulado_2021_0.pdf" target="_blank">Manual do Aluno</a>
                                     <a class="dropdown-item" href="../Doc/Auxilio transporte.pdf" target="_blank">Regulamento - Auxílio Transporte</a>
@@ -187,7 +187,7 @@ if (isset($_POST['submit'])) {
                     <li class="nav-item">
                         <a class="nav-link" href="../Sistemas">Sistemas</a>
                     </li>
-                    
+
                     <li class="nav-item">
                         <a class="nav-link" href="../PerguntasFrequentes">Perguntas Frequentes</a>
                     </li>
