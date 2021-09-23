@@ -162,12 +162,12 @@ if (isset($_POST['submit'])) {
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">NIT</a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="../nit">Sobre NIT</a>
-                                    <a class="dropdown-item" href="../Sistemas">Sistemas</a>
+                                    <a class="dropdown-item" href="../nit">Sobre o NIT</a>
                                 </div>
                             </li>
                         </ul>
                     </li>
+
 
                     <li class="nav-item">
                         <ul class="navbar-nav ml-auto">
@@ -184,6 +184,10 @@ if (isset($_POST['submit'])) {
                         </ul>
                     </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Sistemas">Sistemas</a>
+                    </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="../PerguntasFrequentes">Perguntas Frequentes</a>
                     </li>

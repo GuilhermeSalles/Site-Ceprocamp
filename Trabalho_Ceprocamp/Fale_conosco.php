@@ -1,13 +1,13 @@
 <?php include 'header-menu.php' ?>
 
 <style>
-  a {
+  .link {
     font-weight: bold;
     color: #FE5722FF;
     text-decoration: none;
   }
 
-  a:hover {
+  .link:hover {
     font-weight: bold;
     color: #FE5722FF;
     box-shadow: 75, 75, 75;
@@ -20,7 +20,7 @@
 <div class="container">
 
   <h3>Fale Conosco</h3>
-  <a href="PerguntasFrequentes">Perguntas frequentes - CEPROCAMP</a>
+  <a class="link" href="PerguntasFrequentes">Perguntas frequentes - CEPROCAMP</a>
   <hr class="hr3">
   <form method="POST" action="">
     
