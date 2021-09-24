@@ -2,11 +2,11 @@
 <br>
 
 <div class="container">
-    <div class="row">
+    <div class="row m-2">
         <h3 class="bold">EJA Profissões</h3>
         <hr class="hr3">
     </div>
-    <div class="row">
+    <div class="row m-2">
         <p class="text-justify">
             A EJA Profissões é um programa iniciado em agosto de 2010, 
             que tem como objetivo oferecer, além da escolarização básica, 

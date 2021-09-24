@@ -2,7 +2,7 @@
 <br>
 
 <div class="container">
-    <div class="row">
+    <div class="row m-3">
         <h3 class="bold">Acessando plataforma Google Class</h3>
         <hr class="hr3">
     </div>
