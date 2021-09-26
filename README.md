@@ -3,7 +3,7 @@
 - **Crianção do site do CEPROCAMP, a pedido de:** *Laderlei Luiz Marangoni*
 - **O que foi usado:** PHP(usado includes, e para conexão/manuseio do banco de dados), CSS, BootStrap, JavaScript, JQuery, HTML(texto dentro de arquivo PHP).
 
-# Arquivos(*significado de cada coisa*):
+# Arquivos:
 - **Curso**: Paginas aonde ficam os cursos(todos);
 - **CSS**: Pasta aonde ficam os arquivos **.css** das paginas;
 - **DOC**: Documentos PDF;
