@@ -109,8 +109,8 @@
                                         Visão e Valores</a>
                                     <a class="dropdown-item" href="https://www.fumec.sp.gov.br/ceprocamp/aluno/planos-ensino" target="_blank">Planos de ensino</a>
                                     <a class="dropdown-item" href="https://www.fumec.sp.gov.br/node/634" target="_blank">Professores Orientadores de Área - POA's</a>
-                                    <a class="dropdown-item" href="../Doc/projeto_pedagogico_2018-2021.pdf" target="_blank">Projeto Pedagógico</a>
-                                    <a class="dropdown-item" href="../Doc/regimento_escolar_site_-_com_sumario.pdf" target="_blank">Regimento escolar</a>
+                                    <a class="dropdown-item" href="../projetopedagogico">Projeto Pedagógico</a>
+                                    <a class="dropdown-item" href="../regimentoEscolar">Regimento escolar</a>
 
                                 </div>
                             </li>
@@ -125,10 +125,10 @@
                                 <div class="dropdown-menu">
 
                                     <a class="dropdown-item" href="../AcessoPlataforma">Acesso à Plataforma Google Class</a>
-                                    <a class="dropdown-item" href="../Doc/HORARIOS DE AULAS.pdf" target="_blank">Horarios
+                                    <a class="dropdown-item" href="../horariosaula">Horarios
                                         de aula</a>
-                                    <a class="dropdown-item" href="https://www.fumec.sp.gov.br/sites/www.fumec.sp.gov.br/files/manual_do_aluno_reformulado_2021_0.pdf" target="_blank">Manual do Aluno</a>
-                                    <a class="dropdown-item" href="../Doc/Auxilio transporte.pdf" target="_blank">Regulamento - Auxílio Transporte</a>
+                                    <a class="dropdown-item" href="../manualaluno">Manual do Aluno</a>
+                                    <a class="dropdown-item" href="../auxilioTransporte">Regulamento - Auxílio Transporte</a>
 
                                 </div>
                             </li>
