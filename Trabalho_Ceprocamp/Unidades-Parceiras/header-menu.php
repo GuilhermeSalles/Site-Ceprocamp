@@ -74,7 +74,7 @@
                             <a class="dropdown-item" href="../campoGrande">Campo Grande</a>
                             <a class="dropdown-item" href="../casi">CASI</a>
                             <a class="dropdown-item" href="../myrian">Myrian</a>
-                            <a class="dropdown-item" href="Parceiras">Parceiras</a>
+                            <a class="dropdown-item" href="../Unidades-Parceiras/Parceiras">Parceiras</a>
 
                             <!--
                             <li class="dropdown-submenu">
