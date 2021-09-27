@@ -120,15 +120,15 @@ if (isset($_POST['submit'])) {
 
                                 <div class="dropdown-menu">
 
-                                    <a class="dropdown-item" href="../Calendario">Calendário</a>
-                                    <a class="dropdown-item" href="../EjaProfissoes">EJA Profissões</a>
+                                    <a class="dropdown-item" href="../Doc/Calendario">Calendário</a>
+                                    <a class="dropdown-item" href="../Doc/EjaProfissoes">EJA Profissões</a>
                                     <a class="dropdown-item" href="https://www.fumec.sp.gov.br/matriz%20curricular " target="_blank">Matrizes dos cursos</a>
-                                    <a class="dropdown-item" href="../QuemSomos" target="_blank">Missão,
+                                    <a class="dropdown-item" href="../Doc/QuemSomos">Missão,
                                         Visão e Valores</a>
                                     <a class="dropdown-item" href="https://www.fumec.sp.gov.br/ceprocamp/aluno/planos-ensino" target="_blank">Planos de ensino</a>
                                     <a class="dropdown-item" href="https://www.fumec.sp.gov.br/node/634" target="_blank">Professores Orientadores de Área - POA's</a>
-                                    <a class="dropdown-item" href="../projetopedagogico">Projeto Pedagógico</a>
-                                    <a class="dropdown-item" href="../regimentoEscolar.php">Regimento escolar</a>
+                                    <a class="dropdown-item" href="../Doc/projetopedagogico">Projeto Pedagógico</a>
+                                    <a class="dropdown-item" href="../Doc/regimentoEscolar">Regimento escolar</a>
 
                                 </div>
                             </li>
@@ -142,11 +142,11 @@ if (isset($_POST['submit'])) {
 
                                 <div class="dropdown-menu">
 
-                                    <a class="dropdown-item" href="../AcessoPlataforma">Acesso à Plataforma Google Class</a>
-                                    <a class="dropdown-item" href="../horariosaula">Horarios
+                                    <a class="dropdown-item" href="../Doc/AcessoPlataforma">Acesso à Plataforma Google Class</a>
+                                    <a class="dropdown-item" href="../Doc/horariosaula">Horarios
                                         de aula</a>
-                                    <a class="dropdown-item" href="../manualaluno">Manual do Aluno</a>
-                                    <a class="dropdown-item" href="../auxilioTransporte">Regulamento - Auxílio Transporte</a>
+                                    <a class="dropdown-item" href="../Doc/manualaluno">Manual do Aluno</a>
+                                    <a class="dropdown-item" href="../Doc/auxilioTransporte">Regulamento - Auxílio Transporte</a>
 
                                 </div>
                             </li>
@@ -189,7 +189,7 @@ if (isset($_POST['submit'])) {
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../PerguntasFrequentes">Perguntas Frequentes</a>
+                        <a class="nav-link" href="../Doc/PerguntasFrequentes">Perguntas Frequentes</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../Fale_conosco">Fale

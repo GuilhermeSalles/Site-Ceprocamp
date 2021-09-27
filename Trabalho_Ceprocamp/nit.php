@@ -677,17 +677,18 @@
                            <h2 class="title"><a>ATAS</a></h2>
                            <div class="inner">
                                <ul>
-                                   <li><a class="linkNIT" href="https://fumec.sp.gov.br/sites/www.fumec.sp.gov.br/files/ceprocamp/arquivos/ata_nit_01.2021.pdf">ATA NIT 01/2021</a></li>
-                                   <li><a class="linkNIT" href="https://fumec.sp.gov.br/sites/www.fumec.sp.gov.br/files/ceprocamp/arquivos/ata_nit_02.2021.pdf">ATA NIT 02/2021</a></li>
-                                   <li><a class="linkNIT" href="https://fumec.sp.gov.br/sites/www.fumec.sp.gov.br/files/ceprocamp/arquivos/ata_nit_03.2021.pdf">ATA NIT 03/2021</a></li>
-                                   <li><a class="linkNIT" href="https://fumec.sp.gov.br/sites/www.fumec.sp.gov.br/files/ceprocamp/arquivos/ata_nit_04.2021.pdf">ATA NIT 04/2021</a></li>
-                                   <li><a class="linkNIT" href="https://fumec.sp.gov.br/sites/www.fumec.sp.gov.br/files/ceprocamp/arquivos/ata_nit_05.2021.pdf">ATA NIT 05/2021</a></li>
-                                   <li><a class="linkNIT" href="https://fumec.sp.gov.br/sites/www.fumec.sp.gov.br/files/ceprocamp/arquivos/ata_nit_06.2021.pdf">ATA NIT 06/2021</a></li>
-                                   <li><a class="linkNIT" href="https://fumec.sp.gov.br/sites/www.fumec.sp.gov.br/files/ceprocamp/arquivos/ata_nit_07.2021.pdf">ATA NIT 07/2021</a></li>
-                                   <li><a class="linkNIT" href="https://fumec.sp.gov.br/sites/www.fumec.sp.gov.br/files/ceprocamp/arquivos/ata_nit_08.2021.pdf">ATA NIT 08/2021</a></li>
-                                   <li><a class="linkNIT" href="https://drive.google.com/file/d/1jEYz0iTUWqh3bvJfog596x5aJxspNc94/view?usp=sharing">ATA NIT 09/2021</a></li>
-                                   <li><a class="linkNIT" href="https://drive.google.com/file/d/17DMCQrnfHZfpb-0iYytz1sxtEpiqmvxd/view?usp=sharing">ATA NIT 10/2021</a></li>
-                                   <li><a class="linkNIT" href="https://drive.google.com/file/d/14pGr-73B1bWaGCYMjZ6KzBtnS7lMk4Ti/view?usp=sharing">ATA NIT 11/2021</a></li>
+                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_01">ATA NIT 01/2021</a></li>
+                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_02">ATA NIT 02/2021</a></li>
+                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_03">ATA NIT 03/2021</a></li>
+                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_04">ATA NIT 04/2021</a></li>
+                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_05">ATA NIT 05/2021</a></li>
+                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_06">ATA NIT 06/2021</a></li>
+                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_07">ATA NIT 07/2021</a></li>
+                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_08">ATA NIT 08/2021</a></li>
+                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_09">ATA NIT 09/2021</a></li>
+                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_10">ATA NIT 10/2021</a></li>
+                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_11">ATA NIT 11/2021</a></li>
+                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_12">ATA NIT 12/2021</a></li>
                                </ul>
                            </div>
                        </div>
