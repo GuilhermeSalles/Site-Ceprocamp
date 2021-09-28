@@ -23,8 +23,8 @@
   <a class="link" href="PerguntasFrequentes">Perguntas frequentes - CEPROCAMP</a>
   <hr class="hr3">
   <form method="POST" action="">
-    
-    <div class="form-group" if>
+
+    <div class="form-group">
       <label for="Nome" style="font-weight: bold; color: rgb(75, 75, 75);">Nome: </label>
       <input type="text" class="form-control" id="Nome" name="Nome" style="border-radius: 10px;" placeholder="Digite seu nome completo." required>
     </div>
@@ -38,75 +38,90 @@
       <label for="seeAnotherField" style="font-weight: bold; color: rgb(75, 75, 75);" for="area">Área: </label>
       <select class="form-control" id="seeAnotherField" style="border-radius: 10px;">
         <option selected>-- Nenhum --</option>
-        <option value="Diretoria">Diretoria Executiva</option>
-        <option value="Recursos">Recursos Humanos</option>
-        <option value="Area">Área Administrativa e Financeira</option>
-        <option value="Programas">Programas de Educação de Jovens, Adultos e Idosos</option>
-        <option value="Unidades">Unidades do Centro de Educação Profissional de Campinas - CEPROCAMP</option>
+        <option value="1">CEPROCAMP Campo Grande</option>
+        <option value="2">CEPROCAMP José Alves</option>
+        <option value="3">CEPROCAMP Ouro Verde</option>
+        <option value="4">Gestão CEPROCAMP</option>
+        <option value="5">Núcleo Pedagógico</option>
+        <option value="6">Recursos Humanos</option>
+        <option value="7">Secretaria acadêmica</option>
       </select>
     </div>
-    <!-- Div Diretoria -->
-    <div class="form-group" id="diretDiv">
-      <label for="otherField" style="font-weight: bold; color: rgb(75, 75, 75);">Assunto Diretoria Executiva:</label>
-      <select class="form-control" id="fieldDire" style="border-radius: 10px;">
+    <!-- Div CG -->
+    <div class="form-group" id="CGdiv">
+      <label for="otherField" style="font-weight: bold; color: rgb(75, 75, 75);">Assunto CEPROCAMP Campo Grande:</label>
+      <select class="form-control" id="fieldCG" style="border-radius: 10px;">
         <option selected>-- Selecione --</option>
-        <option>Vagas</option>
-        <option>Professores</option>
-        <option>Servidores</option>
-        <option>Alimentação</option>
-        <option>Transporte</option>
-        <option>Outros</option>
+        <option>Secretaria acadêmica</option>
+        <option>Responsável unidade</option>
+        <option>Informações</option>
+        <option>Dúvidas</option>
       </select>
     </div>
-    <!-- Div Recursos -->
-    <div class="form-group" id="rectDiv">
+    <!-- Div JA -->
+    <div class="form-group" id="JAdiv">
+      <label for="otherField" style="font-weight: bold; color: rgb(75, 75, 75);">Assunto CEPROCAMP José Alves:</label>
+      <select class="form-control" id="fieldJA" style="border-radius: 10px;">
+        <option selected>-- Selecione --</option>
+        <option>Secretaria acadêmica</option>
+        <option>Responsável unidade</option>
+        <option>Informações</option>
+        <option>Dúvidas</option>
+      </select>
+    </div>
+    <!-- Div OV -->
+    <div class="form-group" id="OVdiv">
+      <label for="otherField" style="font-weight: bold; color: rgb(75, 75, 75);">Assunto CEPROCAMP Ouro Verde:</label>
+      <select class="form-control" id="fieldOV" style="border-radius: 10px;">
+        <option selected>-- Selecione --</option>
+        <option>Secretaria acadêmica</option>
+        <option>Responsável unidade</option>
+        <option>Informações</option>
+        <option>Dúvidas</option>
+      </select>
+    </div>
+    <!-- Div GESTÃO -->
+    <div class="form-group" id="Gestaodiv">
+      <label for="otherField" style="font-weight: bold; color: rgb(75, 75, 75);">Assunto Gestão CEPROCAMP:</label>
+      <select class="form-control" id="fieldGestao" style="border-radius: 10px;">
+        <option selected>-- Selecione --</option>
+        <option>Professor</option>
+        <option>Serviços</option>
+        <option>Informações</option>
+        <option>Dúvidas</option>
+      </select>
+    </div>
+    <!-- Div NP -->
+    <div class="form-group" id="NPdiv">
+      <label for="otherField" style="font-weight: bold; color: rgb(75, 75, 75);">Assunto Núcleo Pedagógico:</label>
+      <select class="form-control" id="fieldNP" style="border-radius: 10px;">
+        <option selected>-- Selecione --</option>
+        <option>TDC</option>
+        <option>TDF</option>
+        <option>CHP</option>
+        <option>Dúvidas</option>
+      </select>
+    </div>
+    <!-- Div RH -->
+    <div class="form-group" id="RHdiv">
       <label for="otherField" style="font-weight: bold; color: rgb(75, 75, 75);">Assunto Recursos Humanos:</label>
-      <select class="form-control" id="fieldRe" style="border-radius: 10px;">
+      <select class="form-control" id="fieldRH" style="border-radius: 10px;">
         <option selected>-- Selecione --</option>
-        <option>Licença-prêmio</option>
-        <option>Aposentadoria</option>
-        <option>Benefícios</option>
-        <option>Concurso Público</option>
-        <option>Progreção Funcional</option>
-        <option>Saúde Ocupacional</option>
-        <option>Empréstimo Consignado</option>
-        <option>Declarações em geral</option>
-        <option>Outros</option>
+        <option>Atribuição</option>
+        <option>Departamento pessoal</option>
+        <option>Solicitações</option>
+        <option>Dúvidas</option>
       </select>
     </div>
-    <!-- Div Area -->
-    <div class="form-group" id="areaDiv">
-      <label for="otherField" style="font-weight: bold; color: rgb(75, 75, 75);">Assunto Área Administrativa e Financeira:</label>
-      <select class="form-control" id="fieldArea" style="border-radius: 10px;">
+    <!-- Div SA -->
+    <div class="form-group" id="SAdiv">
+      <label for="otherField" style="font-weight: bold; color: rgb(75, 75, 75);">Assunto CEPROCAMP Secretaria acadêmica:</label>
+      <select class="form-control" id="fieldSA" style="border-radius: 10px;">
         <option selected>-- Selecione --</option>
-        <option>Licitações</option>
-        <option>Contratos</option>
-        <option>Financeiro/Contabilidade</option>
-        <option>Outros</option>
-      </select>
-    </div>
-    <!-- Div Programas -->
-    <div class="form-group" id="ProDiv">
-      <label for="otherField" style="font-weight: bold; color: rgb(75, 75, 75);">Assunto EJA:</label>
-      <select class="form-control" id="fieldPro" style="border-radius: 10px;">
-        <option selected>-- Selecione --</option>
-        <option>Programas de EJA</option>
-        <option>Matrículas</option>
-        <option>Estágio</option>
-        <option>Outros</option>
-      </select>
-    </div>
-    <!-- Div Unidades -->
-    <div class="form-group" id="UniDiv">
-      <label for="otherField" style="font-weight: bold; color: rgb(75, 75, 75);">Assunto Unidades do Centro de Educação Profissional de Campinas - CEPROCAMP:</label>
-      <select class="form-control" id="fieldUni" style="border-radius: 10px;">
-        <option selected>-- Selecione --</option>
-        <option>Programas de Curso técnico de Nível Médio</option>
-        <option>Programas de Qualificação Profissional</option>
-        <option>Programas EJA Profissões</option>
-        <option>Matrículas</option>
-        <option>Estágio obrigatório</option>
-        <option>Outros</option>
+        <option>Situação do aluno</option>
+        <option>Declarações e documentos</option>
+        <option>Inscrições e matrículas</option>
+        <option>Dúvidas</option>
       </select>
     </div>
 

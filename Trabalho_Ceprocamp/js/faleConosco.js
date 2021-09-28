@@ -1,138 +1,244 @@
 $("#seeAnotherField").change(function () {
-    if ($(this).val() == "Diretoria") {
-        //Div Diretoria
-        $('#diretDiv').show();
-        $('#fieldDire').attr('required', '');
-        $('#fieldDire').attr('data-error', 'This field is required.');
-        //Div Area
-        $('#areaDiv').hide();
-        $('#fieldArea').attr('required', '');
-        $('#fieldArea').attr('data-error', 'This field is required.');
-        //Div Recursos
-        $('#rectDiv').hide();
-        $('#fieldRe').removeAttr('required');
-        $('#fieldRe').removeAttr('data-error');
-        //Div Programas
-        $('#ProDiv').hide();
-        $('#fieldPro').attr('required', '');
-        $('#fieldPro').attr('data-error', 'This field is required.');
-        //Div Unidades
-        $('#UniDiv').hide();
-        $('#fieldUni').attr('required', '');
-        $('#fieldUni').attr('data-error', 'This field is required.');
+    if ($(this).val() == "1") {
+        // Campo Grande Div
+        $('#CGdiv').show();
+        $('#fieldCG').attr('required');
+        $('#fieldCG').attr('data-error');
+        // José Alves Div
+        $('#JAdiv').hide();
+        $('#fieldJA').removeAttr('required', '');
+        $('#fieldJA').removeAttr('data-error', 'This field is required.');
+        // Ouro Verde Div
+        $('#OVdiv').hide();
+        $('#fieldOV').removeAttr('required', '');
+        $('#fieldOV').removeAttr('data-error', 'This field is required.');
+        // Gestão Div
+        $('#Gestaodiv').hide();
+        $('#fieldGestao').removeAttr('required', '');
+        $('#fieldGestao').removeAttr('data-error', 'This field is required.');
+        // Núcleo pedagógico Div
+        $('#NPdiv').hide();
+        $('#fieldNP').removeAttr('required', '');
+        $('#fieldJNP').removeAttr('data-error', 'This field is required.');
+        // Recursos Humanos Div
+        $('#RHdiv').hide();
+        $('#fieldRH').removeAttr('required', '');
+        $('#fieldRH').removeAttr('data-error', 'This field is required.');
+        // Secretária Div
+        $('#SAdiv').hide();
+        $('#fieldSA').removeAttr('required', '');
+        $('#fieldSA').removeAttr('data-error', 'This field is required.');
+
+    } else if ($(this).val() == "2") {
+        // Campo Grande Div
+        $('#CGdiv').hide();
+        $('#fieldCG').removeAttr('required', '');
+        $('#fieldCG').removeAttr('data-error', 'This field is required.');
+        // José Alves Div
+        $('#JAdiv').show();
+        $('#fieldJA').attr('required');
+        $('#fieldJA').attr('data-error');
+        // Ouro Verde Div
+        $('#OVdiv').hide();
+        $('#fieldOV').removeAttr('required', '');
+        $('#fieldOV').removeAttr('data-error', 'This field is required.');
+        // Gestão Div
+        $('#Gestaodiv').hide();
+        $('#fieldGestao').removeAttr('required', '');
+        $('#fieldGestao').removeAttr('data-error', 'This field is required.');
+        // Núcleo pedagógico Div
+        $('#NPdiv').hide();
+        $('#fieldNP').removeAttr('required', '');
+        $('#fieldJNP').removeAttr('data-error', 'This field is required.');
+        // Recursos Humanos Div
+        $('#RHdiv').hide();
+        $('#fieldRH').removeAttr('required', '');
+        $('#fieldRH').removeAttr('data-error', 'This field is required.');
+        // Secretária Div
+        $('#SAdiv').hide();
+        $('#fieldSA').removeAttr('required', '');
+        $('#fieldSA').removeAttr('data-error', 'This field is required.');
+
+    } else if ($(this).val() == "3") {
+        // Campo Grande Div
+        $('#CGdiv').hide();
+        $('#fieldCG').removeAttr('required', '');
+        $('#fieldCG').removeAttr('data-error', 'This field is required.');
+        // José Alves Div
+        $('#JAdiv').hide();
+        $('#fieldJA').removeAttr('required', '');
+        $('#fieldJA').removeAttr('data-error', 'This field is required.');
+        // Ouro Verde Div
+        $('#OVdiv').show();
+        $('#fieldOV').attr('required');
+        $('#fieldOV').attr('data-error');
+        // Gestão Div
+        $('#Gestaodiv').hide();
+        $('#fieldGestao').removeAttr('required', '');
+        $('#fieldGestao').removeAttr('data-error', 'This field is required.');
+        // Núcleo pedagógico Div
+        $('#NPdiv').hide();
+        $('#fieldNP').removeAttr('required', '');
+        $('#fieldJNP').removeAttr('data-error', 'This field is required.');
+        // Recursos Humanos Div
+        $('#RHdiv').hide();
+        $('#fieldRH').removeAttr('required', '');
+        $('#fieldRH').removeAttr('data-error', 'This field is required.');
+        // Secretária Div
+        $('#SAdiv').hide();
+        $('#fieldSA').removeAttr('required', '');
+        $('#fieldSA').removeAttr('data-error', 'This field is required.');
+
+    } else if ($(this).val() == "4") {
+        // Campo Grande Div
+        $('#CGdiv').hide();
+        $('#fieldCG').removeAttr('required', '');
+        $('#fieldCG').removeAttr('data-error', 'This field is required.');
+        // José Alves Div
+        $('#JAdiv').hide();
+        $('#fieldJA').removeAttr('required', '');
+        $('#fieldJA').removeAttr('data-error', 'This field is required.');
+        // Ouro Verde Div
+        $('#OVdiv').hide();
+        $('#fieldOV').removeAttr('required', '');
+        $('#fieldOV').removeAttr('data-error', 'This field is required.');
+        // Gestão Div
+        $('#Gestaodiv').show();
+        $('#fieldGestao').attr('required');
+        $('#fieldGestao').attr('data-error');
+        // Núcleo pedagógico Div
+        $('#NPdiv').hide();
+        $('#fieldNP').removeAttr('required', '');
+        $('#fieldJNP').removeAttr('data-error', 'This field is required.');
+        // Recursos Humanos Div
+        $('#RHdiv').hide();
+        $('#fieldRH').removeAttr('required', '');
+        $('#fieldRH').removeAttr('data-error', 'This field is required.');
+        // Secretária Div
+        $('#SAdiv').hide();
+        $('#fieldSA').removeAttr('required', '');
+        $('#fieldSA').removeAttr('data-error', 'This field is required.');
+
+    } else if ($(this).val() == "5") {
+        // Campo Grande Div
+        $('#CGdiv').hide();
+        $('#fieldCG').removeAttr('required', '');
+        $('#fieldCG').removeAttr('data-error', 'This field is required.');
+        // José Alves Div
+        $('#JAdiv').hide();
+        $('#fieldJA').removeAttr('required', '');
+        $('#fieldJA').removeAttr('data-error', 'This field is required.');
+        // Ouro Verde Div
+        $('#OVdiv').hide();
+        $('#fieldOV').removeAttr('required', '');
+        $('#fieldOV').removeAttr('data-error', 'This field is required.');
+        // Gestão Div
+        $('#Gestaodiv').hide();
+        $('#fieldGestao').removeAttr('required', '');
+        $('#fieldGestao').removeAttr('data-error', 'This field is required.');
+        // Núcleo pedagógico Div
+        $('#NPdiv').show();
+        $('#fieldNP').attr('required');
+        $('#fieldJNP').attr('data-error');
+        // Recursos Humanos Div
+        $('#RHdiv').hide();
+        $('#fieldRH').removeAttr('required', '');
+        $('#fieldRH').removeAttr('data-error', 'This field is required.');
+        // Secretária Div
+        $('#SAdiv').hide();
+        $('#fieldSA').removeAttr('required', '');
+        $('#fieldSA').removeAttr('data-error', 'This field is required.');
 
 
-    } else if ($(this).val() == "Recursos") {
-        //Div Recursos
-        $('#rectDiv').show();
-        $('#fieldRe').attr('required', '');
-        $('#fieldRe').attr('data-error', 'This field is required.');
-        //Div Area
-        $('#areaDiv').hide();
-        $('#fieldArea').attr('required', '');
-        $('#fieldArea').attr('data-error', 'This field is required.');
-        //Div Diretoria
-        $('#diretDiv').hide();
-        $('#fieldDire').removeAttr('required');
-        $('#fieldDire').removeAttr('data-error');
-        //Div Programas
-        $('#ProDiv').hide();
-        $('#fieldPro').attr('required', '');
-        $('#fieldPro').attr('data-error', 'This field is required.');
-        //Div Unidades
-        $('#UniDiv').hide();
-        $('#fieldUni').attr('required', '');
-        $('#fieldUni').attr('data-error', 'This field is required.');
+    } else if ($(this).val() == "6") {
+        // Campo Grande Div
+        $('#CGdiv').hide();
+        $('#fieldCG').removeAttr('required', '');
+        $('#fieldCG').removeAttr('data-error', 'This field is required.');
+        // José Alves Div
+        $('#JAdiv').hide();
+        $('#fieldJA').removeAttr('required', '');
+        $('#fieldJA').removeAttr('data-error', 'This field is required.');
+        // Ouro Verde Div
+        $('#OVdiv').hide();
+        $('#fieldOV').removeAttr('required', '');
+        $('#fieldOV').removeAttr('data-error', 'This field is required.');
+        // Gestão Div
+        $('#Gestaodiv').hide();
+        $('#fieldGestao').removeAttr('required', '');
+        $('#fieldGestao').removeAttr('data-error', 'This field is required.');
+        // Núcleo pedagógico Div
+        $('#NPdiv').hide();
+        $('#fieldNP').removeAttr('required', '');
+        $('#fieldJNP').removeAttr('data-error', 'This field is required.');
+        // Recursos Humanos Div
+        $('#RHdiv').show();
+        $('#fieldRH').attr('required');
+        $('#fieldRH').attr('data-error');
+        // Secretária Div
+        $('#SAdiv').hide();
+        $('#fieldSA').removeAttr('required', '');
+        $('#fieldSA').removeAttr('data-error', 'This field is required.');
 
-    } else if ($(this).val() == "Area") {
-        //Div Area
-        $('#areaDiv').show();
-        $('#fieldArea').attr('required', '');
-        $('#fieldArea').attr('data-error', 'This field is required.');
-        //Div Diretoria
-        $('#diretDiv').hide();
-        $('#fieldDire').removeAttr('required');
-        $('#fieldDire').removeAttr('data-error');
-        //Div Recursos
-        $('#rectDiv').hide();
-        $('#fieldRe').removeAttr('required');
-        $('#fieldRe').removeAttr('data-error');
-        //Div Programas
-        $('#ProDiv').hide();
-        $('#fieldPro').attr('required', '');
-        $('#fieldPro').attr('data-error', 'This field is required.');
-        //Div Unidades
-        $('#UniDiv').hide();
-        $('#fieldUni').attr('required', '');
-        $('#fieldUni').attr('data-error', 'This field is required.');
-
-    } else if ($(this).val() == "Programas") {
-        //Div Programas
-        $('#ProDiv').show();
-        $('#fieldPro').attr('required', '');
-        $('#fieldPro').attr('data-error', 'This field is required.');
-        //Div Area
-        $('#areaDiv').hide();
-        $('#fieldArea').attr('required', '');
-        $('#fieldArea').attr('data-error', 'This field is required.');
-        //Div Diretoria
-        $('#diretDiv').hide();
-        $('#fieldDire').removeAttr('required');
-        $('#fieldDire').removeAttr('data-error');
-        //Div Recursos
-        $('#rectDiv').hide();
-        $('#fieldRe').removeAttr('required');
-        $('#fieldRe').removeAttr('data-error');
-        //Div Unidades
-        $('#UniDiv').hide();
-        $('#fieldUni').attr('required', '');
-        $('#fieldUni').attr('data-error', 'This field is required.');
-
-    } else if ($(this).val() == "Unidades") {
-        //Div Unidades
-        $('#UniDiv').show();
-        $('#fieldUni').attr('required', '');
-        $('#fieldUni').attr('data-error', 'This field is required.');
-        //Div Area
-        $('#areaDiv').hide();
-        $('#fieldArea').attr('required', '');
-        $('#fieldArea').attr('data-error', 'This field is required.');
-        //Div Diretoria
-        $('#diretDiv').hide();
-        $('#fieldDire').removeAttr('required');
-        $('#fieldDire').removeAttr('data-error');
-        //Div Recursos
-        $('#rectDiv').hide();
-        $('#fieldRe').removeAttr('required');
-        $('#fieldRe').removeAttr('data-error');
-        //Div Programas
-        $('#ProDiv').hide();
-        $('#fieldPro').attr('required', '');
-        $('#fieldPro').attr('data-error', 'This field is required.');
-        
+    } else if ($(this).val() == "7") {
+        // Campo Grande Div
+        $('#CGdiv').hide();
+        $('#fieldCG').removeAttr('required', '');
+        $('#fieldCG').removeAttr('data-error', 'This field is required.');
+        // José Alves Div
+        $('#JAdiv').hide();
+        $('#fieldJA').removeAttr('required', '');
+        $('#fieldJA').removeAttr('data-error', 'This field is required.');
+        // Ouro Verde Div
+        $('#OVdiv').hide();
+        $('#fieldOV').removeAttr('required', '');
+        $('#fieldOV').removeAttr('data-error', 'This field is required.');
+        // Gestão Div
+        $('#Gestaodiv').hide();
+        $('#fieldGestao').removeAttr('required', '');
+        $('#fieldGestao').removeAttr('data-error', 'This field is required.');
+        // Núcleo pedagógico Div
+        $('#NPdiv').hide();
+        $('#fieldNP').removeAttr('required', '');
+        $('#fieldJNP').removeAttr('data-error', 'This field is required.');
+        // Recursos Humanos Div
+        $('#RHdiv').hide();
+        $('#fieldRH').removeAttr('required', '');
+        $('#fieldRH').removeAttr('data-error', 'This field is required.');
+        // Secretária Div
+        $('#SAdiv').show();
+        $('#fieldSA').attr('required');
+        $('#fieldSA').attr('data-error');
 
     } else {
-        //Div Area
-        $('#areaDiv').hide();
-        $('#fieldArea').attr('required', '');
-        $('#fieldArea').attr('data-error', 'This field is required.');
-        //Div Diretoria
-        $('#diretDiv').hide();
-        $('#fieldDire').removeAttr('required');
-        $('#fieldDire').removeAttr('data-error');
-        //Div Recursos
-        $('#rectDiv').hide();
-        $('#fieldRe').removeAttr('required');
-        $('#fieldRe').removeAttr('data-error');
-        //Div Programas
-        $('#ProDiv').hide();
-        $('#fieldPro').attr('required', '');
-        $('#fieldPro').attr('data-error', 'This field is required.');
-        //Div Unidades
-        $('#UniDiv').hide();
-        $('#fieldUni').attr('required', '');
-        $('#fieldUni').attr('data-error', 'This field is required.');
-
+        // Campo Grande Div
+        $('#CGdiv').hide();
+        $('#fieldCG').removeAttr('required', '');
+        $('#fieldCG').removeAttr('data-error', 'This field is required.');
+        // José Alves Div
+        $('#JAdiv').hide();
+        $('#fieldJA').removeAttr('required', '');
+        $('#fieldJA').removeAttr('data-error', 'This field is required.');
+        // Ouro Verde Div
+        $('#OVdiv').hide();
+        $('#fieldOV').removeAttr('required', '');
+        $('#fieldOV').removeAttr('data-error', 'This field is required.');
+        // Gestão Div
+        $('#Gestaodiv').hide();
+        $('#fieldGestao').removeAttr('required', '');
+        $('#fieldGestao').removeAttr('data-error', 'This field is required.');
+        // Núcleo pedagógico Div
+        $('#NPdiv').hide();
+        $('#fieldNP').removeAttr('required', '');
+        $('#fieldJNP').removeAttr('data-error', 'This field is required.');
+        // Recursos Humanos Div
+        $('#RHdiv').hide();
+        $('#fieldRH').removeAttr('required', '');
+        $('#fieldRH').removeAttr('data-error', 'This field is required.');
+        // Secretária Div
+        $('#SAdiv').hide();
+        $('#fieldSA').removeAttr('required', '');
+        $('#fieldSA').removeAttr('data-error', 'This field is required.');
     }
 });
 $("#seeAnotherField").trigger("change");
