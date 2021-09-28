@@ -8,7 +8,8 @@
                 <h6>CEPROCAMP - Unidade Centro</h6>
                 <p class="text-justify">Avenida 20 de Novembro, 145 – 13013-140 – Centro <br> Campinas/SP (ao lado
                     da Estação Cultura).</p>
-                <p>Horário de Atendimento: Segunda-feira a Sexta-feira das 08h30 às 17:00 e das 18:00 às 21:00.
+                <p>Horário de Atendimento:
+                    <br> Segunda-feira a Sexta-feira das 08h30 às 17:00 e das 18:00 às 21:00.
                 </p>
                 <p>Contato: (19) 3731-3650 / 3731-3651 / 3731-3652 </p>
 

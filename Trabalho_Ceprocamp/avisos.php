@@ -1,4 +1,4 @@
-<div class="jumbotron jumbotron-fluid" style="background-color: #22115d56;">
+<div class="jumbotron jumbotron-fluid" style="background-color: rgba(255, 94, 1, 0.301);">
     <div class="container">
         <div class="tab-content" id="nav-pills-content">
             <div id="carouselAviso" class="carousel slide d-block" data-ride="carousel" data-interval="5000">

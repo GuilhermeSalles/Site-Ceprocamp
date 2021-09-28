@@ -22,7 +22,7 @@
                    <button class="main-btn filter-btn" style="margin-bottom: 10px; font-weight: bold;" id="m-btn">Manhã</button>
                    <button class="main-btn filter-btn" style="margin-bottom: 10px; font-weight: bold;" id="t-btn">Tarde</button>
                    <button class="main-btn filter-btn" style="margin-bottom: 10px; font-weight: bold;" id="n-btn">Noite</button>
-                   <hr class="filtro">
+                   <hr class="hr3">
                </div>
 
                <div class="col-md-4 project-box m n">
