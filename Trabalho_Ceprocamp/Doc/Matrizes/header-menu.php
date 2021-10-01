@@ -108,7 +108,7 @@
                                     <a class="dropdown-item" href="../../Doc/QuemSomos">Missão,
                                         Visão e Valores</a>
                                     <a class="dropdown-item" href="https://www.fumec.sp.gov.br/ceprocamp/aluno/planos-ensino" target="_blank">Planos de ensino</a>
-                                    <a class="dropdown-item" href="/Doc/POAS/">Professores Orientadores de Área - POA's</a>
+                                    <a class="dropdown-item" href="../POAS/">Professores Orientadores de Área - POA's</a>
                                     <a class="dropdown-item" href="../../Doc/projetopedagogico">Projeto Pedagógico</a>
                                     <a class="dropdown-item" href="../../Doc/regimentoEscolar">Regimento escolar</a>
 

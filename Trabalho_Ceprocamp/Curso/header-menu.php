@@ -84,7 +84,7 @@ if (isset($_POST['submit'])) {
 
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
-                            <a class="dropdown-item" href="../\">Centro</a>
+                            <a class="dropdown-item" href="\">Centro</a>
                             <a class="dropdown-item" href="../joseAlves">José Alves</a>
                             <a class="dropdown-item" href="../ouroVerde">Ouro Verde</a>
                             <a class="dropdown-item" href="../cambara">Cambará</a>
@@ -122,7 +122,7 @@ if (isset($_POST['submit'])) {
 
                                     <a class="dropdown-item" href="../Doc/Calendario">Calendário</a>
                                     <a class="dropdown-item" href="../Doc/EjaProfissoes">EJA Profissões</a>
-                                    <a class="dropdown-item" href="https://www.fumec.sp.gov.br/matriz%20curricular " target="_blank">Matrizes dos cursos</a>
+                                    <a class="dropdown-item" href="../Doc/Matrizes/">Matrizes dos cursos</a>
                                     <a class="dropdown-item" href="../Doc/QuemSomos">Missão,
                                         Visão e Valores</a>
                                     <a class="dropdown-item" href="https://www.fumec.sp.gov.br/ceprocamp/aluno/planos-ensino" target="_blank">Planos de ensino</a>
