@@ -2,263 +2,24 @@
    <style>
        @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-
-       .btn-primary:hover,
-       .btn-primary:focus {
-           background-color: #fe5722;
-           border-color: #fe5722;
-           box-shadow: none;
-           outline: none;
+       i {
+           color: #fe5722;
        }
 
-       .btn-primary {
-           color: #fff;
-           background-color: #007b5e;
-           border-color: #007b5e;
+       ul {
+           text-align: center;
        }
 
-       section {
-           padding: 40px 0;
-       }
-
-       #team .card {
-           border: none;
-           background: #FEF4F1;
-       }
-
-       .image-flip:hover .backside,
-       .image-flip.hover .backside {
-           -webkit-transform: rotateY(0deg);
-           -moz-transform: rotateY(0deg);
-           -o-transform: rotateY(0deg);
-           -ms-transform: rotateY(0deg);
-           transform: rotateY(0deg);
-           border-radius: .25rem;
-       }
-
-       .image-flip:hover .frontside,
-       .image-flip.hover .frontside {
-           -webkit-transform: rotateY(180deg);
-           -moz-transform: rotateY(180deg);
-           -o-transform: rotateY(180deg);
-           transform: rotateY(180deg);
-       }
-
-       .mainflip {
-           -webkit-transition: 1s;
-           -webkit-transform-style: preserve-3d;
-           -ms-transition: 1s;
-           -moz-transition: 1s;
-           -moz-transform-style: preserve-3d;
-           -ms-transform-style: preserve-3d;
-           transition: 1s;
-           transform-style: preserve-3d;
-           position: relative;
-       }
-
-       .frontside {
-           position: relative;
-           z-index: 2;
-           margin-bottom: 50px;
-       }
-
-       .backside {
-           position: absolute;
-           top: 0;
-           left: 0;
-           background: white;
-           -webkit-transform: rotateY(-180deg);
-           -moz-transform: rotateY(-180deg);
-           -o-transform: rotateY(-180deg);
-           -ms-transform: rotateY(-180deg);
-           transform: rotateY(-180deg);
-           -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-           -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-           box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-       }
-
-       .frontside,
-       .backside {
-           -webkit-backface-visibility: hidden;
-           -moz-backface-visibility: hidden;
-           -ms-backface-visibility: hidden;
-           backface-visibility: hidden;
-           -webkit-transition: 1s;
-           -webkit-transform-style: preserve-3d;
-           -moz-transition: 1s;
-           -moz-transform-style: preserve-3d;
-           -o-transition: 1s;
-           -o-transform-style: preserve-3d;
-           -ms-transition: 1s;
-           -ms-transform-style: preserve-3d;
-           transition: 1s;
-           transform-style: preserve-3d;
-       }
-
-       .frontside .card,
-       .backside .card {
-           min-height: 412px;
-       }
-
-       .backside .card a {
-           font-size: 18px;
-           color: #fe5722 !important;
-       }
-
-       .frontside .card .card-title,
-       .backside .card .card-title {
-           color: #fe5722 !important;
-       }
-
-       .frontside .card .card-body img {
-           width: 240px;
-           height: 240px;
-           box-shadow: rgb(75, 75, 75) 3px, 1px;
-           border-radius: 100%;
-           margin-bottom: 70px;
-       }
-
-       section {
-           margin-bottom: 20px;
-       }
-
-       .container {
-           padding-right: 15px;
-           padding-left: 15px;
-           margin-right: auto;
-           margin-left: auto;
-       }
-
-       .ct-row {
-           margin-left: -5px;
-           margin-right: -5px;
-           display: -webkit-box;
-           display: -ms-flexbox;
-           display: flex;
-       }
-
-       .ct-sectional-box {
-           display: -webkit-box;
-           display: -ms-flexbox;
-           display: flex;
-           max-width: 100%;
-           -webkit-box-orient: vertical;
-           -webkit-box-direction: normal;
-           -ms-flex-direction: column;
-           flex-direction: column;
-           padding: 0 5px 5px 5px;
-       }
-
-       .ct-sectional-box .title {
-           font-family: Arial Narrow, Arial, sans-serif;
-           font-weight: 600;
-           position: relative;
-           font-size: 24px;
-           margin: 5px 0 10px;
-           display: -webkit-box;
-           display: -ms-flexbox;
-           display: flex;
-           -webkit-box-align: center;
-           -ms-flex-align: center;
-           align-items: center;
-           line-height: 0.9;
-           min-height: 87px;
-           text-transform: uppercase;
-           -webkit-transition: background-color 0.15s ease-in-out;
-           transition: background-color 0.15s ease-in-out;
-       }
-
-       .ct-sectional-box .title::after {
-           content: '';
-           background: url(https://raw.githubusercontent.com/solodev/column-links/master/images/arrow-right-white.png);
-           width: 14px;
-           height: 27px;
-           position: absolute;
-           right: 30px;
-           top: 50%;
-           margin-top: -13.5px;
-       }
-
-       .ct-sectional-box .title a {
-           display: block;
-           padding: 10px 100px 10px 34px;
-           max-width: 100%;
-           color: inherit;
-           position: relative;
-           z-index: 1;
-           -webkit-box-flex: 1;
-           -ms-flex: 1 0 auto;
-           flex: 1 0 auto;
-       }
-
-       .ct-sectional-box .title a:hover {
+       .link {
+           font-weight: bold;
+           color: #FE5722FF;
            text-decoration: none;
        }
 
-       .ct-sectional-box .inner {
-           background: #faf9f9;
-           -webkit-box-flex: 1;
-           -ms-flex: 1 0 auto;
-           flex: 1 0 auto;
-       }
-
-       .ct-sectional-box ul {
-           font-size: 18px;
-           padding: 30px 20px 30px 55px;
-       }
-
-
-       /* box blue */
-
-       .ct-sectional-box--blue .title {
-           background: #00719b;
-           color: #fff;
-       }
-
-       .ct-sectional-box--blue .title:hover {
-           background: #0094cb;
-       }
-
-       /* box red */
-
-       .ct-sectional-box--red .title {
-           background: #e81e26;
-           color: #fff;
-       }
-
-       .ct-sectional-box--red .title:hover {
-           background: #d11118;
-       }
-
-       /* box green */
-
-       .ct-sectional-box--green .title {
-           background: #6f9e2e;
-           color: #fff;
-       }
-
-       .ct-sectional-box--green .title:hover {
-           background: #78ab33;
-       }
-
-       /* Media Queries */
-
-       @media (min-width: 992px) {
-           .ct-sectional-box {
-               -webkit-box-flex: 1;
-               -ms-flex: 1 1 33.3333%;
-               flex: 1 1 33.3333%;
-               max-width: 33.3333%;
-           }
-       }
-
-       @media (max-width: 991px) {
-           .ct-row {
-               -webkit-box-orient: vertical;
-               -webkit-box-direction: normal;
-               -ms-flex-direction: column;
-               flex-direction: column;
-           }
+       .link:hover {
+           font-weight: bold;
+           color: #FE5722FF;
+           box-shadow: 75, 75, 75;
        }
    </style>
 
@@ -272,7 +33,7 @@
            <br>
            <br>
 
-           <h1 style="color: rgb(75, 75, 75);">NIT CEPROCAMP</h1>
+           <h1 class="bold">NIT CEPROCAMP</h1>
            <hr class="NIT">
            <div class="col-sm-12 col-md-6 col-xs-6">
                <img src="unnamed.png" class="img-fluid">
@@ -281,374 +42,368 @@
                <p class="text-justify" style="font-size: large;">O Núcleo de Interação Tecnológica (NIT) é um setor no CEPROCAMP responsável pela
                    criação, administração, manutenção e expansão do uso de recursos tecnológicos para manter contato
                    com o candidato, aluno ativo ou aluno egresso bem como inserir o CEPROCAMP no meio digital e em
-                   contato mais próximo com o público.</p>
+                   contato mais próximo com o público.
+               </p>
            </div>
-
-
        </div>
 
+       <br>
+       <br>
+       <br>
 
        <br>
 
+       <h3 class="bold text-center">GERENCIAL</h3>
+       <h6 class="bold text-center">Documentação e interface</h6>
+       <hr class="NIT">
 
-       <div class="row">
-           <hr class="NIT">
+       <br>
 
-           <div class="col-12 text-center">
-               <br>
-               <h1 style="font-weight: bold; color: rgb(75, 75, 75);"> Equipe NIT</h1>
-           </div>
-           <br>
+       <div class="card-deck">
+           <div class="card m-3">
 
-           <!-- Team -->
-           <section id="team" class="pb-5">
-               <div class="container">
-
-                   <div class="row">
-                       <!-- Team member -->
-                       <div class="col-xs-12 col-sm-6 col-md-4">
-                           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                               <div class="mainflip">
-                                   <div class="frontside">
-                                       <div class="card">
-                                           <div class="card-body text-center">
-                                               <p><img class=" img-fluid" src="nit.jpg" alt="card image"></p>
-                                               <h4 class="card-title">Daniella Vieira</h4>
-                                               <p class="card-text">Especialista em Marketing.</p>
-
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="backside">
-                                       <div class="card">
-                                           <div class="card-body text-center mt-4">
-                                               <h4 class="card-title">Daniella Vieira</h4>
-                                               <p class="card-text">Especialista em Marketing.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                               <ul class="list-inline">
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-facebook"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-twitter"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-linkedin"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-google"></i>
-                                                       </a>
-                                                   </li>
-                                               </ul>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                       <!-- ./Team member -->
-                       <!-- Team member -->
-                       <div class="col-xs-12 col-sm-6 col-md-4">
-                           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                               <div class="mainflip">
-                                   <div class="frontside">
-                                       <div class="card">
-                                           <div class="card-body text-center">
-                                               <p><img class=" img-fluid" src="nit.jpg" alt="card image"></p>
-                                               <h4 class="card-title">Guilherme Baltazar</h4>
-                                               <p class="card-text">Desenvolvedor do site.</p>
-
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="backside">
-                                       <div class="card">
-                                           <div class="card-body text-center mt-4">
-                                               <h4 class="card-title">Guilherme Baltazar</h4>
-                                               <p class="card-text">Desenvolvedor do site.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                               <ul class="list-inline">
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-facebook"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-twitter"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-linkedin"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-google"></i>
-                                                       </a>
-                                                   </li>
-                                               </ul>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                       <!-- ./Team member -->
-                       <!-- Team member -->
-                       <div class="col-xs-12 col-sm-6 col-md-4">
-                           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                               <div class="mainflip">
-                                   <div class="frontside">
-                                       <div class="card">
-                                           <div class="card-body text-center">
-                                               <p><img class=" img-fluid" src="nit.jpg" alt="card image"></p>
-                                               <h4 class="card-title">Edgar Akio Mekaro</h4>
-                                               <p class="card-text">Responsável Técnico.</p>
-
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="backside">
-                                       <div class="card">
-                                           <div class="card-body text-center mt-4">
-                                               <h4 class="card-title">Edgar Akio Mekaro</h4>
-                                               <p class="card-text">Responsável Técnico. This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                               <ul class="list-inline">
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-facebook"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-twitter"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-linkedin"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-google"></i>
-                                                       </a>
-                                                   </li>
-                                               </ul>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                       <!-- ./Team member -->
-                       <!-- Team member -->
-                       <div class="col-xs-12 col-sm-6 col-md-4">
-                           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                               <div class="mainflip">
-                                   <div class="frontside">
-                                       <div class="card">
-                                           <div class="card-body text-center">
-                                               <p><img class=" img-fluid" src="nit.jpg" alt="card image"></p>
-                                               <h4 class="card-title">Rosane Monteiro</h4>
-                                               <p class="card-text">Especialista em UX/UI.</p>
-
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="backside">
-                                       <div class="card">
-                                           <div class="card-body text-center mt-4">
-                                               <h4 class="card-title">Rosane Monteiro</h4>
-                                               <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                               <ul class="list-inline">
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-facebook"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-twitter"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-linkedin"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-google"></i>
-                                                       </a>
-                                                   </li>
-                                               </ul>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                       <!-- ./Team member -->
-                       <!-- Team member -->
-                       <div class="col-xs-12 col-sm-6 col-md-4">
-                           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                               <div class="mainflip">
-                                   <div class="frontside">
-                                       <div class="card">
-                                           <div class="card-body text-center">
-                                               <p><img class=" img-fluid" src="nit.jpg" alt="card image"></p>
-                                               <h4 class="card-title">Rodrigo Bueno</h4>
-                                               <p class="card-text">Rodrigo Bueno.</p>
-
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="backside">
-                                       <div class="card">
-                                           <div class="card-body text-center mt-4">
-                                               <h4 class="card-title">Rodrigo Bueno</h4>
-                                               <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                               <ul class="list-inline">
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-facebook"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-twitter"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-linkedin"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-google"></i>
-                                                       </a>
-                                                   </li>
-                                               </ul>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                       <!-- ./Team member -->
-                       <!-- Team member -->
-                       <div class="col-xs-12 col-sm-6 col-md-4">
-                           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                               <div class="mainflip">
-                                   <div class="frontside">
-                                       <div class="card">
-                                           <div class="card-body text-center">
-                                               <p><img class=" img-fluid" src="nit.jpg" alt="card image"></p>
-                                               <h4 class="card-title">Igor Rodrigues</h4>
-                                               <p class="card-text">Especialista em Audiovisual.</p>
-
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="backside">
-                                       <div class="card">
-                                           <div class="card-body text-center mt-4">
-                                               <h4 class="card-title">Igor Rodrigues</h4>
-                                               <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                               <ul class="list-inline">
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-facebook"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-twitter"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-linkedin"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-google"></i>
-                                                       </a>
-                                                   </li>
-                                               </ul>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                       <!-- ./Team member -->
-                       <!-- Team member -->
-                       <div class="col-xs-12 col-sm-6 col-md-4">
-                           <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                               <div class="mainflip">
-                                   <div class="frontside">
-                                       <div class="card">
-                                           <div class="card-body text-center">
-                                               <p><img class=" img-fluid" src="nit.jpg" alt="card image"></p>
-                                               <h4 class="card-title">Jefferson Balduíno</h4>
-                                               <p class="card-text">Especialista em Suporte On-line.</p>
-
-                                           </div>
-                                       </div>
-                                   </div>
-                                   <div class="backside">
-                                       <div class="card">
-                                           <div class="card-body text-center mt-4">
-                                               <h4 class="card-title">fferson Balduíno</h4>
-                                               <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                               <ul class="list-inline">
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-facebook"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-twitter"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-linkedin"></i>
-                                                       </a>
-                                                   </li>
-                                                   <li class="list-inline-item">
-                                                       <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                           <i class="fa fa-google"></i>
-                                                       </a>
-                                                   </li>
-                                               </ul>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                       <!-- ./Team member -->
-                   </div>
+               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
+               <div class="card-body">
+                   <h5 class="card-title">AGENTE DE SEGURANÇA DO TRABALHO E HIGIENE
+                       OCUPACIONAL
+                   </h5>
+                   <p class="card-text">Dê assistência na elaboração de procedimentos de segurança em diversos segmentos.
+                   </p>
+                   <a href="Curso/Agente_de_segurança_do_trabalho_e_higiene_ocupacional" class="btn btn-danger">Ver Mais</a>
                </div>
-           </section>
+               <div class="card-footer">
+
+                   <ul class="list-inline">
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-facebook"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-twitter"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-skype"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-google"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+
+           <div class="card m-3">
+               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
+               <div class="card-body">
+                   <h5 class="card-title">ALMOXARIFE</h5>
+                   <p class="card-text">Aprenda a controlar a entrada/saída de produtos e materiais de um almoxarifado.</p>
+                   <a href="Curso/Almoxarife" class="btn btn-danger">Ver Mais</a>
+               </div>
+               <div class="card-footer">
+
+                   <ul class="list-inline">
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-facebook"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-twitter"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-skype"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-google"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+
+           <div class="card m-3">
+               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
+               <div class="card-body">
+                   <h5 class="card-title">AUXILIAR DE DEP. PESSOAL/RH</h5>
+                   <p class="card-text">Aprenda a executar atividades relacionadas a administração de pessoas.
+                   </p>
+                   <a href="Curso/Auxiliar_de_departamento_pessoal_RH" class="btn btn-danger">Ver
+                       Mais</a>
+               </div>
+               <div class="card-footer">
+
+                   <ul class="list-inline">
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-facebook"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-twitter"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-skype"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-google"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
        </div>
 
-       <div>
+       <br>
 
+       <h3 class="bold text-center">TECNOLÓGICO</h3>
+       <h6 class="bold text-center">Sistemas e recursos</h6>
+       <hr class="NIT">
 
+       <br>
+
+       <div class="card-deck">
+           <div class="card m-3">
+
+               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
+               <div class="card-body">
+                   <h5 class="card-title">AGENTE DE SEGURANÇA DO TRABALHO E HIGIENE
+                       OCUPACIONAL
+                   </h5>
+                   <p class="card-text">Dê assistência na elaboração de procedimentos de segurança em diversos segmentos.
+                   </p>
+                   <a href="Curso/Agente_de_segurança_do_trabalho_e_higiene_ocupacional" class="btn btn-danger">Ver Mais</a>
+               </div>
+               <div class="card-footer">
+
+                   <ul class="list-inline">
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-facebook"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-twitter"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-skype"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-google"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+
+           <div class="card m-3">
+               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
+               <div class="card-body">
+                   <h5 class="card-title">ALMOXARIFE</h5>
+                   <p class="card-text">Aprenda a controlar a entrada/saída de produtos e materiais de um almoxarifado.</p>
+                   <a href="Curso/Almoxarife" class="btn btn-danger">Ver Mais</a>
+               </div>
+               <div class="card-footer">
+
+                   <ul class="list-inline">
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-facebook"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-twitter"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-skype"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-google"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+
+           <div class="card m-3">
+               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
+               <div class="card-body">
+                   <h5 class="card-title">AUXILIAR DE DEP. PESSOAL/RH</h5>
+                   <p class="card-text">Aprenda a executar atividades relacionadas a administração de pessoas.
+                   </p>
+                   <a href="Curso/Auxiliar_de_departamento_pessoal_RH" class="btn btn-danger">Ver
+                       Mais</a>
+               </div>
+               <div class="card-footer">
+
+                   <ul class="list-inline">
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-facebook"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-twitter"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-skype"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-google"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+
+       </div>
+
+       <br>
+
+       <h3 class="bold text-center">MÍDIAS</h3>
+       <h6 class="bold text-center">Comunicação e Design</h6>
+       <hr class="NIT">
+
+       <br>
+
+       <div class="card-deck">
+           <div class="card m-3">
+
+               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
+               <div class="card-body">
+                   <h5 class="card-title">AGENTE DE SEGURANÇA DO TRABALHO E HIGIENE
+                       OCUPACIONAL
+                   </h5>
+                   <p class="card-text">Dê assistência na elaboração de procedimentos de segurança em diversos segmentos.
+                   </p>
+                   <a href="Curso/Agente_de_segurança_do_trabalho_e_higiene_ocupacional" class="btn btn-danger">Ver Mais</a>
+               </div>
+               <div class="card-footer">
+
+                   <ul class="list-inline">
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-facebook"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-twitter"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-skype"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-google"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+
+           <div class="card m-3">
+               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
+               <div class="card-body">
+                   <h5 class="card-title">ALMOXARIFE</h5>
+                   <p class="card-text">Aprenda a controlar a entrada/saída de produtos e materiais de um almoxarifado.</p>
+                   <a href="Curso/Almoxarife" class="btn btn-danger">Ver Mais</a>
+               </div>
+               <div class="card-footer">
+
+                   <ul class="list-inline">
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-facebook"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-twitter"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-skype"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-google"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+
+           <div class="card m-3">
+               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
+               <div class="card-body">
+                   <h5 class="card-title">AUXILIAR DE DEP. PESSOAL/RH</h5>
+                   <p class="card-text">Aprenda a executar atividades relacionadas a administração de pessoas.
+                   </p>
+                   <a href="Curso/Auxiliar_de_departamento_pessoal_RH" class="btn btn-danger">Ver
+                       Mais</a>
+               </div>
+               <div class="card-footer">
+
+                   <ul class="list-inline">
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-facebook"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-twitter"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-skype"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-google"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
        </div>
    </div>
 
@@ -662,75 +417,376 @@
 
        <div class="row">
            <div class="col-12 text-center">
-               <h1 style="font-weight: bold; color: rgb(75, 75, 75);"> Links NIT</h1>
+               <h1 class="bold"> Links NIT</h1>
                <hr class="NIT">
            </div>
        </div>
 
        <br>
 
-       <div class="col-sm-12 col-md-12">
-           <section>
-               <div class="container">
-                   <div class="ct-row">
-                       <div class="ct-sectional-box ct-sectional-box--blue">
-                           <h2 class="title"><a>ATAS</a></h2>
-                           <div class="inner">
-                               <ul>
-                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_01">ATA NIT 01/2021</a></li>
-                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_02">ATA NIT 02/2021</a></li>
-                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_03">ATA NIT 03/2021</a></li>
-                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_04">ATA NIT 04/2021</a></li>
-                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_05">ATA NIT 05/2021</a></li>
-                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_06">ATA NIT 06/2021</a></li>
-                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_07">ATA NIT 07/2021</a></li>
-                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_08">ATA NIT 08/2021</a></li>
-                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_09">ATA NIT 09/2021</a></li>
-                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_10">ATA NIT 10/2021</a></li>
-                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_11">ATA NIT 11/2021</a></li>
-                                   <li><a class="linkNIT" href="Doc/Atas/ATA_NIT_12">ATA NIT 12/2021</a></li>
-                               </ul>
-                           </div>
-                       </div>
-                       <div class="ct-sectional-box ct-sectional-box--green">
-                           <h2 class="title"><a>Agenda do NIT</a></h2>
-                           <div class="inner">
-                               <ul>
-                                   <li><a class="linkNIT" href="https://calendar.google.com/calendar/embed?src=c_mnp8flft56fqljkdqkghgabrkc%40group.calendar.google.com&ctz=America%2FSao_Paulo">Clique e veja sobre.</a></li>
-                               </ul>
-                           </div>
-                       </div>
-                       <div class="ct-sectional-box ct-sectional-box--red">
-                           <h2 class="title"><a>AÇÕES</a></h2>
-                           <div class="inner">
-                               <ul>
-                                   <li><a class="linkNIT" href="https://www.youtube.com/playlist?list=PLhXI73YC-qHutwUR3SjsMrF1wkq_Jff_m">NIT NA NET</a></li>
-                                   <li><a class="linkNIT" href="https://www.youtube.com/playlist?list=PLhXI73YC-qHspPHrdmr0IV96d1qr8hs8G">ENTREVISTA FUMEC</a></li>
-                               </ul>
-                           </div>
+       <h4 class="text-center">ATAS</h4>
+       <div class="accordion" id="accordionExample">
+
+           <div class="card">
+               <div class="card-header" id="heading1">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                           ATA NIT 01/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/12FC1jf8y8yNNs1RIunjlus_5CH2Io9cX/preview" width="640" height="480" allow="autoplay"></iframe>
                        </div>
                    </div>
                </div>
-           </section>
-
-           <div>
-
-               Esta equipe atua ativamente nas redes sociais da FUMEC (<a class="linkNIT" href="https://www.facebook.com/fumec.cepro" target="_blank">Facebook</a>,
-               <a class="linkNIT" href="https://www.instagram.com/fumec.cepro/ " target="_blank">Instagram</a>
-               e <a class="linkNIT" href="https://www.youtube.com/TVFUMEC" target="_blank">YouTube</a>), desenvolvendo
-               o
-               novo site do
-               CEPROCAMP e o
-               <a class="linkNIT" href="https://play.google.com/store/apps/details?id=sp.gov.br.ceprocampov.fumec" target="_blank">App
-                   CEPROCAMP</a>
-
-               </p>
-
            </div>
+
+           <div class="card">
+               <div class="card-header" id="heading2">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                           ATA NIT 02/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1igpYktPXx6Jx-HqQgtQdO78FJQxdXcPs/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading3">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                           ATA NIT 03/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1DoiQ3JIYa0Un9V8M323DMoDzfUPP2APc/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading4">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                           ATA NIT 04/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1Wb7MWZZB-2c2MgqRYacVZOVu-B8cKgDl/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading5">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                           ATA NIT 05/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1Qkib2X3bm_0tg9_82FdRoltBsb1uCiKj/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading6">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                           ATA NIT 06/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1K7yA9R74kqXgkbJyh3MgeK9PA59BnxpJ/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading7">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                           ATA NIT 07/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading8">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                           ATA NIT 08/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1qHqp3JJWA4sCPrmGIsx5fRByPfjznamS/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading9">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                           ATA NIT 09/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1DEOyNrSjCtKbjlhV8BOy7160Qo9qBR3n/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading10">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                           ATA NIT 10/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1U4kce6XGpy6VdXLZ_o-OtQDfby3z-pE7/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading11">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                           ATA NIT 11/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1_BN0txjdunV3I8l0xNOyc1-bN0esmzIM/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading12">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                           ATA NIT 12/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse12" class="collapse" aria-labelledby="heading12" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1U5xOs1AO4s57t-9hIkJtlhxL-GtdVFFl/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading13">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                           ATA NIT 13/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse13" class="collapse" aria-labelledby="heading13" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1XbNUMaBxvyySk5hVh4EkPkNffHiPlg-g/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading14">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                           ATA NIT 14/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse14" class="collapse" aria-labelledby="heading14" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1XbNUMaBxvyySk5hVh4EkPkNffHiPlg-g/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading15">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                           ATA NIT 15/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse15" class="collapse" aria-labelledby="heading15" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1XbNUMaBxvyySk5hVh4EkPkNffHiPlg-g/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading16">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                           ATA NIT 16/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse16" class="collapse" aria-labelledby="heading16" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1XbNUMaBxvyySk5hVh4EkPkNffHiPlg-g/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading17">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                           ATA NIT 17/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse17" class="collapse" aria-labelledby="heading17" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1XbNUMaBxvyySk5hVh4EkPkNffHiPlg-g/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header" id="heading18">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+                           ATA NIT 18/2021
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse18" class="collapse" aria-labelledby="heading18" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1XbNUMaBxvyySk5hVh4EkPkNffHiPlg-g/preview" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <br>
+
+       </div>
+
+       <h4 class="text-center">AGENDA DO NIT</h4>
+       <div class="accordion" id="accordionExample">
+
+           <div class="card">
+               <div class="card-header" id="heading1">
+                   <h2 class="mb-0">
+                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                           Clique para ver mais
+                       </button>
+                   </h2>
+               </div>
+               <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
+                   <div class="card-body">
+                       <div class="embed-responsive embed-responsive-1by1">
+                           <iframe class="embed-responsive-item" src="https://calendar.google.com/calendar/u/0/embed?src=c_mnp8flft56fqljkdqkghgabrkc@group.calendar.google.com&ctz=America/Sao_Paulo" width="640" height="480" allow="autoplay"></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+       </div>
+
+       <br>
+
+       <h4 class="text-center">AÇÕES</h4>
+       <div class="accordion" id="accordionExample">
+
+           <div class="card">
+               <div class="card-header">
+                   <h2 class="mb-0">
+                       <a href="https://www.youtube.com/playlist?list=PLhXI73YC-qHutwUR3SjsMrF1wkq_Jff_m" class="text-center link btn btn-link btn-block text-left" target="_blank">
+                           NIT NA NET
+                       </a>
+                   </h2>
+               </div>
+           </div>
+
+           <div class="card">
+               <div class="card-header">
+                   <h2 class="mb-0">
+                       <a href="https://www.youtube.com/playlist?list=PLhXI73YC-qHspPHrdmr0IV96d1qr8hs8G" class="text-center link btn btn-link btn-block text-left" target="_blank">
+                           ENTREVISTA FUMEC
+                       </a>
+                   </h2>
+               </div>
+           </div>
+
        </div>
 
    </div>
-
    <br>
    <br>
 

@@ -55,9 +55,9 @@
             <div class="col-md-4 col-sm-6 col-xs-12">
 
                 <ul class="social-icons">
-                    <li><a class="facebook" href="https://www.facebook.com/fumec.cepro/"><img src="img/icon-face.png" alt=""><i class="fa fa-facebook"></i></a></li>
-                    <li><a class="Instagram" href="https://www.instagram.com/fumec.cepro/"><img src="img/icon-insta.png" alt=""><i class="fa fa-insta"></i></a></li>
-                    <li><a class="Youtube" href="https://www.youtube.com/channel/UC1He1mXyJyfIkIh2RvG7A7Q"><img src="img/icon-youtube.png" alt=""><i class="fa fa-youtube"></i></a></li>
+                    <li><a class="facebook" href="https://www.facebook.com/fumec.cepro/"><img src="img/icon-face.png" alt=""></a></li>
+                    <li><a class="Instagram" href="https://www.instagram.com/fumec.cepro/"><img src="img/icon-insta.png" alt=""></a></li>
+                    <li><a class="Youtube" href="https://www.youtube.com/channel/UC1He1mXyJyfIkIh2RvG7A7Q"><img src="img/icon-youtube.png" alt=""></a></li>
                 </ul>
             </div>
 
