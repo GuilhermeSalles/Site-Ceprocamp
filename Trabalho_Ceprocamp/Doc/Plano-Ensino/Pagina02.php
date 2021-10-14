@@ -39,9 +39,31 @@
             </div>
             <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">ÉTICA, CIDADANIA E MEIO AMBIENTE</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">FUNDAMENTOS DA ADMINISTRAÇÃO E GESTÃO DE NEGÓCIOS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">FUNDAMENTOS DA LOGÍSTICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">INFORMÁTICA BÁSICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">PRÁTICAS LOGÍSTICAS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -56,9 +78,51 @@
             </div>
             <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">COMUNICAÇÃO E EXPRESSÃO</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">FUNDAMENTOS DA ADMINISTRAÇÃO E GESTÃO DE NEGÓCIOS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">FUNDAMENTOS DA LOGÍSTICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">GESTÃO DE PESSOAS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">INFORMÁTICA BÁSICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">MATEMÁTICA BÁSICA E ESTATÍSTICA APLICADA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">MATEMÁTICA BÁSICA E ESTATÍSTICA APLICADA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">PRÁTICAS LOGÍSTICAS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">SUPRIMENTOS E CADEIA DE ABASTECIMENTO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -73,9 +137,11 @@
             </div>
             <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">Informática Básica</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -90,9 +156,21 @@
             </div>
             <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">EMPREENDEDORISMO</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">MATEMÁTICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">PADARIA E CONFEITARIA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -107,9 +185,11 @@
             </div>
             <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">Inglês para Atendimento</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -124,9 +204,11 @@
             </div>
             <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">Cuidador de Pessoas</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -141,9 +223,16 @@
             </div>
             <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">ADMINISTRAÇÃO</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">INFORMÁTICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -158,9 +247,11 @@
             </div>
             <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">ADMINITRAÇÃO</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -175,9 +266,26 @@
             </div>
             <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">ADMINISTRAÇÃO</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">DIREITO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">INFORMÁTICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">MATEMÁTICA BÁSICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -192,9 +300,16 @@
             </div>
             <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">ADMINISTRAÇÃO</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">INFORMÁTICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -208,9 +323,16 @@
             </div>
             <div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">ADMINISTRAÇÃO</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">INFORMÁTICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -224,9 +346,56 @@
             </div>
             <div id="collapse12" class="collapse" aria-labelledby="heading12" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">COMUNICAÇÃO EMPRESARIAL</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">CONTABILIDADE BÁSICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">ÉTICA, CIDADANIA E RESPONSABILIDADE BÁSICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">INFORMÁTICA BÁSICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">INTRODUÇÃO À ECONOMIA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">MATEMÁTICA BÁSICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">METODOLOGIA DE PROJETOS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">NOÇÕES DE DIREITO TRIBUTÁRIO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">PORTUGUÊS INSTRUMENTAL</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">TEORIAS DA ADMINISTRAÇÃO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>

@@ -39,9 +39,51 @@
             </div>
             <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">ADMINISTRAÇÃO FINANCEIRA</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">EMPREENDEDORISMO E INOVAÇÃO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">GESTÃO DA PRODUÇÃO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">GESTÃO DE COMÉRCIO E SERVIÇOS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">GESTÃO DE PROJETOS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">LOGÍSTICA EMPRESARIAL II</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">NOÇÕES DE GESTÃO E QUALIDADE</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">PROJETO EXPERIMENTAL II/ PRÁTICAS ADMINISTRAÇÃO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">ROTINAS DO DEPARTAMENTO DE PESSOAL</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -56,9 +98,56 @@
             </div>
             <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">CONTABILIDADE DE CUSTOS E FORMAÇÃO DE PREÇOS</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">GESTÃO DE RH E ROTINAS DE PESSOAL</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">INFORMÁTICA BÁSICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">INGLÊS BÁSICO INSTRUMENTAL</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">INTRODUÇÃO A ADMINISTRAÇÃO FINANCEIRA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">LOGÍSTICA EMPRESARIAL I</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">PLANEJAMENTO EMPRESARIAL</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">PRÁTICA TRIBUTÁRIA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">PRINCÍPIOS DE MARKETING</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">PROJETO EXPERIMENTAL/ PRÁTICAS ADMINISTRAÇÃO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -73,9 +162,16 @@
             </div>
             <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">Gestão</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">Informática</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -90,9 +186,16 @@
             </div>
             <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">Gestão</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">Informática</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -107,9 +210,31 @@
             </div>
             <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">Direito e Legislação</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">Gestão</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Informática</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Matemática</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Português Básico</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -124,9 +249,56 @@
             </div>
             <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">Contabilidade básica</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">Comunicação Empresarial</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Informática básica</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Introdução à Economia</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Português Instrumental</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Teorias da Administração</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Ética, Cidadania e Responsabilidade Social</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Matemática Básica</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Metodologia de Projetos</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Noções de Direito Tributário</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -141,9 +313,56 @@
             </div>
             <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">Comunicação Empresarial</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">Contabilidade Básica</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Ética, Cidadania e Responsabilidade Social</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Informática Básica</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Introdução à Economia</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Matemática Básica</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Metodologia de Projetos</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Noções de Direito Tributário</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Português Instrumental</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Teorias da Administração</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -158,9 +377,51 @@
             </div>
             <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">Administração Financeira</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">Empreendedorismo e Inovação</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Gestão da Produção</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Gestão de Comércio e Serviços</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Gestão de Projetos</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Logística Empresarial II</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Noções de Gestão e Quaildade</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Projeto Experimental II/ Práticas Administração</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Rotinas do Departamento Pessoal</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -175,9 +436,51 @@
             </div>
             <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">Contabilidade de Custos e Formação de Preços</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">Gestão de Recursos Humanos e Rotinas de Departamento Pessoal</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Inglês Básico Instrumental</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Administração Financeira</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Logística Empresarial I</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Planejamento Empresarial</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Prática Tributária</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Princípios de Marketing</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">Projeto Experimental I - Práticas Administração</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -192,9 +495,41 @@
             </div>
             <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">BIOLOGIA APLICADA</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">BOAS PRÁTICAS DE LABORATÓRIO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">LÍNGUA PORTUGUESA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">MATEMÁTICA BÁSICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">PRÁTICAS LABORATORIAIS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">QUÍMICA GERAL</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">QUÍMICA ORGÂNICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -208,9 +543,36 @@
             </div>
             <div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">BIOLOGIA APLICADA</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">ÉTICA E CIDADANIA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">LÍNGUA PORTUGUESA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">QUÍMICA GERAL</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">QUÍMICA ORGÂNICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">TÉCNICA LABORATORIAL</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -224,9 +586,11 @@
             </div>
             <div id="collapse12" class="collapse" aria-labelledby="heading12" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">PORTEIRO BÁSICO-ESPECÍFICO</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
                 </div>
             </div>
         </div>

@@ -39,9 +39,51 @@
             </div>
             <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">COMUNICAÇÃO E EXPRESSÃO</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">FUNDAMENTOS DA ADMINISTRAÇÃO E GESTÃO DE NEGÓCIOS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">FUNDAMENTOS DA LOGÍSTICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">GESTÃO DE PESSOAS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">INFORMÁTICA BÁSICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">MATEMÁTICA BÁSICA E ESTATÍSTICA APLICADA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">MOVIMENTAÇÃO E ARMAZENAGEM I</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">PRÁTICAS LOGÍSTICAS I</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">SUPRIMENTOS E CADEIA DE ABASTECIMENTO I</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -56,9 +98,56 @@
             </div>
             <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">ÉTICA, CIDADANIA E RESPONSABILIDADE SOCIAL</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">INGLÊS TÉCNICO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">MOVIMENTAÇÃO E ARMAZENAGEM II</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">PLANEJAMENTO E CONTROLE DE PRODUÇÃO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">PRÁTICAS LOGÍSTICAS II</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">SAÚDE E SEGURANÇA DO TRABALHO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">SUPRIMENTOS E CADEIA DE ABASTECIMENTO II</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">TECNOLOGIA APLICADA À LOGÍSTICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">TRABALHO DE CONCLUSÃO DE CURSO I</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">TRANSPORTE E DISTRIBUIÇÃO I</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -73,9 +162,16 @@
             </div>
             <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">ESPECÍFICO (Gestão)</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">INFORMÁTICA BÁSICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -90,9 +186,26 @@
             </div>
             <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">EMPREENDEDORISMO</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">ESPECÍFICA (Padaria)</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">LÍNGUA PORTUGUESA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">MATEMÁTICA BÁSICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -107,9 +220,51 @@
             </div>
             <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">CUSTOS LOGÍSTICOS</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">GESTÃO DA CADEIA DE SUPRIMENTOS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">GESTÃO DA QUALIDADE</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">LEGISLAÇÃO APLICADA À LOGÍSTICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">LOGÍSTICA INTERNACIONAL E COMÉRCIO EXTERIOR</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">LOGÍSTICA REVERSA E SUSTENTABILIDADE</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">PRÁTICAS LOGÍSTICAS III</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">TRABALHO DE CONCLUSÃO DE CURSO II</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">TRANSPORTE E DISTRIBUIÇÃO II</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -124,26 +279,46 @@
             </div>
             <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">BIOLOGIA AMBIENTAL I</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-header" id="heading7">
-                <h2 class="mb-0">
-                    <button class="link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                        Turma Técnico em Administração-Turma 41 e 42 - Módulo I
-                    </button>
-                </h2>
-            </div>
-            <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionExample">
-                <div class="card-body">
+                    <br>
+                    <h3 class="bold">CIDADANIA, ÉTICA E EMPREGO</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">DESENHO TÉCNICO E TOPOGRAFIA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">EDUCAÇÃO AMBIENTAL</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">GEOCIÊNCIA E USO, OCUPAÇÃO E CONSERVAÇÃO DO SOLO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">QUÍMICA AMBIENTAL APLICADA I</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">REDAÇÃO TÉCNICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">TÓPICOS EM QUÍMICA EXPERIMENTAL</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -158,9 +333,46 @@
             </div>
             <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">BIOLOGIA AMBIENTAL I</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">CIDADANIA, ÉTICA E EMPREGO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">DESENHO TÉCNICO E TOPOGRAFIA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">EDUCAÇÃO AMBIENTAL</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">GEOCIÊNCIAS E USO, OCUPAÇÃO E CONSERVAÇÃO DO SOLO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">QUÍMICA AMBIENTAL APLICADA I</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">REDAÇÃO TÉCNICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">TÓPICOS EM QUÍMICA EXPERIMENTAL</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -175,9 +387,46 @@
             </div>
             <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">BIOLOGIA AMBIENTAL II</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">GESTÃO EMPRESARIAL E QUALIDADE</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">INFORMÁTICA BÁSICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">INGLÊS INSTRUMENTAL</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">LEGISLAÇÃO AMBIENTAL I</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">MATEMÁTICA INSTRUMENTAL I</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">QUÍMICA AMBIENTAL APLICADA II</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">SEGURANÇA DO TRABALHO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -192,9 +441,46 @@
             </div>
             <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">BIOLOGIA AMBIENTAL II</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">GESTÃO EMPRESARIAL E QUALIDADE</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">INFORMÁTICA BÁSICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">INGLÊS INSTRUMENTAL</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">LEGISLAÇÃO AMBIENTAL I</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">MATEMÁTICA INSTRUMENTAL I</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">QUÍMICA AMBIENTAL APLICADA II</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">SEGURANÇA DO TRABALHO</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -208,9 +494,51 @@
             </div>
             <div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">ENERGIA E MEIO AMBIENTE</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">GEOPROCESSAMENTOS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">LEGISLAÇÃO AMBIENTAL II</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">MATEMÁTICA INSTRUMENTAL II</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">MICROBIOLOGIA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">POLUIÇÃO ATMOSFÉRICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">QUÍMICA AMBIENTAL APLICADA III</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">RECURSOS HÍDRICOS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">TECNOLOGIA EM PROCESSOS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -224,9 +552,51 @@
             </div>
             <div id="collapse12" class="collapse" aria-labelledby="heading12" data-parent="#accordionExample">
                 <div class="card-body">
+                    <h3 class="bold">ENERGIA E MEIO AMBIENTE</h3>
                     <div class="embed-responsive embed-responsive-1by1">
                         <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
                     </div>
+                    <br>
+                    <h3 class="bold">GEOPROCESSAMENTOS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">LEGISLAÇÃO AMBIENTAL II</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">MATEMÁTICA INSTRUMENTAL II</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">MICROBIOLOGIA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">POLUIÇÃO ATMOSFÉRICA</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">QUÍMICA AMBIENTAL APLICADA III</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">RECURSOS HÍDRICOS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
+                    <h3 class="bold">TECNOLOGIA EM PROCESSOS</h3>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
