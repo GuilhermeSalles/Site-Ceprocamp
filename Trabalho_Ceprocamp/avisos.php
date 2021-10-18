@@ -29,14 +29,6 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item">
-                        <div class="text-justify">
-
-                            <a href="https://play.google.com/store/apps/details?id=sp.gov.br.ceprocampov.fumec" title="Baixar o aplicativo"><img src="img/Avisos/Aplicativo.png" class="img-fluid" alt="Aplicativo"></a>
-
-                        </div>
-                    </div>
-
                 </div>
 
                 <br>
@@ -46,7 +38,6 @@
                     <li data-target="#carouselAviso" data-slide-to="0"></li>
                     <li data-target="#carouselAviso" data-slide-to="1" class="active"></li>
                     <li data-target="#carouselAviso" data-slide-to="2"></li>
-                    <li data-target="#carouselAviso" data-slide-to="3"></li>
                 </ol>
 
             </div>
