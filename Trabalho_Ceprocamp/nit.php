@@ -36,10 +36,12 @@
            <h1 class="bold">NIT CEPROCAMP</h1>
            <hr class="NIT">
            <div class="col-sm-12 col-md-6 col-xs-6">
-               <img src="unnamed.png" class="img-fluid">
+               <img src="img/Avisos/Sobre NIT.png" class="img-fluid">
+               <br>
+               <br>
            </div>
            <div class="col-sm-12 col-md-6 col-xs-6">
-               <p class="text-justify" style="font-size: large;">O Núcleo de Interação Tecnológica (NIT) é um setor no CEPROCAMP responsável pela
+               <p class="text-justify" style="font-size: large;">O Núcleo de Interação Tecnológica (NIT) é um projeto intersetorial do CEPROCAMP responsável pela
                    criação, administração, manutenção e expansão do uso de recursos tecnológicos para manter contato
                    com o candidato, aluno ativo ou aluno egresso bem como inserir o CEPROCAMP no meio digital e em
                    contato mais próximo com o público.
@@ -53,8 +55,8 @@
 
        <br>
 
-       <h3 class="bold text-center">GERENCIAL</h3>
-       <h6 class="bold text-center">Documentação e interface</h6>
+       <h3 class="bold text-center">GESTÃO DE PROJETO</h3>
+       <!--<h6 class="bold text-center">Documentação e interface</h6>-->
        <hr class="NIT">
 
        <br>
@@ -62,14 +64,10 @@
        <div class="card-deck">
            <div class="card m-3">
 
-               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
+               <img class="card-img-top" src="unnamed.png" alt="Imagem de capa do card">
                <div class="card-body">
-                   <h5 class="card-title">AGENTE DE SEGURANÇA DO TRABALHO E HIGIENE
-                       OCUPACIONAL
-                   </h5>
-                   <p class="card-text">Dê assistência na elaboração de procedimentos de segurança em diversos segmentos.
-                   </p>
-                   <a href="Curso/Agente_de_segurança_do_trabalho_e_higiene_ocupacional" class="btn btn-danger">Ver Mais</a>
+                   <h5 class="card-title bold">Andrea Jaconi</h5>
+                   <p class="card-text">Gestora do Projeto.</p>
                </div>
                <div class="card-footer">
 
@@ -99,11 +97,11 @@
            </div>
 
            <div class="card m-3">
-               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
+               <img class="card-img-top" src="unnamed.png" alt="Imagem de capa do card">
                <div class="card-body">
-                   <h5 class="card-title">ALMOXARIFE</h5>
-                   <p class="card-text">Aprenda a controlar a entrada/saída de produtos e materiais de um almoxarifado.</p>
-                   <a href="Curso/Almoxarife" class="btn btn-danger">Ver Mais</a>
+                   <h5 class="card-title bold">Gleida de Carvalho</h5>
+                   <p class="card-text">Suplente Gestão.</p>
+
                </div>
                <div class="card-footer">
 
@@ -133,131 +131,10 @@
            </div>
 
            <div class="card m-3">
-               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
+               <img class="card-img-top" src="unnamed.png" alt="Imagem de capa do card">
                <div class="card-body">
-                   <h5 class="card-title">AUXILIAR DE DEP. PESSOAL/RH</h5>
-                   <p class="card-text">Aprenda a executar atividades relacionadas a administração de pessoas.
-                   </p>
-                   <a href="Curso/Auxiliar_de_departamento_pessoal_RH" class="btn btn-danger">Ver
-                       Mais</a>
-               </div>
-               <div class="card-footer">
-
-                   <ul class="list-inline">
-                       <li class="list-inline-item">
-                           <a class="social-icon text-xs-center" target="_blank" href="#">
-                               <i class="fa fa-facebook"></i>
-                           </a>
-                       </li>
-                       <li class="list-inline-item">
-                           <a class="social-icon text-xs-center" target="_blank" href="#">
-                               <i class="fa fa-twitter"></i>
-                           </a>
-                       </li>
-                       <li class="list-inline-item">
-                           <a class="social-icon text-xs-center" target="_blank" href="#">
-                               <i class="fa fa-skype"></i>
-                           </a>
-                       </li>
-                       <li class="list-inline-item">
-                           <a class="social-icon text-xs-center" target="_blank" href="#">
-                               <i class="fa fa-google"></i>
-                           </a>
-                       </li>
-                   </ul>
-               </div>
-           </div>
-       </div>
-
-       <br>
-
-       <h3 class="bold text-center">TECNOLÓGICO</h3>
-       <h6 class="bold text-center">Sistemas e recursos</h6>
-       <hr class="NIT">
-
-       <br>
-
-       <div class="card-deck">
-           <div class="card m-3">
-
-               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
-               <div class="card-body">
-                   <h5 class="card-title">AGENTE DE SEGURANÇA DO TRABALHO E HIGIENE
-                       OCUPACIONAL
-                   </h5>
-                   <p class="card-text">Dê assistência na elaboração de procedimentos de segurança em diversos segmentos.
-                   </p>
-                   <a href="Curso/Agente_de_segurança_do_trabalho_e_higiene_ocupacional" class="btn btn-danger">Ver Mais</a>
-               </div>
-               <div class="card-footer">
-
-                   <ul class="list-inline">
-                       <li class="list-inline-item">
-                           <a class="social-icon text-xs-center" target="_blank" href="#">
-                               <i class="fa fa-facebook"></i>
-                           </a>
-                       </li>
-                       <li class="list-inline-item">
-                           <a class="social-icon text-xs-center" target="_blank" href="#">
-                               <i class="fa fa-twitter"></i>
-                           </a>
-                       </li>
-                       <li class="list-inline-item">
-                           <a class="social-icon text-xs-center" target="_blank" href="#">
-                               <i class="fa fa-skype"></i>
-                           </a>
-                       </li>
-                       <li class="list-inline-item">
-                           <a class="social-icon text-xs-center" target="_blank" href="#">
-                               <i class="fa fa-google"></i>
-                           </a>
-                       </li>
-                   </ul>
-               </div>
-           </div>
-
-           <div class="card m-3">
-               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
-               <div class="card-body">
-                   <h5 class="card-title">ALMOXARIFE</h5>
-                   <p class="card-text">Aprenda a controlar a entrada/saída de produtos e materiais de um almoxarifado.</p>
-                   <a href="Curso/Almoxarife" class="btn btn-danger">Ver Mais</a>
-               </div>
-               <div class="card-footer">
-
-                   <ul class="list-inline">
-                       <li class="list-inline-item">
-                           <a class="social-icon text-xs-center" target="_blank" href="#">
-                               <i class="fa fa-facebook"></i>
-                           </a>
-                       </li>
-                       <li class="list-inline-item">
-                           <a class="social-icon text-xs-center" target="_blank" href="#">
-                               <i class="fa fa-twitter"></i>
-                           </a>
-                       </li>
-                       <li class="list-inline-item">
-                           <a class="social-icon text-xs-center" target="_blank" href="#">
-                               <i class="fa fa-skype"></i>
-                           </a>
-                       </li>
-                       <li class="list-inline-item">
-                           <a class="social-icon text-xs-center" target="_blank" href="#">
-                               <i class="fa fa-google"></i>
-                           </a>
-                       </li>
-                   </ul>
-               </div>
-           </div>
-
-           <div class="card m-3">
-               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
-               <div class="card-body">
-                   <h5 class="card-title">AUXILIAR DE DEP. PESSOAL/RH</h5>
-                   <p class="card-text">Aprenda a executar atividades relacionadas a administração de pessoas.
-                   </p>
-                   <a href="Curso/Auxiliar_de_departamento_pessoal_RH" class="btn btn-danger">Ver
-                       Mais</a>
+                   <h5 class="card-title bold">Edgar Mekaro</h5>
+                   <p class="card-text">Responsável Técnico.</p>
                </div>
                <div class="card-footer">
 
@@ -288,10 +165,53 @@
 
        </div>
 
+
+       <div class="card-deck">
+           <div class="card m-3">
+
+               <img class="card-img-top" src="unnamed.png" alt="Imagem de capa do card">
+               <div class="card-body">
+                   <h5 class="card-title bold">Thayná Ujimori</h5>
+                   <p class="card-text">Responsável Técnico Suplente.</p>
+
+               </div>
+               <div class="card-footer">
+
+                   <ul class="list-inline">
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-facebook"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-twitter"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-skype"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-google"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+
+           <div class="card m-3" style="opacity: 0;"></div>
+
+           <div class="card m-3" style="opacity: 0;"></div>
+
+       </div>
+
        <br>
 
-       <h3 class="bold text-center">MÍDIAS</h3>
-       <h6 class="bold text-center">Comunicação e Design</h6>
+       <h3 class="bold text-center">ADMINISTRAÇÃO DO PROJETO</h3>
+       <!--<h6 class="bold text-center">Documentação e interface</h6>-->
        <hr class="NIT">
 
        <br>
@@ -299,14 +219,10 @@
        <div class="card-deck">
            <div class="card m-3">
 
-               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
+               <img class="card-img-top" src="unnamed.png" alt="Imagem de capa do card">
                <div class="card-body">
-                   <h5 class="card-title">AGENTE DE SEGURANÇA DO TRABALHO E HIGIENE
-                       OCUPACIONAL
-                   </h5>
-                   <p class="card-text">Dê assistência na elaboração de procedimentos de segurança em diversos segmentos.
-                   </p>
-                   <a href="Curso/Agente_de_segurança_do_trabalho_e_higiene_ocupacional" class="btn btn-danger">Ver Mais</a>
+                   <h5 class="card-title bold">Giovanna Galhardo</h5>
+                   <p class="card-text">Responsável pelo Eixo Gerencial.</p>
                </div>
                <div class="card-footer">
 
@@ -336,11 +252,10 @@
            </div>
 
            <div class="card m-3">
-               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
+               <img class="card-img-top" src="img/Imagens_NIT/Rodrigo.jpeg" alt="Imagem de capa do card">
                <div class="card-body">
-                   <h5 class="card-title">ALMOXARIFE</h5>
-                   <p class="card-text">Aprenda a controlar a entrada/saída de produtos e materiais de um almoxarifado.</p>
-                   <a href="Curso/Almoxarife" class="btn btn-danger">Ver Mais</a>
+                   <h5 class="card-title bold">Rodrigo Bueno</h5>
+                   <p class="card-text">Apoio Gerencial dos Eixos.</p>
                </div>
                <div class="card-footer">
 
@@ -370,13 +285,198 @@
            </div>
 
            <div class="card m-3">
-               <img class="card-img-top" src="pp.jfif" alt="Imagem de capa do card">
+               <img class="card-img-top" src="unnamed.png" alt="Imagem de capa do card">
                <div class="card-body">
-                   <h5 class="card-title">AUXILIAR DE DEP. PESSOAL/RH</h5>
-                   <p class="card-text">Aprenda a executar atividades relacionadas a administração de pessoas.
-                   </p>
-                   <a href="Curso/Auxiliar_de_departamento_pessoal_RH" class="btn btn-danger">Ver
-                       Mais</a>
+                   <h5 class="card-title bold">Daniella Nogueira</h5>
+                   <p class="card-text">Responsável pelo Eixo de Marketing.</p>
+
+               </div>
+               <div class="card-footer">
+
+                   <ul class="list-inline">
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-facebook"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-twitter"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-skype"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-google"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+
+       </div>
+
+       <div class="card-deck">
+           <div class="card m-3">
+
+               <img class="card-img-top" src="unnamed.png" alt="Imagem de capa do card">
+               <div class="card-body">
+                   <h5 class="card-title bold">Igor Rodrigues</h5>
+                   <p class="card-text">Responsável pelo Eixo de Tecnológia.</p>
+
+               </div>
+               <div class="card-footer">
+
+                   <ul class="list-inline">
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-facebook"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-twitter"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-skype"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-google"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+
+           <div class="card m-3">
+
+               <img class="card-img-top" src="unnamed.png" alt="Imagem de capa do card">
+               <div class="card-body">
+                   <h5 class="card-title bold">Rosane Monteiro</h5>
+                   <p class="card-text">Apoio Pedagócio aos Eixos</p>
+
+               </div>
+               <div class="card-footer">
+
+                   <ul class="list-inline">
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-facebook"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-twitter"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-skype"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-google"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+
+           <div class="card m-3" style="opacity: 0;"></div>
+
+       </div>
+
+       <br>
+
+       <h3 class="bold text-center">DESENVOLVIMENTO DO PROJETO</h3>
+       <!--<h6 class="bold text-center">Documentação e interface</h6>-->
+       <hr class="NIT">
+
+       <br>
+
+       <div class="card-deck">
+           <div class="card m-3">
+
+               <img class="card-img-top" src="unnamed.png" alt="Imagem de capa do card">
+               <div class="card-body">
+                   <h5 class="card-title bold">Guilherme Baltazar</h5>
+                   <p class="card-text">Desenvolvedor do Site.</p>
+               </div>
+               <div class="card-footer">
+
+                   <ul class="list-inline">
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-facebook"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-twitter"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-skype"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-google"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+
+           <div class="card m-3">
+               <img class="card-img-top" src="unnamed.png" alt="Imagem de capa do card">
+               <div class="card-body">
+                   <h5 class="card-title bold">Isacc Pinheiro</h5>
+                   <p class="card-text">Desenvolvedor de Sistema.</p>
+               </div>
+               <div class="card-footer">
+
+                   <ul class="list-inline">
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-facebook"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-twitter"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-skype"></i>
+                           </a>
+                       </li>
+                       <li class="list-inline-item">
+                           <a class="social-icon text-xs-center" target="_blank" href="#">
+                               <i class="fa fa-google"></i>
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+
+           <div class="card m-3">
+               <img class="card-img-top" src="unnamed.png" alt="Imagem de capa do card">
+               <div class="card-body">
+                   <h5 class="card-title bold">Jefferson Balduíno</h5>
+                   <p class="card-text">Desenvolvedor de Soluções.</p>
+
                </div>
                <div class="card-footer">
 
