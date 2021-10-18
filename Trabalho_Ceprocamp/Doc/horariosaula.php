@@ -4,7 +4,7 @@
 <div class="container">
     <div class="text-center">
         <div class="embed-responsive embed-responsive-1by1">
-            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1XqhUNMFKu9h3Rd6_YUwjAguZ8KxDF-me/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1o2sJJaCT2Ndtfj19fOINry1L3-cXDZSh/preview" width="640" height="480" allow="autoplay"></iframe>
         </div>
     </div>
 </div>
