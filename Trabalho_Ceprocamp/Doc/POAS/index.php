@@ -34,7 +34,7 @@
       <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
         <div class="card-body">
           <div class="embed-responsive embed-responsive-1by1">
-            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1fHR2Cz8nTiipyv7VtCwq_5Nm2J_132kx/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1l6cB76_K--lommMsELP_MzvRXN355TeP/preview" width="640" height="480" allow="autoplay"></iframe>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@
       <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
         <div class="card-body">
           <div class="embed-responsive embed-responsive-1by1">
-            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1uLvclSVLNUtU6Q6Eg_sFA8myfTygC0v9/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1Em6nyfTzZpyoN5QD4OGePX-YZ5W1keLR/preview" width="640" height="480" allow="autoplay"></iframe>
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@
       <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
         <div class="card-body">
           <div class="embed-responsive embed-responsive-1by1">
-            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1b4wKVXA4DfdCFfhVqzPqJKYOuPODKQu0/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1oiTRsTfw-Y3W9G4dmTAW5qZQUBiD1LhG/preview" width="640" height="480" allow="autoplay"></iframe>
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@
       <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
         <div class="card-body">
           <div class="embed-responsive embed-responsive-1by1">
-            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1l6vhZ1bwozujolf3ZsAKjm1qLSTqqqZE/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1CalGrHQMKcsBGgrS_Q4GclrXsZGX9unu/preview" width="640" height="480" allow="autoplay"></iframe>
           </div>
         </div>
       </div>
@@ -102,7 +102,7 @@
       <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
         <div class="card-body">
           <div class="embed-responsive embed-responsive-1by1">
-            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1zfUoOk2wZ_YOwvZqKmOHGUa1XSmByZs6/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/11mZ0Gu8yyN-y1oFgV8YmUfl4jwE1kH6O/preview" width="640" height="480" allow="autoplay"></iframe>
           </div>
         </div>
       </div>
@@ -119,7 +119,7 @@
       <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
         <div class="card-body">
           <div class="embed-responsive embed-responsive-1by1">
-            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1XbNUMaBxvyySk5hVh4EkPkNffHiPlg-g/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1xs9adVyRtvVQvU1x6_LdBx1_wpzULDTe/preview" width="640" height="480" allow="autoplay"></iframe>
           </div>
         </div>
       </div>
@@ -142,7 +142,7 @@
         <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionExample">
           <div class="card-body">
             <div class="embed-responsive embed-responsive-1by1">
-              <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1GBG8L6BFEKIAvdSoTdwklPh9LcB2KDuH/preview" width="640" height="480" allow="autoplay"></iframe>
+              <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1f6Lu7qQVoxNkVE4x0YlJIt0ucuN0mS0J/preview" width="640" height="480" allow="autoplay"></iframe>
             </div>
           </div>
         </div>
@@ -164,7 +164,7 @@
           <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordionExample">
             <div class="card-body">
               <div class="embed-responsive embed-responsive-1by1">
-                <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1ccQs2wE9uA7WsN1CJyNDh6MdrOQepkgp/preview" width="640" height="480" allow="autoplay"></iframe>
+                <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1TYRafMnXDSR7nwQFE4V2bm0gmfVlU0_S/preview" width="640" height="480" allow="autoplay"></iframe>
               </div>
             </div>
           </div>
@@ -181,7 +181,7 @@
           <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordionExample">
             <div class="card-body">
               <div class="embed-responsive embed-responsive-1by1">
-                <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1DiuuXSfc_2P9h_ihEJeI30FcAMm5YczD/preview" width="640" height="480" allow="autoplay"></iframe>
+                <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1cm8oU4uDgbTdgr0FzD0HC6JhWr8WoVY0/preview" width="640" height="480" allow="autoplay"></iframe>
               </div>
             </div>
           </div>
@@ -198,7 +198,7 @@
           <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordionExample">
             <div class="card-body">
               <div class="embed-responsive embed-responsive-1by1">
-                <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1XaDgx1XWsMDeEZhIg8qqPmu9e0lz4uuR/preview" width="640" height="480" allow="autoplay"></iframe>
+                <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1ZCM8JaFbvCjAwqlW25LDbA9NDIcJPiVE/preview" width="640" height="480" allow="autoplay"></iframe>
               </div>
             </div>
           </div>
@@ -215,7 +215,7 @@
           <div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#accordionExample">
             <div class="card-body">
               <div class="embed-responsive embed-responsive-1by1">
-                <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1n6P7_Hz1zMMSV45ESlgG-8l-VuH7SZga/preview" width="640" height="480" allow="autoplay"></iframe>
+                <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1x318jlP5e5EgM8sYDEY2T6WOR8pRGy2F/preview" width="640" height="480" allow="autoplay"></iframe>
               </div>
             </div>
           </div>
@@ -232,7 +232,7 @@
           <div id="collapse12" class="collapse" aria-labelledby="heading12" data-parent="#accordionExample">
             <div class="card-body">
               <div class="embed-responsive embed-responsive-1by1">
-                <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1kQaXDU3YTHEzbOH1Q04xMummJmDPoJT4/preview" width="640" height="480" allow="autoplay"></iframe>
+                <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1YxzHsaZ7iCmiLkJKdT5M2dsSHEr1u1-F/preview" width="640" height="480" allow="autoplay"></iframe>
               </div>
             </div>
           </div>
@@ -249,7 +249,7 @@
           <div id="collapse13" class="collapse" aria-labelledby="heading13" data-parent="#accordionExample">
             <div class="card-body">
               <div class="embed-responsive embed-responsive-1by1">
-                <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1UyTqSjoiz94G9VPSlEDZSEsn6v_ORJAD/preview" width="640" height="480" allow="autoplay"></iframe>
+                <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1-DIMsYXDqukzBeW8uBzHzhhxXoHpK9xl/preview" width="640" height="480" allow="autoplay"></iframe>
               </div>
             </div>
           </div>
@@ -265,7 +265,7 @@
           <div id="collapse14" class="collapse" aria-labelledby="heading14" data-parent="#accordionExample">
             <div class="card-body">
               <div class="embed-responsive embed-responsive-1by1">
-                <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1qLaYvTg1Gs4VuEuyNj9zM0_UkKzfU-gw/preview" width="640" height="480" allow="autoplay"></iframe>
+                <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1NS2kxx9bzivdaT67gXk9rvzoWyQf7B7N/preview" width="640" height="480" allow="autoplay"></iframe>
               </div>
             </div>
           </div>
