@@ -1,21 +1,3 @@
-<?php
-session_start();
-include_once("../../ConexaoBd/config.php");
-
-
-// Inclua este script em todas as páginas que exigirem que o usuário esteja logado
-// Protege a página
-
-if (!isset($_SESSION['usuarioNome'])) {
-    // Verifica se existem Cookies para manter conectado
-    if (isset($_COOKIE["email"]) && isset($_COOKIE["senha"])) {
-        $usuario = new usuario();
-        if (!$usuario->validaLogin($_COOKIE))
-            header('Location: /adm/Adminitrativo');
-    } else
-        header('Location: /login');
-}
-?>
 <!doctype html>
 <html lang="pt-br">
 
@@ -28,6 +10,9 @@ if (!isset($_SESSION['usuarioNome'])) {
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!--Google -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="237928075703-h7mk6rg7mkde3u3sl2spv49dkgrdmaol.apps.googleusercontent.com">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 

@@ -2,9 +2,7 @@
 
     $dbHost = 'localhost';
     $dbUsername = 'root';
-    $dbPassword = '';
-    $dbName = 'BaseCEPROCAMP';
+    $dbPassword = 'root';
+    $dbName = 'baseceprocamp';
 
     $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
-    
-?>
