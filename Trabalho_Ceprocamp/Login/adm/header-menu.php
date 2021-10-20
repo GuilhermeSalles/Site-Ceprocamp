@@ -1,3 +1,12 @@
+<?php
+session_start();
+if (!empty($_SESSION['id'])) {
+} else {
+    $_SESSION['msg'] = "<div class='alert alert-danger'>Área restrita!</div>";
+    header("Location: ../");
+}
+?>
+
 <!doctype html>
 <html lang="pt-br">
 
@@ -54,12 +63,12 @@
             </div>
             <div class="collapse navbar-collapse" id="navbarSite">
                 <ul class="navbar-nav mr-auto">
-                    <?php if ($_SESSION['usuarioNiveisAcessoId'] == "1") { ?>
+                    <?php if ($_SESSION['nivel'] == "1") { ?>
                         <li class="nav-item">
                             <a class="nav-link" href="../adm/Administrativo">Administrativo</a>
                         </li>
                     <?php } ?>
-                    <?php if ($_SESSION['usuarioNiveisAcessoId'] == "1") { ?>
+                    <?php if ($_SESSION['nivel'] == "1") { ?>
                         <li class="nav-item">
                             <a class="nav-link" href="../excel/gerar_planilha">Excel de Registro de Interesse</a>
                         </li>

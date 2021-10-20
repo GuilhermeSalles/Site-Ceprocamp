@@ -1,13 +1,4 @@
 <?php include 'header-menu.php' ?>
-<?php
-session_start();
-if (!empty($_SESSION['id'])) {
-    
-} else {
-    $_SESSION['msg'] = "<div class='alert alert-danger'>Área restrita!</div>";
-    header("Location: ../");
-}
-?>
 
 <br>
 <br>

@@ -21,7 +21,6 @@
             var userEmail = profile.getEmail();
             var userToken = googleUser.getAuthResponse().id_token;
 
-            //document.getElementById('msg').innerHTML = userEmail;
             if (userEmail !== '') {
                 var dados = {
                     userID: userID,
