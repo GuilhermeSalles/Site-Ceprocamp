@@ -13,7 +13,11 @@ if (($resultado_usuario) and ($resultado_usuario->num_rows != 0)) {
 	$_SESSION['id'] = $row_usuario['id'];
 	$_SESSION['nome'] = $row_usuario['nome'];
 	$_SESSION['nivel'] = $row_usuario['nivel'];
-	$resultado = 'adm/administrativo';
+	if ($_SESSION['nivel'] == "1") {
+		$resultado = 'adm/administrativo';
+	} else {
+		$resultado = 'emp/emprestimos';
+	}
 
 	echo $resultado;
 } else { //Nenhum usuário encontrado

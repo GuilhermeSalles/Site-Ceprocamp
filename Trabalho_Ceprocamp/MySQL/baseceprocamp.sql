@@ -19,4 +19,5 @@ CREATE TABLE `usuarios_alunos`(
 
 INSERT INTO `usuarios_alunos` (`nome`,`email`, `usuario`,`nivel`) VALUES
 ('Guilherme Baltazar V. de Sales','estagio.guilhermesales@educa.fumec.sp.gov.br','Guilherme','1')
-('','','',''),
+('CPD CEPROCAMP OURO VERDE','cpd.ouroverde@educa.fumec.sp.gov.br','CPD OV','2'),
+('CEPROCAMP OURO VERDE','ceprocamp.ouroverde@educa.fumec.sp.gov.br','OV','2'),

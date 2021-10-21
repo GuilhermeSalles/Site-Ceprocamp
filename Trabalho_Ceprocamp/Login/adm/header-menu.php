@@ -97,7 +97,7 @@ if (!empty($_SESSION['id'])) {
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
-                            <a class="dropdown-item" href="../sair.php"><img src="../../img/Icone logout/log-out.svg">Sair</a>
+                            <a class="dropdown-item" href="../" onclick="signOut();"><img src="../../img/Icone logout/log-out.svg">Sair</a>
 
                         </ul>
                     </li>
@@ -107,4 +107,11 @@ if (!empty($_SESSION['id'])) {
             </div>
     </nav>
 
-    <!-- Fim do Menu -->
+    <script>
+        function signOut() {
+            var auth2 = gapi.auth2.getAuthInstance();
+            auth2.signOut().then(function() {
+                console.log('User signed out.');
+            });
+        }
+    </script>
