@@ -8,8 +8,7 @@
                <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
                <li data-target="#carouselSite" data-slide-to="1"></li>
                <li data-target="#carouselSite" data-slide-to="2"></li>
-               <li data-target="#carouselSite" data-slide-to="3"></li>
-               <li data-target="#carouselSite" data-slide-to="4"></li>
+               <li data-target="#carouselSite" data-slide-to="3"></li> 
            </ol>
            <!-- Imagens com texto do carrossel -->
            <div class="carousel-item active">
@@ -95,8 +94,8 @@
                        <div class="col-sm-7">
                            <!-- Parte aonde deve colocar o google maps -->
                            <div id="mapf" class="col-sm-12">
-                               <iframe class="map-big" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1798.9940571543414!2d-47.116842885259466!3d-23.03048985924381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8caf3233f980d%3A0x82a178034563018a!2sR.%20Dr.%20Ademir%20Cubero%20Ruano%20-%20Jardim%20Campo%20Belo%2C%20Campinas%20-%20SP%2C%2013053-124!5e1!3m2!1spt-BR!2sbr!4v1621006085372!5m2!1spt-BR!2sbr" width="650" height="450" style="border: 1px solid black; border-radius: 5px;" allowfullscreen="" loading="lazy"></iframe>
-                               <iframe class="map-small" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1798.9940571543414!2d-47.116842885259466!3d-23.03048985924381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8caf3233f980d%3A0x82a178034563018a!2sR.%20Dr.%20Ademir%20Cubero%20Ruano%20-%20Jardim%20Campo%20Belo%2C%20Campinas%20-%20SP%2C%2013053-124!5e1!3m2!1spt-BR!2sbr!4v1621006085372!5m2!1spt-BR!2sbr" width="250" height="150" style="border:1px solid black; border-radius: 5px;" allowfullscreen="" loading="lazy"></iframe>
+                               <iframe class="map-big" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1798.9940571543414!2d-47.116842885259466!3d-23.03048985924381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8caf3233f980d%3A0x82a178034563018a!2sR.%20Dr.%20Ademir%20Cubero%20Ruano%20-%20Jardim%20Campo%20Belo%2C%20Campinas%20-%20SP%2C%2013053-124!5e1!3m2!1spt-BR!2sbr!4v1621006085372!5m2!1spt-BR!2sbr" width="650" height="450" style="border: 1px solid rgb(75, 75, 75); border-radius: 5px;" allowfullscreen="" loading="fast"></iframe>
+                               <iframe class="map-small" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1798.9940571543414!2d-47.116842885259466!3d-23.03048985924381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8caf3233f980d%3A0x82a178034563018a!2sR.%20Dr.%20Ademir%20Cubero%20Ruano%20-%20Jardim%20Campo%20Belo%2C%20Campinas%20-%20SP%2C%2013053-124!5e1!3m2!1spt-BR!2sbr!4v1621006085372!5m2!1spt-BR!2sbr" width="250" height="150" style="border: 1px solid rgb(75, 75, 75); border-radius: 5px;" allowfullscreen="" loading="fast"></iframe>
                            </div>
                        </div>
                    </div>

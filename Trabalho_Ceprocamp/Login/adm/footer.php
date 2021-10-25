@@ -29,9 +29,9 @@
 
                 <h6>Mais</h6>
                 <ul class="footer-links">
-                    <li><a href="../../Calendario">Calendário</a></li>
+                    <li><a href="../../Doc/Calendario">Calendário</a></li>
                     <li><a href="https://www.fumec.sp.gov.br/">FUMEC</a></li>
-                    <li><a href="../../QuemSomos">CEPROCAMP</a></li>
+                    <li><a href="../../Doc/QuemSomos">CEPROCAMP</a></li>
                     <li><a href="../../nit">Equipe NIT</a></li>
                 </ul>
             </div>

@@ -9,7 +9,6 @@
                <li data-target="#carouselSite" data-slide-to="1"></li>
                <li data-target="#carouselSite" data-slide-to="2"></li>
                <li data-target="#carouselSite" data-slide-to="3"></li>
-               <li data-target="#carouselSite" data-slide-to="4"></li>
            </ol>
            <!-- Imagens com texto do carrossel -->
            <div class="carousel-item active">
@@ -100,8 +99,8 @@
                        <div class="col-sm-7">
                            <!-- Parte aonde deve colocar o google maps -->
                            <div id="mapf" class="col-sm-12">
-                               <iframe class="map-big" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.03967901322!2d-47.03118010618148!3d-22.814244450014424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c46ffa21053f%3A0xc09a5eb45955ca5e!2sR.%20Guerino%20Bristotti%2C%20272%20-%20Jardim%20Myrian%20Moreira%20da%20Costa%2C%20Campinas%20-%20SP%2C%2013098-404!5e1!3m2!1spt-BR!2sbr!4v1620950067960!5m2!1spt-BR!2sbr" width="650" height="450" style="border: 1px solid black; border-radius: 5px;" allowfullscreen="" loading="lazy"></iframe>
-                               <iframe class="map-small" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.03967901322!2d-47.03118010618148!3d-22.814244450014424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c46ffa21053f%3A0xc09a5eb45955ca5e!2sR.%20Guerino%20Bristotti%2C%20272%20-%20Jardim%20Myrian%20Moreira%20da%20Costa%2C%20Campinas%20-%20SP%2C%2013098-404!5e1!3m2!1spt-BR!2sbr!4v1620950067960!5m2!1spt-BR!2sbr" width="250" height="150" style="border:1px solid black; border-radius: 5px;" allowfullscreen="" loading="lazy"></iframe>
+                               <iframe class="map-big" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.03967901322!2d-47.03118010618148!3d-22.814244450014424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c46ffa21053f%3A0xc09a5eb45955ca5e!2sR.%20Guerino%20Bristotti%2C%20272%20-%20Jardim%20Myrian%20Moreira%20da%20Costa%2C%20Campinas%20-%20SP%2C%2013098-404!5e1!3m2!1spt-BR!2sbr!4v1620950067960!5m2!1spt-BR!2sbr" width="650" height="450" style="border: 1px solid rgb(75, 75, 75); border-radius: 5px;" allowfullscreen="" loading="fast"></iframe>
+                               <iframe class="map-small" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.03967901322!2d-47.03118010618148!3d-22.814244450014424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c46ffa21053f%3A0xc09a5eb45955ca5e!2sR.%20Guerino%20Bristotti%2C%20272%20-%20Jardim%20Myrian%20Moreira%20da%20Costa%2C%20Campinas%20-%20SP%2C%2013098-404!5e1!3m2!1spt-BR!2sbr!4v1620950067960!5m2!1spt-BR!2sbr" width="250" height="150" style="border: 1px solid rgb(75, 75, 75); border-radius: 5px;" allowfullscreen="" loading="fast"></iframe>
                            </div>
                        </div>
                    </div>

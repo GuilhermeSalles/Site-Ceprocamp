@@ -40,7 +40,7 @@
 #area .filter-btn {
   color: rgb(85, 85, 85);
   border: 1px solid #fe5722;
-  box-shadow: 2px 2px 2px rgba(75, 75, 75, 0.501);
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 5px 6px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
   background-color: transparent;
   text-transform: none;
   margin: 0 15px;
@@ -72,7 +72,7 @@ h2 {
 /* Sombras Imagens */
 
 .img-fluid {
-  box-shadow: 3px 3px 3px rgba(75, 75, 75, 0.501);
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 14px 18px, rgba(75, 75, 75, 0.22) 0px 10px 10px;
 }
 
 /* Animate */
@@ -102,23 +102,26 @@ h2 {
 /* Cards */
 
 .card {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 14px 18px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 /* Link NIT */
 
 .linkNIT {
   color: #FE5722FF;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .linkNIT:hover {
   color: rgba(232, 114, 23, 0.755);
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 /* Boto carrossel */
 
 .btn-light {
   margin-bottom: 5px;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 /* Carrosel li */
@@ -164,6 +167,7 @@ ul.b {
   height: 5px;
   margin-top: 0%;
   background-image: linear-gradient(to right, transparent, #FE5722FF, transparent);
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .divisao {
@@ -171,7 +175,7 @@ ul.b {
   border: solid;
   color: #FE5722FF;
   border-radius: 10px;
-  box-shadow: 2px 2px 2px gray;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .hr3 {
@@ -179,17 +183,10 @@ ul.b {
   border: solid;
   color: #FE5722FF;
   border-radius: 10px;
-  box-shadow: 2px 2px 2px gray;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .Qp {
-  border: 0;
-  height: 1px;
-  margin-top: 0%;
-  background-image: linear-gradient(to right, transparent, #FE5722FF, transparent);
-}
-
-.F {
   border: 0;
   height: 1px;
   margin-top: 0%;
@@ -203,40 +200,11 @@ ul.b {
   background-image: linear-gradient(to right, transparent, #091db325, transparent);
 }
 
-.hr4NIT {
-  border: 0;
-  height: 2px;
-  background-image: linear-gradient(to right, #FE5722FF, #FE5722FF, transparent);
-}
-
-.hr4NIT2 {
-  border: 0;
-  height: 2px;
-  background-image: linear-gradient(to right, #FE5722FF, transparent, transparent);
-}
-
-.hr4F {
-  border: 0;
-  height: 2px;
-  background-image: linear-gradient(to right, #FE5722FF, rgba(248, 214, 203, 0.822), #FE5722FF);
-}
-
-.hr4F1 {
-  border: 0;
-  height: 2px;
-  background-image: linear-gradient(to right, #FE5722FF, #FE5722FF, #FE5722FF);
-}
-
 .LinkNit {
   border: 0;
   height: 2px;
   background-image: linear-gradient(to right, transparent, #FE5722FF, transparent);
-}
-
-.hr4M {
-  border: 0;
-  height: 2px;
-  background-image: linear-gradient(to right, #CCC, transparent, transparent);
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .hr5 {
@@ -244,6 +212,7 @@ ul.b {
   border: solid;
   color: #FE5722FF;
   border-radius: 10px;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .hrPER {
@@ -252,6 +221,7 @@ ul.b {
   color: #FE5722FF;
   border-radius: 10px;
   margin-top: 0%;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .NIT {
@@ -260,14 +230,15 @@ ul.b {
   color: #FE5722FF;
   border-radius: 10px;
   margin-top: 0%;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
-.estru {
-  width: 100%;
+.hr5r {
+  width: 10%;
   border: solid;
   color: #FE5722FF;
   border-radius: 10px;
-  margin-top: 0%;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .hrPER1 {
@@ -276,6 +247,7 @@ ul.b {
   color: #FE5722FF;
   border-radius: 10px;
   margin-top: 0%;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .hrPER2 {
@@ -284,6 +256,7 @@ ul.b {
   color: #FE5722FF;
   border-radius: 10px;
   margin-top: 0%;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .hrPER3 {
@@ -292,6 +265,7 @@ ul.b {
   color: #FE5722FF;
   border-radius: 10px;
   margin-top: 0%;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .hrPER4 {
@@ -300,6 +274,7 @@ ul.b {
   color: #FE5722FF;
   border-radius: 10px;
   margin-top: 0%;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .hrPER5 {
@@ -308,6 +283,7 @@ ul.b {
   color: #FE5722FF;
   border-radius: 10px;
   margin-top: 0%;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .hrPER6 {
@@ -316,92 +292,32 @@ ul.b {
   color: #FE5722FF;
   border-radius: 10px;
   margin-top: 0%;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
-.hr5r {
-  width: 10%;
-  border: solid;
-  color: #FE5722FF;
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px gray;
-}
-
-.hr5u {
-  width: 30%;
-  border: solid;
-  color: #FE5722FF;
-  border-radius: 10px;
-}
-
-.hr5P {
-  margin-top: 0%;
-  width: 32%;
-  border: solid;
-  color: #FE5722FF;
-  border-radius: 10px;
-}
-
-.hr5E {
-  margin-top: 0%;
-  width: 35%;
-  border: solid;
-  color: #FE5722FF;
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px gray;
-}
-
-.hr5Ri {
-  margin-top: 0%;
-  width: 83%;
-  border: solid;
-  color: #FE5722FF;
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px gray;
-}
-
-.hr5c {
-  margin-top: 0%;
-  width: 58%;
-  border: solid;
-  color: #FE5722FF;
-  border-radius: 10px;
-}
-
-.hr5cer {
-  margin-top: 0%;
-  width: 40%;
-  border: solid;
-  color: #FE5722FF;
-  border-radius: 10px;
-}
-
-.hr5Per {
-  margin-top: 0%;
-  width: 10%;
-  border: solid;
-  color: #FE5722FF;
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px gray;
-}
 
 /* A:houver */
 
 .ahouver {
   color: #FE5722FF;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .ahouver:hover {
   color: blue;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 /* Botoes */
 
 .btn-danger {
   background-color: rgb(202, 83, 47);
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .btn-danger:hover {
   background-color: #fe5722;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 /* Textos */
@@ -424,6 +340,7 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
   }
 }
 
@@ -450,6 +367,7 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
   }
 }
 

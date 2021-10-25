@@ -3,11 +3,12 @@
 
   .bhouver {
     background-color: #fe5722;
-    box-shadow: 3px 3px 3px rgba(75, 75, 75, 0.501);
+    box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
   }
 
   .bhouver:hover {
     background-color: rgb(169, 55, 21);
+    box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
   }
 
   @media only screen and (max-width: 750px) {
