@@ -60,7 +60,7 @@
        <div class="card-deck">
            <div class="card m-3">
 
-               <img class="card-img-top" src="nit.jpg" alt="Imagem de capa do card">
+               <img class="card-img-top" src="img/nit.jpg" alt="Imagem de capa do card">
                <div class="card-body">
                    <h5 class="card-title bold">Andrea Jaconi</h5>
                    <p class="card-text">Gestora do Projeto.</p>
@@ -93,7 +93,7 @@
            </div>
 
            <div class="card m-3">
-               <img class="card-img-top" src="nit.jpg" alt="Imagem de capa do card">
+               <img class="card-img-top" src="img/nit.jpg" alt="Imagem de capa do card">
                <div class="card-body">
                    <h5 class="card-title bold">Gleida de Carvalho</h5>
                    <p class="card-text">Suplente Gestão.</p>
@@ -127,7 +127,7 @@
            </div>
 
            <div class="card m-3">
-               <img class="card-img-top" src="nit.jpg" alt="Imagem de capa do card">
+               <img class="card-img-top" src="img/nit.jpg" alt="Imagem de capa do card">
                <div class="card-body">
                    <h5 class="card-title bold">Edgar Mekaro</h5>
                    <p class="card-text">Responsável Técnico.</p>
@@ -165,7 +165,7 @@
        <div class="card-deck">
            <div class="card m-3">
 
-               <img class="card-img-top" src="nit.jpg" alt="Imagem de capa do card">
+               <img class="card-img-top" src="img/nit.jpg" alt="Imagem de capa do card">
                <div class="card-body">
                    <h5 class="card-title bold">Thayná Ujimori</h5>
                    <p class="card-text">Responsável Técnico Suplente.</p>
@@ -215,7 +215,7 @@
        <div class="card-deck">
            <div class="card m-3">
 
-               <img class="card-img-top" src="nit.jpg" alt="Imagem de capa do card">
+               <img class="card-img-top" src="img/nit.jpg" alt="Imagem de capa do card">
                <div class="card-body">
                    <h5 class="card-title bold">Giovanna Galhardo</h5>
                    <p class="card-text">Responsável pelo Eixo Gerencial.</p>
@@ -248,7 +248,7 @@
            </div>
 
            <div class="card m-3">
-               <img class="card-img-top" src="nit.jpg" alt="Imagem de capa do card">
+               <img class="card-img-top" src="img/nit.jpg" alt="Imagem de capa do card">
                <div class="card-body">
                    <h5 class="card-title bold">Rodrigo Bueno</h5>
                    <p class="card-text">Apoio Gerencial dos Eixos.</p>
@@ -281,7 +281,7 @@
            </div>
 
            <div class="card m-3">
-               <img class="card-img-top" src="nit.jpg" alt="Imagem de capa do card">
+               <img class="card-img-top" src="img/nit.jpg" alt="Imagem de capa do card">
                <div class="card-body">
                    <h5 class="card-title bold">Daniella Nogueira</h5>
                    <p class="card-text">Responsável pelo Eixo de Marketing.</p>
@@ -319,7 +319,7 @@
        <div class="card-deck">
            <div class="card m-3">
 
-               <img class="card-img-top" src="nit.jpg" alt="Imagem de capa do card">
+               <img class="card-img-top" src="img/nit.jpg" alt="Imagem de capa do card">
                <div class="card-body">
                    <h5 class="card-title bold">Igor Rodrigues</h5>
                    <p class="card-text">Responsável pelo Eixo de Tecnológia.</p>
@@ -354,7 +354,7 @@
 
            <div class="card m-3">
 
-               <img class="card-img-top" src="nit.jpg" alt="Imagem de capa do card">
+               <img class="card-img-top" src="img/nit.jpg" alt="Imagem de capa do card">
                <div class="card-body">
                    <h5 class="card-title bold">Rosane Monteiro</h5>
                    <p class="card-text">Apoio Pedagócio aos Eixos</p>
@@ -402,7 +402,7 @@
        <div class="card-deck">
            <div class="card m-3">
 
-               <img class="card-img-top" src="nit.jpg" alt="Imagem de capa do card">
+               <img class="card-img-top" src="img/nit.jpg" alt="Imagem de capa do card">
                <div class="card-body">
                    <h5 class="card-title bold">Guilherme Baltazar</h5>
                    <p class="card-text">Desenvolvedor do Site.</p>
@@ -435,7 +435,7 @@
            </div>
 
            <div class="card m-3">
-               <img class="card-img-top" src="nit.jpg" alt="Imagem de capa do card">
+               <img class="card-img-top" src="img/nit.jpg" alt="Imagem de capa do card">
                <div class="card-body">
                    <h5 class="card-title bold">Isacc Pinheiro</h5>
                    <p class="card-text">Desenvolvedor de Sistema.</p>
@@ -468,7 +468,7 @@
            </div>
 
            <div class="card m-3">
-               <img class="card-img-top" src="nit.jpg" alt="Imagem de capa do card">
+               <img class="card-img-top" src="img/nit.jpg" alt="Imagem de capa do card">
                <div class="card-body">
                    <h5 class="card-title bold">Jefferson Balduíno</h5>
                    <p class="card-text">Desenvolvedor de Soluções.</p>

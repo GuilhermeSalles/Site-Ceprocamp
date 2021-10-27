@@ -5,8 +5,8 @@
 <div class="container">
     <div class="row">
 
-        <div class="col-10">
-            <h3 style="font-weight: bold; color: #fe5722"> <img class="mb-1" src=" ../img/Icones dia/book.svg">
+        <div class="col-9">
+            <h3 style="font-weight: bold; color: #fe5722"><img class="mb-1" src="../img/Icones dia/book.svg">
                 Microempreendedor</h3>
         </div>
 

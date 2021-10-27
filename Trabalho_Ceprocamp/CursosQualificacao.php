@@ -465,7 +465,7 @@
 
                <div class="col-md-4 project-box m t n">
                    <div class="card">
-                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/8.png" alt="Imagem de capa do card">
+                       <img class="card-img-top" src="img/CAPA MINIATURA CURSOS/15.png" alt="Imagem de capa do card">
                        <div class="card-body">
                            <h6 class="card-title">AUXILIAR ADMINISTRATIVO</h6>
                            <p class="card-text">Aprenda a colaborar para o funcionamento e continuidade dos serviços em empresas.
