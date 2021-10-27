@@ -87,16 +87,16 @@
                    <div class="row">
                        <div class="col-sm-5">
                            <!-- Parte da descrissão -->
-                           <h1>Unidade Ouro Verde</h1>
+                           <h1 class="bold">Unidade Ouro Verde</h1>
                            <br>
-                           <span style="font-weight: bold;">Endereço: </span>Rua armando frederico renganeschi, 61
+                           <span  class="bold">Endereço: </span>Rua armando frederico renganeschi, 61
                            <br>
-                           Jardim Cristina (segundo andar), Campinas - SP. <br><span style="font-weight: bold;">CEP:</span>
+                           Jardim Cristina (segundo andar), Campinas - SP. <br><span  class="bold">CEP:</span>
                            13054-000.
 
-                           <p style="font-weight: bold">Para mais informações:</p><span style="font-weight: bold;">Telefone:</span>
+                           <p  class="bold">Para mais informações:</p><span  class="bold">Telefone:</span>
                            (19) 3731.3650. <br>
-                           <span style="font-weight: bold;">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.ceprocamp@campinas.sp.gov.br">fumec.ceprocamp@campinas.sp.gov.br</a>
+                           <span  class="bold">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.ceprocamp@campinas.sp.gov.br">fumec.ceprocamp@campinas.sp.gov.br</a>
                            </p>
                        </div>
                        <div class="col-sm-7">

@@ -3,11 +3,14 @@
     <br>
     <br>
 
+    <?php include 'avisos.php' ?>
+    <!-- Fim avisos -->
+    <br>
     <div class="container">
         <div class="row">
 
             <div class="col-12 text-center">
-                <h4 class="display-4">Unidades Parceiras</h4>
+                <h4 class="display-4 bold">Unidades Parceiras</h4>
                 <p>Conheça aqui algumas das unidades parceiras em que os cursos do Ceprocamp está presente! Além disso,
                     clique em "Ver mais" e confira os cursos disponíveis e que podem fazer a diferença na sua carreira
                     profissional!</p>
@@ -21,7 +24,7 @@
 
                     <img class="card-img-top" src="../../../img/MaoAmiga.jpeg" alt="Imagem de capa do card">
                     <div class="card-body">
-                        <h5 class="card-title">Mão Amiga</h5>
+                        <h5 class="card-title bold">Mão Amiga</h5>
                         <p class="card-text">O Programa Mão Amiga tem o objetivo promover formação profissional às
                             pessoas em situação de rua, buscando reinseri-las no mercado de trabalho e,
                             consequentemente, no convívio familiar e social. Os bolsistas são indicados pelos
@@ -35,7 +38,7 @@
                 <div class="card">
                     <img class="card-img-top" src="../../../img/CIC.jpeg" alt="Imagem de capa do card">
                     <div class="card-body">
-                        <h5 class="card-title">CIC</h5>
+                        <h5 class="card-title bold">CIC</h5>
                         <p class="card-text">O Centro de Integração da Cidadania (CIC) é um programa da Secretaria
                             da Justiça e Cidadania do Estado de São Paulo e tem como missão oferecer a população em
                             regiões de grande vulnerabilidade social acesso a serviços de emissão de documentos,
@@ -51,13 +54,13 @@
                 <div class="card">
                     <img class="card-img-top" src="../../../img/Ceasa.jpeg" alt="Imagem de capa do card">
                     <div class="card-body">
-                        <h5 class="card-title">Ceasa</h5>
+                        <h5 class="card-title bold">Ceasa</h5>
                         <p class="card-text">A CEASA - Campinas (Central de Abastecimento), empresa da Prefeitura de
                             Campinas, é uma das maiores centrais de administração de mercados do Brasil. Abastece
                             por volta de 500 municípios na região e conta com 964 atacadistas com grande variedade
                             de produtos hortifrutigranjeiros, cereais, flores, plantas, paisagismo e acessórios.
                         </p>
-                        <a href="ceasa" class="muted btn btn-danger">Ver Mais</a>
+                        <a href="ceasa" class="btn btn-danger">Ver Mais</a>
                     </div>
                 </div>
 

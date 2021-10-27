@@ -79,20 +79,19 @@
                    <div class="row">
                        <div class="col-sm-5">
                            <!-- Parte da descrissão -->
-                           <h1>Descentralizada Adhemar Carvalho Dias(Myrian)</h1>
+                           <h1 class="bold">Descentralizada Adhemar Carvalho Dias(Myrian)</h1>
                            <br>
-                           <span style="font-weight: bold;">Endereço: </span>Av. Professsor Mário
-                           Scolari, 91<br>
-                           Cidade Satélite Íris, Campinas - SP. <br><span style="font-weight: bold;">CEP:</span>
-                           13059-605.
+                           <span  class="bold">Endereço: </span>R. Guerino Bristotti, 272 <br>
+                           Jardim Myrian Moreira da Costa, Campinas - SP.<br><span  class="bold">CEP:</span>
+                           13098-404.
 
-                           <p style="font-weight: bold">Para mais informações:</p>
-                           <span style="font-weight: bold;">Diretores Educacionais: </span> <br>
-                           <span style="font-weight: bold"> Ana Paula Lourençano Braz</span> - (19) 97159-2292<br>
-                           <span style="font-weight: bold">Josiane Regina de Souza Buzioli</span> - (19) 97159-3172
-                           <span style="font-weight: bold;">Telefone:</span> (19) 3273.1000 |
+                           <p  class="bold">Para mais informações:</p>
+                           <span  class="bold">Diretores Educacionais: </span> <br>
+                           <span  class="bold"> Ana Paula Lourençano Braz</span> - (19) 97159-2292<br>
+                           <span  class="bold">Josiane Regina de Souza Buzioli</span> - (19) 97159-3172
+                           <span  class="bold">Telefone:</span> (19) 3273.1000 |
                            3231.0519 <br>
-                           <span style="font-weight: bold;">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.regionalleste@campinas.sp.gov.br">fumec.regionalleste@campinas.sp.gov.br</a>
+                           <span  class="bold">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.regionalleste@campinas.sp.gov.br">fumec.regionalleste@campinas.sp.gov.br</a>
                            <!-- <span style="color: darkgreen;">Whatsapp:</span> (19) 99802-2423. <br> -->
                            </p>
                        </div>

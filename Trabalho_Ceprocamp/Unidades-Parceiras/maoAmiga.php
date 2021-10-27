@@ -3,42 +3,7 @@
 <br>
 <br>
 
-<div class="jumbotron jumbotron-fluid" style="background-color: rgba(225, 155, 153, 0.193);">
-    <div class="container">
-        <div class="tab-content" id="nav-pills-content">
-            <div id="carouselAviso" class="carousel slide d-block" data-ride="carousel" data-interval="5000">
-
-                <div class="carousel-inner">
-
-                    <!-- Imagens com texto do carrossel -->
-                    <div class="carousel-item active">
-                        <div class="text-justify">
-                            <h3 class="text-center d-sm-block">Campanha de Vacinação Contra a Gripe 2021
-                            </h3>
-                            <p> <span style="visibility: hidden; color: #e1e1e1;">kkkkk</span> A vacinação contra
-                                gripe é segura e permite a prevenção do surgimento de complicações
-                                decorrentes da doença, mortes e suas consequências, diminuindo a carga da doença e
-                                reduzindo os sintomas que podem ser confundidos com os da COVID-19. Dessa forma, a
-                                vacinação é feita dentro das normas sanitárias vigentes.
-                                Podem ser vacinados: crianças entre entre 6 meses e 6 anos (até 5 anos, 11 meses e
-                                29 dias), grávidas, mulheres que deram a luz nos últimos 45 dias, idosos com 60 anos
-                                ou mais, professores de escolas públicas e privadas, pessoas com deficiência
-                                permanente etc. Caso tenha dúvidas se alguém pode ou não tomar a vacina, acesse:
-                                <a href="https://www.gov.br/saude/pt-br/media/pdf/2021/marco/16/informe-tecnico-influenza-2021.pdf">https://www.gov.br/saude/pt-br/media/pdf/2021/marco/16/informe-tecnico-influenza-2021.pdf</a>.
-                                <br> <span style="visibility: hidden; color: #e1e1e1;">kkkkk</span> Na página 3,
-                                desse site tem todas as informações necessárias!
-                                Tem um filho nessa idade, conhece alguma gestante ou idoso? Leve-o para vacinar!! A
-                                vacina salva-vidas!
-                                Para saber o centro de saúde mais próximo da sua casa, basta ligar no 156 ou
-                                acessar: <a href="vacina.campinas.sp.gov.br">vacina.campinas.sp.gov.br</a>.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<?php include 'avisos.php' ?>
 <!-- Fim avisos -->
 
 <!-- Parte cinza claro sobre o Local que deve colocar o google maps e alterar a descrissão-->
@@ -53,10 +18,9 @@
                         <h1>Mão Amiga</h1>
                         <br>
                         <!-- Arrumar endereço, telefone, e e-mail -->
-                        <span style="font-weight: bold;">Endereço: </span>Av. Professsor Mário
-                        Scolari, 91<br>
-                        Cidade Satélite Íris, Campinas - SP. <br><span style="font-weight: bold;">CEP:</span>
-                        13059-605.
+                        <span style="font-weight: bold;">Endereço: </span>Av. Dr. Heitor Penteado, 2145 -<br>
+                        Parque Taquaral, Campinas - SP. <br><span style="font-weight: bold;">CEP:</span>
+                        13087-000.
 
                         <p style="font-weight: bold">Para mais informações:</p>
                         <span style="font-weight: bold;">Diretores Educacionais: </span> <br>

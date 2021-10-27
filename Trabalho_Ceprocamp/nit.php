@@ -6,10 +6,6 @@
            color: #fe5722;
        }
 
-       ul {
-           text-align: center;
-       }
-
        .link {
            font-weight: bold;
            color: #FE5722FF;
@@ -252,7 +248,7 @@
            </div>
 
            <div class="card m-3">
-               <img class="card-img-top" src="img/Imagens_NIT/Rodrigo.jpeg" alt="Imagem de capa do card">
+               <img class="card-img-top" src="nit.jpg" alt="Imagem de capa do card">
                <div class="card-body">
                    <h5 class="card-title bold">Rodrigo Bueno</h5>
                    <p class="card-text">Apoio Gerencial dos Eixos.</p>
@@ -517,14 +513,14 @@
 
        <div class="row">
            <div class="col-12 text-center">
-               <h1 class="bold"> Links NIT</h1>
+               <h1 class="bold">Links NIT</h1>
                <hr class="NIT">
            </div>
        </div>
 
        <br>
-
-       <h4 class="text-center">ATAS</h4>
+       <!--
+       <h4 class="text-center">Projetos</h4>
        <div class="accordion" id="accordionExample">
 
            <div class="card">
@@ -561,307 +557,11 @@
                </div>
            </div>
 
-           <div class="card">
-               <div class="card-header" id="heading3">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                           ATA NIT 03/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1DoiQ3JIYa0Un9V8M323DMoDzfUPP2APc/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card-header" id="heading4">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                           ATA NIT 04/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1Wb7MWZZB-2c2MgqRYacVZOVu-B8cKgDl/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card-header" id="heading5">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                           ATA NIT 05/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1Qkib2X3bm_0tg9_82FdRoltBsb1uCiKj/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card-header" id="heading6">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                           ATA NIT 06/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1K7yA9R74kqXgkbJyh3MgeK9PA59BnxpJ/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card-header" id="heading7">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                           ATA NIT 07/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14hVQVb2vTiC_K7bKTZKxWlNGbfhvjX_C/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card-header" id="heading8">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
-                           ATA NIT 08/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1qHqp3JJWA4sCPrmGIsx5fRByPfjznamS/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card-header" id="heading9">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
-                           ATA NIT 09/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1DEOyNrSjCtKbjlhV8BOy7160Qo9qBR3n/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card-header" id="heading10">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
-                           ATA NIT 10/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1U4kce6XGpy6VdXLZ_o-OtQDfby3z-pE7/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card-header" id="heading11">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
-                           ATA NIT 11/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1_BN0txjdunV3I8l0xNOyc1-bN0esmzIM/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card-header" id="heading12">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
-                           ATA NIT 12/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse12" class="collapse" aria-labelledby="heading12" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1U5xOs1AO4s57t-9hIkJtlhxL-GtdVFFl/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card-header" id="heading13">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
-                           ATA NIT 13/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse13" class="collapse" aria-labelledby="heading13" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1XbNUMaBxvyySk5hVh4EkPkNffHiPlg-g/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card-header" id="heading14">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
-                           ATA NIT 14/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse14" class="collapse" aria-labelledby="heading14" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1XbNUMaBxvyySk5hVh4EkPkNffHiPlg-g/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card-header" id="heading15">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
-                           ATA NIT 15/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse15" class="collapse" aria-labelledby="heading15" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1XbNUMaBxvyySk5hVh4EkPkNffHiPlg-g/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card-header" id="heading16">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
-                           ATA NIT 16/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse16" class="collapse" aria-labelledby="heading16" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1XbNUMaBxvyySk5hVh4EkPkNffHiPlg-g/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card-header" id="heading17">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
-                           ATA NIT 17/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse17" class="collapse" aria-labelledby="heading17" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1XbNUMaBxvyySk5hVh4EkPkNffHiPlg-g/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <div class="card">
-               <div class="card-header" id="heading18">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
-                           ATA NIT 18/2021
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse18" class="collapse" aria-labelledby="heading18" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1XbNUMaBxvyySk5hVh4EkPkNffHiPlg-g/preview" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-           <br>
-
-       </div>
-
-       <h4 class="text-center">AGENDA DO NIT</h4>
-       <div class="accordion" id="accordionExample">
-
-           <div class="card">
-               <div class="card-header" id="heading1">
-                   <h2 class="mb-0">
-                       <button class="text-center link btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                           Clique para ver mais
-                       </button>
-                   </h2>
-               </div>
-               <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
-                   <div class="card-body">
-                       <div class="embed-responsive embed-responsive-1by1">
-                           <iframe class="embed-responsive-item" src="https://calendar.google.com/calendar/u/0/embed?src=c_mnp8flft56fqljkdqkghgabrkc@group.calendar.google.com&ctz=America/Sao_Paulo" width="640" height="480" allow="autoplay"></iframe>
-                       </div>
-                   </div>
-               </div>
-           </div>
-
-       </div>
+       </div>-->
 
        <br>
 
-       <h4 class="text-center">AÇÕES</h4>
+       <h4 class="text-center bold">AÇÕES</h4>
        <div class="accordion" id="accordionExample">
 
            <div class="card">
@@ -873,7 +573,9 @@
                    </h2>
                </div>
            </div>
-
+                            
+           <br>
+           
            <div class="card">
                <div class="card-header">
                    <h2 class="mb-0">

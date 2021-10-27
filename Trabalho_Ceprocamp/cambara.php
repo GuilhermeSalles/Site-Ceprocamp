@@ -79,17 +79,16 @@
                     <div class="row">
                         <div class="col-sm-5">
                             <!-- Parte da descrissão -->
-                            <h1>Fumec Descentralizada Cambará</h1>
+                            <h1 class="bold">Fumec Descentralizada Cambará</h1>
                             <br>
-                            <span style="font-weight: bold;">Endereço: </span>Av. Professsor Mário
-                            Scolari, 91<br>
-                            Cidade Satélite Íris, Campinas - SP. <br><span style="font-weight: bold;">CEP:</span>
-                            13059-605.
+                            <span class="bold">Endereço: </span>Avenida Emili Cristiene Giovanini, 1 <br>
+                            Dic IV (Conjunto Hab. Lech Walesa), Campinas - SP. <br><span class="bold">CEP:</span>
+                            13054-506.
 
-                            <p style="font-weight: bold">Para mais informações:</p>
-                            <span style="font-weight: bold;">Telefone:</span>
+                            <p class="bold">Para mais informações:</p>
+                            <span class="bold">Telefone:</span>
                             (19) 3224.5357 | (19) 3268.9889 <br>
-                            <span style="font-weight: bold;">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.regionalsudoeste@campinas.sp.gov.br">fumec.regionalsudoeste@campinas.sp.gov.br</a>
+                            <span class="bold">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.regionalsudoeste@campinas.sp.gov.br">fumec.regionalsudoeste@campinas.sp.gov.br</a>
                             <!-- <span style="color: darkgreen;">Whatsapp:</span> (19) 99802-2423. <br> -->
                             </p>
                         </div>

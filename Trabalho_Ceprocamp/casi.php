@@ -79,15 +79,15 @@
                    <div class="row">
                        <div class="col-sm-5">
                            <!-- Parte da descrissão -->
-                           <h3>CEPROCAMP DESCENTRALIZADA CASI</h3>
+                           <h3 class="bold">CEPROCAMP DESCENTRALIZADA CASI</h3>
                            <br>
-                           <span style="font-weight: bold;">Endereço: </span>Rua Doutor Ademir Cubero
+                           <span class="bold">Endereço: </span>Rua Doutor Ademir Cubero
                            Ruano, s/nº - Jardim Campo Belo Campinas - SP. <br>
 
-                           <p style="font-weight: bold">Para mais informações:</p>
-                           <span style="font-weight: bold;">Telefone:</span> (19) 3224.5357 | (19)
+                           <p class="bold">Para mais informações:</p>
+                           <span class="bold">Telefone:</span> (19) 3224.5357 | (19)
                            3268.9889 <br>
-                           <span style="font-weight: bold;">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.regionalsudoeste@campinas.sp.gov.br">fumec.regionalsudoeste@campinas.sp.gov.br</a>
+                           <span class="bold">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.regionalsudoeste@campinas.sp.gov.br">fumec.regionalsudoeste@campinas.sp.gov.br</a>
                            <!-- <span style="color: darkgreen;">Whatsapp:</span> (19) 99802-2423. <br> -->
                            </p>
                        </div>

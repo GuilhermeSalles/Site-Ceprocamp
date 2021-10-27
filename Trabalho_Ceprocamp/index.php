@@ -243,17 +243,17 @@
                 <div class="row">
                     <div class="col-sm-5">
                         <!-- Parte da descrissão -->
-                        <h1>Ceprocamp - Centro </h1>
+                        <h1 class="bold">Ceprocamp - Centro </h1>
                         <br>
-                        <span style="font-weight: bold;">Endereço: </span>Avenida 20 de Novembro,
+                        <span class="bold">Endereço: </span>Avenida 20 de Novembro,
                         145. <br>
-                        Campinas-SP (ao lado da Estação Cultura). <br><span style="font-weight: bold;">CEP:</span>
+                        Campinas-SP (ao lado da Estação Cultura). <br><span class="bold">CEP:</span>
                         13013-140.
-                        <p><span style="font-weight: bold;">Gestor:</span> Laderlei Luiz Marangoni
+                        <p><span class="bold">Gestor:</span> Laderlei Luiz Marangoni
                         </p>
-                        <p style="font-weight: bold">Para mais informações:</p><span style="font-weight: bold;">Telefone:</span>
+                        <p class="bold">Para mais informações:</p><span class="bold">Telefone:</span>
                         (19) 3731.3650. <br>
-                        <span style="font-weight: bold;">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.ceprocamp@campinas.sp.gov.br">fumec.ceprocamp@campinas.sp.gov.br</a>
+                        <span class="bold">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.ceprocamp@campinas.sp.gov.br">fumec.ceprocamp@campinas.sp.gov.br</a>
                         <!-- <span style="color: darkgreen;">Whatsapp:</span> (19) 99802-2423. <br> -->
                         </p>
                     </div>

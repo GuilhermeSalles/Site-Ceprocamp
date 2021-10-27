@@ -79,15 +79,15 @@
                     <div class="row">
                         <div class="col-sm-5">
                             <!-- Parte da descrissão -->
-                            <h1>Fumec Descentralizada Campo Grande</h1>
+                            <h1 class="bold">Fumec Descentralizada Campo Grande</h1>
                             <br>
-                            <span style="font-weight: bold;">Endereço: </span>AR. Edson Luiz Rigonatto,
+                            <span class="bold">Endereço: </span>R. Edson Luiz Rigonatto,
                             1343. <br>
-                            Jardim Santa Clara, Campinas - SP. <br><span style="font-weight: bold;">CEP:</span>
+                            Jardim Santa Clara, Campinas - SP. <br><span class="bold">CEP:</span>
                             13058-316.
 
-                            <p style="font-weight: bold">Para mais informações:</p><span style="font-weight: bold;">Telefone:</span> (19) 3233.6266 <br>
-                            <span style="font-weight: bold;">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.noroeste@campinas.sp.gov.br">fumec.noroeste@campinas.sp.gov.br</a>
+                            <p class="bold">Para mais informações:</p><span class="bold">Telefone:</span> (19) 3233.6266 <br>
+                            <span class="bold">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.noroeste@campinas.sp.gov.br">fumec.noroeste@campinas.sp.gov.br</a>
                             <!-- <span style="color: darkgreen;">Whatsapp:</span> (19) 99802-2423. <br> -->
                             </p>
                         </div>
