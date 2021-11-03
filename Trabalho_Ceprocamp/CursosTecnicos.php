@@ -1,7 +1,7 @@
 <?php include 'header-menu.php' ?>
 
 <style>
-    h6 {
+    h5 {
         font-weight: bold;
         color: rgb(75, 75, 75);
     }

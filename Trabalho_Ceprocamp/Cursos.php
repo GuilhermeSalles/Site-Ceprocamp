@@ -1,12 +1,5 @@
 <?php include 'header-menu.php' ?>
 
-<style>
-    h6 {
-        font-weight: bold;
-        color: rgb(75, 75, 75);
-    }
-</style>
-
 <br>
 <div class="container">
     <div class="texte-center">
@@ -20,7 +13,7 @@
         <div class="card">
             <img class="card-img-top" src="img/tec.png" alt="Imagem de capa do card">
             <div class="card-body">
-                <h6 class="card-title">Cursos Técnico</h6>
+                <h5 class="card-title bold">Cursos Técnico</h6>
                 <p class="card-text">Cursos certificados para atuação técnica e inserção no mercado de trabalho.
                 </p>
                 <a href="CursosTecnicos" class="btn btn-danger">Veja mais</a>
@@ -30,7 +23,7 @@
         <div class="card">
             <img class="card-img-top" src="img/qp.png" alt="Imagem de capa do card">
             <div class="card-body">
-                <h6 class="card-title">Qualificação profissional</h6>
+                <h5 class="card-title bold">Qualificação profissional</h6>
                 <p class="card-text">Cursos rápidos para atualização e profissionalização.
                 </p>
                 <a href="CursosQualificacao" class="btn btn-danger">Veja mais</a>
