@@ -6,6 +6,7 @@ if (!empty($_SESSION['id'])) {
     header("Location: ../");
 }
 ?>
+
 <!doctype html>
 <html lang="pt-br">
 
@@ -18,6 +19,9 @@ if (!empty($_SESSION['id'])) {
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!--Google -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="237928075703-h7mk6rg7mkde3u3sl2spv49dkgrdmaol.apps.googleusercontent.com">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
@@ -59,27 +63,19 @@ if (!empty($_SESSION['id'])) {
             </div>
             <div class="collapse navbar-collapse" id="navbarSite">
                 <ul class="navbar-nav mr-auto">
-                    <?php if ($_SESSION['usuarioNiveisAcessoId'] == "1") { ?>
+                    <?php if ($_SESSION['nivel'] == "1") { ?>
                         <li class="nav-item">
                             <a class="nav-link" href="../adm/Administrativo">Administrativo</a>
                         </li>
                     <?php } ?>
-                    <?php if ($_SESSION['usuarioNiveisAcessoId'] == "1") { ?>
+                    <?php if ($_SESSION['nivel'] == "1") { ?>
                         <li class="nav-item">
                             <a class="nav-link" href="../excel/gerar_planilha">Excel de Registro de Interesse</a>
                         </li>
                     <?php } ?>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Lista e cadastro de equipamentos
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-
-                            <a class="dropdown-item" href="fomulario-Emprestimo">Cadastrar emprestimo</a>
-                            <a class="dropdown-item" href="emprestimos">Listar emprestimos</a>
-
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../emp/emprestimos">Lista e cadastro de equipamentos</a>
                     </li>
 
                     <!--
@@ -91,7 +87,6 @@ if (!empty($_SESSION['id'])) {
                         <a class="nav-link" href="https://www.fumec.sp.gov.br/">FUMEC</a>
                     </li>
                         -->
-
                 </ul>
 
                 <ul class="navbar-nav">

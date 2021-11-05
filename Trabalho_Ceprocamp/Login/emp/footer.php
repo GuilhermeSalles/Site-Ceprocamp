@@ -79,23 +79,6 @@
 <!-- Script Menu -->
 <script src="../../js/menu.js"></script>
 
-<!-- Script Collapse -->
-<script>
-    var coll = document.getElementsByClassName("collapsibleCurso");
-    var i;
-
-    for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-            this.classList.toggle("activeCurso");
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight) {
-                content.style.maxHeight = null;
-            } else {
-                content.style.maxHeight = content.scrollHeight + "px";
-            }
-        });
-    }
-</script>
 
 </body>
 
