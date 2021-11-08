@@ -1,7 +1,7 @@
 <!-- footer -->
 <footer class="site-footer">
 
-    <div class="container">
+    <div class="container col-11">
         <div class="row">
 
             <div class="col-sm-12 col-md-6">
@@ -42,7 +42,7 @@
         <hr>
 
     </div>
-    <div class="container">
+    <div class="container col-11">
         <div class="row">
 
             <div class="col-md-8 col-sm-6 col-xs-12">
