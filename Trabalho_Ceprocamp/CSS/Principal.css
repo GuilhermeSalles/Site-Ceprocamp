@@ -109,12 +109,10 @@ h2 {
 
 .linkNIT {
   color: #FE5722FF;
-  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 .linkNIT:hover {
   color: rgba(232, 114, 23, 0.755);
-  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
 }
 
 /* Boto carrossel */
