@@ -44,7 +44,7 @@
 
         <div class="col-sm-12 col-md-8 col-xs-8" data-anime="left">
 
-            <h2 style="font-weight: bold; color: rgb(75, 75, 75);">Como me inscrever</h2>
+            <h2 class="bold">Como me inscrever</h2>
             <hr class="imgR-small hr5r mt-0">
 
             <p class="text-justify">Para se inscrever nos cursos oferecidos o candidato deverá ficar atento a
@@ -54,7 +54,7 @@
 
             <br>
 
-            <h6 style="font-weight: bold; color: rgb(75, 75, 75);">Requisitos Gerais:</h6>
+            <h6 class="bold">Requisitos Gerais:</h6>
             <ul class="b ml-5">
                 <li>Morador de Campinas e da Região Metropolitana de Campinas.</li>
                 <li>Possua seu próprio CPF.</li>
@@ -62,7 +62,7 @@
             </ul>
 
 
-            <h6 style="font-weight: bold; color: rgb(75, 75, 75);">Requisitos Específicos:</h6>
+            <h6 class="bold">Requisitos Específicos:</h6>
             <ul class="b ml-5">
                 <li>Possuir 16 anos completos até o último dia da inscrição.</li>
                 <li>Possuir o pré-requisito exigido para cada curso, de forma a aproveitar totalmente a aprendizagem
@@ -92,7 +92,7 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel" style="font-weight: bold; color: rgb(75, 75, 75);">Registro de interesse</h5>
+                            <h5 class="modal-title" id="exampleModalLabel" class="bold">Registro de interesse</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -100,25 +100,25 @@
                         <div class="modal-body">
                             <form method="POST">
                                 <div class="form-group">
-                                    <label style="font-weight: bold; color: rgb(75, 75, 75);" for="Nome">Digite seu nome:</label>
-                                    <input type="text" class="form-control" id="Nome" name="Nome" placeholder="Nome completo" style="border-radius: 10px;">
+                                    <label class="bold" for="Nome">Digite seu nome:</label>
+                                    <input type="text" class="form-control" id="Nome" name="Nome" placeholder="Nome completo" style="border-radius: 10px;" required>
                                 </div>
                                 <div class="form-group">
-                                    <label style="font-weight: bold; color: rgb(75, 75, 75);" for="email">Digite seu e-mail:</label>
-                                    <input type="email" class="form-control" id="email" name="Email" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;">
+                                    <label class="bold" for="email">Digite seu e-mail:</label>
+                                    <input type="email" class="form-control" id="email" name="Email" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" required>
                                 </div>
                                 <div class="form-group">
-                                    <label style="font-weight: bold; color: rgb(75, 75, 75);" for="telefone">Digite seu telefone:</label>
-                                    <input type="tel" class="form-control" id="telefone" name="Telefone" aria-describedby="emailHelp" placeholder="(xx) xxxx-xxxx" style="border-radius: 10px;">
+                                    <label class="bold" for="telefone">Digite seu telefone:</label>
+                                    <input type="tel" class="form-control" id="telefone" name="Telefone" aria-describedby="emailHelp" placeholder="(xx) xxxx-xxxx" style="border-radius: 10px;" required>
                                 </div>
                                 <div class="form-group">
-                                    <label style="font-weight: bold; color: rgb(75, 75, 75);" for="curso">Curso:</label>
-                                    <input type="input" class="form-control" id="curso" name="Curso" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" value="Português e Matemática para Concursos Públicos e Enem" readonly>
+                                    <label class="bold" for="curso">Curso:</label>
+                                    <input type="input" class="form-control" id="curso" name="Curso" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" required value="Português e Matemática para Concursos Públicos e Enem" readonly>
                                 </div>
 
                                 <div class="form-group">
-                                    <label style="font-weight: bold; color: rgb(75, 75, 75);" for="unidade">Selecione a unidade mais perto de você:</label>
-                                    <select class="form-control" id="unidade" style="border-radius: 10px;" name="Unidade">
+                                    <label class="bold" for="unidade">Selecione a unidade mais perto de você:</label>
+                                    <select class="form-control" id="unidade" style="border-radius: 10px;" required name="Unidade">
                                         <option selected>-- Selecione a unidade --</option>
                                         <option>CASI - Campo Belo</option>
                                         <option>Cambará - DIC IV</option>
@@ -149,7 +149,7 @@
 
     <div class="container" data-anime="top">
         <div class="text-center">
-            <h3 style="font-weight: bold; color: rgb(75, 75, 75);">Locais e turnos disponíveis para este curso.</h3>
+            <h3 class="bold">Locais e turnos disponíveis para este curso.</h3>
             <hr class="divisao">
         </div>
         <div class="row pequeno">

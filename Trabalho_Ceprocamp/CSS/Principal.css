@@ -58,6 +58,9 @@
 }
 
 /* Textos turno */
+mark {
+  background-color: rgb(255 59 0 / 45%);
+}
 
 h2 {
   font-weight: bold;
