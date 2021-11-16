@@ -6,10 +6,11 @@ if (isset($_POST['submit'])) {
 
     $nome = $_POST['Nome'];
     $email = $_POST['Email'];
+    $telefone = $_POST['Telefone'];
     $curso = $_POST['Curso'];
     $unidade = $_POST['Unidade'];
 
-    $result = mysqli_query($conexao, "INSERT INTO registro VALUES ('$nome','$email','$unidade','$curso')");
+    $result = mysqli_query($conexao, "INSERT INTO registro VALUES ('$nome','$email','$telefone','$unidade','$curso')");
 }
 
 ?>

@@ -63,30 +63,34 @@ if (!empty($_SESSION['id'])) {
             </div>
             <div class="collapse navbar-collapse" id="navbarSite">
                 <ul class="navbar-nav mr-auto">
-                    <?php if ($_SESSION['nivel'] == "1") { ?>
+                    <?php if ($_SESSION['nivel'] == "Administrativo" or $_SESSION['nivel'] == "CPD-OV") { ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="../adm/Administrativo">Administrativo</a>
+                            <a class="nav-link" href="Administrativo">Administrativo</a>
                         </li>
                     <?php } ?>
-                    <?php if ($_SESSION['nivel'] == "1") { ?>
+                    <?php if ($_SESSION['nivel'] == "Administrativo") { ?>
                         <li class="nav-item">
                             <a class="nav-link" href="../excel/gerar_planilha">Excel de Registro de Interesse</a>
                         </li>
                     <?php } ?>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="../emp/emprestimos">Lista e cadastro de equipamentos</a>
-                    </li>
+                    <?php if ($_SESSION['nivel'] == "CPD-OV") { ?>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                                Equipamentos
+                            </a>
+                            <div class="dropdown-menu">
 
-                    <!--
-                    <li class="nav-item">
-                        <a class="nav-link" href="CursosQualificacao">Cursos</a>
-                    </li>
+                                <a class="dropdown-item" href="empCT/emprestimosCT">Centro</a>
+                                <a class="dropdown-item" href="empOV/emprestimosOV">Ouro Verde</a>
+                                <a class="dropdown-item" href="empJA/emprestimosJA">José Alves</a>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.fumec.sp.gov.br/">FUMEC</a>
-                    </li>
-                        -->
+                            </div>
+                        </li>
+                    <?php } ?>
+
+
+
                 </ul>
 
                 <ul class="navbar-nav">

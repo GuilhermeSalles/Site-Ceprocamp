@@ -110,6 +110,10 @@
                                     <input type="email" class="form-control" id="email" name="Email" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;">
                                 </div>
                                 <div class="form-group">
+                                    <label style="font-weight: bold; color: rgb(75, 75, 75);" for="telefone">Digite seu telefone:</label>
+                                    <input type="tel" class="form-control" id="telefone" name="Telefone" aria-describedby="emailHelp" placeholder="(xx) xxxx-xxxx" style="border-radius: 10px;">
+                                </div>
+                                <div class="form-group">
                                     <label style="font-weight: bold; color: rgb(75, 75, 75);" for="curso">Curso:</label>
                                     <input type="input" class="form-control" id="curso" name="Curso" aria-describedby="emailHelp" placeholder="Digite e-mail para contato" style="border-radius: 10px;" value="Técnico em Administração" readonly>
                                 </div>

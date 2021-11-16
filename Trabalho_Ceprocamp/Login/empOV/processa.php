@@ -8,7 +8,7 @@
 	$devolveu = mysqli_real_escape_string($conexao, $_POST['devolveu']);
 	$notebooks = mysqli_real_escape_string($conexao, $_POST['notebooks']);
     
-	$sql = "UPDATE emprestimo SET nomeProfessor='$nome', local='$local', sala='$sala', devolveu='$devolveu',notebooks ='$notebooks' WHERE id = $id ";
+	$sql = "UPDATE emprestimoOV SET nomeProfessor='$nome', local='$local', sala='$sala', devolveu='$devolveu',notebooks ='$notebooks' WHERE id = $id ";
 	
 	$resultado = mysqli_query($conexao, $sql);	
 ?>
@@ -21,14 +21,14 @@
 	<body> <?php
 		if(mysqli_affected_rows($conexao) != 0){
 			echo "
-				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=emprestimos'>
+				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=emprestimosOV'>
 				<script type=\"text/javascript\">
 					alert(\"Emprestimo alterado com Sucesso.\");
 				</script>
 			";	
 		}else{
 			echo "
-				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=emprestimos'>
+				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=emprestimosOV'>
 				<script type=\"text/javascript\">
 					alert(\"Emprestimo não foi alterado com Sucesso.\");
 				</script>

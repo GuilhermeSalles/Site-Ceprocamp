@@ -13,10 +13,10 @@ if (($resultado_usuario) and ($resultado_usuario->num_rows != 0)) {
 	$_SESSION['id'] = $row_usuario['id'];
 	$_SESSION['nome'] = $row_usuario['nome'];
 	$_SESSION['nivel'] = $row_usuario['nivel'];
-	if ($_SESSION['nivel'] == "1") {
-		$resultado = 'adm/administrativo';
-	} else {
-		$resultado = 'emp/emprestimos';
+	if ($_SESSION['nivel'] == "Administrativo") {
+		$resultado = 'adm/Administrativo';
+	} elseif( $_SESSION['nivel'] == "CPD-OV") {
+		$resultado = 'empOV/index';
 	}
 
 	echo $resultado;

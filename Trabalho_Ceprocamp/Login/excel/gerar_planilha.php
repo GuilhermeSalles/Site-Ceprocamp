@@ -1,5 +1,6 @@
 <?php
 session_start();
+include_once('../../ConexaoBd/config.php');
 if (!empty($_SESSION['id'])) {
 } else {
     $_SESSION['msg'] = "<div class='alert alert-danger'>Área restrita!</div>";
@@ -28,6 +29,7 @@ if (!empty($_SESSION['id'])) {
 		$html .= '<tr>';
 		$html .= '<td><b>Nome</b></td>';
 		$html .= '<td><b>Email</b></td>';
+		$html .= '<td><b>Telefone</b></td>';
 		$html .= '<td><b>Unidade</b></td>';
 		$html .= '<td><b>Curso</b></td>';
 		$html .= '</tr>';
@@ -40,6 +42,7 @@ if (!empty($_SESSION['id'])) {
 			$html .= '<tr>';
 			$html .= '<td>'.$row_msg_contatos["Nome"].'</td>';
 			$html .= '<td>'.$row_msg_contatos["Email"].'</td>';
+			$html .= '<td>'.$row_msg_contatos["Telefone"].'</td>';
 			$html .= '<td>'.$row_msg_contatos["Unidade"].'</td>';
 			$html .= '<td>'.$row_msg_contatos["Curso"].'</td>';
 			$html .= '</tr>';
