@@ -22,3 +22,14 @@ INSERT INTO `usuarios_alunos` (`nome`,`email`, `usuario`,`nivel`) VALUES
 ('Guilherme Baltazar V. de Sales','estagio.guilhermesales@educa.fumec.sp.gov.br','Guilherme','1')
 ('CPD CEPROCAMP OURO VERDE','cpd.ouroverde@educa.fumec.sp.gov.br','CPD OV','2'),
 ('CEPROCAMP OURO VERDE','ceprocamp.ouroverde@educa.fumec.sp.gov.br','OV','2'),
+
+
+CREATE TABLE ´emprestimoOv´ (
+  `id` int AUTO_INCREMENT PRIMARY KEY,
+  `nomeProfessor` varchar(40), 
+  `local` varchar(10),
+  `sala` varchar(10), 
+  `data` varchar(10),
+  `devolveu`varchar(10), 
+  `notebooks` varchar(20)
+)

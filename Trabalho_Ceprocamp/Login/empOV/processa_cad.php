@@ -1,6 +1,6 @@
 <?php
 	include_once("../../ConexaoBd/config.php");
-	$nome = mysqli_real_escape_string($conexao, $_POST['nome']);
+	$nome = mysqli_real_escape_string($conexao, $_POST['nomeProfessor']);
 	$local = mysqli_real_escape_string($conexao, $_POST['local']);
 	$sala = mysqli_real_escape_string($conexao, $_POST['sala']);
 	$data = mysqli_real_escape_string($conexao, $_POST['data']);

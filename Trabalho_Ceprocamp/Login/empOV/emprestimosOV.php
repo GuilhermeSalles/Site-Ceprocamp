@@ -35,7 +35,7 @@ $result = mysqli_query($conexao, $result_cursos);
 
                                     <div class="form-group">
                                         <label for="recipient-name" class="col-form-label bold">Nome:</label>
-                                        <input type="text" class="form-control" id="recipient-name" name="nome">
+                                        <input type="text" class="form-control" id="recipient-name" name="nomeProfessor">
                                     </div>
                                     <div class="form-group">
                                         <label for="recipient-local" class="col-form-label bold">Local:</label>
@@ -108,7 +108,7 @@ $result = mysqli_query($conexao, $result_cursos);
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="visualizarLabel"><span class="bold">Visualizando</span> <?php echo $rows['nomeProfessor'];; ?></h5>
+                                    <h5 class="modal-title" id="visualizarLabel"><span class="bold">Visualizando </span> <?php echo $rows['nomeProfessor'];; ?></h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span> </button>
                                 </div>
