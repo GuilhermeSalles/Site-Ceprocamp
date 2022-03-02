@@ -1,4 +1,5 @@
 <!-- footer -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="../../img/icones footer/arrow-up.svg" alt="devolta para o top"></button>
 <footer class="site-footer">
     <div class="container col-11">
 
@@ -79,6 +80,30 @@
 <!-- Script Menu -->
 <script src="../../js/menu.js"></script>
 
+<!-- back to top-->
+
+<script>
+    var mybutton = document.getElementById("myBtn");
+
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
+    }
+</script>
 
 </body>
 

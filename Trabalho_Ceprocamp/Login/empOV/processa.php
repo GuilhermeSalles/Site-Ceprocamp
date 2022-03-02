@@ -1,14 +1,9 @@
 <?php
 	include_once("../../ConexaoBd/config.php");
 	$id = mysqli_real_escape_string($conexao, $_POST['id']);
-	$nome = mysqli_real_escape_string($conexao, $_POST['nomeProfessor']);
-	$local = mysqli_real_escape_string($conexao, $_POST['local']);
-	$sala = mysqli_real_escape_string($conexao, $_POST['sala']);
-	$data = mysqli_real_escape_string($conexao, $_POST['data']);
 	$devolveu = mysqli_real_escape_string($conexao, $_POST['devolveu']);
-	$notebooks = mysqli_real_escape_string($conexao, $_POST['notebooks']);
     
-	$sql = "UPDATE emprestimoOV SET nomeProfessor='$nome', local='$local', sala='$sala', devolveu='$devolveu',notebooks ='$notebooks' WHERE id = $id ";
+	$sql = "UPDATE emprestimos SET devolveu='$devolveu' WHERE id = $id ";
 	
 	$resultado = mysqli_query($conexao, $sql);	
 ?>

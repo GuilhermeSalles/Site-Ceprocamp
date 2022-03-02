@@ -73,21 +73,18 @@ if (!empty($_SESSION['id'])) {
                             <a class="nav-link" href="../excel/gerar_planilha">Excel de Registro de Interesse</a>
                         </li>
                     <?php } ?>
-
                     <?php if ($_SESSION['nivel'] == "CPD-OV") { ?>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
-                                Equipamentos
-                            </a>
-                            <div class="dropdown-menu">
-
-                                <a class="dropdown-item" href="empCT/emprestimosCT">Centro</a>
-                                <a class="dropdown-item" href="emprestimosOV">Ouro Verde</a>
-                                <a class="dropdown-item" href="empJA/emprestimosJA">José Alves</a>
-
-                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../empOV/excel/gerar_planilha">Excel de Emprestimos</a>
                         </li>
                     <?php } ?>
+                    <?php if ($_SESSION['nivel'] == "CPD-OV") { ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="emprestimosOV">Emprestimos</a>
+                        </li>
+                    <?php } ?>
+
+                    
 
                 </ul>
 

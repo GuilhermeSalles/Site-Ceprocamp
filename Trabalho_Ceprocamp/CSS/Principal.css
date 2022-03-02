@@ -5,6 +5,21 @@
 }
 
 /* menu */
+#navbarSite a{
+  font-weight: bolder;
+}
+
+.dropdown-item{
+  color: #505153;
+}
+
+.dropdown-item:focus{
+  background-color: #fe5722;
+}
+
+.dropdown-item:hover{
+  background-color: #eb8363b4;
+}
 
 .affix {
   position: fixed;
@@ -12,6 +27,31 @@
   right: 0;
   left: 0;
   z-index: 1030;
+}
+
+
+/*topo*/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: #fe55228f;
+  outline: none;
+  background-color: #fe55228f;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: rgba(75, 75, 75, 0.25) 5px 5px 5px, rgba(75, 75, 75, 0.22) 5px 5px 5px;
+}
+
+#myBtn:hover {
+  background-color: #fe5522cc;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* filtro */

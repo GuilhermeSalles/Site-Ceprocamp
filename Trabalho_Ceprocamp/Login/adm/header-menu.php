@@ -73,19 +73,15 @@ if (!empty($_SESSION['id'])) {
                             <a class="nav-link" href="../excel/gerar_planilha">Excel de Registro de Interesse</a>
                         </li>
                     <?php } ?>
+                    <?php if ($_SESSION['nivel'] == "CPD-OV") { ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../empOV/excel/gerar_planilha">Excel de Emprestimos</a>
+                        </li>
+                    <?php } ?>
 
                     <?php if ($_SESSION['nivel'] == "CPD-OV") { ?>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
-                                Equipamentos
-                            </a>
-                            <div class="dropdown-menu">
-
-                                <a class="dropdown-item" href="empCT/emprestimosCT">Centro</a>
-                                <a class="dropdown-item" href="empOV/emprestimosOV">Ouro Verde</a>
-                                <a class="dropdown-item" href="empJA/emprestimosJA">José Alves</a>
-
-                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../empOV/emprestimosOV">Emprestimos</a>
                         </li>
                     <?php } ?>
 
@@ -97,7 +93,7 @@ if (!empty($_SESSION['id'])) {
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img src="../../img/Icone logout/user.svg"><?php echo ' ' . $_SESSION['usuarioNome']; ?>
+                            <img src="../../img/Icone logout/user.svg">
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
