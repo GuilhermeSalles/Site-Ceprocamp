@@ -19,7 +19,6 @@ if (!empty($_SESSION['id'])) {
 		$arquivo = 'Emprestimo.xls';
 		
 		// Criamos uma tabela HTML com o formato da planilha
-		// Criamos uma tabela HTML com o formato da planilha
 		$html = '';
 		$html .= '<table border="1">';
 		$html .= '<tr>';

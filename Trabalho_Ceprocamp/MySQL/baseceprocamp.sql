@@ -56,6 +56,11 @@ CREATE TABLE nomeQuemAutorizou (
   `nomeQuemAutorizou` varchar(50)
 )
 
+CREATE TABLE quemAutorizou (
+  `id` int PRIMARY KEY AUTO_INCREMENT,
+  `QuemAutorizou` varchar(50)
+)
+
 CREATE TABLE qtdArduino (
   `id` int PRIMARY KEY AUTO_INCREMENT,
   `arduino` varchar(4)

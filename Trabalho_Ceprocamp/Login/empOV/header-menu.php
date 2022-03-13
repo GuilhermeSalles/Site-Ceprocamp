@@ -79,8 +79,21 @@ if (!empty($_SESSION['id'])) {
                         </li>
                     <?php } ?>
                     <?php if ($_SESSION['nivel'] == "CPD-OV") { ?>
-                        <li class="nav-item">
+                        <li class="nav-item dropdown">
                             <a class="nav-link" href="emprestimosOV">Emprestimos</a>
+                        </li>
+                    <?php } ?>
+                    <?php if ($_SESSION['nivel'] == "CPD-OV") { ?>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Cadastros Emprestimo
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                        <a class="dropdown-item" href="Adicionar_professores">Cadastro Professores</a>
+                        <a class="dropdown-item" href="Adicionar_entregadores">Cadastro Entregadores</a>
+
+                        </ul>
                         </li>
                     <?php } ?>
 

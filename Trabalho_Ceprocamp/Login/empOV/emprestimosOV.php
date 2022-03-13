@@ -6,10 +6,10 @@ $result = mysqli_query($conexao, $result_cursos);
 $tabela_salas = "SELECT * FROM salas order by id";
 $result_salas = mysqli_query($conexao, $tabela_salas);
 
-$tabela_quemPediu = "SELECT * FROM quemPediu order by id";
+$tabela_quemPediu = "SELECT * FROM Professores_existentes order by Nome_Matricula";
 $result_QuemPediu = mysqli_query($conexao, $tabela_quemPediu);
 
-$tabela_QuemAutorizou= "SELECT * FROM nomequemautorizou order by id";
+$tabela_QuemAutorizou= "SELECT * FROM quemAutorizou order by id";
 $result_QuemAutorizou= mysqli_query($conexao, $tabela_QuemAutorizou);
 
 $tabela_arduino= "SELECT * FROM qtdArduino order by id";
@@ -25,7 +25,13 @@ $result_carregador= mysqli_query($conexao, $tabela_carregador);
 <?php include 'header-menu.php' ?>
 <style>
     .noteTamanho {
-        max-width: 35ch;
+        max-width: 15ch;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .noteTamanhomodal {
+        max-width: 45ch;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -76,11 +82,11 @@ $result_carregador= mysqli_query($conexao, $tabela_carregador);
                                     </div>
                                     <div class="form-group">
                                         <label for="recipient-nameAutorizou" class="col-form-label bold">Nome de quem autorizou:</label>
-                                        <select class="form-control" id="recipient-nomeQuemAutorizou" name="nomeQuemAutorizou">
+                                        <select class="form-control" id="recipient-QuemAutorizou" name="QuemAutorizou">
                                             <?php
                                             while ($row = mysqli_fetch_assoc($result_QuemAutorizou)) { ?>
 
-                                                <option value="<?php echo $row['nomeQuemAutorizou']; ?>"><?php echo $row['nomeQuemAutorizou']; ?></option>
+                                                <option value="<?php echo $row['QuemAutorizou']; ?>"><?php echo $row['QuemAutorizou']; ?></option>
                                             <?php
                                             }
 
@@ -119,7 +125,7 @@ $result_carregador= mysqli_query($conexao, $tabela_carregador);
                                         </select>
                                     </div>
                                     <div class="form-group">
-                                        <label for="recipient-controleAr" class="col-form-label bold">Caneta DataShow:</label>
+                                        <label for="recipient-controleAr" class="col-form-label bold">Controle do Ar:</label>
                                         <select class="form-control" id="recipient-controleAr" name="controleAr">
                                             <option value="Sim">Sim</option>
                                             <option selected value="Não">Não</option>
@@ -201,25 +207,25 @@ $result_carregador= mysqli_query($conexao, $tabela_carregador);
         <table class="table table-hover">
             <thead>
                 <tr>
-                    <th>Nome Professor(a)</th>
-                    <th>Sala</th>
-                    <th>Notebooks</th>
-                    <th>Data</th>
-                    <th>Devolveu</th>
-                    <th>Ação</th>
+                    <th class="text-center">Nome Professor(a)</th>
+                    <th class="text-center">Sala</th>
+                    <th class="text-center">Notebooks</th>
+                    <th class="text-center">Data</th>
+                    <th class="text-center">Devolveu</th>
+                    <th class="text-center">Ação</th>
                 </tr>
             </thead>
             <tbody>
                 <?php while ($rows = mysqli_fetch_assoc($result)) { ?>
                     <tr>
                         <td><?php echo $rows['nomeEmatriculaProf']; ?></td>
-                        <td><?php echo $rows['sala']; ?></td>
-                        <td class="noteTamanho"><?php echo $rows['notebooks']; ?></td>
-                        <td><?php echo $rows['data']; ?></td>
-                        <td><?php echo $rows['devolveu']; ?></td>
+                        <td class="text-center"><?php echo $rows['sala']; ?></td>
+                        <td class="noteTamanho text-center"><?php echo $rows['notebooks']; ?></td>
+                        <td class="text-center"><?php echo $rows['data']; ?></td>
+                        <td class="text-center"><?php echo $rows['devolveu']; ?></td>
                         <td>
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#visualizar<?php echo $rows['id']; ?>">Visualizar</button>
-                            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#editar" data-id="<?php echo $rows['id']; ?>" data-sala="<?php echo $rows['sala']; ?>" data-data="<?php echo $rows['data']; ?>" data-devolveu="<?php echo $rows['devolveu']; ?>">Editar</button>
+                            <button type="button" class="btn btn-info text-center" data-toggle="modal" data-target="#visualizar<?php echo $rows['id']; ?>">Visualizar</button>
+                            <button type="button" class="btn btn-warning text-center" data-toggle="modal" data-target="#editar" data-id="<?php echo $rows['id']; ?>" data-sala="<?php echo $rows['sala']; ?>" data-data="<?php echo $rows['data']; ?>" data-devolveu="<?php echo $rows['devolveu']; ?>">Editar</button>
                         </td>
                     </tr>
 
@@ -235,7 +241,7 @@ $result_carregador= mysqli_query($conexao, $tabela_carregador);
                                 <div class="modal-body">
                                     <p><span class="bold">Local: </span><?php echo $rows['local']; ?></p>
                                     <p><span class="bold">Sala: </span><?php echo $rows['sala']; ?></p>
-                                    <p class="noteTamanho"><span class="bold">Notebooks: </span><?php echo $rows['notebooks']; ?></p>
+                                    <p class="noteTamanhomodal"><span class="bold">Notebooks: </span><?php echo $rows['notebooks']; ?></p>
                                     <p><span class="bold">Data: </span><?php echo $rows['data']; ?></p>
                                     <p><span class="bold">Devolveu: </span><?php echo $rows['devolveu']; ?></p>
                                 </div>
