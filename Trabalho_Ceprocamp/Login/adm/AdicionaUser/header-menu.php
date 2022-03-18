@@ -98,7 +98,7 @@ if (!empty($_SESSION['id'])) {
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
-                            <a class="dropdown-item" href="../" onclick="signOut();"><img src="../../../img/Icone logout/log-out.svg">Sair</a>
+                            <a class="dropdown-item" href="../../" onclick="signOut();"><img src="../../../img/Icone logout/log-out.svg">Sair</a>
 
                         </ul>
                     </li>
