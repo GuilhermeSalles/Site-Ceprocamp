@@ -27,14 +27,14 @@
 	<body> <?php
 		if(mysqli_affected_rows($conexao) != 0){
 			echo "
-				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=emprestimosOV'>
+				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=../empOV/'>
 				<script type=\"text/javascript\">
 					alert(\"Emprestimo cadastrado com Sucesso.\");
 				</script>
 			";	
 		}else{
 			echo "
-				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=emprestimosOV'>
+				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=../empOV/'>
 				<script type=\"text/javascript\">
 					alert(\"Emprestimo não foi cadastrado com Sucesso.\");
 				</script>

@@ -18,7 +18,7 @@
     <div class="text-justify">
         <p>O CEPROCAMP, juntamente com a CIPA, Eixo de Segurança do Trabalho e apoio do Núcleo de Interação Tecnológica tem a satisfação de convidá-los para a 18ª Semana Interna de Prevenção de Acidentes do Trabalho - SIPAT que ocorrerá entre os dias 8 a 12 de novembro de 2021 em um formato totalmente virtual por meio de transmissão pelo Canal da FUMEC (TVFUMEC)</p>
         <hr class="hr3">
-        <p><mark>Não</mark> haverá limitação de participantes.</p>
+        <p><mark>NÃO</mark> haverá limitação de participantes.</p>
 
 
         <p>A participação de todos é fundamental para realizarmos um belo evento!</p>

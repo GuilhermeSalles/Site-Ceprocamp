@@ -1,10 +1,12 @@
 <?php
 	include_once("../../../ConexaoBd/config.php");
-	$id = mysqli_real_escape_string($conexao, $_POST['id']);
+	$nome = mysqli_real_escape_string($conexao, $_POST['nome']);
+	$email = mysqli_real_escape_string($conexao, $_POST['email']);
+	$nivel = mysqli_real_escape_string($conexao, $_POST['nivel']);
     
-	$sql = "DELETE
-	FROM usuarios
-	WHERE id = $id";
+	$sql = "INSERT INTO `usuarios` (`nome`, `email`, `nivel`) 
+	VALUES
+    ('$nome', '$email', '$nivel')";
 	
 	$resultado = mysqli_query($conexao, $sql);	
 ?>
@@ -19,14 +21,14 @@
 			echo "
 				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=../AdicionaUser'>
 				<script type=\"text/javascript\">
-					alert(\"Professor(a) excluido com Sucesso.\");
+					alert(\"Usuário cadastrado com Sucesso.\");
 				</script>
 			";	
 		}else{
 			echo "
 				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=../AdicionaUser'>
 				<script type=\"text/javascript\">
-					alert(\"Professor(a) não foi excluido com Sucesso.\");
+					alert(\"Usuário não foi cadastrado com Sucesso.\");
 				</script>
 			";	
 		}?>

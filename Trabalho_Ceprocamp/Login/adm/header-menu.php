@@ -62,29 +62,34 @@ if (!empty($_SESSION['id'])) {
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="navbarSite">
+
                 <ul class="navbar-nav mr-auto">
+
                     <?php if ($_SESSION['nivel'] == "Administrativo" or $_SESSION['nivel'] == "CPD-OV") { ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="Administrativo">Administrativo</a>
+                            <a class="nav-link" href="index">Administrativo</a>
                         </li>
                     <?php } ?>
-                    <?php if ($_SESSION['nivel'] == "Administrativo") { ?>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../excel/gerar_planilha">Excel de Registro de Interesse</a>
-                        </li>
-                    <?php } ?>
-                    <?php if ($_SESSION['nivel'] == "CPD-OV") { ?>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../../empOV/excel/gerar_planilha">Excel de Emprestimos</a>
+
+                    <?php if ($_SESSION['nivel'] == "Administrativo" or $_SESSION['nivel'] == "CPD-OV") { ?>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Excel
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                                <a class="dropdown-item" href="../excel/gerar_planilha">Registro de Interesse</a>
+                                <a class="dropdown-item" href="../empOV/excel/gerar_planilha">Emprestimos Ouro Verde</a>
+
+                            </ul>
                         </li>
                     <?php } ?>
 
                     <?php if ($_SESSION['nivel'] == "CPD-OV") { ?>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../empOV/emprestimosOV">Emprestimos</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="../empOV/">Emprestimos</a>
                         </li>
                     <?php } ?>
-
 
 
                 </ul>
@@ -93,7 +98,7 @@ if (!empty($_SESSION['id'])) {
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img src="../../img/Icone logout/user.svg">
+                            <img src="../../img/Icone logout/user.svg"><?php echo ' ' . $_SESSION['nome']; ?>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 

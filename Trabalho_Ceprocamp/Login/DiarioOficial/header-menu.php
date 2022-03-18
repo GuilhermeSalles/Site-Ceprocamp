@@ -62,42 +62,14 @@ if (!empty($_SESSION['id'])) {
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="navbarSite">
+
                 <ul class="navbar-nav mr-auto">
+
                     <?php if ($_SESSION['nivel'] == "Administrativo" or $_SESSION['nivel'] == "CPD-OV") { ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="../adm/index">Administrativo</a>
+                            <a class="nav-link" href="../adm/">Administrativo</a>
                         </li>
                     <?php } ?>
-                    <?php if ($_SESSION['nivel'] == "CPD-OV") { ?>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="../empOV/">Emprestimos</a>
-                        </li>
-                    <?php } ?>
-                    <?php if ($_SESSION['nivel'] == "Administrativo") { ?>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../excel/gerar_planilha">Excel de Registro de Interesse</a>
-                        </li>
-                    <?php } ?>
-                    <?php if ($_SESSION['nivel'] == "CPD-OV") { ?>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Cadastros Emprestimo
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-
-                        <a class="dropdown-item" href="Adicionar_professores">Cadastro Professores</a>
-                        <a class="dropdown-item" href="Adicionar_entregadores">Cadastro Entregadores</a>
-
-                        </ul>
-                        </li>
-                    <?php } ?>
-                    <?php if ($_SESSION['nivel'] == "CPD-OV") { ?>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../empOV/excel/gerar_planilha">Excel de Emprestimos</a>
-                        </li>
-                    <?php } ?>
-
-                    
 
                 </ul>
 

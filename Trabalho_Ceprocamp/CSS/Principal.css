@@ -99,7 +99,10 @@ html {
 
 /* Textos turno */
 mark {
-  background-color: rgb(255 59 0 / 45%);
+  background-color: rgba(255, 60, 0, 0.322);
+}
+.markAbertas {
+  background-color: rgba(9, 255, 0, 0.315);
 }
 
 h2 {
@@ -171,6 +174,7 @@ h2 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
+  background-color: rgba(254, 85, 34, 0.527);
 }
 
 .carousel-indicators .active {
@@ -614,3 +618,20 @@ p {
 body {
   font-family: "Montserrat", sans-serif;
 }
+/* ADM */
+.CarrosselADM{
+background-color: rgba(228, 228, 228, 0.493);
+}
+.CarrosselFerramentasADM{
+background-color: rgba(221, 153, 65, 0.068);
+}
+
+.avisosADM {
+  width: 100%;
+  border: solid;
+  color: #FE5722FF;
+  border-radius: 10px;
+  margin-top: 0%;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 4px 8px, rgba(75, 75, 75, 0.22) 0px 5px 5px;
+}
+
