@@ -375,6 +375,14 @@ p {
   color: rgb(75, 75, 75);
 }
 
+.tel{
+  color:  #fe5722;
+}
+
+.tel:hover{
+  color:  #fe552288;
+}
+
 /*Iframe/Ajustes de tela*/
 
 @media only screen and (min-width: 1210px) {

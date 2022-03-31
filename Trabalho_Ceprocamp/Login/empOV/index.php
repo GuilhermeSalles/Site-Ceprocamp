@@ -6,20 +6,23 @@ $result = mysqli_query($conexao, $result_cursos);
 $tabela_salas = "SELECT * FROM salas order by id";
 $result_salas = mysqli_query($conexao, $tabela_salas);
 
+$tabela_notebooks = "SELECT * FROM quais_nots";
+$result_notebooks = mysqli_query($conexao, $tabela_notebooks);
+
 $tabela_quemPediu = "SELECT * FROM Professores_existentes order by Nome_Matricula";
 $result_QuemPediu = mysqli_query($conexao, $tabela_quemPediu);
 
-$tabela_QuemAutorizou= "SELECT * FROM quemAutorizou order by id";
-$result_QuemAutorizou= mysqli_query($conexao, $tabela_QuemAutorizou);
+$tabela_QuemAutorizou = "SELECT * FROM quemAutorizou order by id";
+$result_QuemAutorizou = mysqli_query($conexao, $tabela_QuemAutorizou);
 
-$tabela_arduino= "SELECT * FROM qtdArduino order by id";
-$result_arduino= mysqli_query($conexao, $tabela_arduino);
+$tabela_arduino = "SELECT * FROM qtdArduino order by id";
+$result_arduino = mysqli_query($conexao, $tabela_arduino);
 
-$tabela_mouse= "SELECT * FROM qtdMouses order by id";
-$result_mouse= mysqli_query($conexao, $tabela_mouse);
+$tabela_mouse = "SELECT * FROM qtdMouses order by id";
+$result_mouse = mysqli_query($conexao, $tabela_mouse);
 
-$tabela_carregador= "SELECT * FROM qtdCarregadores order by id";
-$result_carregador= mysqli_query($conexao, $tabela_carregador);
+$tabela_carregador = "SELECT * FROM qtdCarregadores order by id";
+$result_carregador = mysqli_query($conexao, $tabela_carregador);
 
 ?>
 <?php include 'header-menu.php' ?>
@@ -30,6 +33,7 @@ $result_carregador= mysqli_query($conexao, $tabela_carregador);
         text-overflow: ellipsis;
         white-space: nowrap;
     }
+
     .noteTamanhomodal {
         max-width: 45ch;
         overflow: hidden;
@@ -55,13 +59,14 @@ $result_carregador= mysqli_query($conexao, $tabela_carregador);
                 <br>
 
                 <!-- Modal cadastrar -->
-                <div class="modal fade" id="cadastrar" tabindex="-1" aria-labelledby="cadastrarLabel" aria-hidden="true">
-                    <div class="modal-dialog">
+                <div class="modal fade" id="cadastrar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title bold " id="cadastrarLabel" style="margin-left: 130px;">Cadastro emprestimo</h5>
+                                <h5 class="modal-title" id="exampleModalLabel" class="bold">Cadastro emprestimo</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span> </button>
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
                             <div class="modal-body">
                                 <form method="POST" action="processa_cad.php" enctype="multipart/form-data">
@@ -81,8 +86,8 @@ $result_carregador= mysqli_query($conexao, $tabela_carregador);
                                         </select>
                                     </div>
                                     <div class="form-group">
-                                        <label for="recipient-nameAutorizou" class="col-form-label bold">Nome de quem autorizou:</label>
-                                        <select class="form-control" id="recipient-QuemAutorizou" name="QuemAutorizou">
+                                        <label for="recipient-nomeQuemAutorizou" class="col-form-label bold">Nome de quem autorizou:</label>
+                                        <select class="form-control" id="recipient-nomeQuemAutorizou" name="nomeQuemAutorizou">
                                             <?php
                                             while ($row = mysqli_fetch_assoc($result_QuemAutorizou)) { ?>
 
@@ -133,7 +138,16 @@ $result_carregador= mysqli_query($conexao, $tabela_carregador);
                                     </div>
                                     <div class="form-group">
                                         <label for="recipient-notebooks" class="col-form-label bold">Notebooks:</label>
-                                        <input type="text" class="form-control" id="recipient-notebooks" name="notebooks">
+                                        <select class="form-control" id="recipient-notebooks" name="notebooks">
+                                            <?php
+                                            while ($row = mysqli_fetch_assoc($result_notebooks)) { ?>
+
+                                                <option value="<?php echo $row['notebooks']; ?>"><?php echo $row['curso'];?>:  <?php echo $row['notebooks'];?></option>
+                                            <?php
+                                            }
+
+                                            ?>
+                                        </select>
                                     </div>
                                     <div class="form-group">
                                         <label for="recipient-KitArduino" class="col-form-label bold">Kit Arduino:</label>
@@ -204,67 +218,43 @@ $result_carregador= mysqli_query($conexao, $tabela_carregador);
             <br>
             <br>
         </div>
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th class="text-center">Nome Professor(a)</th>
-                    <th class="text-center">Sala</th>
-                    <th class="text-center">Notebooks</th>
-                    <th class="text-center">Data</th>
-                    <th class="text-center">Devolveu</th>
-                    <th class="text-center">Ação</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php while ($rows = mysqli_fetch_assoc($result)) { ?>
+        <div class="row">
+            <table class="table table-hover ">
+                <thead>
                     <tr>
-                        <td><?php echo $rows['nomeEmatriculaProf']; ?></td>
-                        <td class="text-center"><?php echo $rows['sala']; ?></td>
-                        <td class="noteTamanho text-center"><?php echo $rows['notebooks']; ?></td>
-                        <td class="text-center"><?php echo $rows['data']; ?></td>
-                        <td class="text-center"><?php echo $rows['devolveu']; ?></td>
-                        <td>
-                            <button type="button" class="btn btn-info text-center" data-toggle="modal" data-target="#visualizar<?php echo $rows['id']; ?>">Visualizar</button>
-                            <button type="button" class="btn btn-warning text-center" data-toggle="modal" data-target="#editar" data-id="<?php echo $rows['id']; ?>" data-sala="<?php echo $rows['sala']; ?>" data-nome="<?php echo $rows['nomeEmatriculaProf']; ?>" data-data="<?php echo $rows['data']; ?>" data-devolveu="<?php echo $rows['devolveu']; ?>">Editar</button>
-                        </td>
+                        <th class="text-center">Nome Professor(a)</th>
+                        <th class="text-center">Sala</th>
+                        <th class="text-center">Devolveu</th>
+                        <th class="text-center">Ação</th>
                     </tr>
-
-                    <!-- Modal Visualizar -->
-                    <div class="modal fade" id="visualizar<?php echo $rows['id']; ?>" tabindex="-1" aria-labelledby="visualizarLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="visualizarLabel"><span class="bold">Visualizando </span> <?php echo $rows['nomeEmatriculaProf'];; ?></h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span> </button>
-                                </div>
-                                <div class="modal-body">
-                                    <p><span class="bold">Local: </span><?php echo $rows['local']; ?></p>
-                                    <p><span class="bold">Sala: </span><?php echo $rows['sala']; ?></p>
-                                    <p class="noteTamanhomodal"><span class="bold">Notebooks: </span><?php echo $rows['notebooks']; ?></p>
-                                    <p><span class="bold">Data: </span><?php echo $rows['data']; ?></p>
-                                    <p><span class="bold">Devolveu: </span><?php echo $rows['devolveu']; ?></p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Fechar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Fim Modal -->
-                <?php } ?>
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    <?php while ($rows = mysqli_fetch_assoc($result)) { ?>
+                        <tr>
+                            <td><?php echo $rows['nomeEmatriculaProf']; ?></td>
+                            <td class="text-center"><?php echo $rows['sala']; ?></td>
+                            <td class="text-center"><?php echo $rows['devolveu']; ?></td>
+                            <td>
+                                <button type="button" class="btn btn-warning text-center" data-toggle="modal" data-target="#editar" data-id="<?php echo $rows['id']; ?>"
+                                 data-sala="<?php echo $rows['sala']; ?>"
+                                 data-notebooks="<?php echo $rows['notebooks']?>" data-nome="<?php echo $rows['nomeEmatriculaProf']; ?>" data-data="<?php echo $rows['data']; ?>" data-devolveu="<?php echo $rows['devolveu']; ?>">Editar</button>
+                            </td>
+                        </tr>
+                    <?php } ?>
+                </tbody>
+            </table>
+        </div>
     </div>
 
     <!-- Editar -->
-    <div class="modal fade" id="editar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal fade" id="editar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="exampleModalLabel">Emprestimo </h4>
+                    <h5 class="modal-title" id="exampleModalLabel" class="bold">Editar</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span></button>
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <div class="modal-body">
 
@@ -278,7 +268,11 @@ $result_carregador= mysqli_query($conexao, $tabela_carregador);
                             <label for="recipient-data" class="col-form-label bold">Data:</label>
                             <input type="text" class="form-control" id="recipient-data" name="data">
                         </div>
-
+                        <div class="form-group">
+                            <label for="recipient-notebooks" class="col-form-label bold">Notebooks:</label>
+                            <input type="text" class="form-control" id="recipient-notebooks" name="notebooks">
+                        </div>
+                        
                         <hr>
 
                         <div class="text-center">
@@ -309,6 +303,7 @@ $result_carregador= mysqli_query($conexao, $tabela_carregador);
             var recipient = button.data('id') // Extract info from data-* attributes
             var recipientnome = button.data('nome')
             var recipientsala = button.data('sala')
+            var recipientsnotebooks = button.data('notebooks')
             var recipientsdata = button.data('data')
             var recipientdevolveu = button.data('devolveu')
             // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
@@ -318,6 +313,7 @@ $result_carregador= mysqli_query($conexao, $tabela_carregador);
             modal.find('#id').val(recipient)
             modal.find('#recipient-sala').val(recipientsala)
             modal.find('#recipient-data').val(recipientsdata)
+            modal.find('#recipient-notebooks').val(recipientsnotebooks)
             modal.find('#recipient-devolveu').val(recipientdevolveu)
 
         })

@@ -1,9 +1,7 @@
     <?php include 'header-menu.php' ?>
 
     <br>
-    <br>
-
-    <?php include 'avisos.php' ?>
+    
     <!-- Fim avisos -->
     <br>
     <div class="container">

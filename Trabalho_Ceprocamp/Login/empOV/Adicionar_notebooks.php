@@ -1,10 +1,8 @@
 <?php
 include_once("../../ConexaoBd/config.php");
-$result_professores = "SELECT * FROM quemPediu order by id ";
-$result = mysqli_query($conexao, $result_professores);
+$result_quais_nots = "SELECT * FROM quais_nots order by id ";
+$result = mysqli_query($conexao, $result_quais_nots);
 
-$tabela_quemExiste = "SELECT * FROM Professores_existentes order by id DESC";
-$result_QuemExiste = mysqli_query($conexao, $tabela_quemExiste);
 ?>
 <?php include 'header-menu.php' ?>
 <style>
@@ -23,7 +21,7 @@ $result_QuemExiste = mysqli_query($conexao, $tabela_quemExiste);
     <div class="container">
 
         <div class="text-center">
-            <h4 class="bold">Lista de cadastros Professores Ouro Verde!</h4>
+            <h4 class="bold">Lista de cadastros Entregadores Ouro Verde!</h4>
             <hr class="hr3">
         </div>
         <div class="row">
@@ -37,32 +35,21 @@ $result_QuemExiste = mysqli_query($conexao, $tabela_quemExiste);
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title bold " id="cadastrarLabel" style="margin-left: 130px;">Cadastro Professor</h5>
+                                <h5 class="modal-title bold " id="cadastrarLabel" style="margin-left: 130px;">Cadastro Curso e notebook</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span> </button>
                             </div>
                             <div class="modal-body">
-                                <form method="POST" action="processa_professor.php" enctype="multipart/form-data">
+                                <form method="POST" action="processa_notebooks.php" enctype="multipart/form-data">
 
                                     <div class="form-group">
-                                        <label for="recipient-nameProf" class="col-form-label bold">Nome Professor:</label>
-                                        <select class="form-control" id="recipient-Nome_Matricula" name="Nome_Matricula">
-                                            <?php
-                                            while ($row = mysqli_fetch_assoc($result)) { ?>
-
-                                                <option value="<?php echo $row['Nome_Matricula']; ?>"><?php echo $row['Nome_Matricula']; ?></option>
-                                            <?php
-                                            }
-
-                                            ?>
-                                        </select>
+                                        <label for="recipient-curso" class="col-form-label bold">Nome Curso:</label>
+                                        <input type="text" class="form-control" id="recipient-curso" name="curso">
                                     </div>
-
                                     <div class="form-group">
                                         <label for="recipient-notebooks" class="col-form-label bold">Notebooks:</label>
                                         <input type="text" class="form-control" id="recipient-notebooks" name="notebooks">
                                     </div>
-
                                     <div class="modal-footer">
                                         <button type="submit" class="btn btn-outline-success">Salvar</button>
                                         <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Cancelar</button>
@@ -81,16 +68,16 @@ $result_QuemExiste = mysqli_query($conexao, $tabela_quemExiste);
         <table class="table table-hover">
             <thead>
                 <tr>
-                    <th>Nome Professor(a) e Matricula</th>
+                    <th>Nome Curso</th>
                     <th>Notebooks</th>
-                    <th>Ações</th>
+                    <th>Ação</th>
                 </tr>
             </thead>
             <tbody>
-                <?php while ($rows = mysqli_fetch_assoc($result_QuemExiste)) { ?>
+                <?php while ($rows = mysqli_fetch_assoc($result)) { ?>
                     <tr>
-                        <td><?php echo $rows['Nome_Matricula']; ?></td>
-                        <td class="noteTamanho"><?php echo $rows['notebooks']; ?></td>
+                        <td><?php echo $rows['curso']; ?></td>
+                        <td><?php echo $rows['notebooks']; ?></td>
                         <td>
                             <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#editar" data-id="<?php echo $rows['id']; ?>">Excluir</button>
                         </td>
@@ -111,7 +98,7 @@ $result_QuemExiste = mysqli_query($conexao, $tabela_quemExiste);
                 </div>
                 <div class="modal-body">
 
-                    <form method="POST" action="exclui_professor.php" enctype="multipart/form-data">
+                    <form method="POST" action="exclui_notebooks.php" enctype="multipart/form-data">
                         <input name="id" type="hidden" id="id">
 
                         <div class="text-center">
@@ -119,7 +106,7 @@ $result_QuemExiste = mysqli_query($conexao, $tabela_quemExiste);
                             <h2 style="margin-bottom: 0px; color: rgb(75, 75, 75);">Vai me excluir mesmo???</h2>
                             <br>
                         </div>
-
+                       
                         <div class="modal-footer">
                             <button type="submit" class="btn btn-outline-success">Sim rs</button>
                             <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Mentira</button>

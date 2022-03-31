@@ -73,7 +73,15 @@ CREATE TABLE qtdCarregadores (
   `id` int PRIMARY KEY AUTO_INCREMENT,
   `carregadores` varchar(4)
 )
+CREATE TABLE `professores_existentes` (
+  `id` int(11) PRIMARY KEY AUTO_INCREMENT,
+  `Nome_Matricula` varchar(60)
+)
+CREATE TABLE `quais_nots` (
+  `id` int(11) PRIMARY KEY AUTO_INCREMENT,
+  `curso` varchar(40),
+  `notebooks` varchar(60)
+)
 
 
-
-      
+      INSERT INTO `quais_nots`(`curso`, `notebooks`) VALUES ('Cuidador de idosos','23233,2323')

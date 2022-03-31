@@ -87,6 +87,7 @@ if (!empty($_SESSION['id'])) {
 
                         <a class="dropdown-item" href="Adicionar_professores">Cadastro Professores</a>
                         <a class="dropdown-item" href="Adicionar_entregadores">Cadastro Entregadores</a>
+                        <a class="dropdown-item" href="Adicionar_notebooks">Cadastro Notebooks</a>
 
                         </ul>
                         </li>

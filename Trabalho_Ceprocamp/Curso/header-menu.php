@@ -91,7 +91,8 @@ if (isset($_POST['submit'])) {
                             <a class="dropdown-item" href="../cambara">Cambará</a>
                             <a class="dropdown-item" href="../campoGrande">Campo Grande</a>
                             <a class="dropdown-item" href="../casi">CASI</a>
-                            <a class="dropdown-item" href="../myrian">Myrian</a>
+                            <a class="dropdown-item" href="../campobelo">Campo Belo</a>
+                            <a class="dropdown-item" href="../vilauniao">Villa União</a>
                             <a class="dropdown-item" href="../Unidades-Parceiras/Parceiras">Parceiras</a>
 
                             <!--

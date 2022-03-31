@@ -79,16 +79,14 @@
                     <div class="row">
                         <div class="col-sm-5">
                             <!-- Parte da descrissão -->
-                            <h1 class="bold">CEPROCAMP Campo Grande</h1>
+                            <h1 class="bold">FUMEC Descentralizada VILLA UNIÃO</h1>
                             <br>
-                            <span class="bold">Endereço: </span>R. Edson Luiz Rigonatto,
-                            1343. <br>
-                            Jardim Santa Clara, Campinas - SP. <br><span class="bold">CEP:</span>
-                            13058-316.
+                            <span class="bold">Endereço: </span>RUA DUSOLINA LEONE TOURNIEUX, 143.<br>
+                            AO LADO DO TERMINAL VILLA, Campinas - SP. <br>
 
                             <p class="bold">Para mais informações:</p><span class="bold">Telefone:</span> 
-                            <a href="tel:(19)3233-6266" class="tel">(19) 3233-6266</a><br>
-                            <span class="bold">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.noroeste@campinas.sp.gov.br">fumec.noroeste@campinas.sp.gov.br</a>
+                            <a href="tel:(19)3223-4840" class="tel">(19)3223-4840</a><br>
+                            <span class="bold">E-mail:</span> <a style="color: #fe5722;" href="mailto:andre.gomes@campinas.sp.gov.br">andre.gomes@campinas.sp.gov.br</a>
                             <!-- <span style="color: darkgreen;">Whatsapp:</span> (19) 99802-2423. <br> -->
                             </p>
                         </div>

@@ -85,9 +85,7 @@
                            Ruano, s/nº - Jardim Campo Belo Campinas - SP. <br>
 
                            <p class="bold">Para mais informações:</p>
-                           <span class="bold">Telefone:</span> (19) 3224.5357 | (19)
-                           3268.9889 <br>
-                           <span class="bold">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.regionalsudoeste@campinas.sp.gov.br">fumec.regionalsudoeste@campinas.sp.gov.br</a>
+                           <span class="bold">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.sul@campinas.sp.gov.br">fumec.sul@campinas.sp.gov.br</a>
                            <!-- <span style="color: darkgreen;">Whatsapp:</span> (19) 99802-2423. <br> -->
                            </p>
                        </div>

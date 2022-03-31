@@ -5,13 +5,13 @@
         <!-- Lista de riscos brancos do carrossel -->
         <div class="carousel-inner">
             <ol class="carousel-indicators">
-                <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselSite" data-slide-to="0"></li>
                 <li data-target="#carouselSite" data-slide-to="1"></li>
                 <li data-target="#carouselSite" data-slide-to="2"></li>
-                <li data-target="#carouselSite" data-slide-to="3"></li>
+                <li data-target="#carouselSite" data-slide-to="3" class="active"></li>
             </ol>
             <!-- Imagens com texto do carrossel -->
-            <div class="carousel-item active">
+            <div class="carousel-item">
                 <img src="img/CeprocampCentro.png" class="img-fluid d-block">
                 <div class="carousel-caption">
                     <h1 class="d-sm-block d-none">CENTRO</h1>
@@ -38,7 +38,7 @@
                 </div>
             </div>
 
-            <div class="carousel-item">
+            <div class="carousel-item active">
                 <img src="img/cambara.jpeg" class="img-fluid d-block">
                 <div class="carousel-caption text-center">
                     <h1 class="d-sm-block d-none">Cambará</h1>
@@ -79,24 +79,23 @@
                     <div class="row">
                         <div class="col-sm-5">
                             <!-- Parte da descrissão -->
-                            <h1 class="bold">CEPROCAMP Campo Grande</h1>
+                            <h1 class="bold">Fumec Descentralizada Campo Belo</h1>
                             <br>
-                            <span class="bold">Endereço: </span>R. Edson Luiz Rigonatto,
-                            1343. <br>
-                            Jardim Santa Clara, Campinas - SP. <br><span class="bold">CEP:</span>
-                            13058-316.
+                            <span class="bold">Endereço: </span>R. Dr. Ademir Cubero Ruano, s/n <br>
+                            Jardim Campo Belo, Campinas - SP. <br>
 
-                            <p class="bold">Para mais informações:</p><span class="bold">Telefone:</span> 
-                            <a href="tel:(19)3233-6266" class="tel">(19) 3233-6266</a><br>
-                            <span class="bold">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.noroeste@campinas.sp.gov.br">fumec.noroeste@campinas.sp.gov.br</a>
+                            <p class="bold">Para mais informações:</p>
+                            <span class="bold">Telefone:</span>
+                            <a href="tel:(19)3225-6354" class="tel">(19) 3225-6354</a><br>
+                            <span class="bold">E-mail:</span> <a style="color: #fe5722;" href="mailto:fumec.regionalsudoeste@campinas.sp.gov.br">fumec.regionalsudoeste@campinas.sp.gov.br</a>
                             <!-- <span style="color: darkgreen;">Whatsapp:</span> (19) 99802-2423. <br> -->
                             </p>
                         </div>
                         <div class="col-sm-7">
                             <!-- Parte aonde deve colocar o google maps -->
                             <div id="mapf" class="col-sm-12">
-                                <iframe class="map-big" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1915.9059455636639!2d-47.189108549603176!3d-22.952179608231596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b76ccc0f957d%3A0x783c10104d2554c5!2sFUMEC%20Descentralizada%20Campo%20Grande!5e1!3m2!1spt-BR!2sbr!4v1620941339682!5m2!1spt-BR!2sbr" width="650" height="450" style="border: 1px solid rgb(75, 75, 75); border-radius: 5px;" allowfullscreen="" loading="fast"></iframe>
-                                <iframe class="map-small" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1915.9059455636639!2d-47.189108549603176!3d-22.952179608231596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b76ccc0f957d%3A0x783c10104d2554c5!2sFUMEC%20Descentralizada%20Campo%20Grande!5e1!3m2!1spt-BR!2sbr!4v1620941339682!5m2!1spt-BR!2sbr" width="250" height="150" style="border: 1px solid rgb(75, 75, 75); border-radius: 5px;" allowfullscreen="" loading="fast"></iframe>
+                                <iframe class="map-big" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.3598332348147!2d-47.11860744404673!3d-22.982775613975726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c9f19b864009%3A0xbec2fbeb0e3d4301!2sFUMEC%20Descentralizada%20Cambar%C3%A1!5e1!3m2!1spt-BR!2sbr!4v1620938921310!5m2!1spt-BR!2sbr" width="650" height="450" style="border: 1px solid rgb(75, 75, 75); border-radius: 5px;" allowfullscreen="" loading="fast"></iframe>
+                                <iframe class="map-small" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.3598332348147!2d-47.11860744404673!3d-22.982775613975726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c9f19b864009%3A0xbec2fbeb0e3d4301!2sFUMEC%20Descentralizada%20Cambar%C3%A1!5e1!3m2!1spt-BR!2sbr!4v1620938921310!5m2!1spt-BR!2sbr" width="250" height="150" style="border: 1px solid rgb(75, 75, 75); border-radius: 5px;" allowfullscreen="" loading="fast"></iframe>
                             </div>
                         </div>
                     </div>

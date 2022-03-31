@@ -1,10 +1,11 @@
 <?php
 	include_once("../../ConexaoBd/config.php");
 	$id = mysqli_real_escape_string($conexao, $_POST['id']);
+	$notebooks = mysqli_real_escape_string($conexao, $_POST['notebooks']);
 	$devolveu = mysqli_real_escape_string($conexao, $_POST['devolveu']);
 	$sala = mysqli_real_escape_string($conexao, $_POST['sala']);
     
-	$sql = "UPDATE emprestimos SET devolveu='$devolveu', sala='$sala' WHERE id = $id ";
+	$sql = "UPDATE emprestimos SET devolveu='$devolveu', notebooks='$notebooks' ,sala='$sala' WHERE id = $id ";
 	
 	$resultado = mysqli_query($conexao, $sql);	
 ?>
