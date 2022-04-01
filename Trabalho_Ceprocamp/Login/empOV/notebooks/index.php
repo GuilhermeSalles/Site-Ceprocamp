@@ -21,7 +21,7 @@ $result = mysqli_query($conexao, $result_quais_nots);
     <div class="container">
 
         <div class="text-center">
-            <h4 class="bold">Lista de cadastros Entregadores Ouro Verde!</h4>
+            <h4 class="bold">Lista de cadastros Notebooks Ouro Verde!</h4>
             <hr class="hr3">
         </div>
         <div class="row">
@@ -35,7 +35,7 @@ $result = mysqli_query($conexao, $result_quais_nots);
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title bold " id="cadastrarLabel" style="margin-left: 130px;">Cadastro Curso e notebook</h5>
+                                <h5 class="modal-title bold " id="cadastrarLabel" style="margin-left: 100px;">Cadastro Curso e notebook</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span> </button>
                             </div>
@@ -68,17 +68,17 @@ $result = mysqli_query($conexao, $result_quais_nots);
         <table class="table table-hover">
             <thead>
                 <tr>
-                    <th>Nome Curso</th>
-                    <th>Notebooks</th>
-                    <th>Ação</th>
+                    <th class="text-center">Nome Curso</th>
+                    <th class="text-center">Notebooks</th>
+                    <th class="text-center">Ação</th>
                 </tr>
             </thead>
             <tbody>
                 <?php while ($rows = mysqli_fetch_assoc($result)) { ?>
                     <tr>
-                        <td><?php echo $rows['curso']; ?></td>
-                        <td><?php echo $rows['notebooks']; ?></td>
-                        <td>
+                        <td class="text-center"><?php echo $rows['curso']; ?></td>
+                        <td class="noteTamanho text-center"><?php echo $rows['notebooks']; ?></td>
+                        <td class="text-center">
                             <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#excluir" data-id="<?php echo $rows['id']; ?>">Excluir</button>
                         </td>
                     </tr>

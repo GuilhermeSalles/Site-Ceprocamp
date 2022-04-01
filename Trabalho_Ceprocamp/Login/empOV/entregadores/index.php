@@ -64,15 +64,15 @@ $result = mysqli_query($conexao, $result_QuemAutorizou);
         <table class="table table-hover">
             <thead>
                 <tr>
-                    <th>Nome Professor(a) e Matricula</th>
-                    <th>Ações</th>
+                    <th class="text-center">Entregador</th>
+                    <th class="text-center">Ações</th>
                 </tr>
             </thead>
             <tbody>
                 <?php while ($rows = mysqli_fetch_assoc($result)) { ?>
                     <tr>
-                        <td><?php echo $rows['QuemAutorizou']; ?></td>
-                        <td>
+                        <td class="text-center"><?php echo $rows['QuemAutorizou']; ?></td>
+                        <td class="text-center">
                             <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#excluir" data-id="<?php echo $rows['id']; ?>">Excluir</button>
                         </td>
                     </tr>
