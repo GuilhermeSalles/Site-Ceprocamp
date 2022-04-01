@@ -1,7 +1,7 @@
 <?php
-include_once("../../ConexaoBd/config.php");
-$result_quais_nots = "SELECT * FROM quais_nots order by id ";
-$result = mysqli_query($conexao, $result_quais_nots);
+include_once("../../../ConexaoBd/config.php");
+$result_QuemAutorizou = "SELECT * FROM QuemAutorizou order by id ";
+$result = mysqli_query($conexao, $result_QuemAutorizou);
 
 ?>
 <?php include 'header-menu.php' ?>
@@ -35,20 +35,16 @@ $result = mysqli_query($conexao, $result_quais_nots);
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title bold " id="cadastrarLabel" style="margin-left: 130px;">Cadastro Curso e notebook</h5>
+                                <h5 class="modal-title bold " id="cadastrarLabel" style="margin-left: 130px;">Cadastro Professor</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span> </button>
                             </div>
                             <div class="modal-body">
-                                <form method="POST" action="processa_notebooks.php" enctype="multipart/form-data">
+                                <form method="POST" action="processa.php" enctype="multipart/form-data">
 
                                     <div class="form-group">
-                                        <label for="recipient-curso" class="col-form-label bold">Nome Curso:</label>
-                                        <input type="text" class="form-control" id="recipient-curso" name="curso">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="recipient-notebooks" class="col-form-label bold">Notebooks:</label>
-                                        <input type="text" class="form-control" id="recipient-notebooks" name="notebooks">
+                                        <label for="recipient-nameProf" class="col-form-label bold">Nome Entregador:</label>
+                                        <input type="text" class="form-control" id="recipient-QuemAutorizou" name="QuemAutorizou">
                                     </div>
                                     <div class="modal-footer">
                                         <button type="submit" class="btn btn-outline-success">Salvar</button>
@@ -68,18 +64,16 @@ $result = mysqli_query($conexao, $result_quais_nots);
         <table class="table table-hover">
             <thead>
                 <tr>
-                    <th>Nome Curso</th>
-                    <th>Notebooks</th>
-                    <th>Ação</th>
+                    <th>Nome Professor(a) e Matricula</th>
+                    <th>Ações</th>
                 </tr>
             </thead>
             <tbody>
                 <?php while ($rows = mysqli_fetch_assoc($result)) { ?>
                     <tr>
-                        <td><?php echo $rows['curso']; ?></td>
-                        <td><?php echo $rows['notebooks']; ?></td>
+                        <td><?php echo $rows['QuemAutorizou']; ?></td>
                         <td>
-                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#editar" data-id="<?php echo $rows['id']; ?>">Excluir</button>
+                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#excluir" data-id="<?php echo $rows['id']; ?>">Excluir</button>
                         </td>
                     </tr>
                 <?php } ?>
@@ -87,8 +81,8 @@ $result = mysqli_query($conexao, $result_quais_nots);
         </table>
     </div>
 
-    <!-- Editar -->
-    <div class="modal fade" id="editar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <!-- excluir -->
+    <div class="modal fade" id="excluir" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -98,7 +92,7 @@ $result = mysqli_query($conexao, $result_quais_nots);
                 </div>
                 <div class="modal-body">
 
-                    <form method="POST" action="exclui_notebooks.php" enctype="multipart/form-data">
+                    <form method="POST" action="exclui.php" enctype="multipart/form-data">
                         <input name="id" type="hidden" id="id">
 
                         <div class="text-center">
@@ -117,10 +111,9 @@ $result = mysqli_query($conexao, $result_quais_nots);
             </div>
         </div>
     </div>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../../js/bootstrap.min.js"></script>
+    
     <script type="text/javascript">
-        $('#editar').on('show.bs.modal', function(event) {
+        $('#excluir').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget) // Button that triggered the modal
             var recipient = button.data('id') // Extract info from data-* attributes
             // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).

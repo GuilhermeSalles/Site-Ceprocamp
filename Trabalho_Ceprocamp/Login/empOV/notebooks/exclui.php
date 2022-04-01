@@ -1,5 +1,5 @@
 <?php
-	include_once("../../ConexaoBd/config.php");
+	include_once("../../../ConexaoBd/config.php");
 	$id = mysqli_real_escape_string($conexao, $_POST['id']);
     
 	$sql = "DELETE
@@ -17,14 +17,14 @@
 	<body> <?php
 		if(mysqli_affected_rows($conexao) != 0){
 			echo "
-				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=Adicionar_notebooks'>
+				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=../notebooks'>
 				<script type=\"text/javascript\">
 					alert(\"Entregador excluido com Sucesso.\");
 				</script>
 			";	
 		}else{
 			echo "
-				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=Adicionar_notebooks'>
+				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=../notebooks'>
 				<script type=\"text/javascript\">
 					alert(\"Entregador não foi excluido com Sucesso.\");
 				</script>

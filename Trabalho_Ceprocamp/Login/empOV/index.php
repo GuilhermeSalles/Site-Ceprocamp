@@ -69,7 +69,7 @@ $result_carregador = mysqli_query($conexao, $tabela_carregador);
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <form method="POST" action="processa_cad.php" enctype="multipart/form-data">
+                                <form method="POST" action="processa.php" enctype="multipart/form-data">
 
 
                                     <div class="form-group">
@@ -258,7 +258,7 @@ $result_carregador = mysqli_query($conexao, $tabela_carregador);
                 </div>
                 <div class="modal-body">
 
-                    <form method="POST" action="processa.php" enctype="multipart/form-data">
+                    <form method="POST" action="edita.php" enctype="multipart/form-data">
                         <input name="id" type="hidden" id="id">
                         <div class="form-group">
                             <label for="recipient-sala" class="col-form-label bold">Sala:</label>
@@ -295,8 +295,7 @@ $result_carregador = mysqli_query($conexao, $tabela_carregador);
             </div>
         </div>
     </div>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../../js/bootstrap.min.js"></script>
+    
     <script type="text/javascript">
         $('#editar').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget) // Button that triggered the modal

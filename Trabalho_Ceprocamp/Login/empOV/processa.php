@@ -1,11 +1,20 @@
 <?php
 	include_once("../../ConexaoBd/config.php");
-	$id = mysqli_real_escape_string($conexao, $_POST['id']);
-	$notebooks = mysqli_real_escape_string($conexao, $_POST['notebooks']);
-	$devolveu = mysqli_real_escape_string($conexao, $_POST['devolveu']);
+	$nomeEmatriculaProf = mysqli_real_escape_string($conexao, $_POST['nomeEmatriculaProf']);
+	$nomeQuemAutorizou = mysqli_real_escape_string($conexao, $_POST['nomeQuemAutorizou']);
 	$sala = mysqli_real_escape_string($conexao, $_POST['sala']);
+	$controleDS = mysqli_real_escape_string($conexao, $_POST['controleDS']);
+	$canetaDS = mysqli_real_escape_string($conexao, $_POST['canetaDS']);
+	$controleAr = mysqli_real_escape_string($conexao, $_POST['controleAr']);
+	$KitArduino = mysqli_real_escape_string($conexao, $_POST['KitArduino']);
+	$notebooks = mysqli_real_escape_string($conexao, $_POST['notebooks']);
+	$mouse = mysqli_real_escape_string($conexao, $_POST['mouse']);
+	$carregadorNot = mysqli_real_escape_string($conexao, $_POST['carregadorNot']);
+	$devolveu = mysqli_real_escape_string($conexao, $_POST['devolveu']);
     
-	$sql = "UPDATE emprestimos SET devolveu='$devolveu', notebooks='$notebooks' ,sala='$sala' WHERE id = $id ";
+	$sql = "INSERT INTO `emprestimos` (`nomeEmatriculaProf`, `nomeQuemAutorizou`, `sala`, `controleDS`,`canetaDS`, `controleAr`,`KitArduino`, `notebooks`, `mouse`, `carregadorNot`, `devolveu`) 
+	VALUES
+    ('$nomeEmatriculaProf', '$nomeQuemAutorizou', '$sala', '$controleDS', '$canetaDS','$controleAr', '$KitArduino', '$notebooks', '$mouse', '$carregadorNot', '$devolveu')";
 	
 	$resultado = mysqli_query($conexao, $sql);	
 ?>
@@ -20,14 +29,14 @@
 			echo "
 				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=../empOV/'>
 				<script type=\"text/javascript\">
-					alert(\"Emprestimo alterado com Sucesso.\");
+					alert(\"Emprestimo cadastrado com Sucesso.\");
 				</script>
 			";	
 		}else{
 			echo "
 				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=../empOV/'>
 				<script type=\"text/javascript\">
-					alert(\"Emprestimo não foi alterado com Sucesso.\");
+					alert(\"Emprestimo não foi cadastrado com Sucesso.\");
 				</script>
 			";	
 		}?>

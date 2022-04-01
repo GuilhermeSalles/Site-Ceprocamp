@@ -78,7 +78,7 @@ if (!empty($_SESSION['id'])) {
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
-                                <a class="dropdown-item" href="../excel/gerar_planilha">Registro de Interesse</a>
+                                <a class="dropdown-item" href="../registro_interesse/">Registro de Interesse</a>
                                 <a class="dropdown-item" href="../empOV/excel/gerar_planilha">Emprestimos Ouro Verde</a>
 
                             </ul>

@@ -1,5 +1,5 @@
 <?php
-	include_once("../../ConexaoBd/config.php");
+	include_once("../../../ConexaoBd/config.php");
 	$Nome_Matricula = mysqli_real_escape_string($conexao, $_POST['Nome_Matricula']);
 	$notebooks = mysqli_real_escape_string($conexao, $_POST['notebooks']);
     
@@ -17,14 +17,14 @@
 	<body> <?php
 		if(mysqli_affected_rows($conexao) != 0){
 			echo "
-				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=Adicionar_professores'>
+				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=../professores'>
 				<script type=\"text/javascript\">
 					alert(\"Professor(a) cadastrado com Sucesso.\");
 				</script>
 			";	
 		}else{
 			echo "
-				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=Adicionar_professores'>
+				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=../professores'>
 				<script type=\"text/javascript\">
 					alert(\"Professor(a) não foi cadastrado com Sucesso.\");
 				</script>

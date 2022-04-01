@@ -1,10 +1,9 @@
 <?php
-	include_once("../../ConexaoBd/config.php");
-	$curso = mysqli_real_escape_string($conexao, $_POST['curso']);
-	$notebooks = mysqli_real_escape_string($conexao, $_POST['notebooks']);
+	include_once("../../../ConexaoBd/config.php");
+	$QuemAutorizou = mysqli_real_escape_string($conexao, $_POST['QuemAutorizou']);
     
-	$sql = "   INSERT INTO `quais_nots`(`curso`, `notebooks`) 
-	VALUES ('$curso ','$notebooks')";
+	$sql = "INSERT INTO quemAutorizou (`QuemAutorizou`) 
+	VALUES ('$QuemAutorizou')";
 	
 	$resultado = mysqli_query($conexao, $sql);	
 ?>
@@ -17,14 +16,14 @@
 	<body> <?php
 		if(mysqli_affected_rows($conexao) != 0){
 			echo "
-				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=Adicionar_notebooks'>
+				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=../entregadores'>
 				<script type=\"text/javascript\">
 					alert(\"Entregador cadastrado com Sucesso.\");
 				</script>
 			";	
 		}else{
 			echo "
-				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=Adicionar_notebooks'>
+				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=../entregadores'>
 				<script type=\"text/javascript\">
 					alert(\"Entregador não foi cadastrado com Sucesso.\");
 				</script>
