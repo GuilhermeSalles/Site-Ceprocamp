@@ -49,7 +49,7 @@ $result_carregador = mysqli_query($conexao, $tabela_carregador);
     <div class="container">
 
         <div class="text-center">
-            <h4 class="bold">Lista de cadastros Ouro verde!</h4>
+            <h4 class="bold">Lista de emprestimos Ouro Verde</h4>
             <hr class="hr3">
         </div>
         <div class="row">

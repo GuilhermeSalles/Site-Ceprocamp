@@ -23,7 +23,7 @@ $result_QuemExiste = mysqli_query($conexao, $tabela_quemExiste);
     <div class="container">
 
         <div class="text-center">
-            <h4 class="bold">Lista de cadastros Professores Ouro Verde!</h4>
+            <h4 class="bold">Lista de Professores Ouro Verde</h4>
             <hr class="hr3">
         </div>
         <div class="row">

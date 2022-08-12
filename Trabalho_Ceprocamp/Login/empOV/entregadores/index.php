@@ -21,7 +21,7 @@ $result = mysqli_query($conexao, $result_QuemAutorizou);
     <div class="container">
 
         <div class="text-center">
-            <h4 class="bold">Lista de cadastros Entregadores Ouro Verde!</h4>
+            <h4 class="bold">Lista de entregadores Ouro Verde</h4>
             <hr class="hr3">
         </div>
         <div class="row">

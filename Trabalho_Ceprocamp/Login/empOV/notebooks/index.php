@@ -21,7 +21,7 @@ $result = mysqli_query($conexao, $result_quais_nots);
     <div class="container">
 
         <div class="text-center">
-            <h4 class="bold">Lista de cadastros Notebooks Ouro Verde!</h4>
+            <h4 class="bold">Lista de notebooks Ouro Verde</h4>
             <hr class="hr3">
         </div>
         <div class="row">
