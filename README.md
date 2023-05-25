@@ -29,7 +29,7 @@ Clique no botão
 
 # Video Youtube Site NOVO
 Clique no botão
-<a href="hhttps://youtu.be/Ftrl8VHygKk" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+<a href="https://www.youtube.com/watch?v=24EVeJrgjKY" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
 
 # Tecnologias utilizadas
 ## Back end
